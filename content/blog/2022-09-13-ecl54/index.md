@@ -1,0 +1,188 @@
+---
+layout: post
+title: "El Correo Libre Issue 54"
+description: El Correo Libre Newsletter, Issue 54
+author: Gareth Halfacree
+date: 2022-09-13
+---
+
+<img src="cocotb.png" style="max-width:100%" />
+
+## Cocotb 1.7 Gets You From Zero to Testing Quicker Than Ever
+
+The cocotb project. the Python-based coroutine cosimulation test bench hardware verification framework, is proud to announce the immediate of cocotb version 1.7.0.
+
+Users will find this release easier to install than any previous release, thanks to the availability of binary builds on the Python’s package repository, PyPi. Just run `pip install cocotb` on any [supported platform](https://docs.cocotb.org/en/latest/platform_support.html) and cocotb is ready for operation within seconds, without the need to have a C/C++ compiler or the Python development libraries available.
+
+Providing a super-smooth installation experience has been a long time in the making, with a number of challenging technical, legal, and infrastructure-related problems to be solved. Over the years we have refined the compilation process at build time to iron out a variety of issues and corner cases which users reported, giving us confidence that pre-compiling libraries is indeed a viable and robust path forward (something which wasn’t clear at all in the beginning!)
+
+With the 1.7 release we eliminated the compilation step for our users altogether by shipping pre-compiled libraries. When doing a release, we build libraries for all supported Python versions, for all supported platforms, and for all supported simulators. Taken together, we build a whopping 250 VPI, FLI and VHPI libraries – only one or two of which will ultimately be used when running a testbench! Now even users on Windows don’t need to worry about installing a working compiler any more: we’ve done it for you!
+
+Why haven’t we done all of that years ago? There was one major non-technical roadblock: compiling the FLI libraries for Questa and ModelSim requires access to a C header file which is shipped as part of the simulator. Licensing requirements prevented us from shipping the file together with cocotb. This restriction is no more: Siemens EDA kindly relicensed a key header file, and all simulator libraries can be built in the same way.
+
+More information on the release can be found [on the coctb blog](https://www.cocotb.org/2022/09/06/v1.7.0.html) or [in the detailed release notes](https://docs.cocotb.org/en/v1.7.0/release_notes.html); downloads are available alongside the permissive BSD 3-Clause licensed source code [on the project GitHub repository](https://github.com/cocotb/cocotb).
+
+_-Philipp Wagner, Director, FOSSi Foundation_
+
+<img src="gsoc.jpg" style="max-width:100%" />
+
+## FOSSi Foundation Unveils its Google Summer of Code Class of 2022
+
+
+The Free and Open-Source Silicon (FOSSi) Foundation has announced the ten students participating in this year's Google Summer of Code (GSoC), receiving mentorship while helping to further develop the field.
+
+"This year we are grateful that we have been granted ten slots by Google to support projects and students," says FOSSi Foundation director Jonathan Balkind. "We are thankful for all mentors who volunteered to supervise students, and we’re looking forward to a great summer working together on Free and Open Source Silicon projects. Please give our students a warm welcome!"
+
+The participants and their projects confirmed for this year are:
+
+-   Development Framework for Open MPW Shuttles, Ali Imran, mentored by Steve Hoover and Mohamed Kassem
+-   1st CLaaS for PYNQ FPGAs, Srihari, mentored by Steve Hoover and Theodore Omtzigt
+-   Enhancing AnyCore, a superscalar RISC-V processor, Gergely Bálint. mentored by Jonathan Balkind
+-   Logical Equivalence Checks for CIRCT, Dragoș Cristian Lizan, mentored by Fabian Schuiki, Martin Erhart, and Jonathan Balkind
+-   Enhancing the Sootty Terminal-based Graphical Waveform Viewer, Yihua Liu - 刘翊华, mentored by Ben Darnell and Jonathan Balkind
+-   IRSIM Dynamic Power Analysis and Other Improvements, Jason Liang, mentored by Tim Edwards and Philipp Wagner
+-   TinyParrot: A minimal BlackParrot RISC-V Multicore variant, Kinza Qamar Zaman, mentored by Mark Wyse, Dan Petrisko, and Olof Kindgren
+-   Porting the BlackParrot multicore to FuseSoC, Adithya Sunil, mentored by Dan Petrisko and Olof Kindgren
+-   Improving Query Language functionality and adding features to Sootty, L Lakshmanan, mentored by Ben Darnell and Jonathan Balkind
+-   Fault Silicon Validation and Open MPW Integration, Rameen Anwar, mentored by Mohamed Kassem, Mohamed Shalan, and Tim Edwards
+
+More information on the ten projects is available [on the FOSSi Foundation blog](https://www.fossi-foundation.org/2022/08/11/gsoc22-students).
+
+<img src="ocelot.jpg" style="max-width:100%" />
+
+## Tenstorrent's Ocelot is a BOOM RISC-V Port with Vector Extensions
+
+
+Tenstorrent has released a variant of the Berkeley Out-of-Order Machine (BOOM) RISC-V implementation with a difference: Ocelot, as the fork has been named, boasts the RISC-V Vector (RVV) extension as per the ratified v1.0 specification.
+
+"With an open ISA, RISC-V provides an incredible opportunity for evolving compute and software use models, especially vectors that are critical for machine learning workloads," explains Tenstorrent's Srikanth Arekapudi of the release. "Our intent with open sourcing one of our vector designs is to advance the development and deployment of this ISA.
+
+"The Vector engine has been integrated with the BOOM (Berkeley OOO machine) core in the Chipyard SoC [System-on-Chip] environment. This design parameterises VLEN up to 512. We will be releasing more collateral in the next few weeks. This includes functional and compliance tests, architectural coverage, debug harness, and integration with Whisper, an open source RISC-V instruction set simulator.
+
+"All of these together," Srikanth concludes, "provide a single stop for anyone looking to integrate a RISC-V based vector unit in their design."
+
+The company has released the RISC-V Ocelot core [to GitHub](https://github.com/tenstorrent/riscv-ocelot) under the same permissive BSD 3-Clause and Apache 2.0 licences as BOOM.
+
+<img src="gemmini.jpg" style="max-width:100%" />
+
+## Researchers Reveal Gemmini, an Open-Source Tool for DNN Accelerator Generation
+
+
+A team of computer scientists from the University of California at Berkeley and the Massachusetts Institute of Technology (MIT) have released Gemmini, an open-source tool to generate full-stack deep neural network (DNN) accelerators - creating fabricable designs showing up to a three-orders-of-magnitude performance improvement over traditional CPUs.
+
+"DNN accelerators are often developed and evaluated in isolation without considering the cross-stack, system-level effects in real-world environments," the research team explains of the problem Gemmini seeks to solve. "This makes it difficult to appreciate the impact of System- on-Chip (SoC) resource contention, OS overheads, and programming- stack inefficiencies on overall performance/energy-efficiency."
+
+Gemmini, by contrast, is designed to be a "full-stack" generator, built in the Chipyard ecosystem and using the Chisel hardware description language. "Gemmini generates a wide design-space of efficient ASIC [Application Specific Integrated Circuit] accelerators from a flexible architectural template," the team explains, "together with flexible programming stacks and full SoCs with shared resources that capture system-level effects."
+
+In testing, the designs created using Gemmini proved impressively capable: Using existing deep neural network benchmarks the fabricated accelerators managed up to a three-orders-of-magnitude performance gain over high-end traditional CPUs.
+
+More details on Gemmini are available [in the research paper](https://people.eecs.berkeley.edu/~ysshao/assets/papers/genc2021-dac.pdf) (PDF warning), and [in a presentation video](https://www.youtube.com/watch?v=g5uQU7tUoaY) from the IEEE CEDA Design Automation Webinar (DAWN) series. Gemmini itself, meanwhile, has been published [to GitHub](https://github.com/ucb-bar/gemmini) under a variant of the permissive BSD 3-Clause licence.
+
+<img src="fusezynq.jpg" style="max-width:100%" />
+
+## Craig Bishop's Fuse-Zynq Frees You From the World of AMD-Xilinx GUIs
+
+
+Developer Craig Bishop has released a FuseSoC library dubbed Fuse-Zynq, designed to allow for the generation of Zynq 7000-series configurations without the need to use AMD-Xilinx' official graphical toolkit.
+
+"The Zynq 7000 series parts combine an Arm processing system (PS) with 7-Series FPGA fabric in a single chip," Craig explains. "The PS boot-up process involves setting hundreds of configuration registers depending on desired peripherals and I/O. Previously, this configuration would be done using a GUI provided in the vendor tooling. Open-source FPGA tooling, specifically FuseSoC and Edalize, have advanced where it's no longer necessary to use the vendor GUI for other tasks.
+
+"This goal of this project is to eventually allow full configuration of the Zynq 7000 series parts without using the vendor GUI."
+
+Thus far, Craig's tool handles a healthy subset of the possible configuration - including DDR3 and DDR3L memory support, general-purpose input/output (GPIO), SDIO, quad-SPI, UART, and USB buses, and clocking. Still on the to-do list are DDR2 and LPDDR2 support, CAN, SPI, and I2C buses, and Ethernet support, among other features.
+
+Fuse-Zynq is available [on Craig's GitHub](https://github.com/craigjb/fuse-zynq) repository under an unspecified open-source licence.
+
+<img src="neorv32.jpg" style="max-width:100%" />
+
+## Stephan Nolting Offers VHDL-to-Verilog Conversion Guidance via NEORV32
+
+
+Hardware engineer Stephan Nolting has put together a tutorial on converting complex VHDL designs into Verilog netlist modules, using his own compact yet customisable NEORV32 microcontroller core as a basis.
+
+"This [guide] shows how to convert a complex VHDL design into a synthesisable plain Verilog netlist module using GHDL's synthesis feature," Stephan explains. "The example in this repository is based on the NEORV32 RISC-V Processor, which is written in platform-independent VHDL. The resulting Verilog module can be instantiated within an all-Verilog design and can be successfully simulated and synthesised - tested with Xilinx Vivado and Intel Quartus.
+
+"[The] GHDL `synth` option is used to convert the whole NEORV32 processor - including all peripherals, memories and memory images - into a single Verilog netlist module file. The actual conversion is conducted by a conversion shell script, which analyses all the processor's sources and finally calls GHDL `synth` to create the final Verilog netlist `neorv32-verilog/src/neorv32_verilog_wrapper.v`."
+
+Following conversion, the resulting all-Verilog version of the core synthesised for an Intel Cyclone IV E FPGA showed a roughly ten per cent increase in used logic elements and a minor drop in top clock speed compared to the VHDL original.
+
+Stephan's full guide and supporting source code are available on the project GitHub repository under the permissive BSD 3-Clause licence.
+
+<img src="linux.jpg" style="max-width:100%" />
+
+## Linux 6.0 Gains OpenRISC PCI Support, New RISC-V Extensions
+
+
+The latest major release of the Linux kernel, version 6.0, brings with it some new features for free and open source silicon hosts - including Peripheral Component Interconnect (PCI) bus support for OpenRISC and a trio of new extensions for RISC-V machines.
+
+In merge notes for Linux 6.0, spotted by [Phoronix](https://www.phoronix.com/news/OpenRISC-PCI-Linux-6.0), support for exposing the PCI bus on OpenRISC machines was noted. "Given the limited OpenRISC hardware [available], this PCI bus support is intended for use with the QEMU virtualisation platform," Michael Larabel notes. "Following clean-ups through the PCI tree, the OpenRISC pull has all the Kconfig side enablement for allowing PCI support on OpenRISC that can be enjoyed under QEMU."
+
+The new kernel also includes additions and improvements for RISC-V machines, including enhanced support for the Svpbmt page-based memory extension, the addition of Sstc supervisor-mode timer/counter, Zicbom cache block management, and Zihintpause pause-hint CPU-relaxation extensions, and a new default configuration designed to boost out-of-the-box compatibility with containerisation tools including Canonical's Snaps and Docker.
+
+Linux 6.0's merge window had closed, but at the time of writing only release candidate versions were available. "People are chasing down one active bug," Linux creator and maintainer Linus Torvalds explains, "and I'm sure there are others hiding that just need more people to do testing, but that's kind of the point of rc1: all the big changes have been merged, and now we need to calm it down and chase down any problems."
+
+Once testing is complete, the full release of Linux 6.0 will be available [on Kernel.org](https://kernel.org/).
+
+<img src="chipsforamerica.jpg" style="max-width:100%" />
+
+## US Government Releases CHIPS Act, CHIPS for America Implementation Details
+
+The United States government has released its implementation plans for the Creating Helpful Incentives to Produce Semiconductors (CHIPS) and Science Act, passed last month as a successor to the United States Innovation and Competition Act (USICA) and offering a $250 billion commitment to science and industry for research and development.
+
+Key to the Act's implementation is the $50 billion CHIPS for America programme, which will see the National Institute of Standards and Technology (NIST) manage efforts to boost the US semiconductor industry and reduce the nation's reliance on foreign manufacturing capabilities.
+
+"Rebuilding America’s leadership in the semiconductor industry is a down payment on our future as a global leader," says US Secretary of Commerce Gina Raimondo of the effort. "CHIPS for America, will ensure continued US leadership in the industries that underpin our national security and economic competitiveness. Under President Biden’s leadership, we are once again making things in America, revitalising our manufacturing industry after decades of disinvestment and making the investments we need to lead the world in technology and innovation."
+
+The programme will, the US Department of Commerce has announced, aim to deliver on four key goals: establishing and expanding domestic semiconductor production; building a sufficient and stable supply of "mature node" semiconductors; investing in research and development of next-generation semiconductor technologies; and the creation of "tens of thousands of good-paying manufacturing jobs and more than [a] hundred thousand construction jobs."
+
+Those looking to apply for funding under the CHIPS for America programme, though, will have to wait: the Department of Commerce's official announcement confirms that application guidance will not be released until February 2023. More information is available [on the CHIPS.gov website](https://www.nist.gov/chips).
+
+<img src="rv32e.jpg" style="max-width:100%" />
+
+## Public Review Periods Open for RISC-V RV32E, RV64E, Ztso, PLIC Specifications
+
+
+The relevant RISC-V International working groups have opened public review periods for reduced-base RV32E and RV64E versions of the core RISC-V instruction set architecture, along with the Ztso unprivileged specification extension and non-ISA specification platform-level interrupt controller (PLIC).
+
+"Many of you are already familiar with the two reduced bases RV32E and RV64E," explains RISC-V Director of Technical Programmes Stephano Cetola. "The RV32E base had been around for a long time in draft form in the Unprivileged ISA document, and the RV64E form has also been used for a long time. Implementations have been shipped from various vendors and support for these bases exists in toolchains.
+
+"We are now pushing these forward to ratification."
+
+Alongside the RV32E and RV64E specifications are two other key specifications up for public review: The Ztso total store ordering (TSO) memory consistency extension to the RISC-V Unprivileged Specification, which has been present in the RISC-V Instruction Set Manual but has never been ratified; and the non-ISA Platform-Level Interrupt Controller (PLIC).
+
+The RV32E/RV64E review period ends on the 6th of October, with participation details available [in the announcement](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/FR9sOhEx_O8); the Ztso extension review period ends on the 3rd of October, with participation details available [in its own announcement](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/nUkSqFPbs_o); and the PLIC review period ends on the 16th of October, with participation details again available [in the announcement](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/Pio-7A8W1Kk/m/SRn5fLzoBwAJ).
+
+<img src="uefi210.jpg" style="max-width:100%" />
+
+## UEFI Forum Embraces Free and Open Source Silicon with its First RISC-V Support
+
+
+The UEFI Forum, which manages the Unified Extensible Firmware Interface (UEFI) driving the majority of modern mainstream computer systems, has announced a major milestone with the release of the new UEFI 2.10 specification: official support for RISC-V.
+
+In the latest ratified version of the UEFI specification, what the Forum describes as "emerging support" has been added for the RISC-V instruction set architecture - alongside LoongArch, the MIPS-compatible architecture used in the Loongson/Godson family of chips.
+
+The inclusion of RISC-V support comes as the UEFI Forum seeks to make the move out of mainstream server, desktop, and laptop computing into embedded systems - launching a new feature specifically aimed at areas where RISC-V is already making an impact: Conformance Profiles.
+
+“We are excited to share the new Conformance Profiles feature, responsive to community pull for a way to make the UEFI Forum’s work useful," explains Mark Doran, UEFI Forum president. "The Conformance Profiles feature will expand the platform types UEFI can support to an ever wider range of platform types like IoT, embedded and automotive spaces – beyond general purpose computers."
+
+Other changes with UEFI 2.10 include the addition of a "confidential computing" extension and support for SHA-384/SHA-512 signing of authenticated variables as part of what the forum calls "crypto agility."
+
+The UEFI 2.10 specification is available "for downloading and to read only" in PDF and HTML formats [on the UEFI Forum website](https://uefi.org/specifications).
+
+![](https://gallery.mailchimp.com/5d525b453672149a60c198960/images/07859ccf-a70a-4249-8888-c0047c501a21.jpg)
+
+## FOSSi News In Brief
+
+-   [Intel launches Pathfinder for RISC-V, free for individuals, promises "ongoing commitment to accelerate the adoption of RISC-V."](https://pathfinder.intel.com/news/intel-pathfinder-for-risc-v-delivers-new-capabilities-for-pre-silicon-development/)
+-   [NASA adopts RISC-V for its High-Performance Spaceflight Computing (HPSC) processor, partners with SiFive, Microchip.](https://www.nasa.gov/press-release/nasa-awards-next-generation-spaceflight-computing-processor-contract/)
+-   [...but is beaten into orbit by a NOEL-V processor on the Trisat-R nanosat.](https://www.eenewseurope.com/en/first-risc-v-processor-starts-operation-in-orbit/)
+-   [Lianne Frith, All About Circuits: "Amid Chip Shortages, Companies Bet on RISC-V."](https://www.allaboutcircuits.com/news/amid-chip-shortages-companies-bet-on-risc-v/)
+-   [Dragon Li Studio prepares a crowdfunding campaign for the Bajiu Lite "open-source resource-rich FPGA development board with custom RISC-V development environment."](https://www.crowdsupply.com/dragon-li-tech-studio/bajiu-lite)
+-   [John Min, Embedded: "Case Study: Optimising PPA with RISC-V Custom Extensions in TWS Earbuds."](https://www.embedded.com/case-study-optimizing-ppa-with-risc-v-custom-extensions-in-tws-earbuds/)
+
+
+<img src="ecl-logo-small.jpg" style="max-width:100%" />
+
+**Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
+
+**Subscribe to [get El Correo Libre direct to your inbox](http://eepurl.com/dnL4v1).**
