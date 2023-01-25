@@ -1,42 +1,19 @@
-# Content v2 Minimal Starter
+# www.fossi-foundation.org website sources
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+This repository contains the source code for the fossi-foundation.org website.
+The site is built using [Nuxt](https://nuxt.com/) and deployed to Netlify.
 
-## Setup
-
-Make sure to install the dependencies:
+## Development quickstart
 
 ```bash
-# yarn
 yarn install
 
-# npm
-npm install
+# Start the development server on http://localhost:3000
+yarn run dev
 
-# pnpm
-pnpm install --shamefully-hoist
+# Build the application for production:
+yarn run build
+
+# Locally preview production build:
+yarn run preview
 ```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
