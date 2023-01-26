@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <div class="prose dark:prose-invert">
-      Article layout
-    </div>
+  <FfPageHeader>{{ page.header }}</FfPageHeader>
+  <article class="desktop:container mx-auto prose">
     <slot />
-  </div>
+  </article>
 </template>
+
+<script setup lang="ts">
+const { page } = useContent();
+</script>

@@ -17,7 +17,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        //'3xl': '1600px',
+        'desktop': '1600px',
+      },
+      maxWidth: {
+        'desktop': '1600px',
       },
 
       backgroundImage: {
@@ -28,24 +31,23 @@ module.exports = {
         'pattern-resources': "url('~/assets/images/pattern-resources.png')",
       },
 
-      // TODO: REVISIT
       typography: (theme) => ({
         DEFAULT: {
           css: {
+            // Regular text.
             color: theme('colors.warm-black'),
+            lineHeight: '24px',
+
+            // Headers. Nuxt content makes them a link as well, so we need to
+            // override some a-related classes.
             h2: {
-              color: theme('colors.gray.800'),
-            },
-            h3: {
-              color: theme('colors.gray.800'),
-            },
-            strong: {
-              color: theme('colors.gray.800'),
-            },
-            a: {
-              color: theme('colors.green.500'),
-              '&:hover': {
-                color: theme('colors.green.600')
+              color: theme('colors.ultraviolet'),
+              'font-size': '36px',
+              'font-weight': '900',
+              a: {
+                'text-decoration': 'none',
+                'font-weight': 'inherit',
+                'color': 'inherit',
               },
             },
           },

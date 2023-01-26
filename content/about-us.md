@@ -1,12 +1,9 @@
 ---
 layout: article
 title: Manifesto
+header: |
+  The Free and Open Source Silicon Foundation, hereinafter referred to as FOSSi Foundation, is a non-profit foundation with the mission to promote and assist free and open digital hardware designs and their related ecosystems. FOSSi Foundation operates as an open, inclusive, vendor-independent group.
 ---
-
-::FfPageHeader
-The Free and Open Source Silicon Foundation, hereinafter referred to as FOSSi Foundation, is a non-profit foundation with the mission to promote and assist free and open digital hardware designs and their related ecosystems. FOSSi Foundation operates as an open, inclusive, vendor-independent group.
-::
-
 
 ## Values
 

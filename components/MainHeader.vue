@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="max-w-[1600px] mx-auto text-xl font-bold text-nasu-purple px-48 py-20">
+    <div class="desktop:container mx-auto text-xl font-bold text-nasu-purple px-48 py-20">
       <div class="relative flex items-center">
         <a class="flex-none overflow-hidden" href="/">
           <span class="sr-only">FOSSi Foundation home page</span>
