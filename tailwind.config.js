@@ -31,12 +31,16 @@ module.exports = {
         'pattern-resources': "url('~/assets/images/pattern-resources.png')",
       },
 
+      // TailwindCSS Typography plugin configuration.
+      // The styling here applies to most content pages.
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            // Regular text.
+            // paragraph
             color: theme('colors.warm-black'),
-            lineHeight: '24px',
+            fontSize: '16px',
+            fontWeight: '400',
+            lineHeight: '150%',
 
             // Headers. Nuxt content makes them a link as well, so we need to
             // override some a-related classes.
@@ -56,7 +60,19 @@ module.exports = {
     },
 
     fontFamily: {
-      sans: ['Public Sans', 'sans-serif'],
+      sans: [
+        'Public SansVariable', 'sans-serif'
+        // TODO: Look into that.
+        //,{ fontFeatureSettings: '"ss01"'}
+      ],
+      mono: ["IBM Plex Mono", "Liberation Mono", "Source Code Pro", 'monospace']
+    },
+
+    // Reduce the selection to the font weights we actually use.
+    fontWeight: {
+      normal: '400',
+      bold: '700',
+      black: '900',
     },
 
     boxShadow: {
@@ -92,9 +108,7 @@ module.exports = {
       '48': '48px',
       '64': '64px',
       '96': '96px',
-    }
-
-    //textColor: ({ theme }) => (theme('colors.warm-black'))
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),

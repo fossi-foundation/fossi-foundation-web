@@ -183,12 +183,12 @@
 
     <div class="px-96 py-12 desktop:container mx-auto">
       <div class="flex flex-row">
-        <img src="#" />
-        <div class="grow font-black text-white text-2xl mx-32">
+        <img src="~assets/images/ecl-logo-fossi.svg" class="w-96 h-96 my-auto"/>
+        <div class="grow font-black text-white text-2xl mx-32 my-32 w-[720px]">
           El Correo Libre! Explore the free and open source silicon landscape
           through monthly news and hot topics.
         </div>
-        <FfCtaButton inverted>Read the latest</FfCtaButton>
+        <FfCtaButton inverted class="my-32">Read the latest</FfCtaButton>
       </div>
     </div>
   </div>

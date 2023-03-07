@@ -1,9 +1,9 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content'],
-  content: {
-    // https://content.nuxtjs.org/api/configuration
-  },
+  modules: [
+    '@nuxt/content',
+  ],
+
   // Auto-import components.
   components: true,
 
@@ -14,11 +14,14 @@ export default defineNuxtConfig({
   typescript: {
     shim: false
   },
+
   css: [
     // Typography
-    '@fontsource/public-sans/100.css',
-    '@fontsource/public-sans/700.css',
-    '@fontsource/public-sans/900.css',
+    '@fontsource/public-sans/variable.css',
+    '@fontsource/public-sans/variable-italic.css',
+
+    '@fontsource/ibm-plex-mono/latin-400.css',
+    '@fontsource/ibm-plex-mono/latin-700.css',
 
     // Application CSS
     '~/assets/css/main.css',
@@ -32,5 +35,10 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+
+  // Nuxt Content configuration
+  content: {
+    // https://content.nuxtjs.org/api/configuration
   },
 });

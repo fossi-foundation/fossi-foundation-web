@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    /* Use warm black as default text color. */
+    @apply text-warm-black;
+  }
   h1 {
     @apply text-5xl;
   }
