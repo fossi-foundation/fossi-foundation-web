@@ -1,5 +1,5 @@
 <template>
-  <ol class="mt-16 mb-16 pl-20 list-decimal">
+  <ol class="mb-24 pl-20 list-decimal">
     <slot />
   </ol>
 </template>
