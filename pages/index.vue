@@ -36,7 +36,7 @@
   -->
 
     <FfContainer>
-      <FfH3 class="text-warm-black text-center mt-32">
+      <FfH3 class="text-warm-black text-center mx-auto mt-32">
         The FOSSi Foundation is the custodian of the Free and Open Source Silicon
         movement.
       </FfH3>
@@ -114,7 +114,7 @@
     -->
     <div class="bg-pastel-grey">
       <FfContainer class="py-32">
-        <FfH3 class="text-warm-black text-center mb-32">
+        <FfH3 class="text-warm-black text-center mx-auto mb-32">
           Latest FOSSi News
         </FfH3>
 

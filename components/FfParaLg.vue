@@ -14,7 +14,7 @@ TODO:
   Update the style guide if that's correct.
 -->
 <template>
-  <p class="text-phone-20 tablet:text-24 font-bold leading-tighter mb-[30px] tablet:mb-[36px]">
+  <p class="text-phone-20 tablet:text-24 font-bold leading-tighter mb-[30px] tablet:mb-[36px] max-w-prose">
     <ContentSlot :use="$slots.default" unwrap="p" />
   </p>
 </template>

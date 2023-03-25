@@ -8,7 +8,7 @@ Style guide references:
 - Web components/Typography/Smaller headings for phone view/display h1 phone
 -->
 <template>
-  <h1 class="font-black text-phone-39 tablet:text-81 tracking-tighter leading-none mb-[19px] tablet:mb-[40px]">
+  <h1 class="font-black text-phone-39 tablet:text-81 tracking-tighter leading-none mb-[19px] tablet:mb-[40px] max-w-prose">
     <slot />
   </h1>
 </template>
