@@ -21,6 +21,10 @@ module.exports = {
         'container': '1600px',
       },
 
+      lineHeight: {
+        'tighter': '1.1',
+      },
+
       backgroundImage: {
         'hero': "url('~/assets/images/hero-bg.jpg')",
         'corner-reducedmark-nasu-purple': "url('~/assets/images/corner-reducedmark-nasu-purple.svg')",
