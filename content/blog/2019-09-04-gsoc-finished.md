@@ -5,6 +5,7 @@ description:
 category:
 tags: []
 author: Philipp Wagner
+date: 2019-09-04
 ---
 
 What an exciting summer!

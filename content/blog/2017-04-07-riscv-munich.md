@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Stefan Wallentowitz
+date: 2017-04-07
 ---
 
 Two weeks ago we organized an [event](/riscv-munich) at TU Munich,

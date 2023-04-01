@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Stefan Wallentowitz and Philipp Wagner
+date: 2017-09-22
 ---
 
 [LibreCores.org](https://librecores.org) is a modern portal for Free

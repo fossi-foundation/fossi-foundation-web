@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Stefan Wallentowitz
+date: 2016-07-31
 ---
 
 We host three students this year during Google's Summer of Code. The

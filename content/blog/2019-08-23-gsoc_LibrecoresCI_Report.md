@@ -5,6 +5,7 @@ description: ""
 category:
 tags: ['GSoC', 'LibrecoresCI' ,'FOSSi-Foundation']
 author: Nancy Chauhan
+date: 2019-08-23
 ---
 
 [Librecores][librecores] provides a platform to share projects and ideas, in the area of free and open-source digital hardware design. [Librecores CI][librecoresCI] is a service to provide CI for hardware projects hosted on Librecores to improve user experience and reliability.

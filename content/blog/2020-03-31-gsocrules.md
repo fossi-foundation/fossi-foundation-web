@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Philipp Wagner
+date: 2020-03-31
 ---
 
 Since 2016 the FOSSi Foundation has participated every year in the [Google Summer of Code](https://developers.google.com/open-source/gsoc/), a Google-sponsored summer internship for students from all over the world.

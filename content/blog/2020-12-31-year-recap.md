@@ -6,6 +6,7 @@ category:
 tags: []
 author: FOSSi Foundation Board of Directors
 
+date: 2020-12-31
 ---
 Dear Free and Open Source Silicon enthusiasts!
 

@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: FOSSi Foundation
+date: 2017-08-11
 ---
 
 LONDON, UK, 11 August, 2017 - [RS Components](http://uk.rs-online.com/web/) (RS), the trading brand of [Electrocomponents plc](http://www.electrocomponents.com/) (LSE:ECM), the global distributor for engineers, is sponsoring [ORConf](https://orconf.org/), an open source digital design and embedded systems conference that covers from the transistor level up to Linux user space and beyond — featuring presentations and discussion on free and open source IP projects, implementations on FPGA and in silicon, verification, EDA tools, licensing and embedded software, to name but a few. 

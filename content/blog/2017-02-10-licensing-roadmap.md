@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Licensing Committee
+date: 2017-02-10
 ---
 
 The Free and Open Source Silicon Foundation aims to clarify the

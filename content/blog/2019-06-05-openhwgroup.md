@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Stefan Wallentowitz
+date: 2019-06-05
 ---
 
 Today the [OpenHW Group](https://www.openhwgroup.org) was

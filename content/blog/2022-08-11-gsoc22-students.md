@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Jonathan Balkind
+date: 2022-08-11
 ---
 
 The FOSSi Foundation is happy to introduce our Google Summer of Code Class of 2022 projects.

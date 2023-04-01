@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Olof Kindgren
+date: 2020-01-22
 ---
 
 <center><a href="http://latchup.io" target="_blank"><img src="https://fossi-foundation.org/latchup/images/latchupnoloc.png" class="img-responsive" /></a></center>
