@@ -51,7 +51,7 @@ In the first month, I worked on enhancing OpenRISC CI pipelines as it previously
 
 ### Second Phase
 
-In the second phase, we started working on enhancing CI pipelines. We completed work on Yosys synthesis with changes in core description file of [mor1kx][mor1kx] (FuseSoC). This goal led to developments and changes in FuseSoC backend 
+In the second phase, we started working on enhancing CI pipelines. We completed work on Yosys synthesis with changes in core description file of [mor1kx][mor1kx] (FuseSoC). This goal led to developments and changes in FuseSoC backend
 [_edalize_][edalize] with its newly released version ``v0.1.6 ``
 
 #### Links

@@ -2,7 +2,7 @@
 layout: post
 title: "Andrew Back added to the Board of Directors"
 description: ""
-category: 
+category:
 tags: []
 author: Olof Kindgren
 date: 2016-07-07

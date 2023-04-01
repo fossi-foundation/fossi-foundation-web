@@ -2,7 +2,7 @@
 layout: post
 title: "GSoC Report: 64 bit global pointers in RV32 based GP-GPU"
 description: ""
-category: 
+category:
 tags: ['GSoC', 'basejump', 'RISCV', 'LLVM']
 author: Reshabh Sharma
 date: 2019-09-03
@@ -15,7 +15,7 @@ RISC-V will change the world. Prof Taylor's [Bespoke Silicon Group][bespoke-sili
 For compute 32 bit is common for requirements like very high energy efficiency and density. Since GPGPUs often requires 4GB+ of memory, we need 64 bit addresses to access DRAM. This summer I worked under the vision of Prof. Taylor to initiate the support for custom instructions specifically designed for [RISC-V based GP-GPU][basejump]. We started with supporting 64 bit pointers using custom load and store instructions in address space 1 inside the RISC-V LLVM backend.
 
 ### Getting Started
-Our RISC-V LLVM backend fork is available [here][rv32-gpu]. Get started by building LLVM with our custom RISC-V backend fork following the steps given [here][get-started]. 
+Our RISC-V LLVM backend fork is available [here][rv32-gpu]. Get started by building LLVM with our custom RISC-V backend fork following the steps given [here][get-started].
 
 ### Custom Instructions
 Following new instructions have been added:

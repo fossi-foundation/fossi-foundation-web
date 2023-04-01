@@ -29,15 +29,15 @@ to prepare a 5 minute presentation and bring a poster. We will have
 condensed sessions, where you can make a short introduction and optionally
 present your work during extended breaks with your poster. Based on
 availability, the FOSSistanbul program committee will consider longer
-presentations and announce it by 1st of March latest. 
+presentations and announce it by 1st of March latest.
 
 In addition we willhave three invited talks from renowned speakers, as well as a social event
 that will (weather permitting) take place on the Bosphorus.
 
 [FOSSistanbul](https://fossi-foundation.org/fossistanbul) is a one-off event organized
-by the FOSSi Foundation in addition to its regular meetings OrCONF in Europe (fall) and LatchUp in North America (11-12 April, Cambridge MA).  
+by the FOSSi Foundation in addition to its regular meetings OrCONF in Europe (fall) and LatchUp in North America (11-12 April, Cambridge MA).
 
 We rely on the generous support of companies and individuals
 to help put the event on. At this stage all sponsorship opportunities
 are available - so if you'd like to help the FOSSi Foundation fund the
-event, and get a great bit of recognition for it, [contact us](mailto:info@fossi-foundation.org) using the links on the [FOSSistanbul](https://fossi-foundation.org/fossistanbul) page. 
+event, and get a great bit of recognition for it, [contact us](mailto:info@fossi-foundation.org) using the links on the [FOSSistanbul](https://fossi-foundation.org/fossistanbul) page.
