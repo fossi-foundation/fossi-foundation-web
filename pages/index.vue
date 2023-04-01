@@ -2,34 +2,6 @@
   <NuxtLayout>
     <FfHeaderHero />
 
-    <!-- Multi-column text https://zeroheight.com/822235964/p/779fcb-content-blocks -->
-    <div class="bg-pattern-resources bg-contain border-none bg-repeat">
-      <FfContainer class="flex flex-col text-white desktop:flex-row space-y-32 desktop:space-y-0 desktop:space-x-64 py-24 tablet:py-48 desktop:py-96">
-        <div>
-          <FfH2 class="text-white">99k</FfH2>
-          <FfParaLg>
-            Members worldwide from hobbyists to academics and industry
-            professionals.
-          </FfParaLg>
-        </div>
-        <div>
-          <FfH2 class="text-white">99k</FfH2>
-          <FfParaLg>
-            Members worldwide from hobbyists to academics and industry
-            professionals.
-          </FfParaLg>
-        </div>
-        <div>
-          <FfH2 class="text-white">99k</FfH2>
-          <FfParaLg>
-            Members worldwide from hobbyists to academics and industry
-            professionals.
-          </FfParaLg>
-        </div>
-      </FfContainer>
-    </div>
-
-
     <!--
     Signpost with large icon.
     https://fossi-foundation.zeroheight.com/styleguide/s/72268/p/53507c-signposts
