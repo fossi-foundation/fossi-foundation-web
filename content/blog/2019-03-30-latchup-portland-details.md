@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Julius
+date: 2019-03-30
 ---
 
 <center><a href="http://latchup.io" target="_blank"><img src="https://fossi-foundation.org/latchup/images/latchup_logo.png" class="img-responsive" /></a></center>

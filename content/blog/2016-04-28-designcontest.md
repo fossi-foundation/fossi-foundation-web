@@ -5,6 +5,7 @@ description: ""
 category: 
 tags: []
 author: Stefan Wallentowitz
+date: 2016-04-28
 ---
 
 The FOSSi foundation launches an annual student design contest, which

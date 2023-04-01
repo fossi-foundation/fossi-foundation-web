@@ -3,6 +3,7 @@ layout: post
 title: "Latch-Up and ORConf return in 2023"
 description: After two years of hibernation our two main events return in 2023
 author: Stefan Wallentowitz
+date: 2023-01-01
 ---
 
 We announced in [ECL 57](https://www.fossi-foundation.org/2022/12/12/ecl57) our North American open source silicon conference "Latch-Up" will return in 2023. And it will be joined by another edition of ORConf!

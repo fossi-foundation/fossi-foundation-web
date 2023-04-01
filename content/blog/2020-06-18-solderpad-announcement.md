@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Gareth Halfacree
+date: 2020-06-18
 ---
 
 HALIFAX, England, 18th June 2020 - The Free and Open Source Silicon Foundation

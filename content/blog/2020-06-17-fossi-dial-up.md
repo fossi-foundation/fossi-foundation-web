@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Stefan Wallentowitz
+date: 2020-06-17
 ---
 
 FOSSi Foundation launches a new event series named FOSSi Dial-up. It consists of

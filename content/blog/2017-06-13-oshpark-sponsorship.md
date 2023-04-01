@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Julius Baxter
+date: 2017-06-13
 ---
 
 We are pleased to announce that [OSH Park](https://oshpark.com/),

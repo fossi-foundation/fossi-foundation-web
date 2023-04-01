@@ -5,6 +5,7 @@ description: Did you ever dream about creating your own physical chip? Do it tod
 category:
 tags: []
 author: Philipp Wagner
+date: 2020-06-30
 ---
 
 Did you ever dream about creating your own chip?

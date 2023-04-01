@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Philipp Wagner
+date: 2022-10-19
 ---
 
 Effective immediately, LibreCores, the community hub and IP core directory site is closing its virtual doors.

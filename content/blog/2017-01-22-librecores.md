@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 author: Stefan Wallentowitz and Philipp Wagner
+date: 2017-01-22
 ---
 
 One of our main projects is [LibreCores.org](https://librecores.org), a

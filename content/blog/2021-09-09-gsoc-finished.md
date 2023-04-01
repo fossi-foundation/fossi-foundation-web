@@ -5,6 +5,7 @@ description:
 category:
 tags: []
 author: Jonathan Balkind
+date: 2021-09-09
 ---
 
 As summer comes to an end, we have also completed this year's iteration of Google Summer of Code (GSoC).
