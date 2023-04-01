@@ -2,7 +2,7 @@
 layout: post
 title: "LibreCores Student Design Contest Winner"
 description: ""
-category: 
+category:
 tags: []
 author: Stefan Wallentowitz
 date: 2016-10-13

@@ -2,7 +2,7 @@
 layout: post
 title: "LibreCores Design Contest"
 description: ""
-category: 
+category:
 tags: []
 author: Stefan Wallentowitz
 date: 2016-04-28

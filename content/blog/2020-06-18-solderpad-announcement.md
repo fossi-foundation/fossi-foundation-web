@@ -51,4 +51,4 @@ compliance. FOSSi Foundation thanks the SPDX Workgroup for its inclusion.
 
 The latest version of the Solderpad Hardware License is available now on the
 [official website](https://solderpad.org/), while the Governance Committee will
-table its first official meeting this autumn. 
+table its first official meeting this autumn.

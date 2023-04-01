@@ -2,7 +2,7 @@
 layout: post
 title: "First batch of speakers released for orconf 2016"
 description: ""
-category: 
+category:
 tags: []
 author: Olof Kindgren
 date: 2016-08-03

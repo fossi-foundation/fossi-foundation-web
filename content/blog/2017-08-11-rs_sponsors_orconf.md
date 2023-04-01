@@ -8,7 +8,7 @@ author: FOSSi Foundation
 date: 2017-08-11
 ---
 
-LONDON, UK, 11 August, 2017 - [RS Components](http://uk.rs-online.com/web/) (RS), the trading brand of [Electrocomponents plc](http://www.electrocomponents.com/) (LSE:ECM), the global distributor for engineers, is sponsoring [ORConf](https://orconf.org/), an open source digital design and embedded systems conference that covers from the transistor level up to Linux user space and beyond — featuring presentations and discussion on free and open source IP projects, implementations on FPGA and in silicon, verification, EDA tools, licensing and embedded software, to name but a few. 
+LONDON, UK, 11 August, 2017 - [RS Components](http://uk.rs-online.com/web/) (RS), the trading brand of [Electrocomponents plc](http://www.electrocomponents.com/) (LSE:ECM), the global distributor for engineers, is sponsoring [ORConf](https://orconf.org/), an open source digital design and embedded systems conference that covers from the transistor level up to Linux user space and beyond — featuring presentations and discussion on free and open source IP projects, implementations on FPGA and in silicon, verification, EDA tools, licensing and embedded software, to name but a few.
 
 Conference hosts in previous years have included University of Bologna and CERN, and this year ORConf is being hosted as part of the [Wuthering Bytes](http://wutheringbytes.com/) technology festival in Hebden Bridge, West Yorkshire (UK). Stefan Wallentowitz, a director of conference organisers [The Free and Open Source Silicon Foundation](https://fossi-foundation.org/), said: “We’re thrilled to be joining the Wuthering Bytes festival for ORConf 2017 and it’s really great to have the support of RS Components as a major sponsor of the conference this year”.
 
@@ -36,7 +36,7 @@ For more information, please visit the website at fossi-foundation.org.
 #### About Wuthering Bytes
 Wuthering Bytes is an annual festival of technology that takes place in Hebden Bridge, West Yorkshire (UK), that serves as a celebration of technology in everyday life and beyond, with a strong focus on open source, collaboration and sharing.
 
-Now in its fifth year, in 2017 the festival will take place over 1st to 10th September, featuring talks and workshops on topics including the history of computing, particle physics, spacecraft thermal engineering, LPWAN and IoT, and open source digital design. 
+Now in its fifth year, in 2017 the festival will take place over 1st to 10th September, featuring talks and workshops on topics including the history of computing, particle physics, spacecraft thermal engineering, LPWAN and IoT, and open source digital design.
 
 Further information is available via these links:
 
