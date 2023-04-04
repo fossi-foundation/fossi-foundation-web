@@ -56,7 +56,17 @@ export default defineNuxtConfig({
           },
         },
       },
-    }
+    },
+    highlight: {
+      // See https://github.com/shikijs/shiki/blob/main/docs/themes.md
+      theme: "github-light",
+      preload: [
+        // Add all languages here for which code highlighting is desired.
+        // https://github.com/shikijs/shiki/blob/main/docs/languages.md
+        'bash',
+        'python',
+      ]
+    },
   },
 
   app: {
