@@ -6,17 +6,20 @@ Display on the majority of webpages
 Style guide reference: Web components/Page headers/Text only
 
 TODO:
-- Option to add date (for blog posts) is missing.
 - Make different slots or attributes available.
 - Should we have the corner mark in the background within the container, our
   at the page border?
 -->
 <template>
-  <div class="text-white py-64 bg-ultraviolet bg-corner-reducedmark-nasu-purple bg-contain bg-right-bottom bg-no-repeat ">
+  <div class="text-white py-64 bg-ultraviolet bg-corner-reducedmark-nasu-purple bg-contain bg-right-bottom bg-no-repeat">
     <FfContainer>
       <FfH1 class="!mb-0">{{ page?.title }}</FfH1>
       <FfParaLg v-if="page?.header" class="max-w-2xl mb-0 mt-32">
-        {{  page?.header  }}
+        {{ page?.header }}
+      </FfParaLg>
+      <FfParaLg v-if="showByline" class="font-bold">
+        <span v-if="page?.author">by {{ page?.author }}</span>
+        <span v-if="page?.date"> on {{ dateFormatted }}</span>
       </FfParaLg>
     </FfContainer>
   </div>
@@ -24,4 +27,10 @@ TODO:
 
 <script setup lang="ts">
 const { page } = useContent();
+
+const dateFormatted = computed(() => {
+  return new Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).format(new Date(page?.value.date));
+})
+
+const showByline = computed(() => { return page?.value.date || page?.value.author });
 </script>
