@@ -27,10 +27,6 @@ TODO:
 </template>
 
 <script setup lang="ts">
-const { navDirFromPath } = useContentHelpers()
-const route = useRoute()
-const { navigation } = useContent()
-const dir = navDirFromPath(route.path, navigation.value)
-
-const subpagesQuery = queryContent(dir)
+/* extract the basename (first sub-path and query content from there) */
+const subpagesQuery = queryContent(useRoute().path.split("/")[1])
 </script>
