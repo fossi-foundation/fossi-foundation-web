@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
+    'nuxt-content-assets', // needs to be before @nuxt/content
     '@nuxt/content',
     ['unplugin-icons/nuxt', { /* options */ }],
   ],
@@ -67,6 +68,13 @@ export default defineNuxtConfig({
         'python',
       ]
     },
+  },
+
+  // Nuxt Content Assets configuration.
+  // See https://github.com/davestewart/nuxt-content-assets for options.
+  'content-assets': {
+    // add image size hints
+    imageSize: 'attrs url',
   },
 
   app: {
