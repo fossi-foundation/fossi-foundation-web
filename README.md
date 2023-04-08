@@ -27,6 +27,12 @@ yarn run build
 yarn run preview
 ```
 
+## Development quicker start
+
+- Open with Visual Studio Code with "Dev Containers" extension installed.
+- After opening the repo, it will ask you if you want to reopen in container, which you want.
+- Run above commands or run debug target "server: nuxt"
+
 ## Icons
 
 We use icons from [Font Awesome Brands](https://fontawesome.com/) and
