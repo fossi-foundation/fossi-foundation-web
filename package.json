@@ -21,6 +21,7 @@
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^4.5.13",
     "@fontsource/public-sans": "^4.5.11",
-    "flowbite": "^1.6.4"
+    "flowbite": "^1.6.4",
+    "nuxt-content-assets": "^0.6.1"
   }
 }
