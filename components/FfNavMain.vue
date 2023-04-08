@@ -16,13 +16,13 @@ TODO:
 -->
 <template>
   <FfContainer>
-    <nav class="py-20 text-20 font-black text-ultraviolet">
+    <nav class="py-20 font-black text-ultraviolet">
       <div class="flex flex-wrap items-center justify-between mx-auto">
         <!-- logo -->
-        <FfLink to="/" class="flex-none">
+        <FfLinkLarge to="/" class="flex-none">
           <span class="sr-only">FOSSi Foundation home page</span>
           <img class="w-[180px]" src="~/assets/images/fossi-logo-full.svg" />
-        </FfLink>
+        </FfLinkLarge>
 
         <!-- hamburger icon (phone/tablet only) -->
         <button data-collapse-toggle="navbar" type="button" class="inline-flex items-center desktop:hidden" aria-controls="navbar" aria-expanded="false">
@@ -36,22 +36,22 @@ TODO:
         <div class="hidden items-center justify-between w-full desktop:flex desktop:w-auto desktop:order-1" id="navbar">
           <ul class="flex flex-col px-16 mt-16 desktop:mt-0 space-y-20 desktop:flex-row desktop:space-y-0 desktop:space-x-16 desktop:items-center">
             <li>
-              <FfLink class="block" to="/">Home</FfLink>
+              <FfLinkLarge class="block" to="/">Home</FfLinkLarge>
             </li>
             <li>
-              <FfLink class="block" to="/free-and-open-silicon">What is Open Silicon</FfLink>
+              <FfLinkLarge class="block" to="/free-and-open-silicon">What is Open Silicon</FfLinkLarge>
             </li>
             <li>
-              <FfLink class="block" to="/about-us">Who we are</FfLink>
+              <FfLinkLarge class="block" to="/about-us">Who we are</FfLinkLarge>
             </li>
             <li>
-              <FfLink class="block" to="/our-work">What we do</FfLink>
+              <FfLinkLarge class="block" to="/our-work">What we do</FfLinkLarge>
             </li>
             <li>
-              <FfLink class="block" to="/news">News</FfLink>
+              <FfLinkLarge class="block" to="/news">News</FfLinkLarge>
             </li>
             <li>
-              <FfLink class="block" to="/contact">Contact</FfLink>
+              <FfLinkLarge class="block" to="/contact">Contact</FfLinkLarge>
             </li>
             <li>
               <FfBtnCta class="w-full desktop:w-auto">Get involved</FfBtnCta>

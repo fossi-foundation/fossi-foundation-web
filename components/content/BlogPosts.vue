@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li v-for="{ _path: slug, title } in blogPosts" :key="slug">
-      <FfLink :to="slug">{{ title }}</FfLink>
+      <FfLinkUnderline :to="slug">{{ title }}</FfLinkUnderline>
     </li>
   </ul>
 </template>
