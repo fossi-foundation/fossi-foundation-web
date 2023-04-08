@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="190.5mm"
+   height="234.28854mm"
+   viewBox="0 0 190.5 234.28854"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="cocotb_scheduling_comparison.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-intersection-paths="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:zoom="1.0998546"
+     inkscape:cx="302.31269"
+     inkscape:cy="266.39885"
+     inkscape:window-width="1920"
+     inkscape:window-height="1141"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824"
+       units="px"
+       spacingx="3.96875"
+       spacingy="3.96875"
+       originx="0"
+       originy="-3.96875" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path18097" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path18100" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-3.96875)">
+    <rect
+       style="fill:#ffe6d5;stroke:#ff9955;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect848"
+       width="55.5625"
+       height="15.875"
+       x="7.9375"
+       y="23.8125"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199" />
+    <g
+       id="g69871"
+       transform="translate(-5.0270833,8.761412)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="19.84375"
+         id="text1812"><tspan
+           sodipodi:role="line"
+           id="tspan1810"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Medium';stroke-width:0.264583"
+           x="15.875"
+           y="19.84375">cocotb.start_soon(coro2())</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="27.78125"
+         id="text3249"><tspan
+           sodipodi:role="line"
+           id="tspan3247"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="27.78125">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="23.8125"
+         id="text4702"><tspan
+           sodipodi:role="line"
+           id="tspan4700"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="23.8125"># ...</tspan></text>
+    </g>
+    <rect
+       style="fill:#fff6d5;stroke:#ffdd55;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect5977"
+       width="55.5625"
+       height="11.90625"
+       x="67.46875"
+       y="39.6875"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199" />
+    <g
+       id="g69877"
+       transform="translate(-4.4979166,8.631237)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="75.40625"
+         y="39.6875"
+         id="text5985"><tspan
+           sodipodi:role="line"
+           id="tspan5983"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="75.40625"
+           y="39.6875">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="75.40625"
+         y="35.71875"
+         id="text5989"><tspan
+           sodipodi:role="line"
+           id="tspan5987"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="75.40625"
+           y="35.71875"># ...</tspan></text>
+    </g>
+    <rect
+       style="fill:#eef4d7;stroke:#cdde87;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect6189"
+       width="55.5625"
+       height="11.90625"
+       x="127"
+       y="51.59375"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199" />
+    <g
+       id="g69883"
+       transform="translate(-4.4979167,8.631237)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="134.9375"
+         y="51.59375"
+         id="text6193"><tspan
+           sodipodi:role="line"
+           id="tspan6191"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="134.9375"
+           y="51.59375">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="134.9375"
+         y="47.625"
+         id="text6197"><tspan
+           sodipodi:role="line"
+           id="tspan6195"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="134.9375"
+           y="47.625"># ...</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffe6d5;stroke:#ff9955;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect6199"
+       width="55.5625"
+       height="11.90625"
+       x="7.9375"
+       y="63.5"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199" />
+    <g
+       id="g69863"
+       transform="translate(-5.0270833,8.631237)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="63.5"
+         id="text6203"><tspan
+           sodipodi:role="line"
+           id="tspan6201"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="63.5">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="59.53125"
+         id="text6207"><tspan
+           sodipodi:role="line"
+           id="tspan6205"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="59.53125"># ...</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#d45500;stroke-width:0.264583"
+       x="7.9375"
+       y="15.875"
+       id="text9565"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199"><tspan
+         sodipodi:role="line"
+         id="tspan9563"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';fill:#d45500;stroke-width:0.264583"
+         x="7.9375"
+         y="15.875">async def coro1()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#aa8800;stroke-width:0.264583"
+       x="67.46875"
+       y="15.875"
+       id="text14929"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199"><tspan
+         sodipodi:role="line"
+         id="tspan14927"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';fill:#aa8800;stroke-width:0.264583"
+         x="67.46875"
+         y="15.875">async def coro2()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#225500;stroke-width:0.264583"
+       x="127.9843"
+       y="15.875"
+       id="text14933"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199"><tspan
+         sodipodi:role="line"
+         id="tspan14931"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';fill:#225500;stroke-width:0.264583"
+         x="127.9843"
+         y="15.875">async def coro3()</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 63.499999,39.6875 h 3.96875"
+       id="path18089"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 63.499999,39.6875 h 3.96875"
+       id="path18439"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 123.03125,51.59375 H 127"
+       id="path18441"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 127,63.5 H 63.5"
+       id="path18443"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199" />
+    <rect
+       style="fill:#ffe6d5;stroke:#ff9955;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect18544"
+       width="55.5625"
+       height="7.9375"
+       x="7.9375"
+       y="99.21875"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="10.847918"
+       y="104.07015"
+       id="text18548"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107"><tspan
+         sodipodi:role="line"
+         id="tspan18546"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Medium';stroke-width:0.264583"
+         x="10.847918"
+         y="104.07015">await cocotb.start(coro2())</tspan></text>
+    <rect
+       style="fill:#fff6d5;stroke:#ffdd55;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect18558"
+       width="55.5625"
+       height="11.90625"
+       x="67.46875"
+       y="107.15625"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107" />
+    <g
+       id="g69889"
+       transform="translate(-4.4979166,8.631237)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="75.40625"
+         y="107.15625"
+         id="text18562"><tspan
+           sodipodi:role="line"
+           id="tspan18560"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="75.40625"
+           y="107.15625">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="75.40625"
+         y="103.1875"
+         id="text18566"><tspan
+           sodipodi:role="line"
+           id="tspan18564"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="75.40625"
+           y="103.1875"># ...</tspan></text>
+    </g>
+    <rect
+       style="fill:#eef4d7;stroke:#cdde87;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect18568"
+       width="55.5625"
+       height="11.90625"
+       x="127"
+       y="119.42709"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107" />
+    <g
+       id="g69741"
+       transform="translate(-4.4979167,7.9375)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="134.9375"
+         y="120.12083"
+         id="text18572"><tspan
+           sodipodi:role="line"
+           id="tspan18570"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="134.9375"
+           y="120.12083">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="134.9375"
+         y="116.15208"
+         id="text18576"><tspan
+           sodipodi:role="line"
+           id="tspan18574"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="134.9375"
+           y="116.15208"># ...</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffe6d5;stroke:#ff9955;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect18578"
+       width="55.5625"
+       height="11.90625"
+       x="7.9375"
+       y="130.96875"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107" />
+    <g
+       id="g69747"
+       transform="translate(-5.0270833,8.631237)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="130.96875"
+         id="text18582"><tspan
+           sodipodi:role="line"
+           id="tspan18580"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="130.96875">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="127"
+         id="text18586"><tspan
+           sodipodi:role="line"
+           id="tspan18584"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="127"># ...</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#d45500;stroke-width:0.264583"
+       x="7.9375"
+       y="91.28125"
+       id="text18590"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107"><tspan
+         sodipodi:role="line"
+         id="tspan18588"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';fill:#d45500;stroke-width:0.264583"
+         x="7.9375"
+         y="91.28125">async def coro1()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#aa8800;stroke-width:0.264583"
+       x="67.46875"
+       y="91.28125"
+       id="text18594"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107"><tspan
+         sodipodi:role="line"
+         id="tspan18592"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';fill:#aa8800;stroke-width:0.264583"
+         x="67.46875"
+         y="91.28125">async def coro2()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#225500;stroke-width:0.264583"
+       x="127.9843"
+       y="91.28125"
+       id="text18598"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107"><tspan
+         sodipodi:role="line"
+         id="tspan18596"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';fill:#225500;stroke-width:0.264583"
+         x="127.9843"
+         y="91.28125">async def coro3()</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 63.499999,107.15625 h 3.96875"
+       id="path18602"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 123.03125,119.0625 H 127"
+       id="path18604"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 127,130.96875 H 63.5"
+       id="path18606"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107" />
+    <rect
+       style="fill:#ffe6d5;stroke:#ff9955;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect20605"
+       width="55.5625"
+       height="7.9375"
+       x="7.9375"
+       y="182.5625"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="10.847918"
+       y="187.58957"
+       id="text20609"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan20607"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Medium';stroke-width:0.264583"
+         x="10.847918"
+         y="187.58957">cocotb.fork(coro2())</tspan></text>
+    <rect
+       style="fill:#fff6d5;stroke:#ffdd55;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect20611"
+       width="55.5625"
+       height="11.90625"
+       x="67.46875"
+       y="190.5"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g69901"
+       transform="translate(-4.4979166,20.537487)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="75.40625"
+         y="178.59375"
+         id="text20615"><tspan
+           sodipodi:role="line"
+           id="tspan20613"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="75.40625"
+           y="178.59375">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="75.40625"
+         y="174.625"
+         id="text20619"><tspan
+           sodipodi:role="line"
+           id="tspan20617"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="75.40625"
+           y="174.625"># ...</tspan></text>
+    </g>
+    <rect
+       style="fill:#eef4d7;stroke:#cdde87;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect20621"
+       width="55.5625"
+       height="11.90625"
+       x="127"
+       y="214.3125"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g69907"
+       transform="translate(-4.4979167,19.479168)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="134.9375"
+         y="203.46457"
+         id="text20625"><tspan
+           sodipodi:role="line"
+           id="tspan20623"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="134.9375"
+           y="203.46457">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="134.9375"
+         y="199.49582"
+         id="text20629"><tspan
+           sodipodi:role="line"
+           id="tspan20627"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="134.9375"
+           y="199.49582"># ...</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffe6d5;stroke:#ff9955;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect20631"
+       width="55.5625"
+       height="11.90625"
+       x="7.9375"
+       y="226.21875"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="11.90625"
+       y="234.68541"
+       id="text20635"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan20633"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+         x="11.90625"
+         y="234.68541">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="11.90625"
+       y="230.71666"
+       id="text20639"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan20637"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+         x="11.90625"
+         y="230.71666"># ...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#d45500;stroke-width:0.264583"
+       x="7.9375"
+       y="174.625"
+       id="text20643"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan20641"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';fill:#d45500;stroke-width:0.264583"
+         x="7.9375"
+         y="174.625">async def coro1()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#aa8800;stroke-width:0.264583"
+       x="67.46875"
+       y="174.625"
+       id="text20647"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan20645"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';fill:#aa8800;stroke-width:0.264583"
+         x="67.46875"
+         y="174.625">async def coro2()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#225500;stroke-width:0.264583"
+       x="127.9843"
+       y="174.625"
+       id="text20651"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan20649"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';fill:#225500;stroke-width:0.264583"
+         x="127.9843"
+         y="174.625">async def coro3()</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 63.499999,190.5 h 3.96875"
+       id="path20653"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 67.46875,202.40625 H 63.5"
+       id="path20655"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
+       d="M 127,214.3125 H 63.5"
+       id="path20657"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ffe6d5;stroke:#ff9955;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect21503"
+       width="55.5625"
+       height="11.90625"
+       x="7.9375"
+       y="202.40625"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g69895"
+       transform="translate(-3.9687499,19.479168)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="191.55832"
+         id="text21507"><tspan
+           sodipodi:role="line"
+           id="tspan21505"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="191.55832">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="187.58957"
+         id="text21511"><tspan
+           sodipodi:role="line"
+           id="tspan21509"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="187.58957"># ...</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 127,226.21875 H 63.5"
+       id="path21620"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0,83.34375 H 190.5"
+       id="path21688"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0,166.6875 H 190.5"
+       id="path21770"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g69919"
+       transform="translate(-15.875,7.9375)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107">
+      <rect
+         style="fill:#000000;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect29467"
+         width="87.3125"
+         height="7.9375"
+         x="67.46875"
+         y="71.4375" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.264583"
+         x="70.290359"
+         y="76.515381"
+         id="text27149"><tspan
+           sodipodi:role="line"
+           id="tspan27147"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';fill:#ffffff;stroke-width:0.264583"
+           x="70.290359"
+           y="76.515381">Scheduling using <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold'"
+   id="tspan40660">await cocotb.start()</tspan></tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0,7.9375 H 190.5"
+       id="path30919"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199" />
+    <g
+       id="g69925"
+       transform="translate(-15.875,7.9375)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png"
+       inkscape:export-xdpi="150.12199"
+       inkscape:export-ydpi="150.12199">
+      <rect
+         style="fill:#000000;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect30921"
+         width="87.3125"
+         height="7.9375"
+         x="67.46875"
+         y="-3.96875" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.264583"
+         x="70.290359"
+         y="1.1091309"
+         id="text30925"><tspan
+           sodipodi:role="line"
+           id="tspan30923"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';fill:#ffffff;stroke-width:0.264583"
+           x="70.290359"
+           y="1.1091309">Scheduling using <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold'"
+   id="tspan36867">cocotb.start_soon()</tspan></tspan></text>
+    </g>
+    <g
+       id="g69913"
+       transform="translate(-15.875,19.84375)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_fork.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#000000;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect41405"
+         width="87.3125"
+         height="7.9375"
+         x="67.46875"
+         y="142.875" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+         x="111.43403"
+         y="147.95288"
+         id="text41411"><tspan
+           sodipodi:role="line"
+           id="tspan41409"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+           x="111.43403"
+           y="147.95288">Scheduling using <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold';text-align:center;text-anchor:middle"
+   id="tspan41407">cocotb.fork()</tspan></tspan></text>
+    </g>
+    <rect
+       style="fill:#ffe6d5;stroke:#ff9955;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect77848"
+       width="55.5625"
+       height="11.90625"
+       x="7.9375"
+       y="142.18126"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107" />
+    <g
+       id="g77858"
+       transform="translate(-5.0270833,19.84375)"
+       inkscape:export-filename="/home/philipp/src/fossi-foundation.github.io/assets/posts/2021-10-20-cocotb-1-6-0/scheduling_start.png"
+       inkscape:export-xdpi="150.00107"
+       inkscape:export-ydpi="150.00107">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="130.96875"
+         id="text77852"><tspan
+           sodipodi:role="line"
+           id="tspan77850"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="130.96875">await Timer(1, units=&quot;ns&quot;)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Play;-inkscape-font-specification:'Play Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="15.875"
+         y="127"
+         id="text77856"><tspan
+           sodipodi:role="line"
+           id="tspan77854"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';stroke-width:0.264583"
+           x="15.875"
+           y="127"># ...</tspan></text>
+    </g>
+  </g>
+</svg>

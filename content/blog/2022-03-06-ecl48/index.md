@@ -1,0 +1,190 @@
+---
+layout: post
+title: "El Correo Libre Issue 48"
+description: El Correo Libre Newsletter, Issue 48
+author: Gareth Halfacree
+date: 2022-03-06
+---
+<img src="chipsalliance.jpg" style="max-width:100%" />
+
+## CHIPS Alliance Forms F4PGA Workgroup for Open-Source FPGA Tooling
+
+
+The CHIPS Alliance has announced the formation of the FOSS Flow For FPGA Workgroup, also known as F4PGA, through which it aims to drive open-source tooling, intellectual properties, and research efforts focused on field-programmable gate arrays (FPGAs).
+
+"FPGAs are essential for a wide variety of low-latency compute use cases, from telecoms to space applications and beyond. This new F4PGA toolchain will enable a software-driven approach to building FPGA gateware, making code integration easier than ever," claims CHIPS Alliance's Rob Mains of the organisation's formation.
+
+“Under the umbrella of the CHIPS Alliance, this workgroup will help unite current FPGA efforts so academia and industry leaders can collaborate on accelerating open FPGA innovation.”
+
+The workgroup's initial focus is on continuing the work begun by the SymbiFlow toolchain, under the new F4PGA Toolchain moniker, on expanding use of the FPGA Interchange Format for improved interoperability, on the FPGA Tool Perf Framework for performance analysis, and on further development of the FPGA Assembly (FASM) format.
+
+The organisation has stated that it has seen "strong support" for the F4PGA Workgroup, and that it hopes to "further accelerate industry adoption across geographies and increase confidence in open source FPGA tooling as a viable option for all types of designs."
+
+More information on the workgroup is available [on the CHIPS Alliance website](https://chipsalliance.org/workgroups/), though no mailing list has yet been published.
+
+<img src="clear.jpg" style="max-width:100%" />
+
+## eFabless Launches CLEAR, the Open-Source FPGA ASIC, as a chipIgnite Intro
+
+
+eFabless has launched a crowdfunding campaign for a fully-open application-specific integrated circuit (ASIC) with embedded FPGA, built atop its chipIgnite platform - and hopes that it will serve as an introduction for those interested in designing and fabricating their own custom chips.
+
+"CLEAR is an open source FPGA ASIC delivered to you on its development board and its open source software development tools and all the ASIC design tools used to create it," eFabless explains of the project.
+
+"As part of the campaign we will show you everything we do including how to design your own ASIC with open source ASIC design software and how you can create a campaign just like this one for your own custom ASIC. All that without having to make a giant hole in your pocket for ASIC design and manufacturing."
+
+CLEAR is built atop chipIgnite, designed as an accessible platform for ASIC design and manufacturing - both in terms of ease of use and in pricing. Chips manufactured through chipIgnite are fabricated by SkyWater Technology using the same process as the company's Google-funded OpenMPW programme, without the requirement for the designs to be made available under an open licence.
+
+The CLEAR chip itself is generated using OpenFPGA and integrated into the Caravel open-source ASIC platform. Its design includes an 8x8 CLB embedded FPGA (eFPGA), a single-core VexRiscv-based CPU with 2KB of OpenRAM and 1kB of DFFRAM, QSPI flash support with execute-in-place (XIP), 39 general-purpose inputs/outputs (GPIOs), SPI, UART, a counter and timers, and an integrated logic analyser.
+
+The campaign is running until Monday the 28th of March 2022 [on GroupGets](https://groupgets.com/pre_launch_campaigns/1003-clear-the-open-source-fpga-asic-by-chipignite), with pricing set at $74.99 plus shipping per board.
+
+<img src="gdbwave.jpg" style="max-width:100%" />
+
+## GDBWave is a Post-Simulation RISC-V Debugging Server for Waveform Files
+
+
+Tom Verbeure has released a new tool for those interested in debugging simulated RISC-V designs after the simulation has completed, by creating an interface between the GNU Debugger (GDB) and simulation waveform files.
+
+"I usually don’t have a JTAG interface in my designs: I’m often just too lazy to wire up a USB JTAG dongle to the FPGA board," Tom explains.
+
+"But what I do all the time is to look at simulation waveforms and try to figure out what the CPU was doing at a particular point in the simulation. Or the other way around, I try to figure out what the hardware was doing when the CPU was executing a particular line of code."
+
+GDBWave is born of that approach, aiming to move away from the "tedious process" of manually investigating waveform files to find program counters of interest then looking said counters up in a disassembled version of the program.
+
+"The idea [was] to feed the waveform data into a GDB server," Tom explains. "This was considered a cursed idea, a high mark of approval indeed! Two months and a good amount of Christmas vacation hours later, the result is GDBWave: a post-simulation waveform-based RISC-V GDB debugging server."
+
+Full details on how GDBWave works and what it can do are available [on Tom's blog](https://tomverbeure.github.io/2022/02/20/GDBWave-Post-Simulation-RISCV-SW-Debugging.html); he has indicated no desire to develop the concept further - "I once again realised that I like working on hardware more," he notes - but has [published the source code on GitHub](https://github.com/tomverbeure/gdbwave) under the permissive MIT licence in the hope that "somebody would be willing to take ownership and take it to the next level."
+
+<img src="vennmpw1.jpg" style="max-width:100%" />
+
+## Matthew Venn Gets "All My ASIC Designs for Google MPW1" Up and Running
+
+
+Matthew Venn has celebrated a major milestone: the successful boot of every ASIC design he submitted to the MPW1 open-source ASIC shuttle run by eFabless, Google, and Skywater Technologies - after toolchain issues had resulted in initially non-functional chips.
+
+"After a week of experimenting and tweaking with custom firmware," Matthew explains in a video showcasing the chips, "I've actually managed to get all my designs working. All [the] designs are quite small, and I think that might be why they're working.
+
+"The main issue with MPW1 was hold violations due to clock skew, but you can't get much clock skew if your design is really small. The other designs' authors have samples on the way, so I'm waiting to see if they manage to get their designs working too."
+
+The chips produced on the first shuttle of the OpenMPW programme, which saw Google funding production of physical chips for free and open-source silicon projects, had initially been thought to be dead-on-arrival thanks to a previously-undiagnosed issue in the toolchain. Now, it's hoped that the majority will be able to run with minor modifications to operating conditions such as adjusting voltages to work around hold violations.
+
+Matthew runs through a tour of the designs on the chip, created as part of his Zero to ASIC Course, in [a new YouTube video](https://www.youtube.com/watch?v=IdOvywOSSmI); he has also released an information pack [on Google Docs](https://docs.google.com/document/d/1lKKtgcVXwYAe81afha8X3PpY4TEB0o6XlIWKrYT2A7c/edit).
+
+<img src="chipflow.jpg" style="max-width:100%" />
+
+## ChipFlow Exits Stealth, Unveils Chip Design Platform-as-a-Service based on Open Source
+
+
+Cambridge, UK-based ChipFlow has exited stealth with the announcement of plans to offer a Platform-as-a-Service (PaaS) approach to chip design, building atop free and open-source projects as a means to democratise ASIC production.
+
+"Designers will be able to build and test an IC on their laptop, then use our platform to order test chips and production runs without the pain of dealing with a foundry directly," the company claims of its planned offering.
+
+"By using a Python based hardware description language, and providing a library of reusable modules, we can expand the pool of engineering talent to include software engineers."
+
+Claiming that "open source is changing the rules of the game," ChipFlow pledges to reduce the up-front investments in engineering time and non-recurring engineering (NRE) costs associated with the creation of custom chips.
+
+The platform targets a simple four-stage flow: the chip is designed using a Python-based hardware definition language, then automatically laid out using ChipFlow's "end-to-end integration and AI [Artificial Intelligence]." The design is then sent off to manufacturing, which the company says is "optimised for lower volumes," and shipped to the user.
+
+More details on the company's plans can be found [on the ChipFlow website](https://www.chipflow.io/); the "Minimum Viable Product" version of the platform will be available for "a limited range of designs [and] early adopters" in the third quarter of this year.
+
+<img src="euchipsact.jpg" style="max-width:100%" />
+
+## European Commission Releases EU Chips Act Details
+
+
+The European Commission has published details of its proposed EU Chips Act, which would seek to increase the European Union's share of the semiconductor design and fabrication market with rule changes, tax incentives, and direct funding.
+
+"The European Chips Act will bolster Europe's competitiveness and resilience in semiconductor technologies and applications, and help achieve both the digital and green transition," the European Commission claimed in a statement released shortly after our last issue went to press. "It will do this by strengthening Europe’s technological leadership in the field."
+
+In the proposals put forward for the EU Chips Act, the Commission has promised to set aside over €43 billion - €11 billion in direct public investment - for "policy-driven investment" between now and 2030, with the promise of broad investment matching from long-term private investment.
+
+The EU Chips Act includes not only the promise of investment in next-generation technologies including sub-2nm semiconductor fabrication facilities in the region but also improving access to design tools and pilot lines for prototyping and experimentation, introducing a new easier funding framework for the establishment of manufacturing facilities, improving smaller companies' access to equity finance, and "building semiconductor international partnerships with like-minded countries."
+
+The Act has been submitted by the European commission as proposals for a regulation and a recommendation, but has yet to be discussed by EU Member States and voted upon by the European Parliament for its adoption in law.
+
+More details are available [on the European Commission website](https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/european-chips-act_en).
+
+<img src="glibc.jpg" style="max-width:100%" />
+
+## GNU C Library 2.35 Adds OpenRISC Support
+
+
+The GNU C Library (glibc) has received official support for the OpenRISC instruction set architecture, with an application binary interface (ABI) offering Year 2038 safety.
+
+"The glibc toolchain is available for OpenRISC," the OpenRISC maintainers write of the news. "This toolchain provides a fully featured C system API including internationalisation, 64-bit time and filesystem support. You can download and build the source [directly] from the glibc website."
+
+"Support for OpenRISC running on Linux has been added," Carlos O'Donell wrote in glibc 2.35's release announcement. "This port requires at least binutils 2.35, GCC 11, and Linux 5.4. Currently only soft-float ABI is supported.
+
+"The OpenRISC ABI is 32-bit big-endian and uses 64-bit time (y2038 safe) and 64-bit file offsets (LFS default)."
+
+The new release also introduces Unicode 14.0.0, support for the C.UTF-8 locale with full code-point sorting for all valid Unicode code points, new functions from TS 18661-1:2014, TS 18661-3:2015, and the draft ISO C2X standard, new floating point functions, a new depth-first search sorting algorithm for the dynamic linker, and support for level three source fortification, among other new features.
+
+More details are available [in the glibc release announcement](https://sourceware.org/pipermail/libc-alpha/2022-February/136040.html), while the source code can be downloaded [from the official website](http://www.gnu.org/software/libc/) under the Lesser GNU General Public License 2.1 or later.
+
+<img src="redwoodcourse.jpg" style="max-width:100%" />
+
+## Redwood EDA Launches Free RISC-V CPU Design Courses
+
+Electronic design automation specialist Redwood EDA has launched a family of training courses aimed at those interested in the free and open source RISC-V instruction set architecture - starting from the logic-gate level and working their way upwards.
+
+"Computer architecture is traditionally learned in a university setting as a lecture-and-textbook course with a lab component," Redwood EDA writes of its course package. "Taking advantage of TL-Verilog and Makerchip, the courses [on offer] are lab courses from the start, where you learn theory by doing.
+
+"While these courses cover the content in various levels of depth, they all start with logic gates and guide you to building a simple RISC-V-based CPU."
+
+The four courses - a tutorial from VSDOpen 2020 lasting two and a half hours, one from ChipEXPO 2021 lasting three and a half hours, an EdX course lasting 14 hours, and the Microprocessor for You in Thirty Hours (MYTH) course which fills, oddly, 24 hours - are being made available to all for free through to June 2022.
+
+Details on all the courses, and on the certifications available for attendees on the two longer courses, can be found [on the Makerchip website](https://makerchip.com/sandbox/?tabs=Courses).
+
+<img src="olofexplosion.jpg" style="max-width:100%" />
+
+## Olof Kindgren Looks Back at the "FOSSi Explosion" of 2021
+
+FOSSi Foundation director Olof Kindgren has penned a retrospective of what he describes as the "FOSSi explosion" of the last year, from the perspective of the projects in which he has been personally involved.
+
+"Personally, I think this is the interesting part: everyone is now working hard to actually do stuff with those new opportunities that arose in 2020. Finding new possibilities, hitting limitations and working around them. Solving problems, being creative and coming up with new ideas," Olof writes. "Less headline-friendly but will have more impact longer term."
+
+Olof's retrospective covers: the last year in FuseSoC, the HDL package manager which turned ten last year, with the release of version 1.12, preparation for the "big, exciting 2.0 release that will happen some time in 2022," and the addition of FuseSoC support for T-Head Semi's OpenC910 core; the highly-active Edalize EDA tool abstraction library, including support for three new FPGA toolchains and the new Flow API; and improvements in the SERV project, making the world's smallest RISC-V CPU even more optimised.
+
+The piece also takes a look at: the latest record-breaking contributions to the CoreScore SERV-based benchmark; a near-doubling of supported FPGA boards for the LED to Believe flash-a-light project; new features in the SweRVolf reference platform for the SweRV RISC-V core family including support for Vivado XSim simulation, the addition of the SweRV EL2 core; the creation of the ViDBo "Virtual Development Board," designed to offer "as close as we reasonably can to a no-cost FPGA board experience without any simulator- or OS-specific building blocks;" and a UART that's small enough to fit in a tweet.
+
+"In case, you know, someone needs a UART that's small enough to fit in a tweet," Olof explains.
+
+The full retrospective is available [on Olof's website](https://olofkindgren.blogspot.com/2022/02/fossi-explosion-2021.html) now, with links to each of the projects discussed.
+
+<img src="yosysverilog.jpg" style="max-width:100%" />
+
+## Antmicro Announces Universal Hardware Data Model Plugin for Yosys
+
+
+Antmicro has launched a plugin for Yosys designed to make open-source SystemVerilog synthesis easier, offering support for the Universal Hardware Data Model (UHDM) and a drop-in replacement for the usual Verilog support.
+
+"UHDM is an intermediate format for expressing designs which auto-generates the VPI (Verilog Programming Interface) used by other tools to traverse designs," Antmicro explains. "This allows us to decouple parsing and elaboration from the actual tool, which means extending the frontend provides benefits in all the supported 'backend' tools.
+
+"Yosys allows you to dynamically load plugins that extend its basic functionality. Using this feature, we can easily add UHDM support to local Yosys installations (e.g. installed with your regular package manager) without the need to rebuild anything."
+
+Designed to act as "a drop-in replacement for the built-in Verilog support," the plugin comes with a simple installation script: four commands - five if you are missing the installation prerequisites of curl, jq, tar, and wget - and it's installed and ready to use.
+
+"While closely tracking our progress using sv-tests we were able to significantly surpass the number of individual tests passing using UHDM frontend, compared to tests passed using the regular Yosys Verilog frontend," Antmicro adds. "This proves that the UHDM plugin is ready to be used in your SystemVerilog projects!"
+
+More details are available [on the Antmicro blog](https://antmicro.com/blog/2022/02/simplifying-open-source-sv-synthesis-with-the-yosys-uhdm-plugin/); the plugin source code is available [on GitHub](https://github.com/antmicro/yosys-uhdm-plugin-integration) under the permissive Apache 2.0 licence.
+
+<img src="newsinbrief.jpg" style="max-width:100%" />
+
+## FOSSi News In Brief
+
+-   [Sylvain Lefebvre demonstrates how to simulate Yosys output on CPU and GPU, including VGA display output. "It's surprisingly simple!"](https://twitter.com/sylefeb/status/1494667967203876868)
+-   [QuickLogic announces ultra-low-power PolarPro 3 FPGA family, promises a "well-managed inventory and ready availability" in these times of shortages.](https://www.quicklogic.com/products/fpga/fpgas-sram/)
+-   [Lucas Klemmer launches a project for RISC-V function profiling from waveform data.](https://github.com/LucasKl/riscv-function-profiling)
+-   [Antmicro shows off a low-latency smart video solution built using open-source tools and Lattice CrossLink-NX.](https://antmicro.com/blog/2022/02/smart-video-solutions-with-lattice-crosslink-nx/)
+-   [Joachim Strömbergson releases an open hardware implementation of the Blake2s hash function. "Requires about the same amount of resources as SHA-256, but is more than 2x faster."](https://github.com/secworks/blake2s)
+-   [AMD's acquisition of Xilinx is complete](https://ir.amd.com/news-events/press-releases/detail/1047/amd-completes-acquisition-of-xilinx), and to celebrate [Xilinx has joined the CHIPS Alliance.](https://chipsalliance.org/announcement/2022/02/03/xilinx-new-member/)
+-   [PULP Platform releases Apache 2.0-licensed RISC-V Core Local Interrupt Controller, CLIC, "subsuming the original RISC-V local interrupt scheme CLINT."](https://github.com/pulp-platform/clic)
+-   [Hackaday encourages enthusiasts into beginner FPGA development via curated video playlist.](https://hackaday.com/2022/02/17/fpga-starter-videos-to-help-soften-that-learning-curve/)
+-   [OpenHW Group chief executive Rick O'Connor sits down for a "fireside chat" with Embedded.com's Nitin Dahad.](https://www.youtube.com/embed/KDs5gVxPOr8)
+
+<img src="ecl-logo-small.jpg" style="max-width:100%" />
+
+**Have feedback or news for inclusion in a future newsletter? Please send this to** [**ecl@librecores.org**](mailto:ecl@librecores.org)**.**
+
+**Subscribe to** [**get El Correo Libre direct to your inbox**](http://eepurl.com/dnL4v1)**.**
