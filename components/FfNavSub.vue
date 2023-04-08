@@ -13,13 +13,13 @@ TODO:
 - The logic to query the subpages is broken.
 -->
 <template>
-  <nav class="py-20 text-20 font-black text-ultraviolet">
+  <nav class="py-20 font-black text-ultraviolet">
     <ContentNavigation v-slot="{ navigation }" :query="subpagesQuery">
       <ul class="flex flex-row space-x-16 px-0 mx-0">
         <li class="block" v-for="link of navigation[0].children">
-          <FfLink :key="link._path" :to="link._path">
+          <FfLinkLarge :key="link._path" :to="link._path">
             {{ link.navTitle || link.title }}
-          </FfLink>
+          </FfLinkLarge>
         </li>
       </ul>
     </ContentNavigation>

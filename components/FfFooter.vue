@@ -12,34 +12,34 @@ Style guide reference: Web components/PageFooter
       <div class="flex w-full desktop:items-center desktop:space-x-10 desktop:flex desktop:w-auto flex-col desktop:flex-row">
         <div class="desktop:order-2">Follow @FossiFoundation</div>
         <div class="desktop:order-3 flex space-x-20 my-20 desktop:my-0">
-          <FfLink to="https://twitter.com/FossiFoundation">
+          <FfLinkUnderline to="https://twitter.com/FossiFoundation">
             <IconFabTwitter title="Twitter" class="text-36" />
-          </FfLink>
-          <FfLink to="https://mastodon.social/@fossifoundation">
+          </FfLinkUnderline>
+          <FfLinkUnderline to="https://mastodon.social/@fossifoundation">
             <IconFabMastodon title="Mastodon" class="text-36" />
-          </FfLink>
-          <FfLink to="https://www.linkedin.com/company/fossi-foundation/">
+          </FfLinkUnderline>
+          <FfLinkUnderline to="https://www.linkedin.com/company/fossi-foundation/">
             <IconFabLinkedinIn title="LinkedIn" class="text-36" />
-          </FfLink>
+          </FfLinkUnderline>
         </div>
         <ul class="desktop:order-1 flex flex-col mt-16 desktop:grow desktop:mt-0 space-y-20 desktop:flex-row desktop:space-y-0 desktop:space-x-16 underline">
           <li>
-            <FfLink to="/free-and-open-silicon">What is Open Silicon</FfLink>
+            <FfLinkUnderline to="/free-and-open-silicon">What is Open Silicon</FfLinkUnderline>
           </li>
           <li>
-            <FfLink to="/about-us">Who we are</FfLink>
+            <FfLinkUnderline to="/about-us">Who we are</FfLinkUnderline>
           </li>
           <li>
-            <FfLink to="/our-work">What we do</FfLink>
+            <FfLinkUnderline to="/our-work">What we do</FfLinkUnderline>
           </li>
           <li>
-            <FfLink to="/news">News</FfLink>
+            <FfLinkUnderline to="/news">News</FfLinkUnderline>
           </li>
           <li>
-            <FfLink to="/get-involved">Get involved</FfLink>
+            <FfLinkUnderline to="/get-involved">Get involved</FfLinkUnderline>
           </li>
           <li>
-            <FfLink to="/contact">Contact</FfLink>
+            <FfLinkUnderline to="/contact">Contact</FfLinkUnderline>
           </li>
         </ul>
       </div>
@@ -50,16 +50,16 @@ Style guide reference: Web components/PageFooter
             &copy; {{ copyrightYear }} The Free and Open Source Silicon Foundation C.i.C.<br />
             Unit C5, Tenterfields Business Park, Halifax, HX2&nbsp;6EQ, United Kingdom
           </FfParaExcerpt>
-          <div class="underline">
-            <FfLink to="/policies">Policies</FfLink>
-            <FfLink to="/licenses" class="ml-10">Licenses</FfLink>
+          <div>
+            <FfLinkUnderline to="/policies">Policies</FfLinkUnderline>
+            <FfLinkUnderline to="/licenses" class="ml-10">Licenses</FfLinkUnderline>
           </div>
         </div>
         <div class="desktop:order-first desktop:mr-32">
-          <FfLink to="/">
+          <FfLinkUnderline to="/">
             <span class="sr-only">FOSSi Foundation home page</span>
             <img class="w-[180px]" src="~/assets/images/fossi-logo-full.svg" />
-          </FfLink>
+          </FfLinkUnderline>
         </div>
       </div>
   </footer>

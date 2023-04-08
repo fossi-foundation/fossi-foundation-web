@@ -13,7 +13,7 @@ defineProps({
 </script>
 
 <template>
-  <FfLink :href="href" :target="target">
+  <FfLinkUnderline :to="href" :target="target">
     <slot />
-  </FfLink>
+  </FfLinkUnderline>
 </template>
