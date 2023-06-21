@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     'nuxt-content-assets', // needs to be before @nuxt/content
     '@nuxt/content',
     ['unplugin-icons/nuxt', { /* options */ }],
+    '@nuxt/devtools',
   ],
 
   // Make all components in ~/components available for Nuxt Content through its
