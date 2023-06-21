@@ -32,5 +32,5 @@ const dateFormatted = computed(() => {
   return new Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).format(new Date(page?.value.date));
 })
 
-const showByline = computed(() => { return page?.value.date || page?.value.author });
+const showByline = computed(() => { return page?.value && (page?.value.date || page?.value.author) });
 </script>
