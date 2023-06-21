@@ -19,8 +19,8 @@
     "unplugin-icons": "^0.15.3"
   },
   "dependencies": {
-    "@fontsource/ibm-plex-mono": "^4.5.13",
-    "@fontsource/public-sans": "^4.5.11",
+    "@fontsource-variable/public-sans": "^5.0.0",
+    "@fontsource/ibm-plex-mono": "^5.0.0",
     "flowbite": "^1.6.4",
     "nuxt-content-assets": "^0.6.1"
   }

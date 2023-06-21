@@ -41,7 +41,7 @@ module.exports = {
 
     fontFamily: {
       sans: [
-        'Public SansVariable', 'sans-serif'
+        'Public Sans Variable', 'sans-serif'
         // TODO: Look into that.
         //,{ fontFeatureSettings: '"ss01"'}
       ],

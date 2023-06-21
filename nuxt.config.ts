@@ -24,8 +24,8 @@ export default defineNuxtConfig({
 
   css: [
     // Typography
-    '@fontsource/public-sans/variable.css',
-    '@fontsource/public-sans/variable-italic.css',
+    '@fontsource-variable/public-sans',
+    '@fontsource-variable/public-sans/wght-italic.css',
 
     '@fontsource/ibm-plex-mono/latin-400.css',
     '@fontsource/ibm-plex-mono/latin-700.css',
