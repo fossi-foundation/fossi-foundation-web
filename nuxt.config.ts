@@ -51,10 +51,9 @@ export default defineNuxtConfig({
       // TODO: Double-check after a while and simplify to 'documentDriven: true'
       globals: {
         theme: {
-          where:
-          {
-            _id: 'content:_theme.yml',
-          },
+          where: [{
+            _id: 'content:_theme.yml'
+          }],
         },
       },
     },
