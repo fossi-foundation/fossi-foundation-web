@@ -1,11 +1,16 @@
 <template>
-  <NuxtLayout>
+  <!--
+    Explicitly add NuxtLayout/@name to work around a content flash when
+    navigating between pages with different layouts.
+    https://github.com/nuxt/nuxt/issues/14467
+  -->
+  <NuxtLayout name="default">
     <FfHeaderHero />
 
     <!--
     Signpost with large icon.
     https://fossi-foundation.zeroheight.com/styleguide/s/72268/p/53507c-signposts
-  -->
+    -->
 
     <FfContainer>
       <FfH3 class="text-warm-black text-center mx-auto mt-32">
