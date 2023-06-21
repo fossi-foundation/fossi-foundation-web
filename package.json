@@ -10,9 +10,8 @@
     "@iconify-json/fa-brands": "^1.1.4",
     "@iconify-json/ph": "^1.1.5",
     "@nuxt/content": "^2.2.2",
-    "autoprefixer": "^10.4.13",
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "nuxt": "^3.0.0",
-    "tailwindcss": "^3.2.4",
     "unplugin-icons": "^0.15.3"
   },
   "dependencies": {

@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
+    '@nuxtjs/tailwindcss',
     'nuxt-content-assets', // needs to be before @nuxt/content
     '@nuxt/content',
     ['unplugin-icons/nuxt', { /* options */ }],
@@ -30,17 +31,7 @@ export default defineNuxtConfig({
 
     '@fontsource/ibm-plex-mono/latin-400.css',
     '@fontsource/ibm-plex-mono/latin-700.css',
-
-    // Application CSS
-    '~/assets/css/main.css',
   ],
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {}
-    },
-  },
 
   // Nuxt Content configuration
   content: {
