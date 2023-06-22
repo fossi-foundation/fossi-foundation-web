@@ -1,6 +1,10 @@
+import ExcerptTransformerModule from './excerpt-transformer-module/excerpt-transformer-module'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
+    // @ts-ignore
+    ExcerptTransformerModule,
     '@nuxtjs/tailwindcss',
     'nuxt-content-assets', // needs to be before @nuxt/content
     '@nuxt/content',
