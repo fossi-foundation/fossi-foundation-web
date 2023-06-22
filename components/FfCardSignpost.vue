@@ -14,7 +14,7 @@ Style guide reference: Web components/Cards/Signpost card
     <div class="[&>img]:h-[192px] [&>img]:w-full [&>img]:object-cover"><slot name="img"/></div>
     <div class="p-24">
       <FfH3 class="border-b-4 border-ultraviolet">
-        <a :href="href" class="text-ultraviolet font-black">{{ headline }}</a>
+        <NuxtLink :to="href" class="text-ultraviolet font-black">{{ headline }}</NuxtLink>
       </FfH3>
       <FfParaExcerpt v-if="date" class="mt-10">
         {{ date }}
