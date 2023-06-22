@@ -12,7 +12,7 @@ Style guide reference: Web components/Example web pages/Article
       <FfContainer>
         <FfNavSub />
       </FfContainer>
-      <FfHeaderText />
+      <FfHeaderTextFrontmatter />
       <FfContainer>
         <article>
           <FfContentLong>

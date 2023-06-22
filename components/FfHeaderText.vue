@@ -6,31 +6,47 @@ Display on the majority of webpages
 Style guide reference: Web components/Page headers/Text only
 
 TODO:
-- Make different slots or attributes available.
 - Should we have the corner mark in the background within the container, our
   at the page border?
 -->
 <template>
   <div class="text-white py-64 bg-ultraviolet bg-corner-reducedmark-nasu-purple bg-contain bg-right-bottom bg-no-repeat">
     <FfContainer>
-      <FfH1 class="!mb-0">{{ page?.title }}</FfH1>
-      <FfParaLg v-if="page?.header" class="max-w-2xl mb-0 mt-32">
-        {{ page?.header }}
+      <FfH1 class="!mb-0">{{ title }}</FfH1>
+      <FfParaLg v-if="header" class="max-w-2xl mb-0 mt-32">
+        {{ header }}
       </FfParaLg>
       <FfParaLg v-if="showByline" class="font-bold">
-        <span v-if="page?.author">by {{ page?.author }}</span>
-        <span v-if="page?.date"> on {{ dateFormatted }}</span>
+        <span v-if="author">by {{ author }}</span>
+        <span v-if="date"> on {{ dateFormatted }}</span>
       </FfParaLg>
     </FfContainer>
   </div>
 </template>
 
 <script setup lang="ts">
-const { page } = useContent();
+const props = defineProps({
+  title: {
+    type: String,
+    required: true,
+  },
+  author: {
+    type: String,
+    required: false,
+  },
+  date: {
+    type: String,
+    required: false,
+  },
+  header: {
+    type: String,
+    required: false,
+  },
+});
 
 const dateFormatted = computed(() => {
-  return new Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).format(new Date(page?.value.date));
+  return new Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).format(new Date(props.date));
 })
 
-const showByline = computed(() => { return page?.value && (page?.value.date || page?.value.author) });
+const showByline = computed(() => { return props.date || props.author });
 </script>
