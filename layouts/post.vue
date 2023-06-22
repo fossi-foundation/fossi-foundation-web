@@ -9,9 +9,6 @@ Style guide reference: Web components/Example web pages/News post with related c
   <div class="w-full">
     <FfHeader />
     <main>
-      <FfContainer>
-        <FfNavSub />
-      </FfContainer>
       <FfHeaderTextFrontmatter />
       <FfContainer>
         <article>
