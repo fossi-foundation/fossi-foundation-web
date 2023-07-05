@@ -8,21 +8,22 @@
   <NuxtLayout name="default">
     <FfHeaderText title="News from the FOSSi Foundation"/>
     <FfContainer>
-      <!-- Latest (featured) blog post, shown large -->
-      <ContentRenderer :value="featuredBlogPost" :excerpt="true">
+      <!-- Latest (featured) blog post, shown large, if available -->
+      <ContentRenderer v-if="featuredBlogPost" :value="featuredBlogPost" :excerpt="true">
         <!-- Using the Content blocks/Image & text component. -->
         <div class="flex my-auto bg-pastel-grey px-96 py-64 mt-64">
           <div class="flex-auto">
-            <NuxtLink :to="featuredBlogPost?._path">
-              <FfH2 :href="featuredBlogPost?._path">{{ featuredBlogPost.title }}</FfH2>
+            <NuxtLink :to="featuredBlogPost._path">
+              <FfH2 :href="featuredBlogPost._path">{{ featuredBlogPost.title }}</FfH2>
               <ContentRendererMarkdown :value="featuredBlogPost" :excerpt="true" />
 
-              <FfLinkUnderline :to="featuredBlogPost?._path">Read more ...</FfLinkUnderline>
+              <FfLinkUnderline v-if="featuredBlogPost._path" :to="featuredBlogPost._path">Read more ...</FfLinkUnderline>
             </NuxtLink>
           </div>
           <div class="flex-none max-w-[344px]">
             <NuxtLink :to="featuredBlogPost?._path">
-              <img class="w-max" :src="featuredBlogPost.coverImage">
+              <img class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
+              <img class="w-max" v-else src="~/assets/images/pattern-guardianship.png"/>
             </NuxtLink>
           </div>
         </div>
@@ -32,11 +33,12 @@
       <FfCards class="mt-64">
         <FfCardSignpost v-for="post in blogPosts" :key="post._path" :headline="post.title" :href="post._path">
           <template #img>
-            <NuxtLink :to="post?._path">
-              <img :src="post.coverImage" />
+            <NuxtLink :to="post._path">
+              <img class="w-max" v-if="post.coverImage" :src="post.coverImage"/>
+              <img class="w-max" v-else src="~/assets/images/pattern-guardianship.png"/>
             </NuxtLink>
           </template>
-          <NuxtLink :to="post?._path">
+          <NuxtLink :to="post._path">
             <ContentRendererMarkdown :value="post" :excerpt="true" />
           </NuxtLink>
         </FfCardSignpost>
