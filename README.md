@@ -18,7 +18,7 @@ yarn install
 # Start the development server on http://localhost:3000
 # (Setting HOST is not strictly required, but helps if the HOST environment
 # variable has a strange value.)
-HOST=localhost yarn run dev
+HOST=localhost yarn dev
 
 # Build the application for production:
 yarn run build
