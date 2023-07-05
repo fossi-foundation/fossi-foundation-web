@@ -12,6 +12,12 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
   ],
 
+  nitro: {
+    prerender: {
+      routes: ['/feed.xml'],
+    },
+  },
+
   // Make all components in ~/components available for Nuxt Content through its
   // MDC syntax, not only the ones in ~/components/content (which are global by
   // default).
@@ -78,6 +84,8 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en',
       },
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
     }
-  }
+  },
 });
