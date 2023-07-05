@@ -1,3 +1,6 @@
+<!--
+Homepage
+-->
 <template>
   <!--
     Explicitly add NuxtLayout/@name to work around a content flash when
