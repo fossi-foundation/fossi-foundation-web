@@ -1,4 +1,12 @@
 
+<!--
+News homepage (blog overview)
+
+TODO:
+- Instead of showing all blog posts as cards, show only a subset and link to
+  an archive or a way to load more posts.
+- Highlight blog posts in various categories, e.g., ECL posts.
+-->
 <template>
   <!--
     Explicitly add NuxtLayout/@name to work around a content flash when
@@ -21,7 +29,7 @@
             </NuxtLink>
           </div>
           <div class="flex-none max-w-[344px]">
-            <NuxtLink :to="featuredBlogPost?._path">
+            <NuxtLink :to="featuredBlogPost._path">
               <img class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
               <img class="w-max" v-else src="~/assets/images/pattern-guardianship.png"/>
             </NuxtLink>
@@ -29,7 +37,7 @@
         </div>
       </ContentRenderer>
 
-      <!-- The last 9 blog posts displayed as cards -->
+      <!-- A selection of blog posts posts displayed as cards -->
       <FfCards class="mt-64">
         <FfCardSignpost v-for="post in blogPosts" :key="post._path" :headline="post.title" :href="post._path">
           <template #img>
@@ -48,20 +56,14 @@
 </template>
 
 <script setup lang="ts">
-// Select the featured blog post to show at the top of the page in large.
-const { data: featuredBlogPost } = await useAsyncData('page-data', () => queryContent('/blog')
-  .sort({ date: -1 }) // show latest articles first
-  .where({ _partial: false })
-  .where({ _id: { $ne: 'content:blog:index.md' } }) // Filter out this overview page.
-  .findOne()
-)
-
-// The latest 9 blog posts shown on this page.
+// Get all blog posts.
 const blogPosts = await queryContent('/blog')
   .sort({ date: -1 }) // show latest articles first
   .where({ _partial: false })
   .where({ _id: { $ne: 'content:blog:index.md' } }) // Filter out this page.
-  .limit(9)
   .find()
+
+// Designate the most recent blog post as "featured".
+const featuredBlogPost = blogPosts[0]
 
 </script>
