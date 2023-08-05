@@ -63,7 +63,8 @@ const blogPosts = await queryContent('/blog')
   .where({ _id: { $ne: 'content:blog:index.md' } }) // Filter out this page.
   .find()
 
-// Designate the most recent blog post as "featured".
-const featuredBlogPost = blogPosts[0]
+// Designate the most recent blog post as "featured", remove it from the list
+// of posts.
+const featuredBlogPost = blogPosts.shift()
 
 </script>
