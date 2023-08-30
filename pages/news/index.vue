@@ -50,6 +50,7 @@ const blogPosts = await queryContent('/blog')
   .sort({ date: -1 }) // show latest articles first
   .where({ _partial: false })
   .where({ _id: { $ne: 'content:blog:index.md' } }) // Filter out this page.
+  .only(["title", "excerpt", "coverImage", "_path"])
   .find()
 
 // Designate the most recent blog post as "featured", remove it from the list
