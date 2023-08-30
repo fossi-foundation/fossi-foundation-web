@@ -17,11 +17,9 @@ The Foundation’s goals can be achieved with your support in a couple of ways.
 * Individual donations. You can also support us with small donations via Paypal:
 
 
-<center>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="text-center">
 <input type="hidden" name="cmd" value="_s-xclick" />
 <input type="hidden" name="hosted_button_id" value="QHKDZY6XM44YN" />
 <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay
 online!" />
 </form>
-</center>
