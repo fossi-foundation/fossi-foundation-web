@@ -80,7 +80,7 @@ export default defineNuxtConfig({
 
   // Nuxt Content Assets configuration.
   // See https://github.com/davestewart/nuxt-content-assets for options.
-  'content-assets': {
+  contentAssets: {
     // add image size hints
     imageSize: 'attrs url',
   },
