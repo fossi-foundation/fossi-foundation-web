@@ -1,8 +1,6 @@
 <!--
 Heading level 2
 
-Use for the page title only
-
 Style guide references:
 - Web components/Typography/Headings/h2
 - Web components/Typography/Smaller headings for phone view/h2 phone
