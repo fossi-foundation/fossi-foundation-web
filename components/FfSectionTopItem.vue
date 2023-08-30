@@ -16,7 +16,7 @@ Style guide references:
       <div>
         <FfH2 class="text-white">{{ title }}</FfH2>
         <FfParaLg>{{ description }}</FfParaLg>
-        <FfParaLg class="mt-16"><FfLinkUnderline class="text-white hover:text-white" :to="linkTo" :target="linkTarget" :title="linkTitle">{{ linkTitle }}</FfLinkUnderline></FfParaLg>
+        <FfParaLg v-if="linkTo" class="mt-16"><FfLinkUnderline class="text-white hover:text-white" :to="linkTo" :target="linkTarget" :title="linkTitle">{{ linkTitle }}</FfLinkUnderline></FfParaLg>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ export interface Props {
   title: string
   description: string
   icon: string
-  linkTo: string
+  linkTo?: string
   linkTitle?: string
   linkTarget?: string
   color: string
