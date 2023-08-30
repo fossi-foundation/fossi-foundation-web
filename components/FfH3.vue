@@ -1,8 +1,6 @@
 <!--
 Heading level 3
 
-Use for the page title only
-
 Style guide references:
 - Web components/Typography/Headings/h3
 - Web components/Typography/Smaller headings for phone view/h3 phone

@@ -1,6 +1,6 @@
 <template>
   <FfH1 :id="id">
-    <a v-if="id && generate" :href="`#${id}`" class="text-inherit no-underline">
+    <a v-if="generate" :href="`#${id}`">
       <slot />
     </a>
     <slot v-else />
@@ -8,9 +8,10 @@
 </template>
 
 <script setup lang="ts">
-import { useRuntimeConfig } from '#imports'
-defineProps<{ id?: string }>()
-const heading = 1
-const { anchorLinks } = useRuntimeConfig().public.content
-const generate = anchorLinks?.depth >= heading && !anchorLinks?.exclude.includes(heading)
+import { computed, useRuntimeConfig } from '#imports'
+
+const props = defineProps<{ id?: string }>()
+
+const { headings } = useRuntimeConfig().public.mdc
+const generate = computed(() => props.id && headings?.anchorLinks?.h1)
 </script>
