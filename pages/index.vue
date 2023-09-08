@@ -18,7 +18,7 @@ Homepage
     <FfContainer>
       <!--
       TODO: Enable once we have a tools/project listing up.
-      <div class="flex flex-col mb-32 tablet:flex-row">
+      <div class="flex flex-col mb-32 tablet:flex-row py-24 tablet:py-48 desktop:py-64">
         <div class="basis-1/2">
           <IconPhPolygon class="text-ultraviolet mx-auto text-[100px] tablet:text-[150px]" />
         </div>
@@ -35,7 +35,7 @@ Homepage
           <FfBtnCta>Browse Projects</FfBtnCta>
         </div>
       </div>-->
-      <div class="flex flex-col mb-32 tablet:flex-row">
+      <div class="flex flex-col mb-32 tablet:flex-row py-24 tablet:py-48 desktop:py-64">
         <div class="basis-1/2">
           <IconPhUsersThree class="text-ultraviolet mx-auto text-[100px] tablet:text-[150px]" />
         </div>
@@ -53,7 +53,7 @@ Homepage
           <FfBtnCta linkTo="/get-involved">Get involved in open silicon</FfBtnCta>
         </div>
       </div>
-      <div class="flex flex-col mb-32 tablet:flex-row">
+      <div class="flex flex-col mb-32 tablet:flex-row py-24 tablet:py-48 desktop:py-64">
         <div class="basis-1/2">
           <IconPhCpu class="text-ultraviolet mx-auto text-[100px] tablet:text-[150px]" />
         </div>
