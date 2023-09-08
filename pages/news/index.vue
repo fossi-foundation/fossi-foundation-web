@@ -14,30 +14,35 @@ TODO:
   -->
   <NuxtLayout name="default">
     <FfHeaderText title="News from the FOSSi Foundation"/>
+    <!-- Latest (featured) blog post, shown large, if available -->
+    <div v-if="featuredBlogPost" class="bg-pastel-grey">
+      <FfContainer>
+        <ContentRenderer :value="featuredBlogPost" :excerpt="true">
+          <!-- Using the Content blocks/Image & text component. -->
+          <div class="flex flex-col tablet:flex-row my-auto py-24 tablet:py-64">
+            <div class="flex-auto">
+            <FfH3>Latest news</FfH3>
+              <NuxtLink :to="featuredBlogPost._path">
+                <FfH2 :href="featuredBlogPost._path">{{ featuredBlogPost.title }}</FfH2>
+                <ContentRendererMarkdown :value="featuredBlogPost" :excerpt="true" />
+
+                <FfLinkUnderline v-if="featuredBlogPost._path" :to="featuredBlogPost._path">Read more ...</FfLinkUnderline>
+              </NuxtLink>
+            </div>
+            <div class="flex-none max-w-[344px] order-first tablet:order-none">
+              <NuxtLink :to="featuredBlogPost._path">
+                <img class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
+                <img class="w-max" v-else src="~/assets/images/pattern-guardianship.png"/>
+              </NuxtLink>
+            </div>
+          </div>
+        </ContentRenderer>
+      </FfContainer>
+    </div>
+
     <FfContainer>
-      <!-- Latest (featured) blog post, shown large, if available -->
-      <ContentRenderer v-if="featuredBlogPost" :value="featuredBlogPost" :excerpt="true">
-        <!-- Using the Content blocks/Image & text component. -->
-        <div class="flex flex-col tablet:flex-row my-auto bg-pastel-grey px-24 tablet:px-96 py-24 tablet:py-64 mt-20 tablet:mt-64">
-          <div class="flex-auto">
-            <NuxtLink :to="featuredBlogPost._path">
-              <FfH2 :href="featuredBlogPost._path">{{ featuredBlogPost.title }}</FfH2>
-              <ContentRendererMarkdown :value="featuredBlogPost" :excerpt="true" />
-
-              <FfLinkUnderline v-if="featuredBlogPost._path" :to="featuredBlogPost._path">Read more ...</FfLinkUnderline>
-            </NuxtLink>
-          </div>
-          <div class="flex-none max-w-[344px] order-first tablet:order-none">
-            <NuxtLink :to="featuredBlogPost._path">
-              <img class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
-              <img class="w-max" v-else src="~/assets/images/pattern-guardianship.png"/>
-            </NuxtLink>
-          </div>
-        </div>
-      </ContentRenderer>
-
       <!-- A selection of blog posts posts displayed as cards -->
-      <FfCards class="mt-64">
+      <FfCards>
         <FfBlogPostCard v-for="post in blogPosts" :post="post" />
       </FfCards>
     </FfContainer>
