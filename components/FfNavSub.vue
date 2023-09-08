@@ -6,10 +6,6 @@ Used on section pages that contain child pages.
 Style guide reference: Web components/Navigation/Sub-navigation
 
 TODO:
-- No mobile view implemented (or discussed in style guide). Depending on the
-  amount of navigation items, the horizontal layout is sufficient or too small.
-- Horizontal overflow (which is likely on mobile) breaks the layout by extending
-  the page to the right.
 - The logic to query the subpages is broken.
 -->
 <template>
