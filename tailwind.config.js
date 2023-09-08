@@ -5,8 +5,6 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 
-import defaultTheme from 'tailwindcss/defaultTheme'
-
 export default {
   theme: {
     extend: {
