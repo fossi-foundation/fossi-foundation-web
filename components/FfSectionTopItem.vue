@@ -4,12 +4,26 @@ Section top
 The section top presents a summary of the topic with a sub-navigation and
 signposts to child pages in the section.
 
+Use with the "full-width" layout only to have the colored boxes span the full
+width of the screen.
+
 Style guide references:
 - Web components/Example web pages/Section top
 -->
 <template>
-  <div class="basis-1/2 overflow-hidden text-white p-32 desktop:p-64" :class="wrapperClass">
-    <div class="flex-col phone:flex-row flex space-x-16">
+  <div class="group basis-1/2 overflow-hidden text-white p-32 desktop:p-64" :class="wrapperClass">
+    <!-- 1600px/2 - 96px padding == 706px -->
+    <div class="flex flex-col phone:flex-row
+                space-x-16
+                desktop:max-w-[706px]
+                tablet:px-48
+                px-24
+                group-odd:ms-auto group-odd:me-0
+                group-even:ms-0 group-even:me-auto
+                group-odd:tablet:ps-48
+                group-odd:desktop:ps-96
+                group-even:tablet:pe-48
+                group-even:desktop:pe-96">
       <div>
         <component :is="icons[icon]" class="text-[100px] mx-auto" />
       </div>

@@ -10,7 +10,7 @@ Style guide references:
 - Web components/Example web pages/Section top
 -->
 <template>
-  <div class="flex flex-col desktop:flex-row flex-wrap mt-20">
+  <div class="flex flex-col desktop:flex-row flex-wrap mt-[4px] desktop:mt-0">
     <slot></slot>
   </div>
 </template>
