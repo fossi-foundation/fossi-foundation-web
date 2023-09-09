@@ -34,7 +34,7 @@ TODO:
 
         <!-- navigation items -->
         <div class="hidden items-center justify-between w-full desktop:flex desktop:w-auto desktop:order-1" id="navbar">
-          <ul class="flex flex-col desktop:px-16 mt-16 desktop:mt-0 space-y-20 desktop:flex-row desktop:space-y-0 desktop:space-x-16 desktop:items-center">
+          <ul class="flex flex-col desktop:px-16 mt-24 desktop:mt-0 space-y-20 desktop:flex-row desktop:space-y-0 desktop:space-x-16 desktop:items-center">
             <li>
               <FfLinkLarge class="block" to="/">Home</FfLinkLarge>
             </li>
