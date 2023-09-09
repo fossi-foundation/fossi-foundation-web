@@ -8,7 +8,7 @@ Style guide reference: Web components/Navigation/Sub-navigation
 <template>
   <nav class="py-20 font-black text-ultraviolet" v-if="hasSubpages">
     <ContentNavigation v-slot="{ navigation }" :query="subpagesQuery">
-      <ul class="flex flex-col tablet:flex-row tablet:space-x-16 px-0 mx-0">
+      <ul class="flex flex-row flex-wrap gap-16 px-0 mx-0">
         <li class="block" v-for="link of navigation[0].children">
           <FfLinkLarge :key="link._path" :to="link._path">
             {{ link.navTitle || link.title }}
