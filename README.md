@@ -86,3 +86,8 @@ import IconFabLinkedinIn from '~icons/fa6-brands/linkedin-in'
 You can use https://icones.js.org/collection/ph and
 https://icones.js.org/collection/fa6-brands to efficiently search for suitable
 icons.
+
+## License
+
+Text content is licensed under CC BY 4.0, "software" (JavaScript, HTML, CSS,
+etc.) is MIT-licensed. See [LICENSE](LICENSE) for details.
