@@ -69,6 +69,7 @@ The videos recorded at the event include a talk on the road to fully-open-hardwa
 All the videos are available now [on the FSi PeerTube instance](https://peertube.f-si.org/video-channels/fsic2023/videos?sort=-publishedAt).
 
 <img src="doom.jpg" style="max-width:100%" />
+
 ## Semidynamics Releases a Doom Port with RISC-V Vector Extensions Support
 
 
