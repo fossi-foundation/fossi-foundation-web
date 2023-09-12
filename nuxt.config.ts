@@ -188,5 +188,7 @@ export default defineNuxtConfig({
     '/2023/06/12/ecl63': { redirect: '/blog/2023-06-12-ecl63' },
     '/2023/07/02/gsoc23-students': { redirect: '/blog/2023-07-02-gsoc23-students' },
     '/2023/07/11/ecl64': { redirect: '/blog/2023-07-11-ecl64' },
+    '/2023/08/08/ecl65': { redirect: '/blog/2023-08-08-ecl65' },
+    '/2023/09/12/ecl64': { redirect: '/blog/2023-09-12-ecl66' },
   }
 });
