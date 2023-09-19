@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "El Correo Libre Issue 66"
-description: El Correo Libre Newsletter, Issue 65
+description: El Correo Libre Newsletter, Issue 66
 author: Gareth Halfacree
 date: 2023-09-12
 ---
