@@ -16,6 +16,11 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/feed.xml'],
     },
+    routeRules: {
+      // Make the Matrix configuration accessible to clients (and all other
+      // configuration in this directory with it).
+      '/.well-known/**': { cors: true },
+    }
   },
 
   // Make all components in ~/components available for Nuxt Content through its
