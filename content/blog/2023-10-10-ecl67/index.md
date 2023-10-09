@@ -180,6 +180,6 @@ The full experimental write-up is available [in Hoover's LinkedIn post](https://
 
 <img src="ecl-logo-small.jpg" style="max-width:100%" />
 
-**Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
+**Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@fossi-foundation.org](mailto:ecl@fossi-foundation.org)**.
 
 **Subscribe to [get El Correo Libre direct to your inbox](http://eepurl.com/dnL4v1).**
