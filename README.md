@@ -57,7 +57,7 @@ yarn run preview
 
 ## Design
 
-The website design follws the the
+The website design follows the the
 [FOSSi Foundation style guide](https://zeroheight.com/822235964). Make sure that
 changes to the design are also reflected in the style guide, where necessary.
 
