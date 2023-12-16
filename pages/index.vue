@@ -76,6 +76,7 @@ Homepage
     <!--
     Event announcement
     -->
+    <!--
     <FfSignpostBanner
       class="bg-[url('~/assets/images/banner-orconf.jpg')]"
       title="Get your dose of FOSSi excitement at ORConf!"
@@ -83,6 +84,7 @@ Homepage
       ctaLabel="Register now for ORConf 2023"
       ctaTo="/events"
     />
+    -->
 
     <!--
     News
