@@ -6,7 +6,7 @@ Display only on the homepage
 Style guide reference: Web components/Page headers/Hero
 -->
 <template>
-  <div class="bg-ultraviolet bg-hero bg-cover text-white py-24 tablet:py-48 desktop:py-96">
+  <div :style="backgroundStyles" class="bg-ultraviolet bg-cover text-white py-24 tablet:py-48 desktop:py-96">
     <FfContainer>
       <FfH1Display>Unleash the powers <br/>of open source to your chips</FfH1Display>
       <FfH2 class="max-w-[800px] text-white">
@@ -17,3 +17,12 @@ Style guide reference: Web components/Page headers/Hero
     </FfContainer>
   </div>
 </template>
+
+<script setup lang="ts">
+// Serve the hero background image through Nuxt Image.
+const img = useImage()
+const backgroundStyles = computed(() => {
+  const imgUrl = img('/images/hero-bg.jpg', {'format': 'webp'})
+  return { backgroundImage: `url('${imgUrl}')` }
+})
+</script>

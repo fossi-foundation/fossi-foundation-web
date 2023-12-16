@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'unplugin-icons/nuxt',
     '@nuxt/devtools',
+    '@nuxt/image',
   ],
 
   nitro: {
@@ -87,7 +88,11 @@ export default defineNuxtConfig({
   // See https://github.com/davestewart/nuxt-content-assets for options.
   contentAssets: {
     // add image size hints
-    imageSize: 'attrs url',
+    // Note: *Do not* add the 'url' size hint as it prevents IPX (the library
+    // behind Nuxt Image) from processing the image, resulting in an error
+    // like
+    // [403] [IPX_FORBIDDEN_PATH] Forbidden path: /blog/2023-04-11-ecl61/latchup-colour.jpg?width=600&height=400
+    imageSize: 'attrs',
   },
 
 
@@ -97,6 +102,43 @@ export default defineNuxtConfig({
     close: (nuxt) => {
       if (!nuxt.options._prepare)
         process.exit()
+    }
+  },
+
+  // Nuxt Image configuration
+  image: {
+    // Serve images as webp by default (if supported by the browser and the
+    // provider), JPEG otherwise.
+    // Note: The netlify provider does *not* support webp.
+    format: ['webp', "jpeg"],
+
+    // Only for IPX (local previews and static generation)
+    // Base directory for images.
+    // Use Nuxt Image (only) for images served through nuxt-content-assets,
+    // i.e., all images in the `content` directory.
+    //
+    // IMPORTANT: No images are served from the assets or public directory.
+    // Store all images in content/images instead!
+    dir: '.nuxt/content-assets/public',
+
+    // Configure the netlify provider (if it's used).
+    //
+    // `provider: 'netlify'` is set through an environment variable for Netlify
+    // only in netlify.toml.
+    //
+    // The "netlify" provider uses the deprecated Netlify Large Media service
+    // (https://docs.netlify.com/git/large-media/overview/). It's deprecated,
+    // but has no publicly announced end-of-life date yet, so it's still OK to
+    // use until alternatives become available.
+    // As of December 2023, we don't have many alternatives. Static site
+    // generation/SSG (`nuxi generate`) with ipx could work.
+    //
+    // TODO: Maybe support for Netlify Image CDN
+    // (https://docs.netlify.com/image-cdn/overview/) becomes available as
+    // Nuxt Image provider one day, which seems to be the Netlify-suggested
+    // replacement.
+    netlify: {
+      baseUrl: process.env.IMAGES_URL
     }
   },
 

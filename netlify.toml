@@ -1,0 +1,3 @@
+[build.environment]
+  NUXT_IMAGE_PROVIDER = "netlify"
+

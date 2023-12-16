@@ -25,8 +25,8 @@ TODO:
           </div>
           <div class="flex-none max-w-[344px] order-first tablet:order-none">
             <NuxtLink :to="featuredBlogPost._path">
-              <img class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
-              <img class="w-max" v-else src="~/assets/images/pattern-guardianship.png"/>
+              <NuxtImg class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
+              <NuxtImg class="w-max" v-else src="/images/pattern-guardianship.png"/>
             </NuxtLink>
           </div>
         </div>
