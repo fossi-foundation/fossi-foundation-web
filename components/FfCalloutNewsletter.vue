@@ -7,7 +7,7 @@ Style guide reference: Web components/Alerts and Callouts/Callout
   <div class="bg-ultraviolet">
     <FfContainer class="py-32">
       <div class="flex flex-col desktop:flex-row items-center">
-        <img src="~assets/images/ecl-logo-fossi.svg" class="w-96 h-96 my-auto" />
+        <NuxtImg src="/images/ecl-logo-fossi.svg" class="w-96 h-96 my-auto" />
         <FfH3 class="grow text-white mx-32 my-32">
           El Correo Libre! Explore the free and open source silicon landscape
           through monthly news and hot topics.

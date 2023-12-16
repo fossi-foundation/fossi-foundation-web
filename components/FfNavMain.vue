@@ -21,7 +21,7 @@ TODO:
         <!-- logo -->
         <FfLinkLarge to="/" class="flex-none">
           <span class="sr-only">FOSSi Foundation home page</span>
-          <img class="w-[180px]" src="~/assets/images/fossi-logo-full.svg" />
+          <NuxtImg class="w-[180px]" width="180" src="/images/fossi-logo-full.svg" />
         </FfLinkLarge>
 
         <!-- hamburger icon (phone/tablet only) -->

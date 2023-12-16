@@ -72,7 +72,7 @@ Homepage
   -->
   <!--
   <FfSignpostBanner
-    class="bg-[url('~/assets/images/banner-orconf.jpg')]"
+    class="bg-[url('/images/banner-orconf.jpg')]"
     title="Get your dose of FOSSi excitement at ORConf!"
     subtitle="Join us from Sept 15 to 17 2023 in Munich, Germany for a weekend full of interesting talks, eye-opening hallway discussions, and excitement around free and open source silicon."
     ctaLabel="Register now for ORConf 2023"

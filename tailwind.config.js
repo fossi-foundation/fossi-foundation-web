@@ -18,12 +18,11 @@ export default {
       },
 
       backgroundImage: {
-        'hero': "url('~/assets/images/hero-bg.jpg')",
-        'corner-reducedmark-nasu-purple': "url('~/assets/images/corner-reducedmark-nasu-purple.svg')",
-        'pattern-community': "url('~/assets/images/pattern-community.png')",
-        'pattern-guardianship': "url('~/assets/images/pattern-guardianship.png')",
-        'pattern-innovation': "url('~/assets/images/pattern-innovation.png')",
-        'pattern-resources': "url('~/assets/images/pattern-resources.png')",
+        'corner-reducedmark-nasu-purple': "url('/images/corner-reducedmark-nasu-purple.svg')",
+        'pattern-community': "url('/images/pattern-community.png')",
+        'pattern-guardianship': "url('/images/pattern-guardianship.png')",
+        'pattern-innovation': "url('/images/pattern-innovation.png')",
+        'pattern-resources': "url('/images/pattern-resources.png')",
       },
     },
 

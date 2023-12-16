@@ -9,8 +9,8 @@ Style guide reference: Web components/Cards/Signpost card
   <div class="shadow-mid hover:shadow-low bg-white">
     <NuxtLink :to="linkTo" :title="linkTitle" :target="linkTarget">
       <div >
-        <img v-if="img" :src="img" class="h-[192px] w-full" :class="{ 'object-cover': imgObjectCover, 'object-contain p-10': !imgObjectCover }"/>
-        <img v-else class="h-[192px] w-full object-cover" src="~/assets/images/pattern-guardianship.png" alt="Pattern: guardianship" />
+        <NuxtPicture v-if="img" :src="img" height="192" width="500" class="h-[192px] w-full" :class="{ 'object-cover': imgObjectCover, 'object-contain p-10': !imgObjectCover }"/>
+        <NuxtPicture v-else height="192" width="500" class="h-[192px] w-full object-cover" src="/images/pattern-guardianship.png" alt="Pattern: guardianship" />
       </div>
     </NuxtLink>
     <div class="p-24">
