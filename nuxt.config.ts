@@ -90,6 +90,16 @@ export default defineNuxtConfig({
     imageSize: 'attrs url',
   },
 
+
+  // Work around Nuxt issue https://github.com/nuxt/cli/issues/193
+  // See also https://github.com/davestewart/nuxt-content-assets/issues/49
+  hooks: {
+    close: (nuxt) => {
+      if (!nuxt.options._prepare)
+        process.exit()
+    }
+  },
+
   app: {
     head: {
       title: 'FOSSi Foundation',
