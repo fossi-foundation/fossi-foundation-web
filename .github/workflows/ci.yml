@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  # Run this workflow on every push to the main branch.
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+      - name: Generate static site (tests for broken links and build errors)
+        run: yarn nuxi generate
