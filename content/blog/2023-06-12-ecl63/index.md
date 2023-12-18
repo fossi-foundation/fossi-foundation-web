@@ -30,7 +30,7 @@ Of course, no celebration is complete without gifts, which we'll slowly unwrap d
 
 _-Philipp Wagner, Director, FOSSi Foundation_
 
-<img src="box64-vf2.jpg" style="max-width:100%" />
+<img src="box64.jpg" style="max-width:100%" />
 
 ## Box64 Dynarec on RISC-V "Quite Complete," Games and Other Software Now Usable
 

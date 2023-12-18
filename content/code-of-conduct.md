@@ -69,7 +69,7 @@ that participants are unaware of their bad behaviour than that they
 intentionally try to degrade the quality of the discussion.  Should there be
 difficulties in dealing with the situation, you may report your compliance
 issues in confidence to the board of directors of the FOSSi Foundation.
-You can find their contact information on the <a href="/organization">board overview page</a>.</p>
+You can find their contact information on the <a href="/about-us/core-team">team overview page</a>.</p>
 
 <h2 id="endnotes">Endnotes</h2>
 

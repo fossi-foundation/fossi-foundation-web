@@ -19,8 +19,8 @@ had some great discussions. Please find my slides
 
 As another great update we announce an event organized by us in
 Munich, Germany, on March 23:
-[Open Source Silicon with RISC-V](/riscv-munich). Krste Asanovic will
+[Open Source Silicon with RISC-V](https://www-archive.fossi-foundation.org/riscv-munich). Krste Asanovic will
 speak about [RISC-V](http://riscv.org), Rob Mullins and Alex Bradbury
 about [lowRISC](http://lowrisc.org), and I will give a brief overview
 of why and how the FOSSi Foundation operates. If you live nearby,
-please come by and don't forget to [register](/riscv-munich).
+please come by and don't forget to [register](https://www-archive.fossi-foundation.org/riscv-munich).

@@ -3,7 +3,7 @@ title: "Google Summer of Code 2017 - Ideas for Projects"
 navigation: false
 ---
 
-We are happy to [announce](2017/03/02/gsoc) that we have been selected to participate in Google Summer of Code 2017!
+We are happy to [announce](/blog/2017-03-02-gsoc) that we have been selected to participate in Google Summer of Code 2017!
 
 Whether you’re an aspiring student or mentor, feel free to contact us,
 either through the private GSoC-specific mailing list [gsoc@fossi-foundation.org](mailto:gsoc@fossi-foundation.org),
