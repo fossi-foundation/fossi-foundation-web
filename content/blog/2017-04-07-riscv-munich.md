@@ -8,7 +8,7 @@ author: Stefan Wallentowitz
 date: 2017-04-07
 ---
 
-Two weeks ago we organized an [event](/riscv-munich) at TU Munich,
+Two weeks ago we organized an [event](https://www-archive.fossi-foundation.org/riscv-munich) at TU Munich,
 Germany, that featured talks around RISC-V, lowRISC and the FOSSi
 Foundation. It was a great event with very interesting discussions.
 

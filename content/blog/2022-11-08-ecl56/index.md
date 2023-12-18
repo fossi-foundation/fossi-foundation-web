@@ -23,7 +23,7 @@ Seven years have passed, and free and open source silicon is no longer a dream. 
 
 The FOSSi Foundation is a small organization, and we’re always looking into ways to apply our resources most effectively. At this time, we felt that the free and open source silicon community is best served by us focusing on [projects](https://www.fossi-foundation.org/projects) such as our conferences (including Dial-Up and [ORConf](https://www.orconf.org)), this monthly newsletter [El Correo Libre](https://www.fossi-foundation.org/ecl), [cocotb](https://www.cocotb.org), and other initiatives.
 
-Are you interested in making free and open source silicon a success as well? Have a look at the [projects page](https://www.fossi-foundation.org/projects) for ways to contribute, or reach out to any [FOSSi Foundation director](https://www.fossi-foundation.org/organization).
+Are you interested in making free and open source silicon a success as well? Have a look at the [projects page](https://www.fossi-foundation.org/projects) for ways to contribute, or reach out to any [FOSSi Foundation director](https://www.fossi-foundation.org/about-us/core-team).
 
 We are extremely thankful to all contributors and GSoC students who helped to develop and maintain LibreCores over the years. You rock!
 

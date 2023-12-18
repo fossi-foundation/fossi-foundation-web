@@ -159,7 +159,7 @@ The Intel Open FPGA Stack was released with the goal of addressing challenges in
   
 The Intel Open FPGA Stack source code is available [on GitHub](https://github.com/OFS) under the permissive MIT license.
 
-<img src="hooever-ai.jpg" style="max-width:100%" />
+<img src="hoover-ai.jpg" style="max-width:100%" />
 
 ## Steve Hoover Enlists Anthropic's Claude Chatbot to Build a RISC-V Core
 
