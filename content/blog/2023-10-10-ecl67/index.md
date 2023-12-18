@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-10-10
 ---
 
-<img src="orconf23-group.jpg" style="max-width:100%" />)
+<img src="orconf23-group.jpg" style="max-width:100%" />
 
 ## ORConf is Back, Videos Available Now
 
