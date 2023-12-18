@@ -25,9 +25,10 @@ TODO:
               <NuxtLink :to="featuredBlogPost._path">
                 <FfH2 :href="featuredBlogPost._path">{{ featuredBlogPost.title }}</FfH2>
                 <ContentRendererMarkdown :value="featuredBlogPost" :excerpt="true" />
-
-                <FfLinkUnderline v-if="featuredBlogPost._path" :to="featuredBlogPost._path">Read more ...</FfLinkUnderline>
               </NuxtLink>
+              <p>
+                <FfLinkUnderline v-if="featuredBlogPost._path" :to="featuredBlogPost._path">Read more ...</FfLinkUnderline>
+              </p>
             </div>
             <div class="flex-none max-w-[344px] order-first tablet:order-none">
               <NuxtLink :to="featuredBlogPost._path">
