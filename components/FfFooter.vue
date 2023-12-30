@@ -57,7 +57,7 @@ Style guide reference: Web components/PageFooter
         <div class="desktop:order-first desktop:mr-32">
           <FfLinkUnderline to="/">
             <span class="sr-only">FOSSi Foundation home page</span>
-            <NuxtImg class="w-[180px]" width="180" src="/images/fossi-logo-full.svg" />
+            <NuxtImg class="w-[180px]" width="180" height="60" alt="FOSSi Foundation logo" src="/images/fossi-logo-full.svg" />
           </FfLinkUnderline>
         </div>
       </div>
