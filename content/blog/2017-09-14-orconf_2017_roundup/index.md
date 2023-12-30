@@ -8,7 +8,7 @@ author: Julius Baxter
 date: 2017-09-14
 ---
 
-<img src="https://orconf.org/2017/images/orconf-2017-group-photo.jpg" class="img-responsive" />
+<img src="orconf-2017-group-photo.jpg" class="img-responsive" />
 
 [ORConf](https://orconf.org) 2017 came to a close last Sunday, and on
 behalf of the FOSSi Foundation I'd like to thank all who attended,
@@ -87,6 +87,3 @@ videos when they're available, and slide decks from the presentations.
 We're looking forward to seeing everyone at ORConf 2018!
 
 (To stay in the loop, subscribe to [the orconf-announce list](https://lists.librecores.org/listinfo/orconf-announce).)
-
-
-
