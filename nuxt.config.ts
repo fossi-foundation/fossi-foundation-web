@@ -159,6 +159,13 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
+    // Redirect the Latch-Up landing page to the most current one.
+    '/latch-up': { redirect: '/latch-up/2024' },
+
+    // Redirect legacy URL to the new dispatcher URL.
+    // (Keep the URL aligned with the conference name "Latch-Up".)
+    '/latchup': { redirect: '/latch-up' },
+
     // Blog posts from pre-2023 website
     '/2015/10/10/welcome': { redirect: '/blog/2015-10-10-welcome' },
     '/2016/01/28/update': { redirect: '/blog/2016-01-28-update' },

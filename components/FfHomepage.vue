@@ -70,15 +70,14 @@ Homepage
   <!--
   Event announcement
   -->
-  <!--
   <FfSignpostBanner
     class="bg-[url('/images/banner-orconf.jpg')]"
-    title="Get your dose of FOSSi excitement at ORConf!"
-    subtitle="Join us from Sept 15 to 17 2023 in Munich, Germany for a weekend full of interesting talks, eye-opening hallway discussions, and excitement around free and open source silicon."
-    ctaLabel="Register now for ORConf 2023"
-    ctaTo="/events"
-  />
-  -->
+    title="Get your dose of FOSSi excitement at Latch-Up!"
+    ctaLabel="Register now for Latch-Up 2024"
+    ctaTo="/latch-up/2024"
+  >
+    <p>Join us from April 19 to 21 Boston, MA, USA for a weekend full of interesting talks, eye-opening hallway discussions, and excitement around free and open source silicon.</p>
+  </FfSignpostBanner>
 
   <!--
   News
