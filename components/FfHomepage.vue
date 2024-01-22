@@ -76,7 +76,7 @@ Homepage
     ctaLabel="Register now for Latch-Up 2024"
     ctaTo="/latch-up/2024"
   >
-    <p>Join us from April 19 to 21 Boston, MA, USA for a weekend full of interesting talks, eye-opening hallway discussions, and excitement around free and open source silicon.</p>
+    <p>Join us in Boston, MA, USA from April 19 to 21, 2024 for a weekend full of interesting talks, eye-opening hallway discussions, and excitement around free and open source silicon.</p>
   </FfSignpostBanner>
 
   <!--
