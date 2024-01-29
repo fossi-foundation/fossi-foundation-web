@@ -214,7 +214,6 @@ the Linux kernel.  This includes:
 
 * Develop [rseq](https://lwn.net/Articles/650333/) support to OpenRISC Linux
   and glibc.
-* Add floating point support to OpenRISC Linux.
 * Use the cacheinfo API for reporting CPU details in OpenRISC Linux.
 * Add [virtio](https://developer.ibm.com/articles/l-virtio/) support to OpenRISC
   Linux which would allow running OpenRISC containers.
