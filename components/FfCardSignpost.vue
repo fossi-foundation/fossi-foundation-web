@@ -13,15 +13,13 @@ Style guide reference: Web components/Cards/Signpost card
     </div>
     <div class="p-24">
       <FfH3 class="border-b-4 border-ultraviolet">
-        <NuxtLink :to="linkTo" :title="linkTitle" :target="linkTarget" class="text-ultraviolet font-black">{{ headline }}</NuxtLink>
+        {{ headline }}
       </FfH3>
       <FfParaExcerpt v-if="subheading" class="mt-10">
         {{ subheading }}
       </FfParaExcerpt>
       <FfParaExcerpt class="text-warm-black mt-10">
-        <NuxtLink :to="linkTo" :title="linkTitle" :target="linkTarget">
-          <slot></slot>
-        </NuxtLink>
+        <slot></slot>
       </FfParaExcerpt>
     </div>
   </NuxtLink>
