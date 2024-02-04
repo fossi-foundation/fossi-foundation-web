@@ -226,21 +226,85 @@ the Linux kernel.  This includes:
 
 *Mentor:* [Stafford Horne](mailto:shorne@gmail.com)
 
-### Push a Design through the Moore HDL Compiler
+### Arcilator Optimizations
 
-[Moore](https://github.com/fabianschuiki/moore) is a compiler for SystemVerilog and VHDL hardware designs. Its goal is world domination by finally moving the burden of implementing SV and VHDL out of tools like synthesizers and simulators and into a separate frontend, very much like what Clang and LLVM did for the software world. In contrast to other projects that focus on specific use cases such as synthesis or netlists processing, Moore strives to support the entirety of the SV and VHDL languages. As output the compiler produces [LLHD IR](https://llhd.io/), a simple intermediate representation that is able to capture the semantics of today's hardware description languages *including* their behavioral, verification, and testing features. (See also the [LLHD paper](https://arxiv.org/pdf/2004.03494) from PLDI 2020 for details.)
+[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It transforms a hardware design into a collection of register-to-register transfer arcs that make it extremely efficient to simulate. Even though Arcilator is a very young tool that hasn't seen a lot of optimization yet, it is already capable of matching and beating Verilator's performance in a lot of cases.
 
-We would love to have you help make Moore even better! As a proof of concept that goes beyond the single RISC-V core that Moore tackles successfully, we would like to push a larger, more complex compute cluster through the compiler. This could be for example a [Snitch](https://github.com/pulp-platform/snitch) compute cluster of ETH Zurich which contains complex caches, interconnects, memory systems, multiple processor cores and large floating-point data paths. The goal of this project is to take this cluster's SV source code and implement the pieces Moore currently lacks in order to be able to compile the cluster. You'll be able to look for frequent sources of errors and juicy implementation targets, implement them in the compiler, and see the errors disappear one by one. If it turns out that not a lot of pieces are missing, you'll be able to fully simulate the cluster with an LLHD-based simulator and push the project forward significantly.
+We would love to have you help make Arcilator even faster by looking at what the slow parts in current simulations are, figuring out new optimizations and improvements, and implementing them in Arcilator. If you are into compilers and making things go fast, this is a project for you! To get you started, we have a [curated benchmarking repository](https://github.com/circt/arc-tests) which we use to track Arcilator's performance.
 
-The Moore compiler is written in Rust. Don't be scared if you haven't touched Rust before -- if you know C or C++ you'll feel right at home. The main language we're currently tackling with Moore right now is SystemVerilog, so either knowing the language a bit or not being scared of looking into language reference manual will be useful.
+Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
 
 *Skill Level:* Advanced
 
 *Duration:* 175 hours or 350 hours
 
-*Language/Tools:* Rust, SystemVerilog
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
 
-*Mentor:* [Fabian Schuiki](mailto:fschuiki@iis.ee.ethz.ch)
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
+
+### Arcilator Vectorization
+
+[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It transforms a hardware design into a collection of register-to-register transfer arcs that make it extremely efficient to simulate. Even though Arcilator is a very young tool, it is already capable of matching and beating Verilator's performance in a lot of cases. To make the simulations even faster, we'd like to explore the possibilities of using SIMD instructions and other vectorization techniques when we translate the hardware into executable simulation code. Hardware designs often contain highly repetitive structures that require the exact same computation to be performed on different pieces of data. This is a perfect fit for vectorization. There are a lot of low-hanging fruit here, and there's ample opportunity for fancier compiler techniques such as Superword-Level Parallelism to be applied.
+
+We would love you to implement a first basic vectorization approach, measure its impact on actual hardware designs, contribute the code to the CIRCT project, and then make it progressively better by implementing improvements and new optimizations. If you are into compilers and making things go fast, this is a project for you! To get you started, we have a [curated benchmarking repository](https://github.com/circt/arc-tests) which we use to track Arcilator's performance.
+
+Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
+
+*Skill Level:* Advanced
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
+
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
+
+### Arcilator Debug Info Support
+
+[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It converts hardware designs into an efficient simulator that produces signals traces which can be viewed by tools like [GTKWave](https://gtkwave.sourceforge.net/) or [vcdrom](https://vc.drom.io/?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd). Today, these signal traces only show the very low-level, assembly-style representation of the original hardware design, which is very annoying for users to read and debug. (Similar to debugging C++ code at the assembly level.) However, the CIRCT IR that describes the design can contain _debug information_, which would allow Arcilator to produce traces of the high-level signals in the original hardware designs. (Similar to how debug symbols can allow you to debug C++ code directly, even though your processor executes assembly instructions.)
+
+We would love you to add support for debug info to Arcilator, and have it produce waveforms and signal traces of the high-level source language described in that debug info, instead of the low-level assembly it uses today. This would involve you familiarizing yourself with Arcilator and how it currently produces signal traces, looking at how the `debug` dialect in CIRCT captures debug info, and implementing a way to make the two work together. The result will be a fantastic new feature of Arcilator that will make it very useful to a wider audience.
+
+Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
+
+*Skill Level:* Advanced
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
+
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
+
+### Basic SystemVerilog Simulation with Slang and Arcilator
+
+[Slang](https://github.com/MikePopoloski/slang) is a frontend for the SystemVerilog hardware description language. It can parse, analyze, type check, and elaborate input files in that language. The [CIRCT](https://github.com/llvm/circt) project is currently undertaking an effort to integrate Slang as its official frontend to deal with SystemVerilog hardware designs. [Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of CIRCT that aims to simulate any hardware captured in one of CIRCT's IRs.
+
+We would love you to get first SystemVerilogs designs into CIRCT and simulated with Arcilator. This is a big and important milestone towards adding proper SystemVerilog support. To achieve this, you'll have to get your hands dirty with how hardware designs are converted from a Slang AST to high-level CIRCT IR, and how that CIRCT IR can be lowered to a more fundamental representation that Arcilator is capable of simulating. It will pay off to have a few SystemVerilog designs with increasing complexity, and getting them to compile and simulate one after the other. This will show you which parts in the Slang integration and CIRCT IR lowering are still missing and have to be implemented. Getting the first SystemVerilog designs to simulate with CIRCT is a highly anticipated feature and will have a lot of visibility and fans.
+
+Slang, Arcilator, and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
+
+*Skill Level:* Advanced
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
+
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
+
+### Make a Simple Hardware Language with CIRCT
+
+The [CIRCT](https://github.com/llvm/circt) project is a large community effort to build out the technologies and tools needed to carry the future of hardware design. It is based on MLIR and LLVM, and aims to adopt the best practices from software compiler design in the hardware design space. CIRCT has a very active and friendly community of researchers, hobbyists, and companies using it. Day-to-day, CIRCT is mainly used to take hardware designs described in the Chisel (Scala-based) or PyCDE (Python-based) and either generate Verilog for them or simulate them directly. CIRCT has all the tools needed to build novel hardware languages, but nobody has put the pieces together yet!
+
+We would love you to design and implement the first hardware language based entirely on CIRCT technologies, showing off all the capabilities of CIRCT. This could be similar to LLVM's [Kaleidoscope](https://llvm.org/docs/tutorial/) tutorial language, which shows off how to use the pieces of the LLVM project effectively. In this project, you'll design the syntax and type system for a very simple hardware language. You will then implement a lexer, parser, and lowering to CIRCT's IRs. CIRCT will then immediately allow you to optimize hardware written in your language, convert it to Verilog, or simulate it directly through Arcilator. Once you have a first simple language up and running, the sky is the limit! Add built-in unit testing capabilities, formal verification tools, higher-level abstractions, functions, automated port lists, automated pipelining, or anything else you can come up with. We'd like you to document your language and how it shows off the different CIRCT capabilities, for example by carefully describing separate features, or in a tutorial-style document similar to how [Kaleidoscope](https://llvm.org/docs/tutorial/) iteratively adds features.
+
+CIRCT is based on MLIR and LLVM, and is implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++. It would also be great if you have prior experience with lexers, parsers, compilers, and programming language concepts.
+
+*Skill Level:* Advanced
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
+
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
 
 ### Embench DSP Extensions
 
@@ -257,22 +321,6 @@ There will the opportunity to engage with students at Rice University who are al
 *Mentors:* Ray Simar ([email](mailto:ray.simar@rice.edu)).
 
 *Language/Tools:* C, embedded platforms on which to evaluate the benchmarks.
-
-### Improve Test Coverage of the Moore HDL Compiler
-
-[Moore](https://github.com/fabianschuiki/moore) is a compiler for SystemVerilog and VHDL hardware designs. Its goal is world domination by finally moving the burden of implementing SV and VHDL out of tools like synthesizers and simulators and into a separate frontend, very much like what Clang and LLVM did for the software world. In contrast to other projects that focus on specific use cases such as synthesis or netlists processing, Moore strives to support the entirety of the SV and VHDL languages. As output the compiler produces [LLHD IR](https://llhd.io/), a simple intermediate representation that is able to capture the semantics of today's hardware description languages *including* their behavioral, verification, and testing features. (See also the [LLHD paper](https://arxiv.org/pdf/2004.03494) from PLDI 2020 for details.)
-
-We would love to have you help make Moore even better! Since the input languages are very complex, a key aspect of Moore is to perform well on existing test suites and benchmarks. The [SymbiFlow](https://github.com/SymbiFlow) project maintains a [large suite of SystemVerilog tests](https://symbiflow.github.io/sv-tests-results/) where Moore is also represented. The goal of this project is to go into these tests and extend and improve the Moore compiler to support more of the use cases that are currently failing. You'll be able to look for juicy optimization targets and common reasons of failure, fix them, and reap the benefits of seeing a lot more green on this dashboard!
-
-The Moore compiler is written in Rust. Don't be scared if you haven't touched Rust before -- if you know C or C++ you'll feel right at home. The main language we're currently tackling with Moore right now is SystemVerilog, so either knowing the language a bit or not being scared of looking into language reference manual will be useful.
-
-*Skill Level:* Advanced
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* Rust, SystemVerilog
-
-*Mentor:* [Fabian Schuiki](mailto:fschuiki@iis.ee.ethz.ch)
 
 ### Embench Interrupt Latency benchmark
 
