@@ -21,6 +21,22 @@ Looking forward to meet you all!
 {:toc}
 
 
+### Basic SystemVerilog Simulation with Slang and Arcilator
+
+[Slang](https://github.com/MikePopoloski/slang) is a frontend for the SystemVerilog hardware description language. It can parse, analyze, type check, and elaborate input files in that language. The [CIRCT](https://github.com/llvm/circt) project is currently undertaking an effort to integrate Slang as its official frontend to deal with SystemVerilog hardware designs. [Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of CIRCT that aims to simulate any hardware captured in one of CIRCT's IRs.
+
+We would love you to get first SystemVerilogs designs into CIRCT and simulated with Arcilator. This is a big and important milestone towards adding proper SystemVerilog support. To achieve this, you'll have to get your hands dirty with how hardware designs are converted from a Slang AST to high-level CIRCT IR, and how that CIRCT IR can be lowered to a more fundamental representation that Arcilator is capable of simulating. It will pay off to have a few SystemVerilog designs with increasing complexity, and getting them to compile and simulate one after the other. This will show you which parts in the Slang integration and CIRCT IR lowering are still missing and have to be implemented. Getting the first SystemVerilog designs to simulate with CIRCT is a highly anticipated feature and will have a lot of visibility and fans.
+
+Slang, Arcilator, and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
+
+*Skill Level:* Advanced
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
+
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
+
 ### Jupyter Notebook add-ons for Open Silicon development
 
 *Details:* Jupyter Notebook allows developers to share interactive documents that allow to reproduce a given computation, by capturing in a single file:
@@ -55,17 +71,16 @@ Bootstrap the developer infrastructure and community to maintain those projects.
 
 *Language/Tools:* SystemVerilog, some knowledge of computer architecture, RISC-V knowledge preferred but not required
 
-### Building Manycore SoCs with OpenPiton + LiteX
-[LiteX](https://github.com/enjoy-digital/litex) makes building FPGA-based SoCs easy. Using the Python hardware design library Migen, LiteX provides a variety of peripherals to enable users to build a complex SoC around a core of their choice. For this project, we would like to connect a manycore [OpenPiton](http://www.openpiton.org/) processor design in order to build a new manycore LiteX SoC.
+### Transforming the OpenHW High Performance Data Cache into a High Performance Instruction Cache
+The CVA6/Ariane core supports several different L1 data caches for different contexts and user demands. CEA are leading a new effort building a high performance data cache (HPDC) which was recently integrated into CVA6. This project would extend the HPDC to make it usable as an instruction cache.
 
 *Skill level:* Intermediate
 
-*Duration:* 175 hours or 350 hours
+*Duration:* 350 hours
 
-*Language/Tools:* Python (Migen), Verilog
+*Language/Tools:* Verilog, SystemVerilog, RISC-V
 
-*Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
-
+*Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu), [César Fuguet Tortolero](mailto:Cesar.FUGUETTORTOLERO@cea.fr)
 
 ### Using AI to Improving Open-Source IP
 
@@ -84,6 +99,29 @@ Optionally/alternately, we can also explore the use of AI to generate visualizat
 *Repo:* https://github.com/stevehoover/conversion-to-TLV
 
 *Mentor:* [Steve Hoover](mailto:steve.hoover@redwoodeda.com)
+
+### OpenRISC Linux Feature Development
+
+The OpenRISC Linux kernel support is under constant development but there are
+certain Linux facilities that are not yet used or available on the OpenRISC
+platform.
+
+This project will have the student developing, testing and sending patches up to
+the Linux kernel.  This includes:
+
+* Develop [rseq](https://lwn.net/Articles/650333/) support to OpenRISC Linux
+  and glibc.
+* Use the cacheinfo API for reporting CPU details in OpenRISC Linux.
+* Add [virtio](https://developer.ibm.com/articles/l-virtio/) support to OpenRISC
+  Linux which would allow running OpenRISC containers.
+
+*Skill level:* Advanced
+
+*Project Length:* large
+
+*Language/Tools:* Linux, C, Assembly, OpenRISC architecture
+
+*Mentor:* [Stafford Horne](mailto:shorne@gmail.com)
 
 
 ### Minimal RISC-V core with AI Acceleration synthesizable with open source tools
@@ -181,6 +219,23 @@ VS Code has become the editor of choice for most developers. While a VS Code ext
 If you are interested in the TL-Verilog ecosystem, you might also consider any of these [TL-Verilog project ideas](https://github.com/stevehoover/TL-V_Projects). All would make excellent GSoC projects and mentors can be identified.
 
 
+### Klayout ASAP7 DRC and LVS decks
+
+ASAP7 PDK is a 7-nm predictive process design kit (PDK) c, developed by Arizona State University in collaboration with ARM Ltd. for academic use. The PDK is realistic, based on current assumptions for the 7-nm technology node. Currently, there is an effort to port ASAP7 to OpenLane. To complete the port, ASA7 technology files must be ported to physical verification tools used by OpenLane.
+
+The objective of this project is to develop ASAP7 Design Rules Checker (DRC) and Layout vs. Schematic (LVS) technology files for Klayout. Also, the scope of the project includes the development of a CI regression test suite.
+
+*Skill level:* intermediate
+
+*Project length:* medium
+
+*Language/Tools:*  Python, Ruby and Klayout
+
+*Other requirements:* Good EE background
+
+*Mentors:* [Mohamed Shalan](mailto:mshalan@efabless.com),  [Mohamed Kassem](mailto:mkk@efabless.com)
+
+
 ### Architectural Improvements to OpenPiton+Ariane
 [OpenPiton+Ariane](https://openpiton-blog.princeton.edu/2018/11/announcing-openpiton-with-ariane/) is a permissively-licensed RISC-V manycore processor, built as a collaboration between the [PULP Platform](https://www.pulp-platform.org/) from ETH Zürich and the [OpenPiton Platform](http://www.openpiton.org/) from Princeton University. We would like to co-optimise OpenPiton and Ariane/CVA6 in their combined platform, to improve performance of the processor both in FPGA emulation systems and for eventual silicon chips. One possible idea this year is to implement the RISC-V cache management operation (CMO) extensions. We are open to many potential projects aimed at improving the performance of aspects of either Ariane/CVA6 or OpenPiton and encourage you to get in touch to discuss ideas.
 
@@ -191,56 +246,6 @@ If you are interested in the TL-Verilog ecosystem, you might also consider any o
 *Language/Tools:* Verilog, SystemVerilog, RISC-V
 
 *Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu), [Nils Wistoff](mailto:nwistoff@iis.ee.ethz.ch)
-
-### Transforming the OpenHW High Performance Data Cache into a High Performance Instruction Cache
-The CVA6/Ariane core supports several different L1 data caches for different contexts and user demands. CEA are leading a new effort building a high performance data cache (HPDC) which was recently integrated into CVA6. This project would extend the HPDC to make it usable as an instruction cache.
-
-*Skill level:* Intermediate
-
-*Duration:* 350 hours
-
-*Language/Tools:* Verilog, SystemVerilog, RISC-V
-
-*Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu), [César Fuguet Tortolero](mailto:Cesar.FUGUETTORTOLERO@cea.fr)
-
-### OpenRISC Linux Feature Development
-
-The OpenRISC Linux kernel support is under constant development but there are
-certain Linux facilities that are not yet used or available on the OpenRISC
-platform.
-
-This project will have the student developing, testing and sending patches up to
-the Linux kernel.  This includes:
-
-* Develop [rseq](https://lwn.net/Articles/650333/) support to OpenRISC Linux
-  and glibc.
-* Use the cacheinfo API for reporting CPU details in OpenRISC Linux.
-* Add [virtio](https://developer.ibm.com/articles/l-virtio/) support to OpenRISC
-  Linux which would allow running OpenRISC containers.
-
-*Skill level:* Advanced
-
-*Project Length:* large
-
-*Language/Tools:* Linux, C, Assembly, OpenRISC architecture
-
-*Mentor:* [Stafford Horne](mailto:shorne@gmail.com)
-
-### Arcilator Optimizations
-
-[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It transforms a hardware design into a collection of register-to-register transfer arcs that make it extremely efficient to simulate. Even though Arcilator is a very young tool that hasn't seen a lot of optimization yet, it is already capable of matching and beating Verilator's performance in a lot of cases.
-
-We would love to have you help make Arcilator even faster by looking at what the slow parts in current simulations are, figuring out new optimizations and improvements, and implementing them in Arcilator. If you are into compilers and making things go fast, this is a project for you! To get you started, we have a [curated benchmarking repository](https://github.com/circt/arc-tests) which we use to track Arcilator's performance.
-
-Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
-
-*Skill Level:* Advanced
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* C++, CIRCT, MLIR, LLVM
-
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
 
 ### Arcilator Vectorization
 
@@ -257,86 +262,6 @@ Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So y
 *Language/Tools:* C++, CIRCT, MLIR, LLVM
 
 *Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
-
-### Arcilator Debug Info Support
-
-[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It converts hardware designs into an efficient simulator that produces signals traces which can be viewed by tools like [GTKWave](https://gtkwave.sourceforge.net/) or [vcdrom](https://vc.drom.io/?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd). Today, these signal traces only show the very low-level, assembly-style representation of the original hardware design, which is very annoying for users to read and debug. (Similar to debugging C++ code at the assembly level.) However, the CIRCT IR that describes the design can contain _debug information_, which would allow Arcilator to produce traces of the high-level signals in the original hardware designs. (Similar to how debug symbols can allow you to debug C++ code directly, even though your processor executes assembly instructions.)
-
-We would love you to add support for debug info to Arcilator, and have it produce waveforms and signal traces of the high-level source language described in that debug info, instead of the low-level assembly it uses today. This would involve you familiarizing yourself with Arcilator and how it currently produces signal traces, looking at how the `debug` dialect in CIRCT captures debug info, and implementing a way to make the two work together. The result will be a fantastic new feature of Arcilator that will make it very useful to a wider audience.
-
-Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
-
-*Skill Level:* Advanced
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* C++, CIRCT, MLIR, LLVM
-
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
-
-### Basic SystemVerilog Simulation with Slang and Arcilator
-
-[Slang](https://github.com/MikePopoloski/slang) is a frontend for the SystemVerilog hardware description language. It can parse, analyze, type check, and elaborate input files in that language. The [CIRCT](https://github.com/llvm/circt) project is currently undertaking an effort to integrate Slang as its official frontend to deal with SystemVerilog hardware designs. [Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of CIRCT that aims to simulate any hardware captured in one of CIRCT's IRs.
-
-We would love you to get first SystemVerilogs designs into CIRCT and simulated with Arcilator. This is a big and important milestone towards adding proper SystemVerilog support. To achieve this, you'll have to get your hands dirty with how hardware designs are converted from a Slang AST to high-level CIRCT IR, and how that CIRCT IR can be lowered to a more fundamental representation that Arcilator is capable of simulating. It will pay off to have a few SystemVerilog designs with increasing complexity, and getting them to compile and simulate one after the other. This will show you which parts in the Slang integration and CIRCT IR lowering are still missing and have to be implemented. Getting the first SystemVerilog designs to simulate with CIRCT is a highly anticipated feature and will have a lot of visibility and fans.
-
-Slang, Arcilator, and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
-
-*Skill Level:* Advanced
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* C++, CIRCT, MLIR, LLVM
-
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
-
-### Make a Simple Hardware Language with CIRCT
-
-The [CIRCT](https://github.com/llvm/circt) project is a large community effort to build out the technologies and tools needed to carry the future of hardware design. It is based on MLIR and LLVM, and aims to adopt the best practices from software compiler design in the hardware design space. CIRCT has a very active and friendly community of researchers, hobbyists, and companies using it. Day-to-day, CIRCT is mainly used to take hardware designs described in the Chisel (Scala-based) or PyCDE (Python-based) and either generate Verilog for them or simulate them directly. CIRCT has all the tools needed to build novel hardware languages, but nobody has put the pieces together yet!
-
-We would love you to design and implement the first hardware language based entirely on CIRCT technologies, showing off all the capabilities of CIRCT. This could be similar to LLVM's [Kaleidoscope](https://llvm.org/docs/tutorial/) tutorial language, which shows off how to use the pieces of the LLVM project effectively. In this project, you'll design the syntax and type system for a very simple hardware language. You will then implement a lexer, parser, and lowering to CIRCT's IRs. CIRCT will then immediately allow you to optimize hardware written in your language, convert it to Verilog, or simulate it directly through Arcilator. Once you have a first simple language up and running, the sky is the limit! Add built-in unit testing capabilities, formal verification tools, higher-level abstractions, functions, automated port lists, automated pipelining, or anything else you can come up with. We'd like you to document your language and how it shows off the different CIRCT capabilities, for example by carefully describing separate features, or in a tutorial-style document similar to how [Kaleidoscope](https://llvm.org/docs/tutorial/) iteratively adds features.
-
-CIRCT is based on MLIR and LLVM, and is implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++. It would also be great if you have prior experience with lexers, parsers, compilers, and programming language concepts.
-
-*Skill Level:* Advanced
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* C++, CIRCT, MLIR, LLVM
-
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
-
-### Embench DSP Extensions
-
-We will be developing a set of new digital signal processing benchmarks to add to the current suite of Embench DSP benchmarks.  The starting point will be the current suite of DSP benchmarks (FIR, IIR, and FFT).  New benchmarks will be run on a microprocessor and its performance evaluated.
-
-These new benchmarks will be added to the Embench DSP suite and be made available to the world.
-
-There will the opportunity to engage with students at Rice University who are also working on the project.
-
-*Skill level:* Beginner (accessible to students who have some programming experience and are willing to learn)
-
-*Project length:* medium
-
-*Mentors:* Ray Simar ([email](mailto:ray.simar@rice.edu)).
-
-*Language/Tools:* C, embedded platforms on which to evaluate the benchmarks.
-
-### Embench Interrupt Latency benchmark
-
-Embench has always envisaged measuring the dynamic behavior of systems as well as computation throughput.  This is the Embench-RT benchmark suite.
-
-One of the benchmarks on [Embench-RT](https://github.com/embench/embench-rt) is [IRQ latency](https://github.com/embench/embench-rt/blob/main/irq_latency/design/rv-int-latency.md).  The benchmark goal is to measure an MCU interrupt latency. This factor is crucial for RT FW/SW that is driven by interrupts.
-
-Currently, this benchmark can run on RISCV cores; the project will be to integrate the benchmark for the reference Arm Cortex M4 board used for the main [Embench IoT](https://github.com/embench/embench-iot) benchmark. This will act as the reference against which all others will be compared.
-
-*Skill level:* Intermediate (some experience with embedded devices and board support packages).
-
-*Project length:* long
-
-*Mentors:* Ofer Shinaar ([email](mailto:Ofer.Shinaar@wdc.com)) assisted by one of his colleagues (name TBC).
-
-*Language/Tools:* C, embedded platforms on which to evaluate the benchmarks.
 
 ### Python bindings for OpenROAD
 
@@ -355,6 +280,85 @@ Possible contributions to this project:
 *Language/Tools:* Python, C++, Conda
 
 *Mentor:* [Johan Euphrosine](mailto:proppy@google.com), [Matt Liberty](mailto:mliberty@eng.ucsd.edu)
+
+### Arcilator Debug Info Support
+
+[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It converts hardware designs into an efficient simulator that produces signals traces which can be viewed by tools like [GTKWave](https://gtkwave.sourceforge.net/) or [vcdrom](https://vc.drom.io/?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd). Today, these signal traces only show the very low-level, assembly-style representation of the original hardware design, which is very annoying for users to read and debug. (Similar to debugging C++ code at the assembly level.) However, the CIRCT IR that describes the design can contain _debug information_, which would allow Arcilator to produce traces of the high-level signals in the original hardware designs. (Similar to how debug symbols can allow you to debug C++ code directly, even though your processor executes assembly instructions.)
+
+We would love you to add support for debug info to Arcilator, and have it produce waveforms and signal traces of the high-level source language described in that debug info, instead of the low-level assembly it uses today. This would involve you familiarizing yourself with Arcilator and how it currently produces signal traces, looking at how the `debug` dialect in CIRCT captures debug info, and implementing a way to make the two work together. The result will be a fantastic new feature of Arcilator that will make it very useful to a wider audience.
+
+Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
+
+*Skill Level:* Advanced
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
+
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
+
+### Parameterized device layouts for Sky130
+
+The purpose of this project is to expand the set of available parameterized devices available in magic for use with the SkyWater Sky130 foundry process.  These devices are created using an existing framework written in Tcl/Tk, although most of the code involves magic command-line commands (which are implemented in Tcl).  Only a basic understanding of Tcl variables, conditionals, loops, and subroutine calls is needed.
+
+Existing devices could use more thorough checks of DRC cleanliness across a wide range of parameters.  FET devices could use an option to have all gate contacts merged into a single net, which would also allow a tighter pitch for the smallest length devices.
+
+New devices of interest that have not yet been done in parameterized cells include (but are not limited to):  The photodiode, extended-drain MOSFETs, bipolar transistors, ESD transistors, inductors, metal fuses, UHV (ultra-high-voltage) devices.
+
+Each new device should follow the design specifications for device layout from the SkyWater DRC manual, and needs to implement five routines that (1) define the device parameters and limits, (2) convert parameters from a SPICE netlist, (3) define the user interface dialog (UI) for setting those parameters, (4) check and enforce parameter limits, and (5) draw the device. After implementing, each device needs to be checked for DRC correctness by generating a "torture test" of a large array of devices with different sets of parameters which can be passed to the DRC checkers to make sure that the drawing routine produces DRC clean layouts.
+
+*Skill level:* Intermediate/Advanced
+
+*Duration:* medium (175 hours)
+
+*Language/Tools:* Tcl/Tk, Magic
+
+*Mentors:* [Tim Edwards](tim@opencircuitdesign.com)
+
+
+### Make a Simple Hardware Language with CIRCT
+
+The [CIRCT](https://github.com/llvm/circt) project is a large community effort to build out the technologies and tools needed to carry the future of hardware design. It is based on MLIR and LLVM, and aims to adopt the best practices from software compiler design in the hardware design space. CIRCT has a very active and friendly community of researchers, hobbyists, and companies using it. Day-to-day, CIRCT is mainly used to take hardware designs described in the Chisel (Scala-based) or PyCDE (Python-based) and either generate Verilog for them or simulate them directly. CIRCT has all the tools needed to build novel hardware languages, but nobody has put the pieces together yet!
+
+We would love you to design and implement the first hardware language based entirely on CIRCT technologies, showing off all the capabilities of CIRCT. This could be similar to LLVM's [Kaleidoscope](https://llvm.org/docs/tutorial/) tutorial language, which shows off how to use the pieces of the LLVM project effectively. In this project, you'll design the syntax and type system for a very simple hardware language. You will then implement a lexer, parser, and lowering to CIRCT's IRs. CIRCT will then immediately allow you to optimize hardware written in your language, convert it to Verilog, or simulate it directly through Arcilator. Once you have a first simple language up and running, the sky is the limit! Add built-in unit testing capabilities, formal verification tools, higher-level abstractions, functions, automated port lists, automated pipelining, or anything else you can come up with. We'd like you to document your language and how it shows off the different CIRCT capabilities, for example by carefully describing separate features, or in a tutorial-style document similar to how [Kaleidoscope](https://llvm.org/docs/tutorial/) iteratively adds features.
+
+CIRCT is based on MLIR and LLVM, and is implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++. It would also be great if you have prior experience with lexers, parsers, compilers, and programming language concepts.
+
+*Skill Level:* Advanced
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
+
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
+
+### Building Manycore SoCs with OpenPiton + LiteX
+[LiteX](https://github.com/enjoy-digital/litex) makes building FPGA-based SoCs easy. Using the Python hardware design library Migen, LiteX provides a variety of peripherals to enable users to build a complex SoC around a core of their choice. For this project, we would like to connect a manycore [OpenPiton](http://www.openpiton.org/) processor design in order to build a new manycore LiteX SoC.
+
+*Skill level:* Intermediate
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* Python (Migen), Verilog
+
+*Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
+
+
+### Arcilator Optimizations
+
+[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It transforms a hardware design into a collection of register-to-register transfer arcs that make it extremely efficient to simulate. Even though Arcilator is a very young tool that hasn't seen a lot of optimization yet, it is already capable of matching and beating Verilator's performance in a lot of cases.
+
+We would love to have you help make Arcilator even faster by looking at what the slow parts in current simulations are, figuring out new optimizations and improvements, and implementing them in Arcilator. If you are into compilers and making things go fast, this is a project for you! To get you started, we have a [curated benchmarking repository](https://github.com/circt/arc-tests) which we use to track Arcilator's performance.
+
+Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
+
+*Skill Level:* Advanced
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
+
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
 
 ### Conda packages for Open Silicon tooling
 
@@ -376,56 +380,6 @@ Possible contributions to this project:
 *Language/Tools:* Conda, Shell scripting, Git
 
 *Mentor:* [Johan Euphrosine](mailto:proppy@google.com)
-
-### Porting Compiler test-suite (micro-benchmarks) to Embench
-
-Embench contains several benchmarks for IoT, benchmarks targeting performance, and code-size comparison. One missing piece is a compiler test-suite.
-
-The project goal is to port the [riscv32-Code-density-test-bench](https://github.com/westerndigitalcorporation/riscv32-Code-density-test-bench) to Embench IoT new repo. The effort will include porting the Embench build system, bringing up the repo for users (instructions, build, and full run), adding "correctness testing" to the test suite.
-
-*Skill level:* Beginner (some experience with C Python and Git).
-
-*Project length:* medium
-
-*Mentors:* Ofer Shinaar ([email](mailto:Ofer.Shinaar@wdc.com)) assisted by one of his colleagues (name TBC).
-
-*Language/Tools:* C, embedded platforms on which to evaluate the benchmarks.
-
-### Klayout ASAP7 DRC and LVS decks
-
-ASAP7 PDK is a 7-nm predictive process design kit (PDK) c, developed by Arizona State University in collaboration with ARM Ltd. for academic use. The PDK is realistic, based on current assumptions for the 7-nm technology node. Currently, there is an effort to port ASAP7 to OpenLane. To complete the port, ASA7 technology files must be ported to physical verification tools used by OpenLane.
-
-The objective of this project is to develop ASAP7 Design Rules Checker (DRC) and Layout vs. Schematic (LVS) technology files for Klayout. Also, the scope of the project includes the development of a CI regression test suite.
-
-*Skill level:* intermediate
-
-*Project length:* medium
-
-*Language/Tools:*  Python, Ruby and Klayout
-
-*Other requirements:* Good EE background
-
-*Mentors:* [Mohamed Shalan](mailto:mshalan@efabless.com),  [Mohamed Kassem](mailto:mkk@efabless.com)
-
-
-### Parameterized device layouts for Sky130
-
-The purpose of this project is to expand the set of available parameterized devices available in magic for use with the SkyWater Sky130 foundry process.  These devices are created using an existing framework written in Tcl/Tk, although most of the code involves magic command-line commands (which are implemented in Tcl).  Only a basic understanding of Tcl variables, conditionals, loops, and subroutine calls is needed.
-
-Existing devices could use more thorough checks of DRC cleanliness across a wide range of parameters.  FET devices could use an option to have all gate contacts merged into a single net, which would also allow a tighter pitch for the smallest length devices.
-
-New devices of interest that have not yet been done in parameterized cells include (but are not limited to):  The photodiode, extended-drain MOSFETs, bipolar transistors, ESD transistors, inductors, metal fuses, UHV (ultra-high-voltage) devices.
-
-Each new device should follow the design specifications for device layout from the SkyWater DRC manual, and needs to implement five routines that (1) define the device parameters and limits, (2) convert parameters from a SPICE netlist, (3) define the user interface dialog (UI) for setting those parameters, (4) check and enforce parameter limits, and (5) draw the device. After implementing, each device needs to be checked for DRC correctness by generating a "torture test" of a large array of devices with different sets of parameters which can be passed to the DRC checkers to make sure that the drawing routine produces DRC clean layouts.
-
-*Skill level:* Intermediate/Advanced
-
-*Duration:* medium (175 hours)
-
-*Language/Tools:* Tcl/Tk, Magic
-
-*Mentors:* [Tim Edwards](tim@opencircuitdesign.com)
-
 
 ### Capiche system development
 
