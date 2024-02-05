@@ -469,24 +469,33 @@ We are interested in developing a more robust backend to better support real-wor
 
 *Mentors:* [Benjamin Darnell](mailto:bzd2@illinois.edu), [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
 
-### Multiple Frontends for OpenLane
-*Details:* OpenLane lacks support for many popular HDLs, including the previously DARPA-endorsed VHDL which continues to be popular in FPGA spaces and the European EDA scene, Chisel/FIRRTL, a Scala-based HDL and intermediate representation of integrated circuits, and BSV by Bluespec, a popular variant of SystemVerilog.
+### Seamless multi-frontend support for OpenLane 2
 
-The project will entail both adding support for these frontends as well as adding a set of designs as tests.
+OpenLane 2 currently supports handling multiple frontends for compilation:
+* Yosys Default - Verilog
+* Synlig - SystemVerilog
+* GHDL - VHDL
 
-*Skill level:* Beginner-Intermediate
+However, in the cases of VHDL and Verilog specifically– there is no way to mix and match Verilog and VHDL in one design, for example, which is common when reusing IPs.
+
+This task proposes a retool to OpenLane synthesis to, instead of having two different flows (`Classic` and `VHDLClassic`),one flow accepting a heterogeneous list of files, which can then be inspected to determine the proper frontend to be used.
+
+The task(s) may involve enhancements to one or more of the frontends, as well as the addition of more frontends from languages such as Chisel and Amaranth.
+
+*Skill level:* Intermediate
 
 *Duration:* 175 hrs.
 
-*Language/Tools:* Python, Verilog, Docker (or Nix)
+*Language/Tools:* Python, Verilog, Nix
 
 *Mentor:* [Mohamed Gaber](mailto:donn@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
 
-### Testing for OpenLane
+### Testing for OpenLane 2
+
 *Details:*  OpenLane is the world's most popular open-source RTL-to-GDSII flow. However, testing and coverage is still somewhat lacking as of 2023. There are two tasks that may be done to enhance this, ideally worked on by two candidates but can be done by the same candidate over a longer period:
 
-Write an extensive Python unit test suite for an upcoming version of OpenLane, including for all included steps and functions. A candidate is to explore and evaluate the various Python test libraries, present a good option, then embark on writing the unit tests.
-Create an exhaustive design suite out of various open source projects that exercise the limits of the OpenLane project, including niche use-cases.
+* Expanding unit test coverage for Python for included steps and functions. There are already some non-exhaustive tests for OpenLane 2, and the candidate may add more tests to both exercise more options in existing steps and to break ground on uncovered steps.
+* Creating an exhaustive design suite out of various open source projects that exercise the limits of OpenLane 2, including more niche use-cases.
 
 *Skill level:* Intermediate
 
@@ -494,22 +503,53 @@ Create an exhaustive design suite out of various open source projects that exerc
 
 *Language/Tools:* Python, Verilog, Docker (or Nix)
 
+*Mentor:* [Kareem Farid](mailto:kareem.farid@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
+
+### Improving Fault's Coverage
+
+*Details:* [Fault](https://github.com/AUCOHL/Fault) is an open-source Design-for-Testability (DFT) toolchain that stands out as a comprehensive solution in the EDA space.
+
+However, for its regular testing, Fault runs on very small, very specific designs, and does not run designs on the sky130 node as part of its regular testing. Additionally, the CI is quite brittle.
+
+This task involves expanding Fault's CI coverage by adding multiple designs for sky130 and other PDKs, as well as fixing any bugs uncovered by this effort.
+
+*Skill level:* Intermediate-Advanced
+
+*Duration:* 350 hrs.
+
+*Language/Tools:* Swift, Python, Verilog, Nix
+
 *Mentor:* [Mohamed Gaber](mailto:donn@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
 
-### Remove X11-specific code and redundant backends from Magic and enhance C99 adherence
-*Details:* The Magic VLSI utility, the primary signoff tool for OpenLane, does not compile on platforms without X11 support. As a layout viewer, Magic uses a mixture of X11 + Cairo to render its various views. Additionally, large swaths of the codebase are not C99-adherent, with declaration problems and the like.
+### Improving Coverage on Fault Designs
 
-This prevents it from compiling properly on some platforms we're looking to target, such as macOS and Windows.
+*Details:* [Fault](https://github.com/AUCOHL/Fault) is an open-source Design-for-Testability (DFT) toolchain that stands out as a comprehensive solution in the EDA space. The key capabilities of Fault include generating test vectors (TVs), simulating faults, and inserting scan chains into designs. This toolchain leverages existing open-source EDA technologies to perform these functions on synthesized netlists. 
 
-The project will entail replacing the X11 and optional OpenGL dependencies on simple, pure Cairo code.
+This project aims to significantly enhance the effectiveness of Fault by optimizing its test vector generation process using advanced algorithms rather than pseudo-random vector generation and automating the insertion of control and observation points. By adopting these strategies, we expect to be able to achieve higher coverage for designs run through Fault.
 
-*Skill level:* Advanced
+Candidate is expected to be familiar with Design-for-Testability (DFT) and RTL synthesis.
 
-*Language/Tools:* C, Tcl/Tk, Magic
+*Skill level:* Intermediate-Advanced
 
-*Duration:* 175 or 350 hrs.
+*Duration:* 350 hrs.
 
-*Mentors:* [Mohamed Gaber](mailto:donn@efabless.com), Tim Edwards
+*Language/Tools:* Swift, Python, Verilog
+
+*Mentor:* [Mohamed Hosni](mailto:mohamed.hosni@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
+
+### RTL verification using Generative AI
+
+This project's objective is a novel approach for the verification Register Transfer Level (RTL) IPs by leveraging the generative AI and UVM for Python (utilizing the CocoTB library).
+
+The task chiefly involves prompt engineering to enable a large language model (LLM) to produce proper UVM components for the IPs under verification.
+
+*Skill level:* Intermediate
+
+*Duration:* 175 hrs.
+
+*Language/Tools:* Python, Verilog, UVM, CocoTB, genAI APIs 
+
+*Mentor:* [Mostafa Rady](mailto:mostafa.rady@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
 
 ### Extending Verilator with insertion customization
 
