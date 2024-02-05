@@ -505,7 +505,7 @@ The task(s) may involve enhancements to one or more of the frontends, as well as
 
 *Mentor:* [Kareem Farid](mailto:kareem.farid@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
 
-### Improving Fault's Coverage
+### Improving Fault's Regression Test Coverage
 
 *Details:* [Fault](https://github.com/AUCOHL/Fault) is an open-source Design-for-Testability (DFT) toolchain that stands out as a comprehensive solution in the EDA space.
 
@@ -521,7 +521,7 @@ This task involves expanding Fault's CI coverage by adding multiple designs for 
 
 *Mentor:* [Mohamed Gaber](mailto:donn@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
 
-### Improving Coverage on Fault Designs
+### Improving ATPG fault coverage in Fault
 
 *Details:* [Fault](https://github.com/AUCOHL/Fault) is an open-source Design-for-Testability (DFT) toolchain that stands out as a comprehensive solution in the EDA space. The key capabilities of Fault include generating test vectors (TVs), simulating faults, and inserting scan chains into designs. This toolchain leverages existing open-source EDA technologies to perform these functions on synthesized netlists. 
 
