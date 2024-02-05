@@ -80,7 +80,7 @@ The CVA6/Ariane core supports several different L1 data caches for different con
 
 *Language/Tools:* Verilog, SystemVerilog, RISC-V
 
-*Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu), [César Fuguet Tortolero](mailto:Cesar.FUGUETTORTOLERO@cea.fr)
+*Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu), [César Fuguet Tortolero](mailto:Cesar.FUGUETTORTOLERO@cea.fr), [Noelia Oliete Escuín](mailto:noelia.oliete@bsc.es)
 
 ### Using AI to Improving Open-Source IP
 
@@ -404,6 +404,21 @@ Time permitting (e.g., 350 hour internship instead of 175 hour), the internship 
 
 *Mentors:* [Tim Edwards](tim@opencircuitdesign.com)
 
+### Scaling Essent's SystemVerilog Simulation with metro-MPI
+
+[Essent](https://github.com/ucsc-vama/essent) is a high-performance RTL simulator generator. Given a hardware design in firrtl, essent emits C++ that can be compiled to make a fast simulator of the design. Essent provides several optimizations to improve performance, and they can be turned on or off with command line flags. [Metro-MPI](https://github.com/metro-mpi/metro-mpi) is a generic methodology to distribute RTL simulation and unlock SoCs’ inherent parallelism. We partition well-defined blocks within designs into isolated simulation processes that communicate via MPI message passing. Metro-MPI works particularly well with replicated blocks of comparable size, such as manycores with NoCs.
+
+We would love you to add the support of metro-MPI inside Essent. In this way, Essent can use MPI to communicate between the different partitions of the design and even influence when creating the partitions. The project will be divided into two big milestones: the initial task is to use the methodology from Metro-MPI to speed up the simulation (e.g. using messages with MPI to communicate between partitions); the second task would be to influence the partitions of the design to ease the usage of MPI between them.
+
+Essent uses Scala, and Metro-MPI is implemented in Verilog and C++. Additionally, some background in hardware design is useful.
+
+*Skill Level:* Medium/Advanced
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, Scala, MPI, SystemVerilog
+
+*Mentors:* [Guillem López Paradís](mailto:guillem.lopez@bsc.es) and [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
 
 ### RISC-V TensorCore for Edge AI
 
