@@ -123,38 +123,6 @@ the Linux kernel.  This includes:
 
 *Mentor:* [Stafford Horne](mailto:shorne@gmail.com)
 
-
-### Minimal RISC-V core with AI Acceleration synthesizable with open source tools
-
-A series of  projects between Embecosm and Southampton University over the past and a FOSSi GSoC project from 2021 have developed a simple (8 instruction) open source ISA extension for the CV32E40P and CV32E40X RISC-V cores to accelerate neural network inference acceleration.  The project [GitHub](https://github.com/AI-Vector-Accelerator) has demonstrated a 5 fold increase in inference performance.   [YouTube](https://youtu.be/DY8WXLF7CEg) has the most recent presentation of the project, given at the London Open Source RISC-V meetup in January 2022.
-
-This demonstrated the potential benefit of this approach, but could only be synthesized using proprietary FPGA synthesis tools.  This project proposes trying to create a stripped down version which can be synthesized using the Yosys open source tool suite.
-
-The core is delivered within the CORE-V MCU, a SoC wrapper which provides a debug interface, memory and a range of peripherals.  In order to make this project tractable, this will be stripped down to a minimal MCU providing just the debug interface and memory alongside the core. CORE-V MCU uses FuseSoc for ease of development, but the AVA work has not picked this up, so cleaning up the code to use FuseSoc will be an important starting point.
-
-There are a series of steps in this project, so it can be provided as either a medium or long project. It is also quite open ended, so applicants should consider how they would wish to craft the project to directions that most interest them.
-
-The deliverables of this project would be for the medium project:
-
- - the stripped down, synthesizable with Verilator as a model;
- - the stripped down CORE-V MCU with the CV32E40P core, synthasizable for FPGA with Yosys; and
- - Embench benchmarking of the stripped down CORE-V MCU on FPGA.
-
-The long project would then extend these deliverables with the AI interface using the CV32E40X core:
-
- - a modified stripped down CORE-V MCU using the CV32E40X core with AI instruction set extensions cleaned up to build completely under FuseSoc.
- - a modified stripped down CORE-V MCU using the CV32E40X core with AI instruction set extensions as a Verilator model;
- - a modified stripped down CORE-V MCU using the CV32E40X core with AI instruction set extensions, synthasizable for FPGA with Yosys; and
- - measurement of the impact on AI inference using TinyMLPerf.
-
-*Skill level:* Advanced (particularly FPGA synthesis using Yosys)
-
-*Project length:* medium or long
-
-*Mentors:* [Jeremy Bennett](https://github.com/jeremybennett) ([email](mailto:jeremy.bennett@embecosm.com)) and [William Jones](https://github.com/william-r-jones) ([email](mailto:william.jones@embecosm.com))
-
-*Language/Tools:* Verilog, SystemVerilog, RISC-V, Yosys open source tool suite, TinyML benchmark suite
-
 ### OpenRISC Benchmarking and Performance improvements
 
 The [OpenRISC](https://openrisc.io) CPU architecture has multiple CPU implementations
