@@ -167,9 +167,21 @@ export default defineNuxtConfig({
     '/latchup': { redirect: '/latch-up' },
 
     // Matrix server hosting
-    '/.well-known/matrix/server': { redirect: 'https://matrix.fossi-foundation.org/.well-known/matrix/server' },
-    '/.well-known/matrix/client': { redirect: 'https://matrix.fossi-foundation.org/.well-known/matrix/client' },
-    '/.well-known/matrix/support': { redirect: 'https://matrix.fossi-foundation.org/.well-known/matrix/support' },
+    // Disable prerendering to ensure that the redirects are done using HTTP
+    // headers, and not HTML redirects.
+    // Broken redirects here lead to broken Matrix federation, so be careful!
+    '/.well-known/matrix/server': {
+      redirect: 'https://matrix.fossi-foundation.org/.well-known/matrix/server',
+      prerender: false
+    },
+    '/.well-known/matrix/client': {
+      redirect: 'https://matrix.fossi-foundation.org/.well-known/matrix/client',
+      prerender: false
+    },
+    '/.well-known/matrix/support': {
+      redirect: 'https://matrix.fossi-foundation.org/.well-known/matrix/support',
+      prerender: false
+    },
 
     // Blog posts from pre-2023 website
     '/2015/10/10/welcome': { redirect: '/blog/2015-10-10-welcome' },
