@@ -82,7 +82,7 @@ The CVA6/Ariane core supports several different L1 data caches for different con
 
 *Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu), [César Fuguet Tortolero](mailto:Cesar.FUGUETTORTOLERO@cea.fr), [Noelia Oliete Escuín](mailto:noelia.oliete@bsc.es)
 
-### Using AI to Improving Open-Source IP
+### Using AI to Improve Open-Source IP
 
 What if we could instantly improve all the existing open-source Verilog by reducing its size, improving its maintainability, making it more configurable, identifying bugs, and creating visualization for it? How could you possibly do all those things over one summer as a student? Well, you can't. But you could help to make significant strides in that direction.
 
