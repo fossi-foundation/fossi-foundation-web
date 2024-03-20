@@ -19,11 +19,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"vue.volar",
+				"bradlc.vscode-tailwindcss",
 				"cpreston321.nuxt-vscode",
-				"vue.vscode-typescript-vue-plugin",
-				"nuxt.mdc",
-				"bradlc.vscode-tailwindcss"
+				"Nuxt.mdc",
+				"Vue.volar"
 			]
 		}
 	}
