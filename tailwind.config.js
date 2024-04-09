@@ -11,6 +11,13 @@ export default {
       maxWidth: {
         // Maximum container width, according to the style guide.
         'container': '1600px',
+
+        // Overwrite the prose width specified in characters with one specified
+        // in pixels to make the text have the same width, independent of the
+        // font size.
+        // 640px roughly matches the tailwinds default, and the style guide at
+        // https://zeroheight.com/822235964/p/779fcb-content-blocks.
+        'prose': '640px',
       },
 
       lineHeight: {
