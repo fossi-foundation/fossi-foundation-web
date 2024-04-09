@@ -8,7 +8,7 @@ Style guide references:
 - Web components/Typography/Smaller headings for phone view/h1 phone
 -->
 <template>
-  <h1 class="font-black text-phone-31 tablet:text-54 tracking-tighter leading-tighter mb-[15px] tablet:mb-[27px] max-w-prose" :id="id">
+  <h1 class="font-black text-phone-31 tablet:text-54 tracking-tighter leading-tighter mb-[15px] tablet:mb-[27px] max-w-prose text-balance" :id="id">
     <ContentSlot :use="$slots.default" unwrap="p" />
   </h1>
 </template>
