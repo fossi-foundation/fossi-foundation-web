@@ -73,7 +73,7 @@ Homepage
   <FfSignpostBanner
     class="bg-[url('/images/banner-orconf.jpg')]"
     title="Latch-Up 2024 is Go!"
-    ctaLabel="Visit the Latch-Up 2024 conference page for all the action."
+    ctaLabel="Visit the Latch-Up 2024 conference page for all the action"
     ctaTo="/latch-up/2024"
   >
     <p>Join us in Boston, MA, USA from April 19 to 21, 2024 for a weekend full of interesting talks, eye-opening hallway discussions, and excitement around free and open source silicon.</p>
