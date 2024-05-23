@@ -72,11 +72,11 @@ Homepage
   -->
   <FfSignpostBanner
     class="bg-[url('/images/banner-orconf.jpg')]"
-    title="Latch-Up 2024 is Go!"
-    ctaLabel="Visit the Latch-Up 2024 conference page for all the action"
-    ctaTo="/latch-up/2024"
+    title="ORConf 2024 announced!"
+    ctaLabel="Visit the ORConf 2024 conference page for details"
+    ctaTo="/orconf/2024"
   >
-    <p>Join us in Boston, MA, USA from April 19 to 21, 2024 for a weekend full of interesting talks, eye-opening hallway discussions, and excitement around free and open source silicon.</p>
+    <p>Join us in Gothenburg, Sweden from September 13 to 15, 2024 for our 10th installment of ORConf, our European open source silicon conference.</p>
   </FfSignpostBanner>
 
   <!--

@@ -166,6 +166,9 @@ export default defineNuxtConfig({
     // (Keep the URL aligned with the conference name "Latch-Up".)
     '/latchup': { redirect: '/latch-up' },
 
+    // Redirect the ORConf landing page to the most current one.
+    '/orconf': { redirect: '/orconf/2024' },
+
     // Matrix server hosting
     // Disable prerendering to ensure that the redirects are done using HTTP
     // headers, and not HTML redirects.
