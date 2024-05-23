@@ -74,7 +74,7 @@ Homepage
     class="bg-[url('/images/banner-orconf.jpg')]"
     title="ORConf 2024 announced!"
     ctaLabel="Visit the ORConf 2024 conference page for details"
-    ctaTo="/latch-up/2024"
+    ctaTo="/orconf/2024"
   >
     <p>Join us in Gothenburg, Sweden from September 13 to 15, 2024 for our 10th installment of ORConf, our European open source silicon conference.</p>
   </FfSignpostBanner>
