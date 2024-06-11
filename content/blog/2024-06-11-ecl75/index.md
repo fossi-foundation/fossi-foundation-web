@@ -93,7 +93,7 @@ A preprint of the team's paper is available [on Cornell's arXiv server](https://
 ## SERV, the World's Smallest RISC-V CPU, Heads to Silicon via Tiny Tapeout
 
   
-FOSSi Foundation director Olof Kindgren has announced that SERV, the world's smallest RISC-V CPU design, is to be manufactured in silicon for the first time - as part of Matt Venn's Tiny Tapeout programme, which puts free and open source silicon projects into a multi-project die to dramatically reduce the per-project manufacturing cost.  
+FOSSi Foundation director Olof Kindgren has announced that SERV, the world's smallest RISC-V CPU design, is to be manufactured in silicon as part of Matt Venn's Tiny Tapeout programme, which puts free and open source silicon projects into a multi-project die to dramatically reduce the per-project manufacturing cost.  
   
 "I just managed to fit the award-winning SERV, the world's smallest RISC-V CPU into two Tiny Tapeout slots, together with a GPIO [General-Purpose Input/Output] controller and an XIP [Execute In-Place] controller," Olof announced via Twitter, "which makes it possible to run any application loaded onto an SPI flash."  
   
