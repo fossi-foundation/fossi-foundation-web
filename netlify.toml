@@ -1,11 +1,6 @@
-# Configure Netlify to use Server-Side Generation (SSG), i.e. create static
-# pages and serve it as-is.
+# Use Netlify server-side rendering (SSR).
 [build]
-command = "yarn run nuxi generate"
+command = "yarn build"
 
-# Use Netlify server-side rendering (SSR) instead of server-side generation
-# (SSG) by uncommenting the configuration below.
-#[build]
-#command = "yarn build"
-#[build.environment]
-#NUXT_IMAGE_PROVIDER = "netlify"
+[build.environment]
+NUXT_IMAGE_PROVIDER = "netlifyImageCdn"
