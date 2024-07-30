@@ -3,8 +3,7 @@
 {
 	"name": "Nuxt",
 
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:18",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -19,8 +18,11 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"antfu.vite",
 				"bradlc.vscode-tailwindcss",
+				"christian-kohler.npm-intellisense",
 				"cpreston321.nuxt-vscode",
+				"esbenp.prettier-vscode",
 				"Nuxt.mdc",
 				"Vue.volar"
 			]
