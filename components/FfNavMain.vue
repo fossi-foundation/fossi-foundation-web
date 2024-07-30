@@ -65,11 +65,14 @@ TODO:
 
 <script setup>
 import { onMounted } from "vue";
-import { initFlowbite } from "flowbite";
+import { useFlowbite } from '~/composables/useFlowbite';
+import { initCollapses } from 'flowbite';
 
 // JS for the mobile menu: initialize components based on data attribute
 // selectors
 onMounted(() => {
-  initFlowbite();
-});
+  useFlowbite(() => {
+    initCollapses();
+  })
+})
 </script>
