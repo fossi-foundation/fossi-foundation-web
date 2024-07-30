@@ -117,26 +117,6 @@ export default defineNuxtConfig({
     // IMPORTANT: No images are served from the assets or public directory.
     // Store all images in content/images instead!
     dir: '.nuxt/content-assets/public',
-
-    // Configure the netlify provider (if it's used).
-    //
-    // `provider: 'netlify'` is set through an environment variable for Netlify
-    // only in netlify.toml.
-    //
-    // The "netlify" provider uses the deprecated Netlify Large Media service
-    // (https://docs.netlify.com/git/large-media/overview/). It's deprecated,
-    // but has no publicly announced end-of-life date yet, so it's still OK to
-    // use until alternatives become available.
-    // As of December 2023, we don't have many alternatives. Static site
-    // generation/SSG (`nuxi generate`) with ipx could work.
-    //
-    // TODO: Maybe support for Netlify Image CDN
-    // (https://docs.netlify.com/image-cdn/overview/) becomes available as
-    // Nuxt Image provider one day, which seems to be the Netlify-suggested
-    // replacement.
-    netlify: {
-      baseUrl: process.env.IMAGES_URL
-    }
   },
 
   app: {
