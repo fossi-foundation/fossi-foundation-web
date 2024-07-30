@@ -2,6 +2,8 @@ import ExcerptTransformerModule from './excerpt-transformer-module/excerpt-trans
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2024-07-28',
+
   modules: [
     // @ts-ignore
     ExcerptTransformerModule,
@@ -95,15 +97,10 @@ export default defineNuxtConfig({
     imageSize: 'attrs',
   },
 
-
-  // Work around Nuxt issue https://github.com/nuxt/cli/issues/193
-  // See also https://github.com/davestewart/nuxt-content-assets/issues/49
-  hooks: {
-    close: (nuxt) => {
-      if (!nuxt.options._prepare)
-        process.exit()
-    }
-  },
+  // Integrate Nuxt Content Assets with Nuxt Image.
+  extends: [
+    'node_modules/nuxt-content-assets/cache',
+  ],
 
   // Nuxt Image configuration
   image: {
