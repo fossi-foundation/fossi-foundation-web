@@ -4,8 +4,6 @@ The main navigation bar
 Style guide reference: Web components/Navigation/Navbar
 
 TODO:
-- Mobile: the distinct open and close buttons are not implemented.
-  Instead, the hamburger menu is shown unconditionally.
 - Desktop: the menu items are right-aligned, while (maybe) only the
   "Get involved" button is supposed to be right-aligned, and the remainder of
   the items should be centered.
@@ -21,19 +19,18 @@ TODO:
         <!-- logo -->
         <FfLinkLarge to="/" class="flex-none">
           <span class="sr-only">FOSSi Foundation home page</span>
-          <NuxtImg class="w-[180px]" width="180" height="60" alt="FOSSi Foundation logo" src="/images/fossi-logo-full.svg" />
+          <NuxtImg class="w-[180px]" width="180" height="60" alt="The FOSSi Foundation" src="/images/fossi-logo-full.svg" />
         </FfLinkLarge>
 
         <!-- hamburger icon (phone/tablet only) -->
-        <button data-collapse-toggle="navbar" type="button" class="inline-flex items-center desktop:hidden" aria-controls="navbar" aria-expanded="false">
+        <button @click="showMobileNavbar = !showMobileNavbar" type="button" class="inline-flex items-center desktop:hidden" aria-controls="navbar" :aria-expanded="showMobileNavbar">
           <span class="sr-only">Open main menu</span>
-          <svg class="w-48 h-48" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-          </svg>
+          <IconPhList v-if="!showMobileNavbar" class="w-48 h-48"/>
+          <IconPhX v-if="showMobileNavbar" class="w-48 h-48"/>
         </button>
 
         <!-- navigation items -->
-        <div class="hidden items-center justify-between w-full desktop:flex desktop:w-auto desktop:order-1" id="navbar">
+        <div class="items-center justify-between w-full desktop:flex desktop:w-auto desktop:order-1" :class="{ 'hidden': !showMobileNavbar }">
           <ul class="flex flex-col desktop:px-16 mt-24 desktop:mt-0 space-y-20 desktop:flex-row desktop:space-y-0 desktop:space-x-16 desktop:items-center">
             <li>
               <FfLinkLarge class="block" to="/">Home</FfLinkLarge>
@@ -63,16 +60,13 @@ TODO:
   </FfContainer>
 </template>
 
-<script setup>
-import { onMounted } from "vue";
-import { useFlowbite } from '~/composables/useFlowbite';
-import { initCollapses } from 'flowbite';
+<script setup lang="ts">
+import { ref } from "vue";
 
-// JS for the mobile menu: initialize components based on data attribute
-// selectors
-onMounted(() => {
-  useFlowbite(() => {
-    initCollapses();
-  })
-})
+import IconPhList from '~icons/ph/list-bold';
+import IconPhX from '~icons/ph/x-bold';
+
+// Show the mobile navigation bar? (The desktop navigation bar is always
+// visible.) Default to false.
+const showMobileNavbar = ref(false);
 </script>

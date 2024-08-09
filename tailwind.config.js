@@ -122,7 +122,4 @@ export default {
       'desktop': '1280px', // xl
     },
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
 }
