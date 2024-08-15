@@ -1,0 +1,14 @@
+# Netlify server-side redirects.
+#
+# Documentation: https://docs.netlify.com/routing/redirects/
+#
+# Notes:
+# - Domains must be added to the Netlify account first.
+# - Use nuxt.config.ts for all redirects within the site.
+
+# Redirect http[s]://[www.]orconf.org/* to https://fossi-foundation.org/orconf/*
+http://orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
+https://orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
+
+http://www.orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
+https://www.orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
