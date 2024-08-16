@@ -26,7 +26,8 @@ everyone together:
 - June 18, a workshop of open source experts met in Paris to spend an entire day
   on focused discussions to identify work areas.
 
-Recently, FOSSi Foundation was invited to support the [GoIT project]() in their
+Recently, FOSSi Foundation was invited to support the [GoIT
+project](https://wiki.goit-project.eu/index.php?title=Main_Page) in their
 efforts of writing the roadmap document. Matthew Venn and Stefan Wallentowitz
 were assigned to lead the roadmap effort. We have since then invited a core
 group of key persons, that have demonstrated skills and leadership. In a first
