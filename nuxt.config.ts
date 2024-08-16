@@ -146,17 +146,6 @@ export default defineNuxtConfig({
     // Redirect the ORConf landing page to the most current one.
     '/orconf': { redirect: '/orconf/2024' },
 
-    // Redirect legacy URLs to archive site, until we do this in netlify
-    '/orconf/2023': { redirect: 'https://archive.orconf.org/2023/', prerender: false },
-    '/orconf/2019': { redirect: 'https://archive.orconf.org/2019/', prerender: false },
-    '/orconf/2018': { redirect: 'https://archive.orconf.org/2018/', prerender: false },
-    '/orconf/2017': { redirect: 'https://archive.orconf.org/2017/', prerender: false },
-    '/orconf/2016': { redirect: 'https://archive.orconf.org/2016/', prerender: false },
-    '/orconf/2015': { redirect: 'https://archive.orconf.org/2015/', prerender: false },
-    '/orconf/2014': { redirect: 'https://archive.orconf.org/2014/', prerender: false },
-    '/orconf/2013': { redirect: 'https://archive.orconf.org/2013/', prerender: false },
-    '/orconf/2012': { redirect: 'https://archive.orconf.org/2012/', prerender: false },
-
     // Matrix server hosting
     // Disable prerendering to ensure that the redirects are done using HTTP
     // headers, and not HTML redirects.
