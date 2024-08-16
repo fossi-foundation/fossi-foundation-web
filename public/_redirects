@@ -6,6 +6,26 @@
 # - Domains must be added to the Netlify account first.
 # - Use nuxt.config.ts for all redirects within the site.
 
+# Redirect http[s]://[www.]orconf.org/{years} of old pages to https://archive.orconf.org/{years}
+http://orconf.org/2023 https://archive.orconf.org/2023 302!
+https://orconf.org/2023 https://archive.orconf.org/2023 302!
+http://orconf.org/2019 https://archive.orconf.org/2019 302!
+https://orconf.org/2019 https://archive.orconf.org/2019 302!
+http://orconf.org/2018 https://archive.orconf.org/2018 302!
+https://orconf.org/2018 https://archive.orconf.org/2018 302!
+http://orconf.org/2017 https://archive.orconf.org/2017 302!
+https://orconf.org/2017 https://archive.orconf.org/2017 302!
+http://orconf.org/2016 https://archive.orconf.org/2016 302!
+https://orconf.org/2016 https://archive.orconf.org/2016 302!
+http://orconf.org/2015 https://archive.orconf.org/2015 302!
+https://orconf.org/2015 https://archive.orconf.org/2015 302!
+http://orconf.org/2014 https://archive.orconf.org/2014 302!
+https://orconf.org/2014 https://archive.orconf.org/2014 302!
+http://orconf.org/2013 https://archive.orconf.org/2013 302!
+https://orconf.org/2013 https://archive.orconf.org/2013 302!
+http://orconf.org/2012 https://archive.orconf.org/2012 302!
+https://orconf.org/2012 https://archive.orconf.org/2012 302!
+
 # Redirect http[s]://[www.]orconf.org/* to https://fossi-foundation.org/orconf/*
 http://orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
 https://orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
