@@ -2,7 +2,7 @@
 import Slugger from 'github-slugger'
 const slugs = new Slugger()
 
-const props = defineProps(['csvfile', 'view'])
+const props = defineProps(['csvfile', 'view', 'scheduleday'])
 
 let view = props.view;
 const allowedViews = ['overview', 'schedule', 'details'];
@@ -12,8 +12,7 @@ if (!allowedViews.includes(view)) {
 
 const { data } = await useAsyncData('talks', () => queryContent(props.csvfile).find())
 const talks = data.value[0].body
-const talks_fri = talks.filter((talk) => { return talk.Day == 'Fri' })
-const talks_sat = talks.filter((talk) => { return talk.Day == 'Sat' })
+const talks_schedule = talks.filter((talk) => { return talk.Day == props.scheduleday })
 </script>
 
 <template>
@@ -23,18 +22,11 @@ const talks_sat = talks.filter((talk) => { return talk.Day == 'Sat' })
     </p>
   </div>
   <div v-else-if="view=='schedule'">
-    <FfH3>Friday, September 13</FfH3>
     <table>
-    <div v-for="(talk) in talks_fri" :key="index">
+    <div v-for="(talk) in talks_schedule" :key="index">
       <tr v-if="talk.Title"><td><i>{{ talk.Time }}&nbsp;-&nbsp;</i></td><td><b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i> <span v-if="talk.Abstract">(<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)</span></td></tr>
     </div>
     </table>
-    <FfH3>Saturday, September 14</FfH3>
-    <div v-for="(talk) in talks_sat" :key="index">
-      <table>
-        <tr v-if="talk.Title"><td><i>{{ talk.Time }}&nbsp;-&nbsp;</i></td><td><b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i> <span v-if="talk.Abstract">(<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)</span></td></tr>
-      </table>
-    </div>
   </div>
   <div v-else-if="view=='details'">
     <div v-for="(talk) in talks" :key="index">
