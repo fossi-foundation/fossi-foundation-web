@@ -23,13 +23,13 @@ const talks_sat = talks.filter((talk) => { return talk.Day == 'Sat' })
     </p>
   </div>
   <div v-else-if="view=='schedule'">
-    <FfH2>Friday, September 13</FfH2>
+    <FfH3>Friday, September 13</FfH3>
     <table>
     <div v-for="(talk) in talks_fri" :key="index">
       <tr v-if="talk.Title"><td><i>{{ talk.Time }}&nbsp;-&nbsp;</i></td><td><b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i> <span v-if="talk.Abstract">(<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)</span></td></tr>
     </div>
     </table>
-    <FfH2>Saturday, September 14</FfH2>
+    <FfH3>Saturday, September 14</FfH3>
     <div v-for="(talk) in talks_sat" :key="index">
       <table>
         <tr v-if="talk.Title"><td><i>{{ talk.Time }}&nbsp;-&nbsp;</i></td><td><b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i> <span v-if="talk.Abstract">(<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)</span></td></tr>
