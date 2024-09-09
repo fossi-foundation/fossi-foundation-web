@@ -12,23 +12,23 @@ date: 2024-09-10
   
 [It's ORConf time!](https://fossi-foundation.org/orconf/2024/)  
   
-This year's programme shows us that the pace of development and maturation within the open source silicon movement continues to impress. I've noticed several clear threads of activity emerge; be it advancing truly open source chip fabrication, verification in Python with cocotb, RISC-V implementations and related advanced SoCs, all manner of EDA and, encouragingly, constructive user stories and feedback from the trenches.  
-  
-ORConf started out loosely as the OpenRISC project conference, although it rapidly became a broad church for all open source silicon topics. Since 2011 we have had the great privilege to bear witness to the emergence of many brilliant projects in this space. The RISC-V project is one of these, and it's heartening to witness its continued momentum as the standard matures and expands, and open source implementations emerge and evolve. RISC-V ISA CPUs are clearly the most popular open source implementations these days, permitting designers to focus on making them ever-more sophisticated, and largely removing the temptation to start over from scratch at the ISA level.  
-  
-On verification, it's excellent to see the continued swell of support around cocotb, a personal favourite of mine, and is reflected in the number of presentations we have in the programme. Indeed, sophistication in this area is increasing be it via cocotb or other languages, and is very important for quality of the IP.  
-  
-The advent of a truly open source silicon flow, from RTL to GDS, is still a mind-boggling achievement by everyone involved in the community, and happened relatively quickly if you ask me. I'm very much looking forward to hearing about Matt Venn's journey, and what he thinks is up next in this area, and hear what the latest developments in this area have been from others. Matt's talk and several others are going to be valuable sessions of reflection on what we have and what opportunities for improvement exist. I welcome this topic of discussion among the community.  
-  
-That's to say nothing of the other areas we'll cover at ORConf this year during formal presentation sessions, lightning talks, and the catch-ups, ideas and spontaneous collaboration germinating in the halls and pubs of Gothenburg across the weekend. ORConf continues to be one of the signature events on the FOSSi Foundation calendar, we are very proud to be able to contribute to the community in this way. Of course none of this could or would happen without the community's support and the generous support of the sponsors who cover the costs of the event every year, ensuring we can keep the event as accessible and comfortable as possible.  
-  
-A big shout out and expression of gratitude to our sponsors at ORConf 2024: Our headline sponsor Antmicro, sponsors Chalmers University, Mullvad VPN, Tillitis, Hudson River Trading, lowRISC and Qamcom. And to those of you who purchase professional tickets and make donations, everything helps us put the event together, so a big thank you!  
-  
-For those of you who are unable to join us in person this year, we will not be live streaming proceedings however videos should be available on our YouTube channel quickly afterwards as is customary for FOSSi Foundation events.  
-  
-All the details of the event can be found on [https://orconf.org](https://fossi-foundation.org/orconf/2024/) - be sure to check it out if you're coming, as the schedule is now live. There are still opportunities to submit lightning talks.  
-  
-Safe travels to everyone who is joining us, and I look forward to seeing you all September 13 to 15 in Gothenburg, Sweden. Keep an eye out in coming ECLs for a rundown of how it all went.  
+This year's programme shows us that the pace of development and maturation within the open source silicon movement continues to impress. I've noticed several clear threads of activity emerge; be it advancing truly open source chip fabrication, verification in Python with cocotb, RISC-V implementations and related advanced SoCs, all manner of EDA and, encouragingly, constructive user stories and feedback from the trenches.
+
+ORConf started out loosely as the OpenRISC project conference, although it rapidly became a broad church for all open source silicon topics. Since 2011 we have had the great privilege to bear witness to the emergence of many brilliant projects in this space. The RISC-V project is one of these, and it's heartening to witness its continued momentum as the standard matures and expands, and open source implementations emerge and evolve. RISC-V ISA CPUs are clearly the most popular open source implementations these days, permitting designers to focus on making them ever-more sophisticated, and largely removing the temptation to start over from scratch at the ISA level.
+
+On verification, it's excellent to see the continued swell of support around cocotb, a personal favourite of mine, and is reflected in the number of presentations we have in the programme. Indeed, sophistication in this area is increasing be it via cocotb or other languages, and is very important for quality of the IP.
+
+The advent of a truly open source silicon flow, from RTL to GDS, is still a mind-boggling achievement by everyone involved in the community, and happened relatively quickly if you ask me. I'm very much looking forward to hearing about Matt Venn's journey, and what he thinks is up next in this area, and hear what the latest developments in this area have been from others. Matt's talk and several others are going to be valuable sessions of reflection on what we have and what opportunities for improvement exist. I welcome this topic of discussion among the community.
+
+That's to say nothing of the other areas we'll cover at ORConf this year during formal presentation sessions, lightning talks, and the catch-ups, ideas and spontaneous collaboration germinating in the halls and pubs of Gothenburg across the weekend. ORConf continues to be one of the signature events on the FOSSi Foundation calendar, we are very proud to be able to contribute to the community in this way. Of course none of this could or would happen without the community's support and the generous support of the sponsors who cover the costs of the event every year, ensuring we can keep the event as accessible and comfortable as possible.
+
+A big shout out and expression of gratitude to our sponsors at ORConf 2024: Our headline sponsor Antmicro, sponsors Chalmers University, Mullvad VPN, Tillitis, Hudson River Trading, lowRISC and Qamcom. And to those of you who purchase professional tickets and make donations, everything helps us put the event together, so a big thank you! Finally, a big thank you to my fellow FOSSi Foundation volunteers for the work that you do to make our events happen.
+
+For those of you who are unable to join us in person this year, we will not be live streaming proceedings however videos should be available on our YouTube channel quickly afterwards as is customary for FOSSi Foundation events.
+
+All the details of the event can be found on [https://orconf.org](https://fossi-foundation.org/orconf/2024/) - be sure to check it out if you're coming, as the schedule is now live. There are still opportunities to submit lightning talks and Sunday workshops or BOF sessions, so please get in touch via the contact link on the site if you're interested.
+
+Safe travels to everyone who is joining us, and I look forward to seeing you all September 13 to 15 in Gothenburg, Sweden. Keep an eye out in coming ECLs for a rundown of how it all went.
   
 _-Julius Baxter, Director, FOSSi Foundation_
 
