@@ -73,7 +73,7 @@ RISC-V International has appointed new officers and members to its board of dire
   
 "Treasurer Philipp Tomsich brings significant RISC-V expertise to his role, serving as Vice Chair of the Technical Steering Committee and Chair of the Applications and Tools Horizontal Committee. His work in guiding software ecosystem outreach, standardization, and global alignment strengthens RISC-V’s impact on software innovation. Secretary Mark Hayter joins us from Rivos Inc. With a background in systems architecture and hardware development, he previously led engineering teams at Google’s Chrome OS Hardware division and held key roles at P.A. Semi, Broadcom, and SiByte."  
   
-Other board elected board members include Jeffrey Osier-Mixon from Red Hat and IBM, Ken Dockser from Tenstorrent, Philipp Tomsich from VRULL GmbH, and Frank Gurkaynak from ETH Zurich.  
+Other board elected board members include Jeffrey Osier-Mixon from Red Hat and IBM, Ken Dockser from Tenstorrent, and Frank Gurkaynak from ETH Zurich.  
   
 The full announcement is available [on the RISC-V International website](https://riscv.org/blog/2024/08/introducing-the-newly-elected-risc-v-board-of-directors-officers/).
 
