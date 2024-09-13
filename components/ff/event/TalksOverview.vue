@@ -24,7 +24,7 @@ const talks_schedule = talks.filter((talk) => { return talk.Day == props.schedul
   <div v-else-if="view=='schedule'">
     <table>
     <div v-for="(talk) in talks_schedule" :key="index">
-      <tr v-if="talk.Title"><td><i>{{ talk.Time }}&nbsp;-&nbsp;</i></td><td><b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i> <span v-if="talk.Abstract">(<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)</span></td></tr>
+      <tr v-if="talk.Title"><td><i>{{ talk.Time }}&nbsp;-&nbsp;</i></td><td><b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i><span v-if="talk.Abstract"> (<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)</span><span v-if="talk.Youtube"> (<ProseA :to="talk.Youtube">youtube</ProseA>)</span></td></tr>
     </div>
     </table>
   </div>
@@ -32,7 +32,7 @@ const talks_schedule = talks.filter((talk) => { return talk.Day == props.schedul
     <div v-for="(talk) in talks" :key="index">
       <ProseH3 :id=slugs.slug(talk.Title)>{{ talk.Title }}</ProseH3>
       <i>{{ talk.Presenter }}</i>
-      <ProseP><MDC :value="talk.Abstract"/></ProseP>
+      <ProseP><MDC v-if="talk.Abstract" :value="talk.Abstract"/></ProseP>
     </div>
   </div>
 </template>
