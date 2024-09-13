@@ -39,7 +39,7 @@ people:
   - name: Simon Cook
     subheading: Secretary
     img: people/SimonCook.jpg
-    about:  Simon has keen interests in open source hardware and software. He maintains the AAP project, an open source processor designed to improve software tooling for all hardware architectures. Simon acts as secretary to the FOSSi Foundation.
+    about: Simon has keen interests in open source hardware and software. He maintains the AAP project, an open source processor designed to improve software tooling for all hardware architectures. Simon acts as secretary to the FOSSi Foundation.
     socialLinks:
       email: simon@fossi-foundation.org
       linkedInUrl: https://www.linkedin.com/in/spcookuk
@@ -74,9 +74,9 @@ people:
       linkedInUrl: https://www.linkedin.com/in/danpetrisko/
 
   - name: Matt Venn
-    subheading:
+    subheading: Director
     img: people/MattVenn.jpg
-    about:
+    about: Matthew Venn is a science & technology communicator and electronic engineer. He received a degree in Electronic Engineering from Leeds, UK in 1999. He has had a varied career in industry with a combination of engineering and teaching jobs. He has been a central figure in the open source silicon movement with his Zero to ASIC course and Tiny Tapeout initiative.
     socialLinks:
       email: matthew@fossi-foundation.org
       linkedInUrl: https://www.linkedin.com/in/matt-venn
