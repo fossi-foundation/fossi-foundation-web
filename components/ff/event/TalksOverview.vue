@@ -32,7 +32,7 @@ const talks_schedule = talks.filter((talk) => { return talk.Day == props.schedul
     <div v-for="(talk) in talks" :key="index">
       <ProseH3 :id=slugs.slug(talk.Title)>{{ talk.Title }}</ProseH3>
       <i>{{ talk.Presenter }}</i>
-      <ProseP>{{ talk.Abstract }}</ProseP>
+      <ProseP><MDC :value="talk.Abstract"/></ProseP>
     </div>
   </div>
 </template>
