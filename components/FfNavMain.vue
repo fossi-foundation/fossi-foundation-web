@@ -19,14 +19,14 @@ TODO:
         <!-- logo -->
         <FfLinkLarge to="/" class="flex-none">
           <span class="sr-only">FOSSi Foundation home page</span>
-          <NuxtImg class="w-[180px]" width="180" height="60" alt="The FOSSi Foundation" src="/images/fossi-logo-full.svg" />
+          <img class="w-[180px]" width="180" height="60" alt="The FOSSi Foundation" src="/images/fossi-logo-full.svg" />
         </FfLinkLarge>
 
         <!-- hamburger icon (phone/tablet only) -->
         <button @click="showMobileNavbar = !showMobileNavbar" type="button" class="inline-flex items-center desktop:hidden" aria-controls="navbar" :aria-expanded="showMobileNavbar">
           <span class="sr-only">Open main menu</span>
-          <IconPhList v-if="!showMobileNavbar" class="w-48 h-48"/>
-          <IconPhX v-if="showMobileNavbar" class="w-48 h-48"/>
+          <IconPhList v-if="!showMobileNavbar" class="w-48 h-48" />
+          <IconPhX v-if="showMobileNavbar" class="w-48 h-48" />
         </button>
 
         <!-- navigation items -->
