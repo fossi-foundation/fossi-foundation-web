@@ -13,7 +13,7 @@
     "@iconify-json/ph": "^1.1.5",
     "@nuxt/content": "^2.10.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "nuxt": "^3.12.4",
+    "nuxt": "^3.13.1",
     "rss": "^1.2.2",
     "unplugin-icons": "^0.15.3"
   },
