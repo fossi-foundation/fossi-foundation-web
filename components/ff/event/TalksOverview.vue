@@ -16,23 +16,33 @@ const talks_schedule = talks.filter((talk) => { return talk.Day == props.schedul
 </script>
 
 <template>
-  <div v-if="view=='overview'">
+  <div v-if="view == 'overview'">
     <p v-for="(talk) in talks" :key="index">
-        <b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i> (<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)
+      <b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i> (<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)
     </p>
   </div>
-  <div v-else-if="view=='schedule'">
+  <div v-else-if="view == 'schedule'">
     <table>
-    <div v-for="(talk) in talks_schedule" :key="index">
-      <tr v-if="talk.Title"><td><i>{{ talk.Time }}&nbsp;-&nbsp;</i></td><td><b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i><span v-if="talk.Abstract"> (<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)</span><span v-if="talk.Youtube"> (<ProseA :to="talk.Youtube">youtube</ProseA>)</span></td></tr>
-    </div>
+      <div v-for="(talk) in talks_schedule" :key="index">
+        <tr v-if="talk.Title">
+          <td><i>{{ talk.Time }}&nbsp;-&nbsp;</i></td>
+          <td>
+            <b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i>
+            <span v-if="talk.Abstract"> (<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)</span>
+            <span v-if="talk.Youtube"> (<ProseA :to="talk.Youtube">recording</ProseA>)</span>
+            <span v-if="talk.Slides"> (<ProseA :to="talk.Slides">slides</ProseA>)</span>
+          </td>
+        </tr>
+      </div>
     </table>
   </div>
-  <div v-else-if="view=='details'">
+  <div v-else-if="view == 'details'">
     <div v-for="(talk) in talks" :key="index">
       <ProseH3 :id=slugs.slug(talk.Title)>{{ talk.Title }}</ProseH3>
       <i>{{ talk.Presenter }}</i>
-      <ProseP><MDC v-if="talk.Abstract" :value="talk.Abstract"/></ProseP>
+      <ProseP>
+        <MDC v-if="talk.Abstract" :value="talk.Abstract" />
+      </ProseP>
     </div>
   </div>
 </template>
