@@ -13,6 +13,9 @@ if (!allowedViews.includes(view)) {
 const { data } = await useAsyncData('talks', () => queryContent(props.csvfile).find())
 const talks = data.value[0].body
 const talks_schedule = talks.filter((talk) => { return talk.Day == props.scheduleday })
+
+import IconFabYoutube from '~icons/fa6-brands/youtube'
+import IconPhPresentation from '~icons/ph/presentation-bold'
 </script>
 
 <template>
@@ -22,24 +25,31 @@ const talks_schedule = talks.filter((talk) => { return talk.Day == props.schedul
     </p>
   </div>
   <div v-else-if="view == 'schedule'">
-    <table>
-      <div v-for="(talk) in talks_schedule" :key="index">
-        <tr v-if="talk.Title">
-          <td><i>{{ talk.Time }}&nbsp;-&nbsp;</i></td>
-          <td>
-            <b>{{ talk.Title }}</b> - <i>{{ talk.Presenter }}</i>
-            <span v-if="talk.Abstract"> (<ProseA :to="'#' + slugs.slug(talk.Title)">details</ProseA>)</span>
-            <span v-if="talk.Youtube"> (<ProseA :to="talk.Youtube">recording</ProseA>)</span>
-            <span v-if="talk.Slides"> (<ProseA :to="talk.Slides">slides</ProseA>)</span>
+    <table class="table-auto p-16 align-middle border-16 border-ultraviolet">
+      <tbody>
+        <tr v-for="(talk) in talks_schedule" :key="index" class="align-top">
+          <td class="p-[4px] text-ultraviolet font-black text-right">{{ talk.Time }}</td>
+          <td class="p-[4px]">
+            <NuxtLink :to="'#' + slugs.slug(talk.Title)">
+              <span class="font-black">{{ talk.Title }}</span><span v-if="talk.Presenter"> by {{ talk.Presenter }}</span>
+            </NuxtLink>
+            <span class="inline-flex space-x-10 px-10 align-middle">
+              <ProseA v-if="talk.Youtube" title="Watch the recording on YouTube" :to="talk.Youtube"><IconFabYoutube/></ProseA>
+              <ProseA v-if="talk.Slides"title="Presentation slides" :to="talk.Slides"><IconPhPresentation/></ProseA>
+            </span>
           </td>
         </tr>
-      </div>
+      </tbody>
     </table>
   </div>
   <div v-else-if="view == 'details'">
     <div v-for="(talk) in talks" :key="index">
       <ProseH3 :id=slugs.slug(talk.Title)>{{ talk.Title }}</ProseH3>
-      <i>{{ talk.Presenter }}</i>
+      <div class="flex space-x-10 align-middle">
+        <span>{{ talk.Presenter }}</span>
+        <ProseA v-if="talk.Youtube" title="Watch the recording on YouTube" :to="talk.Youtube"><IconFabYoutube/></ProseA>
+        <ProseA v-if="talk.Slides"title="Presentation slides" :to="talk.Slides"><IconPhPresentation/></ProseA>
+      </div>
       <ProseP>
         <MDC v-if="talk.Abstract" :value="talk.Abstract" />
       </ProseP>
