@@ -84,6 +84,18 @@ export default defineNuxtConfig({
         'python',
       ]
     },
+    // Pec85: Automatically take the first picture for SEO-related meta tags
+    seo: {
+      image: {
+        path: 'images',
+        first: true
+      }
+    },
+    // Ped20: Make URLs absolute automatically
+    url: {
+      base: 'https://fossi-foundation.org',
+      relative: false
+    }
   },
 
   // Nuxt Content Assets configuration.

@@ -27,4 +27,20 @@ const data = await queryContent('/about-us/people/_people')
 //const people = data.people.sort((a, b) => a.name > b.name);
 
 const people = data.people
+
+// Add SEO-related meta tags
+useHead({
+  title: 'People - FOSSi Foundation',
+  meta: [
+    { name: 'description', content: 'Meet the people behind the FOSSi Foundation.' },
+    { property: 'og:title', content: 'People - FOSSi Foundation' },
+    { property: 'og:description', content: 'Meet the people behind the FOSSi Foundation.' },
+    { property: 'og:image', content: 'https://fossi-foundation.org/images/people.jpg' },
+    { property: 'og:url', content: 'https://fossi-foundation.org/about-us/people' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'People - FOSSi Foundation' },
+    { name: 'twitter:description', content: 'Meet the people behind the FOSSi Foundation.' },
+    { name: 'twitter:image', content: 'https://fossi-foundation.org/images/people.jpg' }
+  ]
+})
 </script>
