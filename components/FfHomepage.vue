@@ -70,6 +70,7 @@ Homepage
   <!--
   Event announcement
   -->
+  <!--
   <FfSignpostBanner
     class="bg-[url('/images/banner-orconf.jpg')]"
     title="ORConf 2024 announced!"
@@ -78,6 +79,7 @@ Homepage
   >
     <p>Join us in Gothenburg, Sweden from September 13 to 15, 2024 for our 10th installment of ORConf, our European open source silicon conference.</p>
   </FfSignpostBanner>
+  -->
 
   <!--
   News
