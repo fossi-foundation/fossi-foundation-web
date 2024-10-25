@@ -26,9 +26,20 @@ https://orconf.org/2013 https://archive.orconf.org/2013 302!
 http://orconf.org/2012 https://archive.orconf.org/2012 302!
 https://orconf.org/2012 https://archive.orconf.org/2012 302!
 
+# Redirect http[s]://[www.]orconf.org/{years} of old pages to https://archive.orconf.org/{years}
+https://latchup.io/2023 https://www-archive.fossi-foundation.org/latchup/2023 302!
+https://latchup.io/2019 https://www-archive.fossi-foundation.org/latchup/2019 302!
+
 # Redirect http[s]://[www.]orconf.org/* to https://fossi-foundation.org/orconf/*
 http://orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
 https://orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
 
 http://www.orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
 https://www.orconf.org/* https://fossi-foundation.org/orconf/:splat 302!
+
+# Redirect http[s]://[www.]latchup.io/* to https://fossi-foundation.org/latch-up/*
+http://latchup.io/* https://fossi-foundation.org/latch-up/:splat 302!
+https://latchup.io/* https://fossi-foundation.org/latch-up/:splat 302!
+
+http://www.latchup.io/* https://fossi-foundation.org/latch-up/:splat 302!
+https://www.latchup.io/* https://fossi-foundation.org/latch-up/:splat 302!
