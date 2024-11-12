@@ -91,7 +91,7 @@ The ratified version of the RVA23 Profile is available [on the RISC-V Technical 
   
 Sylvain Munaut is working on the development of a ROM compiler for the SkyWater SKY130 open process design kit (PDK), describing it as “rapidly approaching a state where I can actually tape out some silicon” for production at SkyWater’s fabs.
 
-“ROM, as you most likely know, stands for ‘read-only memory,’” Sylvain explains by way of introduction. "That is, memory where the content is fixed. In this context, it’s fixed when you design the chip. That can be useful for a lots of things: if you have some video output you might need a font or some icons, if you’re making a CPU maybe you need some microcode for it or a boot ROM, if you need to do some computation maybe you need a sign table.
+“ROM, as you most likely know, stands for ‘read-only memory,’” Sylvain explains by way of introduction. "That is, memory where the content is fixed. In this context, it’s fixed when you design the chip. That can be useful for a lots of things: if you have some video output you might need a font or some icons, if you’re making a CPU maybe you need some microcode for it or a boot ROM, if you need to do some computation maybe you need a sine table.
 
 “A ROM compiler is, then, just a piece of software that takes your ROM content and generates a macro that you can integrate into your larger designs. The macro size and external interface are also independent of the ROM content, meaning you can easily update it without having to change anything else in your project.”
 
