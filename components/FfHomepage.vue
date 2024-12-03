@@ -70,16 +70,14 @@ Homepage
   <!--
   Event announcement
   -->
-  <!--
   <FfSignpostBanner
     class="bg-[url('/images/banner-orconf.jpg')]"
-    title="ORConf 2024 announced!"
-    ctaLabel="Visit the ORConf 2024 conference page for details"
-    ctaTo="/orconf/2024"
+    title="Latch-Up 2025 announced!"
+    ctaLabel="Visit the Latch-Up 2025 conference page for details"
+    ctaTo="/latch-up/2025"
   >
-    <p>Join us in Gothenburg, Sweden from September 13 to 15, 2024 for our 10th installment of ORConf, our European open source silicon conference.</p>
+    <p>Join us in Santa Barbara, CA from May 2 to 4, 2025 for Latch-Up and feel the pulse of the open source silicon community.</p>
   </FfSignpostBanner>
-  -->
 
   <!--
   News

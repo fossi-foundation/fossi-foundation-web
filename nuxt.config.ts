@@ -137,7 +137,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     // Redirect the Latch-Up landing page to the most current one.
-    '/latch-up': { redirect: '/latch-up/2024' },
+    '/latch-up': { redirect: '/latch-up/2025' },
 
     // Redirect legacy URL to the new dispatcher URL.
     // (Keep the URL aligned with the conference name "Latch-Up".)
