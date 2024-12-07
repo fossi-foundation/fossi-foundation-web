@@ -12,6 +12,8 @@ The FOSSi Foundation core team and its members are domain experts in free and op
 We're happy to answer media requests on these topics.
 Please reach out to info@fossi-foundation.org with your questions.
 
+Are you looking for graphics assets, such as the FOSSi Foundation logo?
+Head over to the [Resources page](/about-us/resources)!
 
 ## Postal address
 
