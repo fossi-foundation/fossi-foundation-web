@@ -46,7 +46,7 @@ The conference will be held during the weekend May 2-4 2025 at University of Cal
 
 All event information is available at [latchup.io](http://latchup.io)
 
-_-Phillip Wagner, Director, FOSSi Foundation_
+_-Philipp Wagner, Director, FOSSi Foundation_
 
 <img src="excelcpu.jpg" style="max-width:100%" />
 
