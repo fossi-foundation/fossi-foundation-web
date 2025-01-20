@@ -20,7 +20,7 @@ Tiny Tapeout delivers ultra-low-cost and readily-accessible silicon production u
 
 “We then start the KianV SoC and connect to its serial output. All this can be done via the Tiny Tapeout Commander. I select the project, set the clock frequency to 30MHz and set up the UART console. The bootloader loads the kernel image and after a good two minutes Linux has booted successfully. It’s great to see what’s possible within the Tiny Tapeout ecosystem and how easy the bring-up was!”
 
-More information is available [on Mike’s Mastodon account](https://fosstodon.org/@mole99/113758788955951960), while details on the Tiny Tapeout programme and all projects submitted so far are available [on the official website](https://tinytapeout.com/).
+More information is available [on Leo’s Mastodon account](https://fosstodon.org/@mole99/113758788955951960), while details on the Tiny Tapeout programme and all projects submitted so far are available [on the official website](https://tinytapeout.com/).
 
 <img src="silicegithub.jpg" style="max-width:100%" />
 
