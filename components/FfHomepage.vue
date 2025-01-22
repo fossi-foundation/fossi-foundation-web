@@ -44,7 +44,7 @@ Homepage
           in discussions, report bugs, share your improvements, or even start a
           new free and open source silicon project!
         </FfPara>
-        <FfBtnCta linkTo="/get-involved">Get involved in open silicon</FfBtnCta>
+        <FfBtnCta linkTo="/get-involved" class="transition-transform duration-300 hover:scale-105 hover:shadow-lg">Get involved in open silicon</FfBtnCta>
       </div>
     </div>
     <div class="flex flex-col mb-32 tablet:flex-row my-24 tablet:my-48 desktop:my-64">
@@ -62,7 +62,7 @@ Homepage
           happening in our world in our newsletter El Correo Libre. And reach out
           to us if you feel confused. We're here to help.
         </FfPara>
-        <FfBtnCta linkTo="/our-work">Explore how the FOSSi Foundation helps</FfBtnCta>
+        <FfBtnCta linkTo="/our-work" class="transition-transform duration-300 hover:scale-105 hover:shadow-lg">Explore how the FOSSi Foundation helps</FfBtnCta>
       </div>
     </div>
   </FfContainer>
@@ -71,10 +71,11 @@ Homepage
   Event announcement
   -->
   <FfSignpostBanner
-    class="bg-[url('/images/banner-orconf.jpg')]"
+    class="bg-[url('/images/banner-orconf.jpg')] "
     title="Latch-Up 2025 announced!"
     ctaLabel="Visit the Latch-Up 2025 conference page for details"
     ctaTo="/latch-up/2025"
+    
   >
     <p>Join us in Santa Barbara, CA from May 2 to 4, 2025 for Latch-Up and feel the pulse of the open source silicon community.</p>
   </FfSignpostBanner>
