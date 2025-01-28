@@ -37,29 +37,6 @@ Slang, Arcilator, and CIRCT are based on MLIR and LLVM, and are implemented in C
 
 *Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
 
-### Jupyter Notebook add-ons for Open Silicon development
-
-*Details:* Jupyter Notebook allows developers to share interactive documents that allow to reproduce a given computation, by capturing in a single file:
-the environment with the tools installation
-the code with a given set of parameters
-the results and their analysis
-
-This is a natural fit for Open Silicon design that often tuning input parameters, inspecting visual results and comparing metrics and simulation measurements.
-
-Possible contributions to this project:
-- Create Jupyter extensions that interface the common Open Silicon data formats (GDS, LEF, DEF, Waveform, Timing and Power analysis report) with its display primitives.
-- Create Jupyter kernels to support writing cells in HDL and HSL languages and evaluating their testbenches.
-- Create a corpus of notebook examples that capture popular Open Silicon flows (analog, digital, hls-based).
-Bootstrap the developer infrastructure and community to maintain those projects.
-
-*Skill level:* Beginner to Intermediate
-
-*Duration:* ~350 hrs.
-
-*Language/Tools:* Python, Typescript
-
-*Mentor:* [Johan Euphrosine](mailto:proppy@google.com)
-
 ### TinyParrot: A minimal BlackParrot RISC-V Multicore variant
 *Details:* BlackParrot aims to be the default open-source, Linux-capable, cache-coherent, RV64GC multicore used by the world. It has been FPGA and Silicon-validated as an industry-strength design with leading efficiency. We wish to make it even tinier. This project will look into various size optimizations which may include parameterizing out support for the RISC-V MFD extensions or remapping FPGA primitives using the portability layer in BaseJump STL. The final optimizations may depend on the applicant's skill set. At the end of this project, we hope to use the ZynqParrot infrastructure to fit a BlackParrot multicore into affordable educational FPGA boards such as the Z2!
 
@@ -231,24 +208,6 @@ Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So y
 
 *Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
 
-### Python bindings for OpenROAD
-
-*Details:* OpenROAD is a standalone application capable of performing RTL-to-GDSII SoC design, from floorplanning through detailed routing with metal fill insertion, signoff parasitic extraction and timing analysis. It currently provides a comprehensive high-level scriptable layer in TCL, but also embeds a Python interpreter.  The embedded Python interpreter provides support only for the database (odb) and is a subset of what is available in TCL.
-
-Possible contributions to this project:
-- Compile odb as a standalone python module
-- Extend the bindings to other components of OpenROAD
-- Write Python and/or Conda packaging recipes for the package and its dependencies
-- Bootstrap infrastructure to continuously build and publish the package to PyPI and/or Conda.
-
-*Skill level:* Intermediate to Advanced
-
-*Duration:* ~350 hrs.
-
-*Language/Tools:* Python, C++, Conda
-
-*Mentor:* [Johan Euphrosine](mailto:proppy@google.com), [Matt Liberty](mailto:mliberty@eng.ucsd.edu)
-
 ### Arcilator Debug Info Support
 
 [Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It converts hardware designs into an efficient simulator that produces signals traces which can be viewed by tools like [GTKWave](https://gtkwave.sourceforge.net/) or [vcdrom](https://vc.drom.io/?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd). Today, these signal traces only show the very low-level, assembly-style representation of the original hardware design, which is very annoying for users to read and debug. (Similar to debugging C++ code at the assembly level.) However, the CIRCT IR that describes the design can contain _debug information_, which would allow Arcilator to produce traces of the high-level signals in the original hardware designs. (Similar to how debug symbols can allow you to debug C++ code directly, even though your processor executes assembly instructions.)
@@ -327,27 +286,6 @@ Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So y
 *Language/Tools:* C++, CIRCT, MLIR, LLVM
 
 *Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
-
-### Conda packages for Open Silicon tooling
-
-*Details:* Bootstrapping a working environment for Open Silicon development is often a tedious task that involves installing multiple tools written in many different languages from various distribution channels (PyPI, debian, homebrew, containers image) and more often than not building them directly from sources!
-
-The https://github.com/hdl/conda-eda/ project aims to fix this by providing conda.io packages for popular FPGA and ASIC tools and distributing them on a dedicated channel: https://anaconda.org/LiteX-Hub/.
-
-Possible contributions to this project:
-- Make an inventory of the tools commonly used in popular Open Silicon flows.
-- Identify the tools (and their dependencies) that are not yet packaged.
-- Add new recipes to the project to cover those gaps.
-- Moving the package to conda-forge.org to provide automated build and distribution for Linux, MacOSX and Windows.
-- Creating meta-packages that capture the environment for popular Open Silicon flows (analog, digital, hls-based).
-
-*Skill level:* Beginner
-
-*Duration:* ~175 hrs.
-
-*Language/Tools:* Conda, Shell scripting, Git
-
-*Mentor:* [Johan Euphrosine](mailto:proppy@google.com)
 
 ### Capiche system development
 
