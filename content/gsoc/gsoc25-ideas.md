@@ -86,11 +86,8 @@ platform.
 This project will have the student developing, testing and sending patches up to
 the Linux kernel.  This includes:
 
-* Develop [rseq](https://lwn.net/Articles/650333/) support to OpenRISC Linux
-  and glibc.
 * Use the cacheinfo API for reporting CPU details in OpenRISC Linux.
-* Add [virtio](https://developer.ibm.com/articles/l-virtio/) support to OpenRISC
-  Linux which would allow running OpenRISC containers.
+* Add [tracing facilities](https://docs.kernel.org/trace/index.html) to OpenRISC Linux including: jump_label, ftrace, kprobes, eBPF etc.
 
 *Skill level:* Advanced
 
@@ -108,6 +105,7 @@ on the marocchino is slightly slower compared to the mor1kx.
 
 This project will have the student:
 
+* Continue from where the 2024 GSoC student left off.
 * Use tools like the [Embench](https://www.embench.org/news.html) modern benchmark suite
   to measure OpenRISC processor and compiler toolchain performance.
 * Document the OpenRISC performance at [Embench IoT results](https://github.com/embench/embench-iot-results)
