@@ -63,15 +63,17 @@ The CVA6/Ariane core supports several different L1 data caches for different con
 
 What if we could instantly improve all the existing open-source Verilog by reducing its size, improving its maintainability, making it more configurable, identifying bugs, and creating visualization for it? How could you possibly do all those things over one summer as a student? Well, you can't. But you could help to make significant strides in that direction.
 
-Transaction-Level Verilog (TL-Verilog) models are smaller, cleaner, and less bug-prone than their Verilog counterparts. But there's not much TL-Verilog in the wild yet. Advancements in AI make it feasible to automate the process of converting existing Verilog models to TL-Verilog. If you ask ChatGPT to convert your code today, you won't be happy with the results. But with careful coaching, AI models can be trained for the job. Through a series of incremental conversion steps, backed by formal verification, LLMs can get the job done. Automation and human intervention will be important in the process.
+Transaction-Level Verilog (TL-Verilog) models are smaller, cleaner, and less bug-prone than their Verilog counterparts. But there's not much TL-Verilog in the wild yet. If you ask ChatGPT to convert your code today, you won't be happy with the results. But with careful coaching, AI models can be trained for the job.
 
-Optionally/alternately, we can also explore the use of AI to generate visualization for Verilog and/or TL-Verilog circuits using the Visual Debug feature of the Makerchip.com platform.
+Since LLMs understand Verilog better than TL-Verilog, we do as much as possible with the Verilog to prepare it for conversion to TL-Verilog. An initial flow has been put in place for this. A Python program iterates through a recipe of prompts, each performing an incremental refactoring step. After each step, formal equivalence verification (FEV) is used to ensure functional correctness. Human intervention is possible and is currently needed at almost every step.
 
-*Skill level:* Advanced
+Your project will be to use and enhance this flow to refactor an open-source Verilog project like SERV. In the process, you'll contribute to the automation, and your work will become training data to improve future LLMs for this task.
+
+*Skill level:* Intermediate/Advanced
 
 *Duration:* 350 hours
 
-*Language/Tools:* Verilog, TL-Verilog, EQY (EQuivalence checking with Yosys), ChatGPT API, Python, optionally: JavaScript, Visual Debug API
+*Language/Tools:* Verilog, Python, TL-Verilog
 
 *Repo:* https://github.com/stevehoover/conversion-to-TLV
 
@@ -141,25 +143,6 @@ SMP.
 *Language/Tools:* Verilog, LiteX, Linux, Python, OpenRISC architecture
 
 *Mentor:* [Stafford Horne](mailto:shorne@gmail.com)
-
-
-### VS Code Extension for TL-Verilog
-
-VS Code has become the editor of choice for most developers. While a VS Code extension exists for TL-Verilog, it could use an update and improvements. It may even be possible to go beyond text editing and integrate some of the capabilities of Makerchip into VS Code, such as waveform viewing and simulation visualization. Code compilation (using SandPiper-SaaS) should be added at a minimum.
-
-*Skill level:* Intermediate/Advanced
-
-*Duration:* 175 or 350 hours
-
-*Language/Tools:* TypeScript
-
-*Repo:* https://github.com/adamint/tlv-vscode
-
-*Mentor:* [Steve Hoover](mailto:steve.hoover@redwoodeda.com)
-
-### Other TL-Verilog-Related Projects
-
-If you are interested in the TL-Verilog ecosystem, you might also consider any of these [TL-Verilog project ideas](https://github.com/stevehoover/TL-V_Projects). All would make excellent GSoC projects and mentors can be identified.
 
 
 ### Klayout ASAP7 DRC and LVS decks
