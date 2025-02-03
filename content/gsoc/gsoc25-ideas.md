@@ -48,17 +48,6 @@ Slang, Arcilator, and CIRCT are based on MLIR and LLVM, and are implemented in C
 
 *Language/Tools:* SystemVerilog, some knowledge of computer architecture, RISC-V knowledge preferred but not required
 
-### Transforming the OpenHW High Performance Data Cache into a High Performance Instruction Cache
-The CVA6/Ariane core supports several different L1 data caches for different contexts and user demands. CEA are leading a new effort building a high performance data cache (HPDC) which was recently integrated into CVA6. This project would extend the HPDC to make it usable as an instruction cache.
-
-*Skill level:* Intermediate
-
-*Duration:* 350 hours
-
-*Language/Tools:* Verilog, SystemVerilog, RISC-V
-
-*Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu), [César Fuguet Tortolero](mailto:Cesar.FUGUETTORTOLERO@cea.fr), [Noelia Oliete Escuín](mailto:noelia.oliete@bsc.es)
-
 ### Using AI to Improve Open-Source IP
 
 What if we could instantly improve all the existing open-source Verilog by reducing its size, improving its maintainability, making it more configurable, identifying bugs, and creating visualization for it? How could you possibly do all those things over one summer as a student? Well, you can't. But you could help to make significant strides in that direction.
@@ -258,18 +247,6 @@ CIRCT is based on MLIR and LLVM, and is implemented in C++. So you'll definitely
 
 *Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
 
-### Building Manycore SoCs with OpenPiton + LiteX
-[LiteX](https://github.com/enjoy-digital/litex) makes building FPGA-based SoCs easy. Using the Python hardware design library Migen, LiteX provides a variety of peripherals to enable users to build a complex SoC around a core of their choice. For this project, we would like to connect a manycore [OpenPiton](http://www.openpiton.org/) processor design in order to build a new manycore LiteX SoC.
-
-*Skill level:* Intermediate
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* Python (Migen), Verilog
-
-*Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
-
-
 ### Arcilator Optimizations
 
 [Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It transforms a hardware design into a collection of register-to-register transfer arcs that make it extremely efficient to simulate. Even though Arcilator is a very young tool that hasn't seen a lot of optimization yet, it is already capable of matching and beating Verilator's performance in a lot of cases.
@@ -372,22 +349,6 @@ will function as the kernel dispatch layer.
 *Language/Tools:* TL-V, SV, Verilog
 
 *Mentors:* [Theodore Omtzigt](mailto:theo@stillwater-sc.com)
-
-### Enhancing the Sootty Terminal-based Graphical Waveform Viewer
-
-[Sootty](https://github.com/Ben1152000/sootty) is a terminal-based waveform viewer that can be used to display the contents of a VCD file. It is written in Python in order to leverage the read-eval-print loop to enable interactive hardware debugging. It also provides a textual query language that lets the user search a waveform for interesting events to assist in debugging.
-
-We are interested in developing a more robust backend to better support real-world designs, some of which contain gigabytes of data that must be efficiently stored and parsed. The goal for this project is to incorporate [polars](https://github.com/pola-rs/polars), a fast DataFrame library with Python bindings in order to improve the tool’s scalability and overall performance.
-
-*Skill Level:* Beginner-Intermediate
-
-*Duration:* 175 or 350 hours
-
-*Language/Tools:* Python
-
-*Other Requirements:* Familiarity with basic data structures/algorithm design
-
-*Mentors:* [Benjamin Darnell](mailto:bzd2@illinois.edu), [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
 
 ### Seamless multi-frontend support for OpenLane 2
 
