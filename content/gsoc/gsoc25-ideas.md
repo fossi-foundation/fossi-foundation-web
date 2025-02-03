@@ -205,6 +205,24 @@ Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So y
 
 *Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
 
+### cocotb v2 Code Migration Helper
+
+The upcoming cocotb v2.x release will have quite some breaking changes (see https://docs.cocotb.org/en/latest/release_notes.html), so users and extension developers will have to actively migrate existing code.
+
+A code migration helper tool would be helpful, even if it is not perfect.
+
+Some links:
+* https://libcst.readthedocs.io/
+* https://lukeplant.me.uk/blog/posts/tools-for-rewriting-python-code/
+
+*Skill level:* Intermediate/Advanced
+
+*Duration:* medium (175 hours)
+
+*Language/Tools:* Python, cocotb
+
+*Mentor:* [Kaleb Barrett](mailto:dev.ktbarrett@gmail.com)
+
 ### Parameterized device layouts for Sky130
 
 The purpose of this project is to expand the set of available parameterized devices available in magic for use with the SkyWater Sky130 foundry process.  These devices are created using an existing framework written in Tcl/Tk, although most of the code involves magic command-line commands (which are implemented in Tcl).  Only a basic understanding of Tcl variables, conditionals, loops, and subroutine calls is needed.
