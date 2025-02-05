@@ -198,24 +198,6 @@ Some links:
 
 *Mentor:* [Kaleb Barrett](mailto:dev.ktbarrett@gmail.com)
 
-### Parameterized device layouts for Sky130
-
-The purpose of this project is to expand the set of available parameterized devices available in magic for use with the SkyWater Sky130 foundry process.  These devices are created using an existing framework written in Tcl/Tk, although most of the code involves magic command-line commands (which are implemented in Tcl).  Only a basic understanding of Tcl variables, conditionals, loops, and subroutine calls is needed.
-
-Existing devices could use more thorough checks of DRC cleanliness across a wide range of parameters.  FET devices could use an option to have all gate contacts merged into a single net, which would also allow a tighter pitch for the smallest length devices.
-
-New devices of interest that have not yet been done in parameterized cells include (but are not limited to):  The photodiode, extended-drain MOSFETs, bipolar transistors, ESD transistors, inductors, metal fuses, UHV (ultra-high-voltage) devices.
-
-Each new device should follow the design specifications for device layout from the SkyWater DRC manual, and needs to implement five routines that (1) define the device parameters and limits, (2) convert parameters from a SPICE netlist, (3) define the user interface dialog (UI) for setting those parameters, (4) check and enforce parameter limits, and (5) draw the device. After implementing, each device needs to be checked for DRC correctness by generating a "torture test" of a large array of devices with different sets of parameters which can be passed to the DRC checkers to make sure that the drawing routine produces DRC clean layouts.
-
-*Skill level:* Intermediate/Advanced
-
-*Duration:* medium (175 hours)
-
-*Language/Tools:* Tcl/Tk, Magic
-
-*Mentors:* [Tim Edwards](tim@opencircuitdesign.com)
-
 ### Spike + Sim-X
 
 The project is to interface [Spike](https://github.com/riscv-software-src/riscv-isa-sim) with [Sim-X](https://github.com/vortexgpgpu/vortex/tree/master/sim/simx).
@@ -232,29 +214,6 @@ Interfacing Spike with Sim-X would allow us to simulate functionaly our heteroge
 *Language/Tools:* C++, RISC-V GNU Cross-compiler, Vortex LLVM compiler
 
 *Mentor:* [Davy Million](mailto:davy.million@cea.fr)
-
-### Capiche system development
-
-
-The purpose of this project is to expand the set of scripts in the github repository [RTimothyEdwards/capiche](https://github.com/RTimothyEdwards/capiche) into a system for understanding and modeling parasitic capacitance in a foundry process.  This is ideally done using a Jupyter notebook and taking advantage of the existing Python scripts, but allow users to simulate and plot capacitance over a number of different variables.
-
-The system should make it convenient for the user to create a set of model equations representing parasitic capacitance and then measure the accuracy vs. simulation by the field equation solver FasterCap.
-
-Plots should be made interactive with matplotlib instead of the current method of generating static SVG images.
-
-Plots should be extended to include surface plots over two variables.
-
-Time permitting (e.g., 350 hour internship instead of 175 hour), the internship can include extending the FasterCap input file format to include 3-dimensional geometry.  Ideally, one would make a layout in magic, and convert the layout directly into an input file for FasterCap using the routines in Capiche plus some parsing of the 2D layout file.
-
-*Skill level:*   Intermediate/Advanced
-
-*Duration:* medium or long (175 or 350 hrs)
-
-*Languages:* Python + scipy and matplotlib, C, Jupyter notebooks
-
-*Tools:* Magic, FasterCap, Octave
-
-*Mentors:* [Tim Edwards](tim@opencircuitdesign.com)
 
 ### Scaling Essent's SystemVerilog Simulation with metro-MPI
 
