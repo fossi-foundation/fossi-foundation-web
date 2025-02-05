@@ -21,13 +21,13 @@ Looking forward to meet you all!
 {:toc}
 
 
-### Basic SystemVerilog Simulation with Slang and Arcilator
+### Improve CIRCT's Verilog Frontend
 
-[Slang](https://github.com/MikePopoloski/slang) is a frontend for the SystemVerilog hardware description language. It can parse, analyze, type check, and elaborate input files in that language. The [CIRCT](https://github.com/llvm/circt) project is currently undertaking an effort to integrate Slang as its official frontend to deal with SystemVerilog hardware designs. [Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of CIRCT that aims to simulate any hardware captured in one of CIRCT's IRs.
+The [CIRCT](https://github.com/llvm/circt) project uses the [Slang](https://github.com/MikePopoloski/slang) frontend to parse the SystemVerilog hardware description language. The [sv-tests](https://chipsalliance.github.io/sv-tests-results/) project runs many SystemVerilog frontends on a benchmark suite of input files to test their quality. We would love you to use the sv-tests results as a starting point to find key missing features that you can add to `circt-verilog` and fix failing tests. Tests often fail for similar reasons, and fixing small things can cause large numbers of tests to start passing.
 
-We would love you to get first SystemVerilogs designs into CIRCT and simulated with Arcilator. This is a big and important milestone towards adding proper SystemVerilog support. To achieve this, you'll have to get your hands dirty with how hardware designs are converted from a Slang AST to high-level CIRCT IR, and how that CIRCT IR can be lowered to a more fundamental representation that Arcilator is capable of simulating. It will pay off to have a few SystemVerilog designs with increasing complexity, and getting them to compile and simulate one after the other. This will show you which parts in the Slang integration and CIRCT IR lowering are still missing and have to be implemented. Getting the first SystemVerilog designs to simulate with CIRCT is a highly anticipated feature and will have a lot of visibility and fans.
+SystemVerilog is a complicated language and CIRCT builds a deep stack of intermediate representations using MLIR to process it. The Slang frontend produces an Abstract Syntax Tree which the ImportVerilog pass converts into the Moore dialect, the first IR level in circt-verilog. Various optimizations are already performed at this level. Then the MooreToCore conversion pass lowers the Moore dialect to the HW, Comb, Seq, and LLHD dialects for further processing. Finally, several optimization passed implemented on the LLHD dialect analyze the hardware design and detect common structures. If you want to sink your teeth into compiler and IR design, this is the perfect project for you!
 
-Slang, Arcilator, and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
+Slang and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
 
 *Skill Level:* Advanced
 
@@ -35,7 +35,25 @@ Slang, Arcilator, and CIRCT are based on MLIR and LLVM, and are implemented in C
 
 *Language/Tools:* C++, CIRCT, MLIR, LLVM
 
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](maerhart@outlook.com), and others in the CIRCT community
+
+### Generate Counter Examples for Bounded Model Checks in CIRCT
+
+The [CIRCT](https://github.com/llvm/circt) project has its own bounded model checking tool, circt-bmc. It takes a hardware design described in CIRCT's MLIR dialects and translates it into a program that uses the Z3 SMT solver to formally prove assertions. If it finds a way how assertions can be violated, it simply terminates with an error message. This is not very useful for a user that is trying to debug a hardware design that they have written. Instead, we would like circt-bmc to produce a counter-example, essentially a signal trace that shows and example of how the assertions can be violated. The Z3 SMT solver actually provides a counter-example as part of its checking, circt-bmc just does not use that yet.
+
+We would love you to extend circt-bmc with a counter-example feature that produces a signal trace for violated assertions, ideally a VCD waveform as a starting point. This will require you to modify the lowering pass that translates a hardware design to Z3 solver calls: in addition to the asserts that need to be checked, you will also want to translate any named ports, wires, registers into the corresponding Z3 solver expressions. The bounded model check can then take a snapshot of all these expressions in every time step. When Z3 finds a counter-example, you can go through every time step, evaluate all the solver expression for all user-visible names, and write them to a waveform.
+
+This may also be an excellent opportunity to introduce a waveform writing library for CIRCT. Eventually, we'd want different tools in CIRCT to be able to write various waveform formats such as VCD, FST, etc. It would be great if there is a common interface for waveform writers, and if CIRCT could then provide various implementations for different waveform formats. Tools like Arcilator, circt-bmc, and circt-lec would then use this library to produce signal traces.
+
+CIRCT is based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++. You may also benefit from knowing a little bit about SAT and SMT solvers, and how bounded model checks can be implemented incrementally using these solvers.
+
+*Skill Level:* Medium
+
+*Duration:* 175 hours or 350 hours
+
+*Language/Tools:* C++, CIRCT, MLIR, LLVM
+
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](maerhart@outlook.com), and others in the CIRCT community
 
 ### TinyParrot: A minimal BlackParrot RISC-V Multicore variant
 *Details:* BlackParrot aims to be the default open-source, Linux-capable, cache-coherent, RV64GC multicore used by the world. It has been FPGA and Silicon-validated as an industry-strength design with leading efficiency. We wish to make it even tinier. This project will look into various size optimizations which may include parameterizing out support for the RISC-V MFD extensions or remapping FPGA primitives using the portability layer in BaseJump STL. The final optimizations may depend on the applicant's skill set. At the end of this project, we hope to use the ZynqParrot infrastructure to fit a BlackParrot multicore into affordable educational FPGA boards such as the Z2!
@@ -162,38 +180,6 @@ The objective of this project is to develop ASAP7 Design Rules Checker (DRC) and
 
 *Mentor:* [Jonathan Balkind](mailto:jbalkind@ucsb.edu), [Nils Wistoff](mailto:nwistoff@iis.ee.ethz.ch)
 
-### Arcilator Vectorization
-
-[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It transforms a hardware design into a collection of register-to-register transfer arcs that make it extremely efficient to simulate. Even though Arcilator is a very young tool, it is already capable of matching and beating Verilator's performance in a lot of cases. To make the simulations even faster, we'd like to explore the possibilities of using SIMD instructions and other vectorization techniques when we translate the hardware into executable simulation code. Hardware designs often contain highly repetitive structures that require the exact same computation to be performed on different pieces of data. This is a perfect fit for vectorization. There are a lot of low-hanging fruit here, and there's ample opportunity for fancier compiler techniques such as Superword-Level Parallelism to be applied.
-
-We would love you to implement a first basic vectorization approach, measure its impact on actual hardware designs, contribute the code to the CIRCT project, and then make it progressively better by implementing improvements and new optimizations. If you are into compilers and making things go fast, this is a project for you! To get you started, we have a [curated benchmarking repository](https://github.com/circt/arc-tests) which we use to track Arcilator's performance.
-
-Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
-
-*Skill Level:* Advanced
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* C++, CIRCT, MLIR, LLVM
-
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
-
-### Arcilator Debug Info Support
-
-[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It converts hardware designs into an efficient simulator that produces signals traces which can be viewed by tools like [GTKWave](https://gtkwave.sourceforge.net/) or [vcdrom](https://vc.drom.io/?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd). Today, these signal traces only show the very low-level, assembly-style representation of the original hardware design, which is very annoying for users to read and debug. (Similar to debugging C++ code at the assembly level.) However, the CIRCT IR that describes the design can contain _debug information_, which would allow Arcilator to produce traces of the high-level signals in the original hardware designs. (Similar to how debug symbols can allow you to debug C++ code directly, even though your processor executes assembly instructions.)
-
-We would love you to add support for debug info to Arcilator, and have it produce waveforms and signal traces of the high-level source language described in that debug info, instead of the low-level assembly it uses today. This would involve you familiarizing yourself with Arcilator and how it currently produces signal traces, looking at how the `debug` dialect in CIRCT captures debug info, and implementing a way to make the two work together. The result will be a fantastic new feature of Arcilator that will make it very useful to a wider audience.
-
-Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
-
-*Skill Level:* Advanced
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* C++, CIRCT, MLIR, LLVM
-
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
-
 ### cocotb v2 Code Migration Helper
 
 The upcoming cocotb v2.x release will have quite some breaking changes (see https://docs.cocotb.org/en/latest/release_notes.html), so users and extension developers will have to actively migrate existing code.
@@ -230,23 +216,6 @@ Each new device should follow the design specifications for device layout from t
 
 *Mentors:* [Tim Edwards](tim@opencircuitdesign.com)
 
-
-### Make a Simple Hardware Language with CIRCT
-
-The [CIRCT](https://github.com/llvm/circt) project is a large community effort to build out the technologies and tools needed to carry the future of hardware design. It is based on MLIR and LLVM, and aims to adopt the best practices from software compiler design in the hardware design space. CIRCT has a very active and friendly community of researchers, hobbyists, and companies using it. Day-to-day, CIRCT is mainly used to take hardware designs described in the Chisel (Scala-based) or PyCDE (Python-based) and either generate Verilog for them or simulate them directly. CIRCT has all the tools needed to build novel hardware languages, but nobody has put the pieces together yet!
-
-We would love you to design and implement the first hardware language based entirely on CIRCT technologies, showing off all the capabilities of CIRCT. This could be similar to LLVM's [Kaleidoscope](https://llvm.org/docs/tutorial/) tutorial language, which shows off how to use the pieces of the LLVM project effectively. In this project, you'll design the syntax and type system for a very simple hardware language. You will then implement a lexer, parser, and lowering to CIRCT's IRs. CIRCT will then immediately allow you to optimize hardware written in your language, convert it to Verilog, or simulate it directly through Arcilator. Once you have a first simple language up and running, the sky is the limit! Add built-in unit testing capabilities, formal verification tools, higher-level abstractions, functions, automated port lists, automated pipelining, or anything else you can come up with. We'd like you to document your language and how it shows off the different CIRCT capabilities, for example by carefully describing separate features, or in a tutorial-style document similar to how [Kaleidoscope](https://llvm.org/docs/tutorial/) iteratively adds features.
-
-CIRCT is based on MLIR and LLVM, and is implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++. It would also be great if you have prior experience with lexers, parsers, compilers, and programming language concepts.
-
-*Skill Level:* Advanced
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* C++, CIRCT, MLIR, LLVM
-
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
-
 ### Spike + Sim-X
 
 The project is to interface [Spike](https://github.com/riscv-software-src/riscv-isa-sim) with [Sim-X](https://github.com/vortexgpgpu/vortex/tree/master/sim/simx).
@@ -263,22 +232,6 @@ Interfacing Spike with Sim-X would allow us to simulate functionaly our heteroge
 *Language/Tools:* C++, RISC-V GNU Cross-compiler, Vortex LLVM compiler
 
 *Mentor:* [Davy Million](mailto:davy.million@cea.fr)
-
-### Arcilator Optimizations
-
-[Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It transforms a hardware design into a collection of register-to-register transfer arcs that make it extremely efficient to simulate. Even though Arcilator is a very young tool that hasn't seen a lot of optimization yet, it is already capable of matching and beating Verilator's performance in a lot of cases.
-
-We would love to have you help make Arcilator even faster by looking at what the slow parts in current simulations are, figuring out new optimizations and improvements, and implementing them in Arcilator. If you are into compilers and making things go fast, this is a project for you! To get you started, we have a [curated benchmarking repository](https://github.com/circt/arc-tests) which we use to track Arcilator's performance.
-
-Arcilator and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
-
-*Skill Level:* Advanced
-
-*Duration:* 175 hours or 350 hours
-
-*Language/Tools:* C++, CIRCT, MLIR, LLVM
-
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
 
 ### Capiche system development
 
