@@ -1,10 +1,10 @@
 ---
-title: "Google Summer of Code 2024 - Ideas for Projects"
+title: "Google Summer of Code 2025 - Ideas for Projects"
 navigation: false
 ---
 
 FOSSi Foundation is applying as an umbrella organization for Google
-Summer of Code 2024. That means that we give FOSSi community projects the
+Summer of Code 2025. That means that we give FOSSi community projects the
 chance to participate in the program. Below you can find a list of
 ideas that community mentors had, but mentees are encouraged to propose
 their own ideas. These projects are mostly open-ended and can be
@@ -302,7 +302,7 @@ The task(s) may involve enhancements to one or more of the frontends, as well as
 
 ### Testing for OpenLane 2
 
-*Details:*  OpenLane is the world's most popular open-source RTL-to-GDSII flow. However, testing and coverage is still somewhat lacking as of 2023. There are two tasks that may be done to enhance this, ideally worked on by two candidates but can be done by the same candidate over a longer period:
+*Details:*  OpenLane is the world's most popular open-source RTL-to-GDSII flow. However, testing and coverage is still somewhat lacking. There are two tasks that may be done to enhance this, ideally worked on by two candidates but can be done by the same candidate over a longer period:
 
 * Expanding unit test coverage for Python for included steps and functions. There are already some non-exhaustive tests for OpenLane 2, and the candidate may add more tests to both exercise more options in existing steps and to break ground on uncovered steps.
 * Creating an exhaustive design suite out of various open source projects that exercise the limits of OpenLane 2, including more niche use-cases.
