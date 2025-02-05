@@ -247,6 +247,23 @@ CIRCT is based on MLIR and LLVM, and is implemented in C++. So you'll definitely
 
 *Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch) and others in the CIRCT community
 
+### Spike + Sim-X
+
+The project is to interface [Spike](https://github.com/riscv-software-src/riscv-isa-sim) with [Sim-X](https://github.com/vortexgpgpu/vortex/tree/master/sim/simx).
+Spike is a functional RISC-V ISA simulator and Sim-X is a high-level simulator for the [Vortex GPGPU](https://github.com/vortexgpgpu/vortex/).
+
+Existing work allowed us to integrate the Vortex GPGPU RTL in the OpenPiton multi-core research platform (https://cea.hal.science/cea-04772235/document).
+To ease programming though, we would like to test software correctness using a high-level simulator. It would be faster than relying on RTL simulation.
+Interfacing Spike with Sim-X would allow us to simulate functionaly our heterogeneous CPUs+GPU shared-memory architecture, hence allowing us to ease future software development.
+
+*Skill level:* Intermediate
+
+*Duration:* medium (175 hours)
+
+*Language/Tools:* C++, RISC-V GNU Cross-compiler, Vortex LLVM compiler
+
+*Mentor:* [Davy Million](mailto:davy.million@cea.fr)
+
 ### Arcilator Optimizations
 
 [Arcilator](https://youtu.be/iwJBlRUz6Vw) is a hardware simulator developed as part of the [CIRCT](https://github.com/llvm/circt) project. It transforms a hardware design into a collection of register-to-register transfer arcs that make it extremely efficient to simulate. Even though Arcilator is a very young tool that hasn't seen a lot of optimization yet, it is already capable of matching and beating Verilator's performance in a lot of cases.
