@@ -152,23 +152,6 @@ SMP.
 *Mentor:* [Stafford Horne](mailto:shorne@gmail.com)
 
 
-### Klayout ASAP7 DRC and LVS decks
-
-ASAP7 PDK is a 7-nm predictive process design kit (PDK) c, developed by Arizona State University in collaboration with ARM Ltd. for academic use. The PDK is realistic, based on current assumptions for the 7-nm technology node. Currently, there is an effort to port ASAP7 to OpenLane. To complete the port, ASA7 technology files must be ported to physical verification tools used by OpenLane.
-
-The objective of this project is to develop ASAP7 Design Rules Checker (DRC) and Layout vs. Schematic (LVS) technology files for Klayout. Also, the scope of the project includes the development of a CI regression test suite.
-
-*Skill level:* intermediate
-
-*Project length:* medium
-
-*Language/Tools:*  Python, Ruby and Klayout
-
-*Other requirements:* Good EE background
-
-*Mentors:* [Mohamed Shalan](mailto:mshalan@efabless.com),  [Mohamed Kassem](mailto:mkk@efabless.com)
-
-
 ### Architectural Improvements to OpenPiton+Ariane
 [OpenPiton+Ariane](https://openpiton-blog.princeton.edu/2018/11/announcing-openpiton-with-ariane/) is a permissively-licensed RISC-V manycore processor, built as a collaboration between the [PULP Platform](https://www.pulp-platform.org/) from ETH Zürich and the [OpenPiton Platform](http://www.openpiton.org/) from Princeton University. We would like to co-optimise OpenPiton and Ariane/CVA6 in their combined platform, to improve performance of the processor both in FPGA emulation systems and for eventual silicon chips. One possible idea this year is to implement the RISC-V cache management operation (CMO) extensions. We are open to many potential projects aimed at improving the performance of aspects of either Ariane/CVA6 or OpenPiton and encourage you to get in touch to discuss ideas.
 
@@ -279,87 +262,56 @@ will function as the kernel dispatch layer.
 
 *Mentors:* [Theodore Omtzigt](mailto:theo@stillwater-sc.com)
 
-### Seamless multi-frontend support for OpenLane 2
+### Seamless multi-frontend support for OpenLane
 
-OpenLane 2 currently supports handling multiple frontends for compilation:
+*Details:* OpenLane is the premier open source RTL-to-GDSII flow. Versions 2.0+
+currently support handling multiple frontends for compilation:
+
 * Yosys Default - Verilog
 * Synlig - SystemVerilog
-* GHDL - VHDL
+* GHDL - VHDL (x86-64-only)
 
-However, in the cases of VHDL and Verilog specifically– there is no way to mix and match Verilog and VHDL in one design, for example, which is common when reusing IPs.
+However, in the cases of VHDL and Verilog specifically– there is no way to mix
+and match Verilog and VHDL in one design, for example, which is common when
+reusing IPs.
 
-This task proposes a retool to OpenLane synthesis to, instead of having two different flows (`Classic` and `VHDLClassic`),one flow accepting a heterogeneous list of files, which can then be inspected to determine the proper frontend to be used.
+This task proposes a retool to OpenLane synthesis to, instead of having two
+different flows (`Classic` and `VHDLClassic`), have one flow accepting a
+heterogeneous list of files, which can then be inspected to determine the proper
+frontend to be used.
 
-The task(s) may involve enhancements to one or more of the frontends, as well as the addition of more frontends from languages such as Chisel and Amaranth.
-
-*Skill level:* Intermediate
-
-*Duration:* 175 hrs.
-
-*Language/Tools:* Python, Verilog, Nix
-
-*Mentor:* [Mohamed Gaber](mailto:donn@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
-
-### Testing for OpenLane 2
-
-*Details:*  OpenLane is the world's most popular open-source RTL-to-GDSII flow. However, testing and coverage is still somewhat lacking. There are two tasks that may be done to enhance this, ideally worked on by two candidates but can be done by the same candidate over a longer period:
-
-* Expanding unit test coverage for Python for included steps and functions. There are already some non-exhaustive tests for OpenLane 2, and the candidate may add more tests to both exercise more options in existing steps and to break ground on uncovered steps.
-* Creating an exhaustive design suite out of various open source projects that exercise the limits of OpenLane 2, including more niche use-cases.
-
-*Skill level:* Intermediate
-
-*Duration:* 175 hrs (two candidates,) 350 hrs (one candidate)
-
-*Language/Tools:* Python, Verilog, Docker (or Nix)
-
-*Mentor:* [Kareem Farid](mailto:kareem.farid@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
-
-### Improving Fault's Regression Test Coverage
-
-*Details:* [Fault](https://github.com/AUCOHL/Fault) is an open-source Design-for-Testability (DFT) toolchain that stands out as a comprehensive solution in the EDA space.
-
-However, for its regular testing, Fault runs on very small, very specific designs, and does not run designs on the sky130 node as part of its regular testing. Additionally, the CI is quite brittle.
-
-This task involves expanding Fault's CI coverage by adding multiple designs for sky130 and other PDKs, as well as fixing any bugs uncovered by this effort.
-
-*Skill level:* Intermediate-Advanced
-
-*Duration:* 350 hrs.
-
-*Language/Tools:* Swift, Python, Verilog, Nix
-
-*Mentor:* [Mohamed Gaber](mailto:donn@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
-
-### Improving ATPG fault coverage in Fault
-
-*Details:* [Fault](https://github.com/AUCOHL/Fault) is an open-source Design-for-Testability (DFT) toolchain that stands out as a comprehensive solution in the EDA space. The key capabilities of Fault include generating test vectors (TVs), simulating faults, and inserting scan chains into designs. This toolchain leverages existing open-source EDA technologies to perform these functions on synthesized netlists. 
-
-This project aims to significantly enhance the effectiveness of Fault by optimizing its test vector generation process using advanced algorithms rather than pseudo-random vector generation and automating the insertion of control and observation points. By adopting these strategies, we expect to be able to achieve higher coverage for designs run through Fault.
-
-Candidate is expected to be familiar with Design-for-Testability (DFT) and RTL synthesis.
-
-*Skill level:* Intermediate-Advanced
-
-*Duration:* 350 hrs.
-
-*Language/Tools:* Swift, Python, Verilog
-
-*Mentor:* [Mohamed Hosni](mailto:mohamed.hosni@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
-
-### RTL verification using Generative AI
-
-This project's objective is a novel approach for the verification Register Transfer Level (RTL) IPs by leveraging the generative AI and UVM for Python (utilizing the CocoTB library).
-
-The task chiefly involves prompt engineering to enable a large language model (LLM) to produce proper UVM components for the IPs under verification.
+The task(s) may involve enhancements to one or more of the C++-based Yosys
+frontends, as well as the addition of more frontends for languages such as
+Chisel and Amaranth.
 
 *Skill level:* Intermediate
 
 *Duration:* 175 hrs.
 
-*Language/Tools:* Python, Verilog, UVM, CocoTB, genAI APIs 
+*Language/Tools:* Python, Verilog, C++, Nix
 
-*Mentor:* [Mostafa Rady](mailto:mostafa.rady@efabless.com), [Mohamed Shalan](mailto:mshalan@efabless.com)
+*Mentor:* [Kareem Farid](mailto:kareem.farid@efabless.com),
+  [Mohamed Shalan](mailto:mshalan@efabless.com)
+
+
+### OpenLane Web-based Graphical User Interface
+
+*Details:* OpenLane is the premier open source RTL-to-GDSII flow. Versions 2.0
+or higher's modular architecture allows for constructing complex flows using
+nodes called "steps,"  Users who are adept in Python can create many such
+complex flows, including flows that are parallel. A web-based GUI of some kind
+(based on a library such as ReactFlow https://reactflow.dev) would greatly
+enhance the ability of novice users to create custom OpenLane-based flows with
+ease.
+
+*Skill level:* Beginner or Intermediate
+
+*Duration:* 175 hrs.
+
+*Language/Tools:*: TypeScript (React), Python
+
+*Mentor:* [Mohamed Gaber](mailto:donn@efabless.com),
+  [Mohamed Shalan](mailto:mshalan@efabless.com)
 
 ### Extending Verilator with insertion customization
 
