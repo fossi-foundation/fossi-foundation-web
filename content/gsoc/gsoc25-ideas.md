@@ -217,6 +217,65 @@ Essent uses Scala, and Metro-MPI is implemented in Verilog and C++. Additionally
 
 *Mentors:* [Guillem López Paradís](mailto:guillem.lopez@bsc.es) and [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
 
+ ### [Metro-MPI++]
+
+[Metro-MPI](https://github.com/metro-mpi/metro-mpi)  is a generic methodology to distribute RTL simulation and unlock SoCs’ inherent parallelism. We partition well-defined blocks within designs into isolated simulation processes that communicate via MPI message passing. Metro-MPI works particularly well with replicated blocks of comparable size, such as manycores with NoCs. [Verilator](https://www.veripool.org/verilator/) is an open-source Verilog simulator and linting tool that translates Verilog HDL code into optimized C++ or SystemC code, allowing for fast, cycle-accurate simulation of digital circuits.
+
+[Automatic partitions with Metro-MPI]
+We want to add the automatic support of metro-MPI inside other tools, like Verilator or Essent. The idea would be to detect the top modules that are suitable to be interfaced with metro-MPI. An automatic partition algorithm would be ideal although we can start with a user-guided approach like pragmas.  The project will be divided into two big milestones: the initial task is to use the methodology from Metro-MPI to speed up the simulation (e.g. using messages with MPI to communicate between partitions); the second task would be to influence the partitions of the design to ease the usage of MPI between them.
+
+[Metro-MPI @FPGA]  
+We would like to explore the same methodology that Metro-MPI introduces but to connect multiple FPGAs with MPI.
+
+We are also open to other improvements on metro-MPI:
+- Explore the support of OpenMP instead of openMPI
+- Explore making the simulations faster with statistical analysis: predict values that will take the MPI messages on a certain simulation, making checkpoints and rolling back in case of predicting wrong. 
+- Improve current Verilator support from v4 to v5.    
+- Scale Simulations up to 10K cores (currently we support up to 1024 cores)
+
+Metro-MPI uses Verilog and C++. Additionally, some background in hardware design is useful.
+
+_Skill Level:_  Medium/Advanced
+
+_Duration:_  350 hours
+
+_Language/Tools:_  C++, MPI, SystemVerilog
+
+_Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es)  and  [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
+  
+ ### [Generic MinimumLinuxBoot for RTL Simulations]
+
+This project consists of booting Linux in Qemu, save the memory state, thencontinue the simulation in an RTL Simulation of OpenPiton. The first part of the project consists of understanding what states need to be saved, probably a combination of the TLB and MMU states as an starting point could be enough. Then, this state needs to be saved in a file format that the checkpoint mechanism of Verilator understand or create a synthetic benchmark that makes the proper MMU configuration. The second part of the project is adding the necessary support in OpenPiton Simulation infrastructure to continue the simulation and being able to launch some applications.   
+
+OpenPiton uses different languages like Verilog, Python, Perl, and C. Verilator C++. Additionally, some background in hardware design is useful.
+
+_Skill Level:_  Medium/Advanced
+
+_Duration:_  350 hours
+
+_Language/Tools:_  Verilog, C++, SystemVerilog
+
+_Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es)  and  [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
+
+ ### [Cohort++]
+[Cohort](https://jbalkind.github.io/docs/asplosc23main-p494-p-b2f0eacb1a-63706-final.pdf)  is a framework designed to integrate hardware accelerators into software systems while maximizing efficiency seamlessly. It introduces Software-Oriented Acceleration (SOA), a paradigm that simplifies and optimizes interactions between software and hardware accelerators. By leveraging existing software abstractions—such as shared-memory queues—Cohort enables a streamlined, high-performance communication channel between software components and accelerators.
+
+This project consists of improving the performance of OpenPiton memory hierarchy to better suit Cohort. For example, there is prior work on supporting wider NoCs, and cachelines in OpenPiton; we changing the Cohort engine's interaction with the coherence protocol; multiple MMU outstanding requests for higher performance.
+
+We have other ideas to work more on Cohort software support and we are also open to new proposals. Some examples: 
+- Support for other data structures instead of only queues 
+- Connect the openMP and/or openMPI runtime library to use Cohort queues
+- Add the support for [PRGA](https://dl.acm.org/doi/pdf/10.1145/3431920.3439294)  to be used with Cohort
+
+_Skill Level:_  Medium/Advanced
+
+_Duration:_  350 hours
+
+_Language/Tools:_  C++, SystemVerilog
+
+_Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es) , [Davy Million](mailto:davy.million@cea.fr) and  [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
+
+
 ### Seamless multi-frontend support for OpenLane
 
 *Details:* OpenLane is the premier open source RTL-to-GDSII flow. Versions 2.0+
