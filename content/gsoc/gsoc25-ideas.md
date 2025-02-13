@@ -260,7 +260,7 @@ _Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es)  and  [Jonath
  ### [Cohort++]
 [Cohort](https://jbalkind.github.io/docs/asplosc23main-p494-p-b2f0eacb1a-63706-final.pdf)  is a framework designed to integrate hardware accelerators into software systems while maximizing efficiency seamlessly. It introduces Software-Oriented Acceleration (SOA), a paradigm that simplifies and optimizes interactions between software and hardware accelerators. By leveraging existing software abstractions—such as shared-memory queues—Cohort enables a streamlined, high-performance communication channel between software components and accelerators.
 
-This project consists of improving the performance of OpenPiton memory hierarchy to better suit Cohort. For example, there is prior work on supporting wider NoCs, and cachelines in OpenPiton; we could add support for writes in OpenPiton memory coherence protocol to not create invalidations; multiple MMU outstanding requests; explore other ideas that Accelerators could benefit (e.g. from Spandex or CHI and integrate it in OpenPiton).
+This project consists of improving the performance of OpenPiton memory hierarchy to better suit Cohort. For example, there is prior work on supporting wider NoCs, and cachelines in OpenPiton; we changing the Cohort engine's interaction with the coherence protocol; multiple MMU outstanding requests for higher performance.
 
 We have other ideas to work more on Cohort software support and we are also open to new proposals. Some examples: 
 - Support for other data structures instead of only queues 
