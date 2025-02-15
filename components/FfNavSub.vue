@@ -9,8 +9,12 @@ Style guide reference: Web components/Navigation/Sub-navigation
   <nav class="py-20 font-black text-ultraviolet" v-if="hasSubpages">
     <ContentNavigation v-slot="{ navigation }" :query="subpagesQuery">
       <ul class="flex flex-row flex-wrap gap-16 px-0 mx-0">
-        <li class="block" v-for="link of navigation[0].children">
-          <FfLinkLarge :key="link._path" :to="link._path">
+        <li class="group transition-all duration-300 ease-in-out" v-for="link of navigation[0].children">
+          <FfLinkLarge 
+            :key="link._path" 
+            :to="link._path"
+            class="block relative transition-all duration-300 hover:text-primary after:absolute after:bottom-0 after:block after:w-full after:h-[2px] after:bg-primary after:transform after:scale-x-0 after:transition-transform after:duration-300 after:origin-left group-hover:after:scale-x-100"
+          >
             {{ link.navTitle || link.title }}
           </FfLinkLarge>
         </li>

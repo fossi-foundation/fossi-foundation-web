@@ -32,26 +32,26 @@ TODO:
         <!-- navigation items -->
         <div class="items-center justify-between w-full desktop:flex desktop:w-auto desktop:order-1" :class="{ 'hidden': !showMobileNavbar }">
           <ul class="flex flex-col desktop:px-16 mt-24 desktop:mt-0 space-y-20 desktop:flex-row desktop:space-y-0 desktop:space-x-16 desktop:items-center">
-            <li>
-              <FfLinkLarge class="block" to="/">Home</FfLinkLarge>
+            <li class="group transition-all duration-300 ease-in-out hover:scale-105">
+              <FfLinkLarge class="block relative transition-all duration-300 hover:text-primary after:absolute after:block after:w-full after:h-[2px] after:bg-primary after:transform after:scale-x-0 after:transition-transform after:duration-300 after:origin-left group-hover:after:scale-x-100" to="/">Home</FfLinkLarge>
+            </li>
+            <li class="group transition-all duration-300 ease-in-out hover:scale-105">
+              <FfLinkLarge class="block relative transition-all duration-300 hover:text-primary after:absolute after:block after:w-full after:h-[2px] after:bg-primary after:transform after:scale-x-0 after:transition-transform after:duration-300 after:origin-left group-hover:after:scale-x-100" to="/free-and-open-source-silicon">What is Open Silicon</FfLinkLarge>
+            </li>
+            <li class="group transition-all duration-300 ease-in-out hover:scale-105">
+              <FfLinkLarge class="block relative transition-all duration-300 hover:text-primary after:absolute after:block after:w-full after:h-[2px] after:bg-primary after:transform after:scale-x-0 after:transition-transform after:duration-300 after:origin-left group-hover:after:scale-x-100" to="/about-us">Who we are</FfLinkLarge>
+            </li>
+            <li class="group transition-all duration-300 ease-in-out hover:scale-105">
+              <FfLinkLarge class="block relative transition-all duration-300 hover:text-primary after:absolute after:block after:w-full after:h-[2px] after:bg-primary after:transform after:scale-x-0 after:transition-transform after:duration-300 after:origin-left group-hover:after:scale-x-100" to="/our-work">What we do</FfLinkLarge>
+            </li>
+            <li class="group transition-all duration-300 ease-in-out hover:scale-105">
+              <FfLinkLarge class="block relative transition-all duration-300 hover:text-primary after:absolute after:block after:w-full after:h-[2px] after:bg-primary after:transform after:scale-x-0 after:transition-transform after:duration-300 after:origin-left group-hover:after:scale-x-100" to="/events">Events</FfLinkLarge>
+            </li>
+            <li class="group transition-all duration-300 ease-in-out hover:scale-105">
+              <FfLinkLarge class="block relative transition-all duration-300 hover:text-primary after:absolute after:block after:w-full after:h-[2px] after:bg-primary after:transform after:scale-x-0 after:transition-transform after:duration-300 after:origin-left group-hover:after:scale-x-100" to="/news">News</FfLinkLarge>
             </li>
             <li>
-              <FfLinkLarge class="block" to="/free-and-open-source-silicon">What is Open Silicon</FfLinkLarge>
-            </li>
-            <li>
-              <FfLinkLarge class="block" to="/about-us">Who we are</FfLinkLarge>
-            </li>
-            <li>
-              <FfLinkLarge class="block" to="/our-work">What we do</FfLinkLarge>
-            </li>
-            <li>
-              <FfLinkLarge class="block" to="/events">Events</FfLinkLarge>
-            </li>
-            <li>
-              <FfLinkLarge class="block" to="/news">News</FfLinkLarge>
-            </li>
-            <li>
-              <FfBtnCta linkTo="/get-involved">Get involved</FfBtnCta>
+              <FfBtnCta class="transition-transform duration-300 hover:scale-105 hover:shadow-lg" linkTo="/get-involved">Get involved</FfBtnCta>
             </li>
           </ul>
         </div>
