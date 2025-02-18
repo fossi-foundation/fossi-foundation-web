@@ -9,56 +9,63 @@ Style guide reference: Web components/PageFooter
 <template>
   <FfContainer>
     <footer class="py-64 font-bold text-ultraviolet">
-      <div class="flex w-full desktop:items-center desktop:space-x-10 desktop:flex desktop:w-auto flex-col desktop:flex-row">
-        <div class="desktop:order-2">Follow us</div>
-        <div class="desktop:order-3 flex space-x-20 my-20 desktop:my-0">
-          <FfLinkUnderline to="https://twitter.com/FossiFoundation" target="_blank">
-            <IconFabTwitter class="text-24" />
-          </FfLinkUnderline>
-          <FfLinkUnderline to="https://mastodon.social/@fossifoundation" target="_blank">
-            <IconFabMastodon class="text-24" />
-          </FfLinkUnderline>
-          <FfLinkUnderline to="https://www.linkedin.com/company/fossi-foundation/" target="_blank">
-            <IconFabLinkedinIn class="text-24" />
-          </FfLinkUnderline>
-          <FfLinkUnderline to="https://www.youtube.com/@FOSSiFoundation" target="_blank">
-            <IconFabYoutube class="text-24" />
-          </FfLinkUnderline>
-        </div>
-        <ul class="desktop:order-1 flex flex-col mt-16 desktop:grow desktop:mt-0 space-y-20 desktop:flex-row desktop:space-y-0 desktop:space-x-16">
-          <li>
-            <FfLinkUnderline to="/free-and-open-source-silicon">What is Open Silicon</FfLinkUnderline>
-          </li>
-          <li>
-            <FfLinkUnderline to="/about-us">Who we are</FfLinkUnderline>
-          </li>
-          <li>
-            <FfLinkUnderline to="/our-work">What we do</FfLinkUnderline>
-          </li>
-          <li>
-            <FfLinkUnderline to="/events">Events</FfLinkUnderline>
-          </li>
-          <li>
-            <FfLinkUnderline to="/news">News</FfLinkUnderline>
-          </li>
-          <li>
-            <FfLinkUnderline to="/get-involved">Get involved</FfLinkUnderline>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mt-24 flex flex-col space-y-10 desktop:space-y-0 desktop:flex-row">
-        <div>
-          <div class="mb-24 desktop:mb-10 flex flex-col desktop:grow space-y-20 desktop:flex-row desktop:space-y-0 desktop:space-x-16 ">
-            <FfLinkUnderline to="/contact">Contact and legal information</FfLinkUnderline>
-            <FfLinkUnderline to="https://github.com/fossi-foundation/fossi-foundation-web">Contribute to this page on GitHub</FfLinkUnderline>
-          </div>
-        </div>
-        <div class="desktop:order-first desktop:mr-32">
-          <FfLinkUnderline to="/">
+      <div class="flex flex-row justify-center ml-4"> <!-- Applied small left margin -->
+        <!-- Logo on the left side spanning all rows -->
+        <div class="mr-32 self-start">
+          <a href="/" class="hover:text-black transition-colors">
             <span class="sr-only">FOSSi Foundation home page</span>
             <NuxtImg class="w-[180px]" width="180" height="60" alt="FOSSi Foundation logo" src="/images/fossi-logo-full.svg" />
-          </FfLinkUnderline>
+          </a>
+        </div>
+        
+        <!-- Content on the right side with slight leftward shift -->
+        <div class="flex flex-col flex-grow items-center">
+          <!-- Row 1: Navigation Menu -->
+          <ul class="flex flex-wrap justify-center gap-x-16 gap-y-20 mb-32 w-full">
+            <li class="flex justify-center">
+              <a href="/free-and-open-source-silicon" class="hover:text-black transition-colors">What is Open Silicon</a>
+            </li>
+            <li class="flex justify-center">
+              <a href="/about-us" class="hover:text-black transition-colors">Who we are</a>
+            </li>
+            <li class="flex justify-center">
+              <a href="/our-work" class="hover:text-black transition-colors">What we do</a>
+            </li>
+            <li class="flex justify-center">
+              <a href="/events" class="hover:text-black transition-colors">Events</a>
+            </li>
+            <li class="flex justify-center">
+              <a href="/news" class="hover:text-black transition-colors">News</a>
+            </li>
+            <li class="flex justify-center">
+              <a href="/get-involved" class="hover:text-black transition-colors">Get involved</a>
+            </li>
+          </ul>
+          
+          <!-- Row 2: Legal Links -->
+          <div class="flex flex-wrap justify-center gap-x-16 gap-y-20 mb-32 w-full">
+            <a href="/contact" class="hover:text-black transition-colors">Contact and legal information</a>
+            <a href="https://github.com/fossi-foundation/fossi-foundation-web" target="_blank" rel="noopener noreferrer" class="hover:text-black transition-colors">Contribute to this page on GitHub</a>
+          </div>
+          
+          <!-- Row 3: Follow Us with Social Icons -->
+          <div class="flex flex-col items-center w-full">
+            <div class="mb-16">Follow us</div>
+            <div class="flex justify-center space-x-20">
+              <a href="https://twitter.com/FossiFoundation" target="_blank" rel="noopener noreferrer" class="hover:text-black transition-colors">
+                <IconFabTwitter class="text-24" />
+              </a>
+              <a href="https://mastodon.social/@fossifoundation" target="_blank" rel="noopener noreferrer" class="hover:text-black transition-colors">
+                <IconFabMastodon class="text-24" />
+              </a>
+              <a href="https://www.linkedin.com/company/fossi-foundation/" target="_blank" rel="noopener noreferrer" class="hover:text-black transition-colors">
+                <IconFabLinkedinIn class="text-24" />
+              </a>
+              <a href="https://www.youtube.com/@FOSSiFoundation" target="_blank" rel="noopener noreferrer" class="hover:text-black transition-colors">
+                <IconFabYoutube class="text-24" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
