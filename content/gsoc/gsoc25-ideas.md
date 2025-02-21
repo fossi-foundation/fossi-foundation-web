@@ -35,6 +35,24 @@ RISC-V provides a trace format specification (https://github.com/riscv-non-isa/r
 
 *Language/Tools:* SystemVerilog, C++, some knowledge of computer architecture. RISC-V knowledge preferred but not required. FPGA tools such as Vivado strongly encouraged but not required.
 
+### Surfer memory and wide array support
+
+Surfer (https://surfer-project.org) is an open source waveform viewer designed to be snappy and extensible. Waveform viewers work well for visualizing individual signals, but for large arrays or memories users are often more interested in changes to individual elements rather than the whole array.
+
+For this, a separate UI element where memory content can be visualized as a
+table would be much more useful. Beyond just visualizing the content, also
+having the ability to highlights elements that have changed between timestamps
+or around the cursor would be extra useful.
+
+*Skill level:* intermediate
+
+*Project Length:* medium (175 hours)
+
+*Mentors:* [Frans Skarman](mailto:frans.skarman@liu.se) [Oscar Gustafsson](mailto:oscar.gustafsson@liu.se)
+
+*Languages/Tools:* Rust. Familiarity with hardware design is helpful to have some context of what the tool is used for is helpful, but the project itself is pure software. Some familiarity with egui is also helpful though certainly not required.
+
+
 ### cocotb v2 Code Migration Helper
 
 The upcoming cocotb v2.x release will have quite some breaking changes (see https://docs.cocotb.org/en/latest/release_notes.html), so users and extension developers will have to actively migrate existing code.
