@@ -292,7 +292,7 @@ different flows (`Classic` and `VHDLClassic`), have one flow accepting a
 heterogeneous list of files, which can then be inspected to determine the proper
 frontend to be used.
 
-The task(s) may involve enhancements to one or more of the C++-based Yosys
+The project may involve enhancements to one or more of the C++-based Yosys
 frontends, as well as the addition of more frontends for languages such as
 Chisel and Amaranth.
 
@@ -327,4 +327,27 @@ This project will have the student:
 *Language/Tools:* Verilog, Shell scripting, C, Assembly, Python
 
 *Mentor:* [Stafford Horne](mailto:shorne@gmail.com)
+
+### OpenLane Flow Declaration GUI
+
+*Details:* OpenLane is the premier open source RTL-to-GDSII flow. Versions 2.0
+or higher's modular architecture allows for constructing complex flows using
+nodes called "steps." 
+
+Users who are adept in Python can create many such complex flows, including
+flows that may run multiple steps in parallel, but those who are not may face
+difficulty doing so.
+
+A web-based GUI of some kind (based on a library such as ReactFlow
+https://reactflow.dev) would greatly enhance the ability of novice users to
+create custom OpenLane-based flows with ease.
+
+*Skill level:* Beginner to Intermediate
+
+*Duration:* 175 hrs.
+
+*Language/Tools:*: TypeScript (React), Python
+
+*Mentor:* [Mohamed Gaber](mailto:donn@efabless.com),
+  [Mohamed Shalan](mailto:mshalan@efabless.com)
 
