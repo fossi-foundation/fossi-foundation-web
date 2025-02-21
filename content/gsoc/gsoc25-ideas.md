@@ -351,3 +351,24 @@ create custom OpenLane-based flows with ease.
 *Mentor:* [Mohamed Gaber](mailto:donn@efabless.com),
   [Mohamed Shalan](mailto:mshalan@efabless.com)
 
+### Adding TL-Verilog Support to Surfer
+
+*Details:* Surfer is a modern open-source waveform viewer that evolved alongside the Spade HDL. It has gained broader popularity beyond the Spade ecosystem, and adding support for other emerging HDL capabilities will benefit the community.
+
+TL-Verilog models have higher-level knowledge that can be reflected in a waveform viewer to enhance the debugging experience. Most notably, TL-Verilog signals can be "invalid". Invalidity is, in some respects, similar to dont-care state. One distinction is that validity is compatible with two-state simulators, like Verilator.
+
+This project will focus on two main features to enhance TL-Verilog waveforms in Surfer:
+1. Displaying TL-Verilog-style signal and hierarchy names in TL-Verilog standard colors.
+2. Reflecting validity on signal values.
+
+These two features can currently be seen in the Makerchip IDE's waveform viewer.
+
+*Skill level:* Medium/advanced
+
+*Language/Tools:* Rust
+
+*Duration:* 350 hrs
+
+*Repo:* https://gitlab.com/surfer-project/surfer
+
+*Mentors:* [Frans Skarman](mailto:frans.skarman@protonmail.com) (creator of Surfer and Spade), [Oscar Gustafsson](mailto:oscar.gustafsson@liu.se), [Steve Hoover](mailto:steve.hoover@redwoodeda.com) (creator of TL-Verilog & Makerchip)
