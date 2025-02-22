@@ -372,3 +372,26 @@ These two features can currently be seen in the Makerchip IDE's waveform viewer.
 *Repo:* https://gitlab.com/surfer-project/surfer
 
 *Mentors:* [Frans Skarman](mailto:frans.skarman@protonmail.com) (creator of Surfer and Spade), [Oscar Gustafsson](mailto:oscar.gustafsson@liu.se), [Steve Hoover](mailto:steve.hoover@redwoodeda.com) (creator of TL-Verilog & Makerchip)
+
+
+### Device-Under-Test Python Typing Stub Generator for cocotb tests
+
+cocotb tests manipulate the signals of the Device-Under-Test (DUT) to verify the design, but what was the name of that signal I needed to wiggle???
+
+If we had a Python typing stub for the DUT, we could get the [Pylance VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) to help us by listing the signals in the DUT in an autocomplete pop-up;
+we could use Python static type checkers like [mypy](https://www.mypy-lang.org/) to ensure we didn't fat-finger the name of some module;
+or use generated typing stubs to create *abstract bus definitions* that users could "mock out" when needed.
+
+cocotb has existing DUT introspection capabilities that could be leveraged to generate Python typing stubs.
+However, existing features may not be enough, and additional features may need to be added, in addition to the generator itself.
+Perhaps even, this code could be set up for future use by a language server, like [slang](https://sv-lang.com/), to generate even more informative typing stubs.
+
+See more information [here](https://github.com/cocotb/cocotb/issues/4504).
+
+*Skill level:* Beginner to Intermediate
+
+*Duration:* medium (175 hours)
+
+*Language/Tools:* Python, cocotb
+
+*Mentor:* [Kaleb Barrett](mailto:dev.ktbarrett@gmail.com)
