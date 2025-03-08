@@ -12,9 +12,6 @@ Style guide reference: Web components/PageFooter
       <div class="flex w-full desktop:items-center desktop:space-x-10 desktop:flex desktop:w-auto flex-col desktop:flex-row">
         <div class="desktop:order-2">Follow us</div>
         <div class="desktop:order-3 flex space-x-20 my-20 desktop:my-0">
-          <FfLinkUnderline to="https://x.com/FossiFoundation" target="_blank">
-            <IconFabXTwitter class="text-24" />
-          </FfLinkUnderline>
           <FfLinkUnderline to="https://mastodon.social/@fossifoundation" target="_blank">
             <IconFabMastodon class="text-24" />
           </FfLinkUnderline>
