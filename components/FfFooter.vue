@@ -18,6 +18,9 @@ Style guide reference: Web components/PageFooter
           <FfLinkUnderline to="https://mastodon.social/@fossifoundation" target="_blank">
             <IconFabMastodon class="text-24" />
           </FfLinkUnderline>
+          <FfLinkUnderline to="https://bsky.app/profile/fossi-foundation.org" target="_blank">
+            <IconFabBluesky class="text-24" />
+          </FfLinkUnderline>
           <FfLinkUnderline to="https://www.linkedin.com/company/fossi-foundation/" target="_blank">
             <IconFabLinkedinIn class="text-24" />
           </FfLinkUnderline>
@@ -70,4 +73,5 @@ import IconFabLinkedinIn from '~icons/fa6-brands/linkedin-in'
 import IconFabXTwitter from '~icons/fa6-brands/x-twitter'
 import IconFabMastodon from '~icons/fa6-brands/mastodon'
 import IconFabYoutube from '~icons/fa6-brands/youtube'
+import IconFabBluesky from '~icons/fa6-brands/bluesky'
 </script>
