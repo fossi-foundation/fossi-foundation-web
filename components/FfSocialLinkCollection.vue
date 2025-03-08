@@ -7,9 +7,9 @@ Link to a social media site
       <span class="sr-only">Email</span>
       <IconFasEnvelope class="aria-hidden"/>
     </FfLinkUnderline>
-    <FfLinkUnderline v-if="twitterUrl" title="Twitter" :to="twitterUrl" target="_blank">
-      <span class="sr-only">Twitter</span>
-      <IconFabTwitter class="aria-hidden" />
+    <FfLinkUnderline v-if="xTwitterUrl" title="X" :to="xTwitterUrl" target="_blank">
+      <span class="sr-only">X/Twitter</span>
+      <IconFabXTwitter class="aria-hidden" />
     </FfLinkUnderline>
     <FfLinkUnderline v-if="mastodonUrl" title="Mastodon" :to="mastodonUrl" target="_blank">
       <span class="sr-only">Mastodon</span>
@@ -28,13 +28,13 @@ Link to a social media site
 
 <script setup lang="ts">
 import IconFabLinkedinIn from '~icons/fa6-brands/linkedin-in'
-import IconFabTwitter from '~icons/fa6-brands/x-twitter'
+import IconFabXTwitter from '~icons/fa6-brands/x-twitter'
 import IconFabMastodon from '~icons/fa6-brands/mastodon'
 import IconFabGithub from '~icons/fa6-brands/github'
 import IconFasEnvelope from '~icons/fa6-solid/envelope'
 
 const props = defineProps<{
-  twitterUrl?: string
+  xTwitterUrl?: string
   linkedInUrl?: string
   mastodonUrl?: string
   githubUrl?: string

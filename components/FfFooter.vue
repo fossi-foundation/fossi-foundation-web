@@ -12,8 +12,8 @@ Style guide reference: Web components/PageFooter
       <div class="flex w-full desktop:items-center desktop:space-x-10 desktop:flex desktop:w-auto flex-col desktop:flex-row">
         <div class="desktop:order-2">Follow us</div>
         <div class="desktop:order-3 flex space-x-20 my-20 desktop:my-0">
-          <FfLinkUnderline to="https://twitter.com/FossiFoundation" target="_blank">
-            <IconFabTwitter class="text-24" />
+          <FfLinkUnderline to="https://x.com/FossiFoundation" target="_blank">
+            <IconFabXTwitter class="text-24" />
           </FfLinkUnderline>
           <FfLinkUnderline to="https://mastodon.social/@fossifoundation" target="_blank">
             <IconFabMastodon class="text-24" />
@@ -67,7 +67,7 @@ Style guide reference: Web components/PageFooter
 
 <script setup lang="ts">
 import IconFabLinkedinIn from '~icons/fa6-brands/linkedin-in'
-import IconFabTwitter from '~icons/fa6-brands/x-twitter'
+import IconFabXTwitter from '~icons/fa6-brands/x-twitter'
 import IconFabMastodon from '~icons/fa6-brands/mastodon'
 import IconFabYoutube from '~icons/fa6-brands/youtube'
 </script>
