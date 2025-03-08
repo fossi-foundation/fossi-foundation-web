@@ -7,7 +7,7 @@ people:
     socialLinks:
       email: andrew@fossi-foundation.org
       linkedInUrl: https://uk.linkedin.com/in/andrewback
-      twitterUrl: https://twitter.com/9600
+      xTwitterUrl: https://twitter.com/9600
 
   - name: Jonathan Balkind
     subheading: Director
@@ -34,7 +34,7 @@ people:
     socialLinks:
       email: asbradbury@fossi-foundation.org
       linkedInUrl: https://www.linkedin.com/in/alex-bradbury
-      twitterUrl: https://twitter.com/asbradbury
+      xTwitterUrl: https://twitter.com/asbradbury
 
   - name: Simon Cook
     subheading: Secretary
@@ -44,7 +44,7 @@ people:
       email: simon@fossi-foundation.org
       linkedInUrl: https://www.linkedin.com/in/spcookuk
       githubUrl: https://github.com/simonpcook
-      twitterUrl: https://twitter.com/simonpcook
+      xTwitterUrl: https://twitter.com/simonpcook
 
   - name: Peter Gielda
     subheading: Advisor
@@ -63,7 +63,7 @@ people:
       email: olof@fossi-foundation.org
       linkedInUrl: https://www.linkedin.com/in/olofkindgren
       githubUrl: https://github.com/olofk/
-      twitterUrl: https://twitter.com/OlofKindgren
+      xTwitterUrl: https://twitter.com/OlofKindgren
 
   - name: Dan Petrisko
     subheading:
@@ -89,7 +89,7 @@ people:
       email: philipp@fossi-foundation.org
       linkedInUrl: https://www.linkedin.com/in/imphil
       githubUrl: https://github.com/imphil
-      twitterUrl: https://twitter.com/MrImphil
+      xTwitterUrl: https://twitter.com/MrImphil
 
   - name: Stefan Wallentowitz
     subheading: Director
@@ -99,4 +99,4 @@ people:
       email: stefan@fossi-foundation.org
       linkedInUrl: https://www.linkedin.com/in/wallento
       githubUrl: https://github.com/wallento/
-      twitterUrl: https://twitter.com/wallento
+      xTwitterUrl: https://twitter.com/wallento

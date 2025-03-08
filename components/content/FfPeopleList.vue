@@ -4,7 +4,7 @@
         <div class="my-20" v-if="'socialLinks' in person">
           <FfSocialLinkCollection
             :linkedInUrl="person.socialLinks.linkedInUrl"
-            :twitterUrl="person.socialLinks.twitterUrl"
+            :xTwitterUrl="person.socialLinks.xTwitterUrl"
             :githubUrl="person.socialLinks.githubUrl"
             :email="person.socialLinks.email"
           />
