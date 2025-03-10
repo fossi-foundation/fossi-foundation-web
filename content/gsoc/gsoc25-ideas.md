@@ -17,13 +17,10 @@ through the private GSoC-specific mailing list [gsoc@fossi-foundation.org](mailt
 
 Looking forward to meet you all!
 
-* TOC
-{:toc}
-
 
 ## ZynqParrot RISC-V Tracer
 
-ZynqParrot (https://github.com/black-parrot-hdk/zynq-parrot) is a framework for doing self-contained, FPGA-based "hostless" ASIC accelerator development. It is designed to be extremely general and has been used to prototype IP from individual ASIC/FPGA cores to full multicore processors. In addition, ZynqParrot has been used to bringup N=1 ASIC silicon in the lab. 
+ZynqParrot (https://github.com/black-parrot-hdk/zynq-parrot) is a framework for doing self-contained, FPGA-based "hostless" ASIC accelerator development. It is designed to be extremely general and has been used to prototype IP from individual ASIC/FPGA cores to full multicore processors. In addition, ZynqParrot has been used to bringup N=1 ASIC silicon in the lab.
 
 RISC-V provides a trace format specification (https://github.com/riscv-non-isa/riscv-trace-spec) which can be used for diagnostic performance and debugging. This project will design and integrate a RISC-V Trace implementation into the ZynqParrot environment, requiring SystemVerilog implementation + testing, Block Diagram (Vivado IPI) design and well as writing C++ driver to work in both Co-Simulation and Co-Emulation.
 
@@ -128,7 +125,7 @@ the Linux kernel.  This includes:
 
 ### [Generic MinimumLinuxBoot for RTL Simulations]
 
-This project consists of booting Linux in Qemu, save the memory state, thencontinue the simulation in an RTL Simulation of OpenPiton. The first part of the project consists of understanding what states need to be saved, probably a combination of the TLB and MMU states as an starting point could be enough. Then, this state needs to be saved in a file format that the checkpoint mechanism of Verilator understand or create a synthetic benchmark that makes the proper MMU configuration. The second part of the project is adding the necessary support in OpenPiton Simulation infrastructure to continue the simulation and being able to launch some applications.   
+This project consists of booting Linux in Qemu, save the memory state, thencontinue the simulation in an RTL Simulation of OpenPiton. The first part of the project consists of understanding what states need to be saved, probably a combination of the TLB and MMU states as an starting point could be enough. Then, this state needs to be saved in a file format that the checkpoint mechanism of Verilator understand or create a synthetic benchmark that makes the proper MMU configuration. The second part of the project is adding the necessary support in OpenPiton Simulation infrastructure to continue the simulation and being able to launch some applications.
 
 OpenPiton uses different languages like Verilog, Python, Perl, and C. Verilator C++. Additionally, some background in hardware design is useful.
 
@@ -168,13 +165,13 @@ Your project will be to use and enhance this flow to refactor an open-source Ver
 [Automatic partitions with Metro-MPI]
 We want to add the automatic support of metro-MPI inside other tools, like Verilator or Essent. The idea would be to detect the top modules that are suitable to be interfaced with metro-MPI. An automatic partition algorithm would be ideal although we can start with a user-guided approach like pragmas.  The project will be divided into two big milestones: the initial task is to use the methodology from Metro-MPI to speed up the simulation (e.g. using messages with MPI to communicate between partitions); the second task would be to influence the partitions of the design to ease the usage of MPI between them.
 
-[Metro-MPI @FPGA]  
+[Metro-MPI @FPGA]
 We would like to explore the same methodology that Metro-MPI introduces but to connect multiple FPGAs with MPI.
 
 We are also open to other improvements on metro-MPI:
 - Explore the support of OpenMP instead of openMPI
-- Explore making the simulations faster with statistical analysis: predict values that will take the MPI messages on a certain simulation, making checkpoints and rolling back in case of predicting wrong. 
-- Improve current Verilator support from v4 to v5.    
+- Explore making the simulations faster with statistical analysis: predict values that will take the MPI messages on a certain simulation, making checkpoints and rolling back in case of predicting wrong.
+- Improve current Verilator support from v4 to v5.
 - Scale Simulations up to 10K cores (currently we support up to 1024 cores)
 
 Metro-MPI uses Verilog and C++. Additionally, some background in hardware design is useful.
@@ -186,7 +183,7 @@ _Duration:_  350 hours
 _Language/Tools:_  C++, MPI, SystemVerilog
 
 _Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es)  and  [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
-  
+
 ### OpenLane Web-based Graphical User Interface
 
 *Details:* OpenLane is the premier open source RTL-to-GDSII flow. Versions 2.0
@@ -260,8 +257,8 @@ Slang and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'l
 
 This project consists of improving the performance of OpenPiton memory hierarchy to better suit Cohort. For example, there is prior work on supporting wider NoCs, and cachelines in OpenPiton; we changing the Cohort engine's interaction with the coherence protocol; multiple MMU outstanding requests for higher performance.
 
-We have other ideas to work more on Cohort software support and we are also open to new proposals. Some examples: 
-- Support for other data structures instead of only queues 
+We have other ideas to work more on Cohort software support and we are also open to new proposals. Some examples:
+- Support for other data structures instead of only queues
 - Connect the openMP and/or openMPI runtime library to use Cohort queues
 - Add the support for [PRGA](https://dl.acm.org/doi/pdf/10.1145/3431920.3439294)  to be used with Cohort
 
@@ -332,7 +329,7 @@ This project will have the student:
 
 *Details:* OpenLane is the premier open source RTL-to-GDSII flow. Versions 2.0
 or higher's modular architecture allows for constructing complex flows using
-nodes called "steps." 
+nodes called "steps."
 
 Users who are adept in Python can create many such complex flows, including
 flows that may run multiple steps in parallel, but those who are not may face
