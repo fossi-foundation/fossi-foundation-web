@@ -17,6 +17,9 @@ through the private GSoC-specific mailing list [gsoc@fossi-foundation.org](mailt
 
 Looking forward to meet you all!
 
+* TOC
+{:toc}
+
 
 ## ZynqParrot RISC-V Tracer
 
