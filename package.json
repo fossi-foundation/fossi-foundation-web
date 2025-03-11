@@ -11,7 +11,7 @@
     "@iconify-json/fa6-brands": "^1.1.4",
     "@iconify-json/fa6-solid": "^1.1.5",
     "@iconify-json/ph": "^1.1.5",
-    "@nuxt/content": "^2.10.0",
+    "@nuxt/content": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "nuxt": "^3.13.2",
     "rss": "^1.2.2",
