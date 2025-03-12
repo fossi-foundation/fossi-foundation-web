@@ -29,6 +29,8 @@ United Kingdom
 The *Free and Open Source Silicon Foundation C.I.C.* is a Community Interest Company registered in England (United Kingdom) under Company Number 09848956.
 All public records are available at [UK's Companies House](https://find-and-update.company-information.service.gov.uk/company/09848956).
 
+VAT-ID: GB301165359
+
 ## Content license
 
 All *text* on this website, unless noted otherwise, can be shared and adapted under the terms of the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/deed), as long as you give credit to the authors.
