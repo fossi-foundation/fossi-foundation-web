@@ -50,6 +50,23 @@ or around the cursor would be extra useful.
 *Languages/Tools:* Rust. Familiarity with hardware design is helpful to have some context of what the tool is used for is helpful, but the project itself is pure software. Some familiarity with egui is also helpful though certainly not required.
 
 
+### TL-Verilog Editor Modes
+
+*Details:* TL-Verilog has support in various editors, including VSCode, GitHub, and CodeMirror (used by Makerchip). But all three could use a refresh and improvements. Grammar improvements are needed in TextMate (currently used by VSCode and GitHub), and Tree-sitter support is desired for future use in GitHub and CodeMirror.
+
+175-hr or 350-hr projects are possible. A 175-hr project could focus on improving the existing GitHub TL-Verilog mode (which is rather broken). A 350-hr project might focus on a new grammar. A long project might also add support for the macro-preprocessor used by TL-Verilog (M5) or for JavaScript embedded in TL-Verilog.
+
+*Skill level:* Medium
+
+*Language/Tools:* JavaScript
+
+*Duration:* 175 or 350 hrs
+
+*Repo:* https://github.com/github-linguist/linguist/pull/5331/files
+
+*Mentor:* [Steve Hoover](mailto:steve.hoover@redwoodeda.com)
+
+
 ### cocotb v2 Code Migration Helper
 
 The upcoming cocotb v2.x release will have quite some breaking changes (see https://docs.cocotb.org/en/latest/release_notes.html), so users and extension developers will have to actively migrate existing code.
@@ -392,3 +409,20 @@ See more information [here](https://github.com/cocotb/cocotb/issues/4504).
 *Language/Tools:* Python, cocotb
 
 *Mentor:* [Kaleb Barrett](mailto:dev.ktbarrett@gmail.com)
+
+
+### Visualizing Registers in Simulation
+
+*Details:* PeakRDL is a free and open-source control & status register (CSR) generator toolchain that works from SystemRDL specifications. It has community-developed plugins that provide various output formats from the SystemRDL source for use in hardware simulation, verification, software simulation, and documentation as well as output to other specification formats. This project aims to create a new plugin category for simulation visualization.
+
+The Makerchip.com platform provides a framework called "Visual Debug" (or VIZ) that uses the JavaScript Fabric.js library to visualize digital circuit simulations based on signal trace data in `.vcd` format. This project aims to provide VIZ output to support visualization of CSR values in simulation. VIZ outputs can be supported for any target HDL and can be integrated with other VIZ code for the surrounding logic.
+
+*Skill level:* Medium
+
+*Language/Tools:* Python, JavaScript, PeakRDL, Makerchip
+
+*Duration:* 350 hrs
+
+*Repo:* https://github.com/SystemRDL/PeakRDL
+
+*Mentors:* [Alex Mykyta](mailto:amykyta3@gmail.com), [Steve Hoover](mailto:steve.hoover@redwoodeda.com)
