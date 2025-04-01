@@ -144,7 +144,7 @@ export default defineNuxtConfig({
     '/latchup': { redirect: '/latch-up' },
 
     // Redirect the ORConf landing page to the most current one.
-    '/orconf': { redirect: '/orconf/2024' },
+    '/orconf': { redirect: '/orconf/2025' },
 
     // Matrix server hosting
     // Disable prerendering to ensure that the redirects are done using HTTP
