@@ -51,3 +51,15 @@ Accellera Portable Stimulus Specification (PSS) language is a test-content model
 
 This talk will provide an example-driven introduction to the PSS language, and provide resources and details of available open source tools that support learning about and using PSS.",,
 ,,Break,High-Performance Hardware Design with Hardcaml,Rachit Nigam,HW development for Free and Open Source Silicon,"Hardcaml is an embedded DSL in OCaml designed for high-performance FPGA designs. This talk will go over the design of Hardcaml, providing general principles for designing new embedded DSLs for hardware design, and showcase how Hardcaml enables both high-level abstraction and low-level optimizations.",,
+,,Normal,Fixed Point Numeric Types for Hardware Description,David Hossack,,"There are many existing libraries, both commercially licensed and free-and-open-source, for describing digital fixed-point arithmetic in hardware, but they all share some undesirable features.
+
+A fixed point number is usually described by fixed information including the width of the binary number in bits, and their significance in a fixed point environment. For example, a 16 bit hardware value could represent numbers in the range 0..65536 notated as unsigned(16,0), or between -32768..32767 notated as signed(16,0), or as a number in the range -1..255/256 notated as signed(8,8) or as a number between -1..32767/32768 notated as signed(1,15), or many other options.  A key question is what is the result type when two 16 bit numbers in the same format are added? - in some cases a 16 bit result is expected (with modulo or overflowing behavior), but in many cases, a wider 17 bit result is wanted and expected.
+
+Normal mathematical arithmetic is associative, where the ordering of addition is not important, but perhaps surprisingly, most fixed point library types are not.  Most existing fixed point libraries will overly widen the result type width when multiple additions are performed.  The value of using a fixed point library is severely diminished whenever the design engineer needs to override the widths that were determined automatically.
+
+The parameterization used here is very simple as it treats signed and unsigned representations equivalently.  It neatly distinguishes between the cases where modulo overflow should be expected versus non-overflowing arithmetic with word length growth.  It can also distinguish between variables which require storage and constant fixed-point values which do not.  This is all achieved in a simple, mathematically pure manner.
+
+Floating point types are not included, but the formulation has been used for describing hardware implementing floating point arithmetic and floating point function approximations.
+
+This formulation is ideally suited for incorporation into future hardware description languages.",,
+,,Normal,Overview of Static Timing Analysis in OpenSTA,Akash Levy,,Overview of Static Timing Analysis in OpenSTA,,
