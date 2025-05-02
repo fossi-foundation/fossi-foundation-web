@@ -44,15 +44,17 @@ import IconPhPresentation from '~icons/ph/presentation-bold'
   </div>
   <div v-else-if="view == 'details'">
     <div v-for="(talk) in talks" :key="index">
-      <ProseH3 :id=slugs.slug(talk.Title)>{{ talk.Title }}</ProseH3>
-      <div class="flex space-x-10 align-middle">
-        <span>{{ talk.Presenter }}</span>
-        <ProseA v-if="talk.Youtube" title="Watch the recording on YouTube" :to="talk.Youtube"><IconFabYoutube/></ProseA>
-        <ProseA v-if="talk.Slides"title="Presentation slides" :to="talk.Slides"><IconPhPresentation/></ProseA>
+      <div v-if="talk.Type == 'Normal' || talk.Type == 'Lighning Talk'">
+        <ProseH3 :id=slugs.slug(talk.Title)>{{ talk.Title }} <span v-if="talk.Type == 'Lighning Talk'"> (lightning talk)</span></ProseH3>
+        <div class="flex space-x-10 align-middle">
+          <span>{{ talk.Presenter }}</span>
+          <ProseA v-if="talk.Youtube" title="Watch the recording on YouTube" :to="talk.Youtube"><IconFabYoutube/></ProseA>
+          <ProseA v-if="talk.Slides"title="Presentation slides" :to="talk.Slides"><IconPhPresentation/></ProseA>
+        </div>
+        <ProseP>
+          <MDC v-if="talk.Abstract" :value="talk.Abstract" />
+        </ProseP>
       </div>
-      <ProseP>
-        <MDC v-if="talk.Abstract" :value="talk.Abstract" />
-      </ProseP>
     </div>
   </div>
 </template>
