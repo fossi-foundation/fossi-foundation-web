@@ -12,9 +12,11 @@ Fri,9:30,Break,Doors open! Register and mingle.,,,,,
 * Lessons learned from shipping hardware (and some tricks for passing CE/EMC)
 
  As we walk through each theme, this talk will include some live demos on a small Eurorack system demonstrating each.",,
-,,Normal,Greyhound: A RISC-V SoC with tightly coupled eFPGA on IHP SG13G2,Leo Moser,,"Greyhound is part RISC-V SoC and part eFPGA. Greyhound's embedded FPGA can be used as a custom instruction extension, as a peripheral or as a completely standalone FPGA with 32 I/Os. Custom tiles were created to enable warmboot functionality and allow communication with the SoC. Thanks to FABulous, the user bitstream for the FPGA can be generated using the upstream yosys and nextpnr toolchain.
- 
-Greyhound was designed with open source EDA tools and the IHP Open Source PDK.",,
+,,Normal,Panamax FPGA - An Open Source FPGA on SKY130,Leo Moser,,"A FABulous FPGA utilizing the Panamax padframe designed using open source EDA tools and the open source sky130 PDK.
+
+Panamax FPGA features 64 I/Os, 1280 LCs (LUT4+FF), 8 MAC (8-bit * 8-bit + 20-bit), 16 register files (1w2r, 32x4) and 8 BRAM (dual-ported 1r1rw, 256x32). In addition, the FPGA fabric integrates some analog IP: 2 x 12-bit split-CDAC SAR ADC and 2 x 8-bit R-DAC.
+
+Panamax FPGA was submitted for tapeout in May 2025.",,
 ,,Normal,Unified and Open Evaluation of LLMs for RTL Generation,Dario Garcia Gasulla,,"At the Barcelona Supercomputing Center (BSC) we are actively pushing research on LLMs for chip design. Our early contributions include an integrated evaluation framework (TuRTLe) to assess RTL code quality under syntax, functionality, synthesizability and PPA performance. Commited to open science, this is done in integration with open tools (Icarus, Yosis, OpenROAD), and publicly released for others to use and extend. This talk will include insights on the latest model performance, evaluation challenges and future research lines of work, towards improving the use of LLMs for EDA.",,
 ,,Normal,HAgent an open framework to build hardware agents,Jose Renau,,[HAgent](https://github.com/masc-ucsc/hagent) is an open-source Hardware Agent infrastructure that integrates LLMs with chip design tools through a compiler-inspired pipeline architecture. The framework enables AI-assisted hardware development across with hermetic passes that communicate via YAML interfaces for enhanced debuggability and reproducibility.,,
 ,,Normal,Just how far can you go with FOSS?,Peter Birch,,"Based on experience of guiding engineering at a silicon startup using FOSS tools and a strategy of open sourcing where possible, this presentation will explore where that limit is today, lessons learnt from this strategy, and some tips for others considering such an approach.",,
