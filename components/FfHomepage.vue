@@ -72,11 +72,11 @@ Homepage
   -->
   <FfSignpostBanner
     class="bg-[url('/images/banner-orconf.jpg')]"
-    title="Latch-Up 2025 announced!"
-    ctaLabel="Visit the Latch-Up 2025 conference page for details"
+    title="ORConf 2025 in Valencia, Spain is open for registrations"
+    ctaLabel="Visit the ORConf 2025 conference page for details"
     ctaTo="/latch-up/2025"
   >
-    <p>Join us in Santa Barbara, CA from May 2 to 4, 2025 for Latch-Up and feel the pulse of the open source silicon community.</p>
+    <p>Join us in Valencia, Spain from September 12 to 14 for this year's ORConf and feel the pulse of the open source silicon community. Registration and talk submissions are open now.</p>
   </FfSignpostBanner>
 
   <!--
