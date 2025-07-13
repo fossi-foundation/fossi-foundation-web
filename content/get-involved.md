@@ -12,7 +12,7 @@ The Foundation’s goals can be achieved with your support in a couple of ways.
 
 * Developers - setting up our infrastructure takes work and we’re interested in having more people to lend a hand. See our News & Posts section for the latest requests, or contact us at info@fossi-foundation.org to offer your help maintaining and developing our infrastructure.
 
-* Talk. We encourage discussion on all things open source digital design and FOSSi on the LibreCores discussion mailing list: discussion@lists.librecores.org (subscribe here).
+* Talk. We encourage discussion on all things open source digital design and FOSSi on FOSSi Chat on Matrix. Join the discussion now at https://fossi-chat.org.
 
 * Individual donations. You can also support us with small donations via Paypal:
 
