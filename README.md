@@ -42,6 +42,10 @@ yarn install
 # variable has a strange value.)
 HOST=localhost yarn dev
 
+# That's all you need for local development.
+# Alternatively, if you'd like to get closer to what the production
+# deployment would do:
+
 # Build the application for production:
 yarn run build
 
