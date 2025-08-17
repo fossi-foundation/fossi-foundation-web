@@ -8,5 +8,5 @@
 <script setup lang="ts">
 const props = defineProps(['link', 'level'])
 
-const levelClass = (props.level == 'headline' || props.level == 'major') ? 'col-span-3' : '';
+const levelClass = (props.level == 'headline' || props.level == 'major') ? 'col-span-2' : '';
 </script>
