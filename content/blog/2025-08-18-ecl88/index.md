@@ -25,6 +25,8 @@ LibreLane 2.4.0 is available for macOS and Linux (and Windows with WSL2). The [g
 
 This represents years of hard work by many, many people, my colleagues back at Efabless, my friends at Tiny Tapeout, and my new colleagues at the FOSSi Foundation. It is my sincere hope that LibreLane will make chip design easier and more accessible than ever, and we’re not nearly done. We are hard at work at version 3.0.0, which will add first-class IHP Open PDK support by Leo Moser and the Tiny Tapeout team as well as a number of changes for architectural consistency that will make using LibreLane even simpler.
 
+*A more detailed post introducing LibreLane is available [on the FOSSi Foundation blog](https://fossi-foundation.org/blog/2025-08-17-librelane).*
+
 _-Mohamed Gaber_
 
 <img src="os2025.jpg" style="max-width:100%" />
