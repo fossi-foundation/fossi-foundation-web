@@ -1,8 +1,10 @@
 <template>
-    <NuxtLink v-if="link" :to="link" class="p-10 self-center" :class="levelClass">
-        <NuxtImg v-bind="$attrs" />
+    <div :class="levelClass"><center>
+    <NuxtLink v-if="link" :to="link" class="p-10 self-center">
+        <NuxtImg v-bind="$attrs" width="100%" class="self-center"/>
     </NuxtLink>
     <NuxtImg v-else class="p-10 self-center" :class="levelClass" />
+</center></div>
 </template>
 
 <script setup lang="ts">
