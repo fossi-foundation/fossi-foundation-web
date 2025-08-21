@@ -1,14 +1,13 @@
 <template>
-    <div :class="levelClass"><center>
-    <NuxtLink v-if="link" :to="link" class="p-10 self-center">
-        <NuxtImg v-bind="$attrs" width="100%" class="self-center"/>
+    <div v-if="props.level == 'gold'"></div>
+    <NuxtLink :class="levelClass" class="flex justify-center items-center">
+        <NuxtImg v-bind="$attrs" width="100%" />
     </NuxtLink>
-    <NuxtImg v-else class="p-10 self-center" :class="levelClass" />
-</center></div>
+    <div v-if="props.level == 'gold'"></div>
 </template>
 
 <script setup lang="ts">
 const props = defineProps(['link', 'level'])
 
-const levelClass = (props.level == 'headline' || props.level == 'major') ? 'col-span-2' : '';
+const levelClass = props.level == 'headline' ? 'col-span-6' : (props.level == 'gold' ? 'col-span-4' : 'col-span-3');
 </script>
