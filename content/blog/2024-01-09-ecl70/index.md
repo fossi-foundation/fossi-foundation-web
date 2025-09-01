@@ -7,7 +7,7 @@ date: 2024-01-09
 ---
 
 
-<img src="yowasp.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/yowasp.jpg" style="max-width:100%" />
 
 ## YoWASP Puts a Yosys Toolchain Everywhere with the Power of WebAssembly
 
@@ -22,7 +22,7 @@ In addition to running in-browser, the resulting packages can be distributed usi
   
 More details on the YoWASP project are available [on the official website](https://yowasp.org/), while source code is published [to GitHub](https://github.com/YoWASP); whitequark has also published [a Microsoft VSCode extension](https://vscode.dev/github/YoWASP/toolchain-demo) for experimentation.
 
-<img src="moserpdk.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/moserpdk.jpg" style="max-width:100%" />
 
 ## Leo Moser Pens an Introduction to Minimal Fab and the Open-Source ICPS PDK
 
@@ -37,7 +37,7 @@ That open-source PDK was at the heart of the contest, which as the name implies 
   
 For those who want to follow along, the [introductory blog post](https://mole99.uber.space/2023/Minimal_Fab/About%20Minimal%20Fab%20and%20the%20ICPS%20PDK.html) and more detailed [hands-on tutorial](https://mole99.uber.space/2024/NAND_tutorial/Design%20of%20a%20NAND%20gate%20using%20the%20ICPS%20PDK.html) are both live on Leo's blog now.
 
-<img src="olimexgatemate.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/olimexgatemate.jpg" style="max-width:100%" />
 
 ## Olimex Announces an Open-Source Dev Board for the Cologne Chip GateMate A1
 
@@ -54,7 +54,7 @@ At the time of writing, Olimex had received the first board prototypes and was g
   
 More information is available [on the Olimex blog](https://olimex.wordpress.com/2023/12/11/colognechip-gatemate-a1-evb-open-source-hardware-development-board-is-ready-for-prototyping/).
 
-<img src="lowriscsonata.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/lowriscsonata.jpg" style="max-width:100%" />
 
 ## lowRISC Celebrates Milestones in an Update on the Sunburst Project
 
@@ -72,7 +72,7 @@ Since its founding, the Sunburst Project has released architecture documentation
   
 More details, including links to the documentation and Sonata design files, are available [on the lowRISC blog](https://lowrisc.org/news/2023/12/sunburst-project-update-dec-23/).; additional information can be found [on the Sunburst Project website](https://www.sunburst-project.org/).
 
-<img src="clockhands.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/clockhands.jpg" style="max-width:100%" />
 
 ## "Clockhands" Promises Better Out-of-Order CPU Energy Efficiency
 
@@ -87,7 +87,7 @@ That energy-efficiency gain is impressive enough, and comes at the advantage ove
   
 The team's full paper has been published under open-access terms in the [_Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture_](https://dl.acm.org/doi/10.1145/3613424.3614272).
 
-<img src="sargantana.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/sargantana.jpg" style="max-width:100%" />
 
 ## BSC Presents Sargantana, a "New Generation" of Spanish Open-Source Silicon
 
@@ -102,7 +102,7 @@ The Sargantana is an RV64G RISC-V design which follows on from the project's ear
   
 Sargantana is available [on GitHub](https://github.com/bsc-loca/sargantana) under the permissive Solderpad Hardware License v2.1.
 
-<img src="ihptour.jpg" style="max-width:100%" />g)
+<img src="/blog/2024-01-09-ecl70/ihptour.jpg" style="max-width:100%" />g)
 
 ## Matt Venn Takes a Look at How Chips are Made at IHP
 
@@ -117,7 +117,7 @@ Part of Matt's educational video series, which supports the hands-on [Zero to AS
   
 The full video is available [on the Zero to ASIC Course YouTube channel](https://www.youtube.com/watch?v=aBDJQ9NYTEU).
 
-<img src="refreshfpgas.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/refreshfpgas.jpg" style="max-width:100%" />
 
 ## Upcycled REFRESH FPGAs Aim to Make Technology More Sustainable
 
@@ -132,7 +132,7 @@ While the team's upcycling approach shows promise, the researchers admit there a
   
 A preprint of the team's work is available [on Cornell's arXiv server](https://arxiv.org/abs/2312.02991).
 
-<img src="serv5th.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/serv5th.jpg" style="max-width:100%" />
 
 ## Olof Kindgren Celebrates "Five Years of SERVing"
 
@@ -153,7 +153,7 @@ Over the coming months, SERV would shrink considerably: a talk on cramming eight
   
 The full five-year history is written up [on the RISC-V International blog](https://riscv.org/blog/2023/12/five-years-of-serving/).
 
-<img src="verilatorlogo.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/verilatorlogo.jpg" style="max-width:100%" />
 
 ## Verilator, the "Fastest Verilog/SystemVerilog Simulator," Hits Version 5.020
 
@@ -168,7 +168,7 @@ The release also brings with it a range of "minor" changes, including support fo
   
 The new release is available [on the Verilator GitHub](https://github.com/verilator/verilator) repository under the GNU Lesser General Public Licence 3, with the full changelog available [on the Verilator website](https://verilator.org/guide/latest/changes.html#verilator-5-020-2024-01-01).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2024-01-09-ecl70/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News in Brief
 

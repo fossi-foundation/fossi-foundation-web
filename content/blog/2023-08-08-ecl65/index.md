@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-08-08
 ---
 
-<img src="gsoc.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/gsoc.jpg" style="max-width:100%" />
 
 ## Welcome the Google Summer of Code Class of 2023
 
@@ -70,7 +70,7 @@ Despite the fact that OpenPiton offers many advantages, it presents performance 
 
 _-Jonathan Balkind, Director, FOSSi Foundation_
 
-<img src="serv-colour.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/serv-colour.jpg" style="max-width:100%" />
 
 ## SERV, the Award-Winning Bit-Serial RISC-V Core, Gets a Four-Bit Sibling: QERV
 
@@ -85,7 +85,7 @@ SERV is generally recognised as the world's smallest RISC-V CPU core, and forms 
 
 More information on SERV is available [on GitHub](https://github.com/olofk/serv); at the time of writing, QERV had not yet been published.
 
-<img src="corevmcu.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/corevmcu.jpg" style="max-width:100%" />
 
 ## OpenHW Group Launches the CORE-V DevKit, With a Free and Open Microcontroller
 
@@ -100,7 +100,7 @@ Almost, but not quite, the entire CORE-V microcontroller is made available under
 
 The OpenHW Group [has partnered with GroupGets](https://groupgets.com/campaigns/1040) to arrange production and sell-through of the Amazon-designed CORE-V MCU DevKit, with orders open now at $199 on a 14-day lead time.
 
-<img src="efablessaichallenge.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/efablessaichallenge.jpg" style="max-width:100%" />
 
 ## Efabless Opens its Second AI-Generated Open-Source Silicon Design Challenge
 
@@ -115,7 +115,7 @@ Those selected as a winner of the challenge will receive free fabrication into p
 
 Those interested in participating can find the full instructions [on the Efabless website](https://efabless.com/ai-generated-design-contest-2); entries close on the 7th of September 2023.
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/riscv.jpg" style="max-width:100%" />
 
 ## RISC-V Smcntrpmf Performance-Analysis Extension Enters Public Review
 
@@ -128,7 +128,7 @@ RISC-V International has announced the opening of a public review period for the
 
 The public review period is open now, and closes on the 31st of August 2023. Those interested in commenting on the proposal can do so [on the extension's GitHub repository](https://github.com/riscv/riscv-smcntrpmf).
 
-<img src="binnq-riscv.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/binnq-riscv.jpg" style="max-width:100%" />
 
 ## Industry Giants Join Forces to "Drive RISC-V Ecosystem and Hardware Development"
 
@@ -145,7 +145,7 @@ The presence of Nordic, NXP, and Qualcomm in the venture is of particular intere
 
 At the time of writing, no timescale had been provided for the company's opening.
 
-<img src="archgym.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/archgym.jpg" style="max-width:100%" />
 
 ## "An Open-Source Gymnasium" for AI-Assisted Architecture Design
 
@@ -162,7 +162,7 @@ The ArchGym platform is split into two components: the environment and the agent
 
 ArchGym is available [on GitHub](https://github.com/srivatsankrishnan/oss-arch-gym) under the permissive Apache 2.0 license.
 
-<img src="a5k.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/a5k.jpg" style="max-width:100%" />
 
 ## Sylvain Lefebvre's a5k is a Core Designed for One Task: Running Another World
 
@@ -177,7 +177,7 @@ The a5k design isn't the first Sylvain has created to showcase the capabilities 
 
 The project is documented in full, with source code under the permissive MIT license, on Sylvain's GitHub repository; the game source port is made available under the reciprocal GNU General Public License (GPL). "The game data is copyrighted," Sylvain notes, "so please go buy the game if you don't own multiple copies already. It's well worth it!"
 
-<img src="debian.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/debian.jpg" style="max-width:100%" />
 
 ## Debian Linux Announces the Adoption of 64-bit RISC-V as an Official Architecture
 
@@ -190,7 +190,7 @@ The longstanding Debian Linux distribution has announced that 64-bit RISC-V is n
 
 The announcement is available in full [on the Debian mailing list archive server](https://lists.debian.org/debian-riscv/2023/07/msg00053.html).
 
-<img src="car.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/car.jpg" style="max-width:100%" />
 
 ## Researchers Offer an Open Multi-OS Platform for RISC-V in Automotive ECUs
 
@@ -205,7 +205,7 @@ A team of researchers from ETH Zurich and the Huawei Research Centre have publis
 
 The paper, which pre-dates the announcement detailed earlier in this newsletter of the formation of an industry group also promoting RISC-V adoption in the automotive sector, is available under open-access terms [on the Cornell arXiv preprint server](https://arxiv.org/abs/2307.04148).
 
-<img src="riscvsummiteurope-panel.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/riscvsummiteurope-panel.jpg" style="max-width:100%" />
 
 ## RISC-V Summit Europe Panel Discusses Growing Adoption in the Region
 
@@ -220,7 +220,7 @@ The panel also discussed the role of education in promoting adoption and further
 
 Kezia's summary is available [on the RISC-V International blog](https://riscv.org/blog/2023/07/the-growing-momentum-of-risc-v-in-europe/), with the full panel discussion available [on YouTube](https://www.youtube.com/watch?v=7cLaO-MFY2s).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/newsinbrief.jpg" style="max-width:100%" />
 ## FOSSi News In Brief
 
 -   [Olof Kindgren has been working on audio playback from Verilator, using GTKWave in interactive mode. "Still a bit slow," he says, "but it works."](https://twitter.com/OlofKindgren/status/1679845668679036928) [(GitHub)](https://github.com/olofk/keball)
@@ -229,7 +229,7 @@ Kezia's summary is available [on the RISC-V International blog](https://riscv.or
 
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-08-08-ecl65/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

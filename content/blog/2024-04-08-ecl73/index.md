@@ -5,7 +5,7 @@ description: El Correo Libre Newsletter, Issue 73
 author: Gareth Halfacree
 date: 2024-04-08
 ---
-<img src="latchup.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/latchup.jpg" style="max-width:100%" />
 
 ## New Latch-Up 2024 Sessions Confirmed as the Countdown Draws to a Close
 
@@ -96,7 +96,7 @@ If any of the above is of interest, you can find the full programme [on the Latc
   
 We hope to see you there!
 
-<img src="faze.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/faze.jpg" style="max-width:100%" />
 
 ## Meinhard Kissich's FazyRV Offers a Scalable Minimal-Area RISC-V Core
 
@@ -113,7 +113,7 @@ Offering fine-grained options for scalability, FazyRV allows the user to explore
   
 The full Community Spotlight piece is available [on the YosysHQ Blog](https://blog.yosyshq.com/p/community-spotlight-fazyrv/), while FazyRV [is published on GitHub](https://github.com/meiniKi/FazyRV) under the permissive MIT licence.
 
-<img src="rasterix.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/rasterix.jpg" style="max-width:100%" />
 
 ## Rasterix Delivers an OpenGL Graphics Processor in Verilog
 
@@ -130,7 +130,7 @@ Rasterix builds on the earlier RasteriCEr project, which offered a basic OpenGL 
   
 Software supported by Rasterix includes Tuxracer, Quake 3 Arena, and Warcraft 3. More information is available [on the project's GitHub repository](https://github.com/ToNi3141/Rasterix), where the source is published under the reciprocal GNU General Public Licence 3.
 
-<img src="veryl.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/veryl.jpg" style="max-width:100%" />
 
 ## The Veryl Hardware Description Language Aims to Improve on SystemVerilog
 
@@ -147,7 +147,7 @@ Finally, productivity improvements come from a "rich set of development support 
   
 More information on the project is available [on the official website](https://veryl-lang.org/), while the Veryl source code is available [on GitHub](https://github.com/veryl-lang/veryl) dual-licensed under the permissive Apache 2.0 and MIT licences.
 
-<img src="antmicroopenroad.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/antmicroopenroad.jpg" style="max-width:100%" />
 
 ## Antmicro Works to Speed Traffic Flow on the OpenROAD
 
@@ -164,7 +164,7 @@ Even before it tackles the thorny issue of parallelisation, Antmicro says it has
   
 Antmicro's full write-up is available [on the company blog](https://antmicro.com/blog/2024/03/speeding-up-openroad/), and will be detailed further in a talk at [the Open Hardware and Software Mini Summit](https://sched.co/1aBJ0) on the 15th of April.
 
-<img src="vishnu-mohanan-U6lF_VGaRg0-unsplash.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/vishnu-mohanan-U6lF_VGaRg0-unsplash.jpg" style="max-width:100%" />
 
 ## Alex Lao Offers a List of "Unconventional" Things to Do With an FPGA
 
@@ -179,7 +179,7 @@ With this in mind, Alex has considered the aspects of an FPGA that can lead to u
   
 The full list is available on Alex's blog, [Voltage Divide](https://voltagedivide.com/2024/03/18/unconventional-uses-of-fpgas/).
 
-<img src="dramlogic.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/dramlogic.jpg" style="max-width:100%" />
 
 ## Researchers Perform Boolean Logic with Real, Off-The-Shelf DRAM Chips
 
@@ -194,7 +194,7 @@ Researchers from ETH Zurich have made a major step towards processing-using-DRAM
   
 A preprint detailing the team's work is available [on Cornell's arXiv server](https://arxiv.org/abs/2402.18736).
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/riscv.jpg" style="max-width:100%" />
 
 ## Public Review Periods Open for Several New RISC-V Extensions
 
@@ -207,7 +207,7 @@ Public review periods are now open for a series of extensions to the RISC-V inst
   
 "We're happy to announce that the Smrnmi extension for resumable non-maskable interrupts is ready for public review," says Andrew Waterman of the last of the extensions to be under public review. This review period also ends on the 19th of April, with details [in Andrew's announcement](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/alVTNbanfdU).
 
-<img src="mateus-campos-felipe-Koo05y0j1Aw-unsplash.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/mateus-campos-felipe-Koo05y0j1Aw-unsplash.jpg" style="max-width:100%" />
 
 ## Brazil Becomes a RISC-V Premier Member, Inks a Collaborative Partnership on HPC
 
@@ -224,7 +224,7 @@ The full announcement is available [on the RISC-V International website](https:/
 
 ![](https://mcusercontent.com/5d525b453672149a60c198960/images/8da7faf5-dcdd-20a8-558b-f24506b8941c.jpg)
 
-<img src="rvsim.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/rvsim.jpg" style="max-width:100%" />
 
   
 Computer science student Eduardo Michel Deves de Souza has created a simulator which puts a 32-bit RISC-V core in your browser, with the aim of it being used in education and for personal experimentation.  
@@ -235,7 +235,7 @@ The simulator, written in JavaScript, allows the user to write RISC-V assembly i
   
 The source code for the simulator has been published [to GitHub](https://github.com/eduardoMichell/rv-sim) under an unspecified open-source licence, while a live version is hosted [on GitHub Pages](https://eduardomichell.github.io/rv-sim/) for immediate use.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2024-04-08-ecl73/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News in Brief
 

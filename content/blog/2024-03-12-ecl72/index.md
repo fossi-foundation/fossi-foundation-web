@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2024-03-12
 ---
 
-<img src="letter.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/letter.jpg" style="max-width:100%" />
 
 ## Importance of Open-Source EDA Tools for Academia: An Open Letter on European Strategic and Funding Directions
 
@@ -41,7 +41,7 @@ Sincerely,
   
 _Luca Benini, Giovanni De Micheli, Marie-Minerve Louërat, Harald Pretl, Stefan Wallentowitz, and 130 co-signatories_
 
-<img src="latchup.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/latchup.jpg" style="max-width:100%" />
 
 ## Second Batch of Speakers Confirmed for Latch-Up 2024
 
@@ -94,7 +94,7 @@ For information on submitting a talk proposal, registering to attend - free of c
 
 Latch-Up 2024 will be held from the 19th to the 21st of April at the Massachusetts Institute of Technology in Cambridge, and we hope to see you there!
 
-<img src="openpadlock.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/openpadlock.jpg" style="max-width:100%" />
 
 ## Make Government-Funded Hardware Open-Source, Federation of American Scientists Says
 
@@ -111,7 +111,7 @@ This, he argues, would reduce wasteful reinvention, increase access to informati
   
 The full article is available [on the FAS website](https://fas.org/publication/open-source-hardware/).
 
-<img src="hullorigami.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/hullorigami.jpg" style="max-width:100%" />
 
 ## Researchers Unveil an Unusual Platform for Open Computation: Origami
 
@@ -126,7 +126,7 @@ The same, Thomas and Inna say, is true of folded paper. "In this paper," the pai
   
 The full paper is available as a preprint [on Cornell's arXiv server](https://arxiv.org/abs/2309.07932v1), with more background available [in Quanta Magazine's article](https://www.quantamagazine.org/how-to-build-an-origami-computer-20240130/) on the topic.
 
-<img src="top.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/top.jpg" style="max-width:100%" />
 
 ## TOP Aims to Deliver Architecture Analysis for Open Low-Power Cyber-Physical Systems
 
@@ -143,7 +143,7 @@ To prove the potential of TOP the team used it on a sample heterogeneous low-pow
   
 The full paper is available as a preprint [on the Cornell arXiv server](https://arxiv.org/abs/2401.15639).
 
-<img src="abiriscvforai.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/abiriscvforai.jpg" style="max-width:100%" />
 
 ## Edge-AI Boom Will See 129 Million RISC-V Chips Shipped by 2030, ABI Research Says
 
@@ -160,7 +160,7 @@ The current explosion of interest in artificial intelligence at the edge (edge-A
   
 Paul's comments are based on the ABI Research report _RISC-V for Edge AI Applications_, available to purchase [through the company's website](https://www.abiresearch.com/market-research/product/7783287-risc-v-for-edge-ai-applications/?utm_source=media&utm_medium=email) now.
 
-<img src="reservoir.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/reservoir.jpg" style="max-width:100%" />
 
 ## The SERV "Reservoir" Provides Reference and Ready-to-Run SERV Designs and Subsystems
 
@@ -175,7 +175,7 @@ The SERV reservoir includes, at launch: Servile, a "convenience wrapper" helper 
   
 Documentation for the projects are included [on the reservoir page](https://serv.readthedocs.io/en/latest/reservoir.html); the source code for each is published [to the SERV GitHub repository](https://github.com/olofk/serv) under the ISC licence.
 
-<img src="ahkiofig5.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/ahkiofig5.jpg" style="max-width:100%" />
 
 ## Research Paper Characterises Hardware Security Bugs in Open-Source Projects
 
@@ -190,7 +190,7 @@ A research paper by Joey Ah-kiow and Benjamin Tan, of the NYU Tandon School of E
   
 The full paper is available as a preprint [on Cornell's arXiv server](https://arxiv.org/abs/2402.00684).
 
-<img src="makinote.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/makinote.jpg" style="max-width:100%" />
 
 ## BSC Researchers Unveil Makinote, a Platform for Pre-Silicon RISC-V Emulation
 
@@ -207,7 +207,7 @@ To prove the concept the team used the Makinote cluster and its FPGA Shell softw
   
 The full paper is available as a preprint [on Cornell's arXiv server](https://arxiv.org/abs/2401.17984).
 
-<img src="opentitanchip.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/opentitanchip.jpg" style="max-width:100%" />
 
 ## OpenTitan Celebrates Commercial Availability of its Open-Source Silicon
 
@@ -222,7 +222,7 @@ Based on the OpenTitan discrete chip design codenamed [Earl Grey](https://openti
   
 More information is available [on the OpenTitan website](https://opentitan.org/), along with links to the project's sources.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2024-03-12-ecl72/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News in Brief
 

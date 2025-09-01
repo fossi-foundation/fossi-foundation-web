@@ -5,7 +5,7 @@ description: El Correo Libre Newsletter, Issue 48
 author: Gareth Halfacree
 date: 2022-03-06
 ---
-<img src="chipsalliance.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/chipsalliance.jpg" style="max-width:100%" />
 
 ## CHIPS Alliance Forms F4PGA Workgroup for Open-Source FPGA Tooling
 
@@ -22,7 +22,7 @@ The organisation has stated that it has seen "strong support" for the F4PGA Work
 
 More information on the workgroup is available [on the CHIPS Alliance website](https://chipsalliance.org/workgroups/), though no mailing list has yet been published.
 
-<img src="clear.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/clear.jpg" style="max-width:100%" />
 
 ## eFabless Launches CLEAR, the Open-Source FPGA ASIC, as a chipIgnite Intro
 
@@ -39,7 +39,7 @@ The CLEAR chip itself is generated using OpenFPGA and integrated into the Carave
 
 The campaign is running until Monday the 28th of March 2022 [on GroupGets](https://groupgets.com/pre_launch_campaigns/1003-clear-the-open-source-fpga-asic-by-chipignite), with pricing set at $74.99 plus shipping per board.
 
-<img src="gdbwave.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/gdbwave.jpg" style="max-width:100%" />
 
 ## GDBWave is a Post-Simulation RISC-V Debugging Server for Waveform Files
 
@@ -56,7 +56,7 @@ GDBWave is born of that approach, aiming to move away from the "tedious process"
 
 Full details on how GDBWave works and what it can do are available [on Tom's blog](https://tomverbeure.github.io/2022/02/20/GDBWave-Post-Simulation-RISCV-SW-Debugging.html); he has indicated no desire to develop the concept further - "I once again realised that I like working on hardware more," he notes - but has [published the source code on GitHub](https://github.com/tomverbeure/gdbwave) under the permissive MIT licence in the hope that "somebody would be willing to take ownership and take it to the next level."
 
-<img src="vennmpw1.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/vennmpw1.jpg" style="max-width:100%" />
 
 ## Matthew Venn Gets "All My ASIC Designs for Google MPW1" Up and Running
 
@@ -71,7 +71,7 @@ The chips produced on the first shuttle of the OpenMPW programme, which saw Goog
 
 Matthew runs through a tour of the designs on the chip, created as part of his Zero to ASIC Course, in [a new YouTube video](https://www.youtube.com/watch?v=IdOvywOSSmI); he has also released an information pack [on Google Docs](https://docs.google.com/document/d/1lKKtgcVXwYAe81afha8X3PpY4TEB0o6XlIWKrYT2A7c/edit).
 
-<img src="chipflow.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/chipflow.jpg" style="max-width:100%" />
 
 ## ChipFlow Exits Stealth, Unveils Chip Design Platform-as-a-Service based on Open Source
 
@@ -88,7 +88,7 @@ The platform targets a simple four-stage flow: the chip is designed using a Pyth
 
 More details on the company's plans can be found [on the ChipFlow website](https://www.chipflow.io/); the "Minimum Viable Product" version of the platform will be available for "a limited range of designs [and] early adopters" in the third quarter of this year.
 
-<img src="euchipsact.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/euchipsact.jpg" style="max-width:100%" />
 
 ## European Commission Releases EU Chips Act Details
 
@@ -105,7 +105,7 @@ The Act has been submitted by the European commission as proposals for a regulat
 
 More details are available [on the European Commission website](https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/european-chips-act_en).
 
-<img src="glibc.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/glibc.jpg" style="max-width:100%" />
 
 ## GNU C Library 2.35 Adds OpenRISC Support
 
@@ -122,7 +122,7 @@ The new release also introduces Unicode 14.0.0, support for the C.UTF-8 locale w
 
 More details are available [in the glibc release announcement](https://sourceware.org/pipermail/libc-alpha/2022-February/136040.html), while the source code can be downloaded [from the official website](http://www.gnu.org/software/libc/) under the Lesser GNU General Public License 2.1 or later.
 
-<img src="redwoodcourse.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/redwoodcourse.jpg" style="max-width:100%" />
 
 ## Redwood EDA Launches Free RISC-V CPU Design Courses
 
@@ -136,7 +136,7 @@ The four courses - a tutorial from VSDOpen 2020 lasting two and a half hours, on
 
 Details on all the courses, and on the certifications available for attendees on the two longer courses, can be found [on the Makerchip website](https://makerchip.com/sandbox/?tabs=Courses).
 
-<img src="olofexplosion.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/olofexplosion.jpg" style="max-width:100%" />
 
 ## Olof Kindgren Looks Back at the "FOSSi Explosion" of 2021
 
@@ -152,7 +152,7 @@ The piece also takes a look at: the latest record-breaking contributions to the 
 
 The full retrospective is available [on Olof's website](https://olofkindgren.blogspot.com/2022/02/fossi-explosion-2021.html) now, with links to each of the projects discussed.
 
-<img src="yosysverilog.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/yosysverilog.jpg" style="max-width:100%" />
 
 ## Antmicro Announces Universal Hardware Data Model Plugin for Yosys
 
@@ -169,7 +169,7 @@ Designed to act as "a drop-in replacement for the built-in Verilog support," the
 
 More details are available [on the Antmicro blog](https://antmicro.com/blog/2022/02/simplifying-open-source-sv-synthesis-with-the-yosys-uhdm-plugin/); the plugin source code is available [on GitHub](https://github.com/antmicro/yosys-uhdm-plugin-integration) under the permissive Apache 2.0 licence.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -183,7 +183,7 @@ More details are available [on the Antmicro blog](https://antmicro.com/blog/2022
 -   [Hackaday encourages enthusiasts into beginner FPGA development via curated video playlist.](https://hackaday.com/2022/02/17/fpga-starter-videos-to-help-soften-that-learning-curve/)
 -   [OpenHW Group chief executive Rick O'Connor sits down for a "fireside chat" with Embedded.com's Nitin Dahad.](https://www.youtube.com/embed/KDs5gVxPOr8)
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-03-06-ecl48/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to** [**ecl@librecores.org**](mailto:ecl@librecores.org)**.**
 

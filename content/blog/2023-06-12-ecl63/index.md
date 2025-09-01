@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-06-12
 ---
 
-<img src="cocotb-mascot.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/cocotb-mascot.jpg" style="max-width:100%" />
 
 ## Ten Years of Making Verification Fun Again
 
@@ -30,7 +30,7 @@ Of course, no celebration is complete without gifts, which we'll slowly unwrap d
 
 _-Philipp Wagner, Director, FOSSi Foundation_
 
-<img src="box64.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/box64.jpg" style="max-width:100%" />
 
 ## Box64 Dynarec on RISC-V "Quite Complete," Games and Other Software Now Usable
 
@@ -49,7 +49,7 @@ The release of a functional box64 port for RISC-V is a major boon for the archit
 
 Sebastien's full write-up is available [on the box86 blog](https://box86.org/2023/05/box64-and-risc-v/).
 
-<img src="haystack.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/haystack.jpg" style="max-width:100%" />
 
 ## Researchers Develop a Way to Find A Malicious "Needle" in a Silicon Haystack
 
@@ -64,7 +64,7 @@ The solution: a graph neural network (GNN) which can take high-resolution die im
 
 The team's work is available as a preprint [on the IACR Cryptology ePrint Archive server](https://eprint.iacr.org/2023/610).
 
-<img src="padlock-keyboard.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/padlock-keyboard.jpg" style="max-width:100%" />
 
 ## QEMU Gains RISC-V Cryptographic Vector Extension Support, Thanks to Codethink
 
@@ -81,7 +81,7 @@ The team's work, sponsored by SiFive, required each _vcrypto_ instruction to be 
 
 The full write-up is available [on the Codethink website](https://www.codethink.co.uk/articles/2023/vcrypto_qemu/).
 
-<img src="bastian-board.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/bastian-board.jpg" style="max-width:100%" />
 
 ## Bastian Löher Peers at Bruno Levi's FPGA Tutorial "Through Amaranth Glasses"
 
@@ -96,7 +96,7 @@ To get to grips with the technology required, Bastian turned to [Bruno Levi's Bl
 
 While the process was not always easy going, it was undeniably educational - and is detailed in full [on the Yosys blog](https://blog.yosyshq.com/p/blinker-to-risc-v/).
 
-<img src="linux-riscvfun.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/linux-riscvfun.jpg" style="max-width:100%" />
 
 ## Linux Foundation, RISC-V International Launch the RISC-V Fundamentals Course
 
@@ -113,7 +113,7 @@ Those enrolling in the course are recommended to have at least "basic experience
 
 More information is available [on the Linux Foundation website](https://training.linuxfoundation.org/training/riscv-fundamentals-lfd210/), where the course can be booked for $99 - or $299 to include testing via the RISC-V Foundational Associate (RVFA) exam at the end.
 
-<img src="chipchat.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/chipchat.jpg" style="max-width:100%" />
 
 ## Efabless Announces the Winners of its AI Open-Source Silicon Challenge
 
@@ -128,7 +128,7 @@ The three winners of the competition are, in reverse order: Asma Mohsin and Muha
 
 More information is available [on the Efabless website](https://efabless.com/ai-generated-design-contest).
 
-<img src="rise.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/rise.jpg" style="max-width:100%" />
 
 ## Linux Foundation Europe Launches RISE, the RISC-V Software Ecosystem Project
 
@@ -145,7 +145,7 @@ The project will contribute financial support and engineering talent to "address
 
 More information is available [on the RISE Project website](https://riseproject.dev/).
 
-<img src="pulp-neo.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/pulp-neo.jpg" style="max-width:100%" />
 
 ## The PULP Platform Unveils its First Linux-Capable Open Chip: Neo
 
@@ -160,7 +160,7 @@ The Parallel Ultra-Low Power (PULP) Platform project has formally unveiled its f
 
 A preprint of the team's paper on Cheshire and Neo is available [on Cornell University's arXiv server](https://arxiv.org/abs/2305.04760).
 
-<img src="harald-mixed.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/harald-mixed.jpg" style="max-width:100%" />
 
 ## Matt Venn Highlights an Unusual Analogue Tiny Tapeout Design Submission
 
@@ -177,7 +177,7 @@ Matt's epiphany came about when Harald Pretl submitted a temperature sensor to t
 
 Matt has [published a video](https://www.youtube.com/watch?v=skC292_dALM) which offers a deep dive into the design, while Harald has written it up [on the Tiny Tapeout website](https://tinytapeout.com/runs/tt03/047/).
 
-<img src="kenning.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/kenning.jpg" style="max-width:100%" />
 
 ## Antmicro Offers a Look at RISC-V AI Solution Co-Development with Renode and Kenning
 
@@ -194,7 +194,7 @@ Antmicro's write-up focuses on the use of its Kenning machine learning framework
 
 The full write-up is available [on the Antmicro blog](https://antmicro.com/blog/2023/05/kenning-bare-metal-iree-runtime-renode/).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -211,7 +211,7 @@ The full write-up is available [on the Antmicro blog](https://antmicro.com/blog/
 
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-06-12-ecl63/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

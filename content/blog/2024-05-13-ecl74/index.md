@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2024-05-13
 ---
 
-<img src="latchup24vids.jpg" style="max-width:100%" />
+<img src="/blog/2024-05-13-ecl74/latchup24vids.jpg" style="max-width:100%" />
 
 ## Latch-Up 2024 Comes to a Close, Videos Available Now
 
@@ -20,7 +20,7 @@ Other videos available from the event include: Matt Ballance presenting [on the 
 All the above videos, and more besides, are available [on the FOSSi Foundation YouTube channel](https://www.youtube.com/@FOSSiFoundation/videos) now - and we hope to see you at the next Latch-Up conference for more!  
   
 
-<img src="fossz80.jpg" style="max-width:100%" />
+<img src="/blog/2024-05-13-ecl74/fossz80.jpg" style="max-width:100%" />
 
 ## Zilog Discontinues the Z80, But Enthusiasts Give it New Life as an Open Silicon Project
 
@@ -35,7 +35,7 @@ Renaldas' project builds on earlier efforts to create a compatible Z80 clone whi
   
 More information on the project is available [on Renaldas' GitHub repository](https://github.com/rejunity/z80-open-silicon), with additional detail [on the Tiny Tapeout website](https://app.tinytapeout.com/projects/668).
 
-<img src="tt06.jpg" style="max-width:100%" />
+<img src="/blog/2024-05-13-ecl74/tt06.jpg" style="max-width:100%" />
 
 ## Matt Venn Celebrates Tiny Tapeout's "Best Shuttle Ever"
 
@@ -50,7 +50,7 @@ One major feature of the Tiny Tapeout project is that participants are required 
   
 Full details on Tiny Tapeout 6 are available [on the project website](https://tinytapeout.com/runs/tt06/); Tiny Tapeout 7 closes in a little over two weeks at the time of writing.
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2024-05-13-ecl74/riscv.jpg" style="max-width:100%" />
 
 ## The RISC-V Soft CPU SIG Introduces Composable Extensions, Invites Participation
 
@@ -67,7 +67,7 @@ Jan is currently working on transitioning the project from the RISC-V Soft CPU S
   
 More information is available in Jan's post [to the RISC-V ISA Dev mailing list](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/tbyhdM7iyp0).
 
-<img src="mantawebterminal.jpg" style="max-width:100%" />
+<img src="/blog/2024-05-13-ecl74/mantawebterminal.jpg" style="max-width:100%" />
 
 ## Yosys Shines a Spotlight on Fischer Moseley's Manta FPGA Debugging Tool
 
@@ -82,7 +82,7 @@ Fischer highlights two key features of Manta as being the most exciting: the abi
   
 The full write-up is available [on the Yosys blog](https://blog.yosyshq.com/p/community-spotlight-manta/), while Manta is published [on GitHub](https://github.com/fischermoseley/manta) under the reciprocal GNU General Public Licence 3.
 
-<img src="tongcamera.jpg" style="max-width:100%" />
+<img src="/blog/2024-05-13-ecl74/tongcamera.jpg" style="max-width:100%" />
 
 ## Zachary Tong Experiments with DIY Semiconductors to Build a Camera Sensor
 
@@ -97,7 +97,7 @@ Being sensitive to visible light, of course, means that the material can be used
   
 Zachary's full video on the project is available on the Breaking Taps YouTube channel. "I can't electronic my way out of a breadboard," he notes, "so apologies for any basic EE mistakes! I just want to build the devices, not actually use them in circuits or whatever."
 
-<img src="chatfuzz.jpg" style="max-width:100%" />
+<img src="/blog/2024-05-13-ecl74/chatfuzz.jpg" style="max-width:100%" />
 
 ## Researchers Turn to ChatGPT for Better Hardware Fuzzing
 
@@ -112,7 +112,7 @@ Tested against the free and open source RocketCore and BOOM RISC-V processor cor
   
 A preprint detailing the project is available [on Cornell's arXiv server](https://arxiv.org/abs/2404.06856).
 
-<img src="mpsocspeed.jpg" style="max-width:100%" />
+<img src="/blog/2024-05-13-ecl74/mpsocspeed.jpg" style="max-width:100%" />
 
 ## Co-design Delivers a Near-50 Per Cent Speed Boost for Heterogeneous SoCs
 
@@ -127,7 +127,7 @@ The proposed approach was proven using the Manticore MPSoC, chosen "as it combin
   
 The full paper is available as a preprint [on Cornell's arXiv server](https://arxiv.org/abs/2404.01908).
 
-<img src="smuprof.jpg" style="max-width:100%" />
+<img src="/blog/2024-05-13-ecl74/smuprof.jpg" style="max-width:100%" />
 
 ## Game-Based Semiconductor Curriculum Aims to "Bridge Knowledge Gaps"
 

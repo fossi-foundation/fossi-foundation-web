@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-11-14
 ---
 
-<img src="venn-bringup.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/venn-bringup.jpg" style="max-width:100%" />
 
 ## Matt Venn's Tiny Tapeout 2 Celebrates with a Live Silicon Bring-Up
 
@@ -21,7 +21,7 @@ With the chips tested, assembly will now take place: each designer will receive 
   
 More details on the results of Tiny Tapeout 2 are available [on the Zero to ASIC Course website](https://zerotoasiccourse.com/post/tt02-silicon-is-alive/), along with links to the videos on YouTube; [Tiny Tapeout 5](https://tinytapeout.com/runs/tt05/) recently closed, with the chips - featuring a total of 720 designs - expected in April next year.
 
-<img src="whitehouse.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/whitehouse.jpg" style="max-width:100%" />
 
 ## The US Government Mulls Restrictions for RISC-V in its Trade War with China
 
@@ -42,7 +42,7 @@ Noted engineer Andrew "bunnie" Huang went a step further in [penning an open let
   
 Thus far, the White House has not issued a formal statement on the proposals one way or another.
 
-<img src="kian-ulinux.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/kian-ulinux.jpg" style="max-width:100%" />
 
 ## Hirosh Dabui Boots Linux on the Kuchen Computer - "No RISC-V, No Fun!"
 
@@ -57,7 +57,7 @@ The Kuchen Computer, by contrast, pairs an iCE40HX8K with a more generous 32MB o
   
 More information is available [in Hirosh's Twitter thread](https://twitter.com/splinedrive/status/1723451379245559964); KianRISC-V is available [on GitHub](https://github.com/splinedrive/kianRiscV) under the ISC licence, while the Kuchen Computer [has its own repository](https://github.com/machdyne/kuchen) where it's made available under a custom open-source licence.
 
-<img src="linux-on-scratch.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/linux-on-scratch.jpg" style="max-width:100%" />
 
 ## Emulated RISC-V Brings Linux to a Whole New Platform: MIT's Scratch
 
@@ -72,7 +72,7 @@ Developed as an introductory language for young students, Scratch offers a drag-
   
 More information is available [on the project's Scratch page](https://scratch.mit.edu/projects/892602496), though running it without the use of the TurboWarp Scratch accelerator is inadvisable for all but the most patient.
 
-<img src="sparrow.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/sparrow.jpg" style="max-width:100%" />
 
 ## Google's Project Sparrow Becomes Open Se Cura, Aims at Trustable and Efficient AI
 
@@ -87,7 +87,7 @@ The Project Se Cura framework was developed in partnership with lowRISC, Antmicr
   
 Google has published the full Project Open Se Cura source [on its website](https://opensecura.googlesource.com/), under the permissive Apache 2.0 licence; instructions on its use are available [in the readme](https://opensecura.googlesource.com/manifest/+/refs/heads/master/README.md).
 
-<img src="engineer.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/engineer.jpg" style="max-width:100%" />
 
 ## Rivos Inc. Open-Sources JumpStart, a Framework for RISC-V CPU/SoC Validation
 
@@ -100,7 +100,7 @@ Rivos Inc. has announced the release of JumpStart, an open-source framework for 
   
 Rivos has published JumpStart [to GitHub](https://github.com/rivosinc/jumpstart) under the permissive Apache 2.0 licence; it depends on meson, the RISC-V GNU toolchain, and Spike, and has been tested on Ubuntu 22.04 and macOS.
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/riscv.jpg" style="max-width:100%" />
 
 ## The PLCT Lab Launches the RISC-V Software Porting and Optimisation Championship
 
@@ -115,7 +115,7 @@ The championship is to be split into two competitive tracks: the porting capture
   
 More information on the championship is available on the project website; a call for both sponsorship and projects has been opened, with competitor registration due to begin on the 1st of December 2023.
 
-<img src="qerv.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/qerv.jpg" style="max-width:100%" />
 
 ## The World's Smallest RISC-V CPU Gets Faster: SERV Begats QERV
 
@@ -132,7 +132,7 @@ QERV takes the original bit-serial design of SERV and quadruples it, producing a
   
 QERV, which is still undergoing optimisation and testing, is available [on Olof's GitHub repository](https://github.com/olofk/qerv/) under the permissive ISC licence.
 
-<img src="cascade.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/cascade.jpg" style="max-width:100%" />
 
 ## Researchers Release Cascade, a CPU Fuzzer Which Found 37 Bugs in 5 RISC-V Cores
 
@@ -147,7 +147,7 @@ To prove its worth, the team ran Cascade across a set of existing RISC-V CPU des
   
 The team's paper, to be presented at USENIX Security '24, is available [on the project website](https://comsec.ethz.ch/research/hardware-design-security/cascade-cpu-fuzzing-via-intricate-program-generation/) under open-access terms; Cascade itself has been released [on GitHub](https://github.com/comsec-group/cascade-artifacts) under an unspecified open-source licence.
 
-<img src="opentitan.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/opentitan.jpg" style="max-width:100%" />
 
 ## lowRISC Partners with zeroRISC, OpenTitan Gets New Hardware
 
@@ -164,7 +164,7 @@ At the same time, the OpenTitan project itself has announced support for a secon
   
 More information on OpenTitan is available [on the project website](https://opentitan.org/); details on zeroRISC's plans for the project can be found [on the company's own website](https://zerorisc.com/).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News in Brief
 
@@ -180,7 +180,7 @@ More information on OpenTitan is available [on the project website](https://open
 
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-11-14-ecl68/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@fossi-foundation.org](mailto:ecl@fossi-foundation.org)**.
 

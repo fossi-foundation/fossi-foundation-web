@@ -2,7 +2,7 @@
 people:
   - name: Andrew Back
     subheading: Director, Treasurer
-    img: people/AndrewBack.jpg
+    img: /about-us/people/AndrewBack.jpg
     about: Andrew Back is convener for the UK Open Source Hardware User Group and co-organises the annual Wuthering Bytes technology festival. He is a long time proponent of open source hardware, with a keen interest in licensing and community building. Andrew acts as treasurer for the FOSSi Foundation.
     socialLinks:
       email: andrew@fossi-foundation.org
@@ -11,7 +11,7 @@ people:
 
   - name: Jonathan Balkind
     subheading: Director
-    img: people/JonathanBalkind.jpg
+    img: /about-us/people/JonathanBalkind.jpg
     about: Jonathan has been a trusted member of the FOSSi community for many years, where he has shown great skill in solving challenging technical problems, as well as teaching hardware design, and communicating the benefits of doing so openly.
     socialLinks:
       email: jbalkind@fossi-foundation.org
@@ -20,7 +20,7 @@ people:
 
   - name: Julius Baxter
     subheading: Director
-    img: people/JuliusBaxter.jpg
+    img: /about-us/people/JuliusBaxter.jpg
     about: Julius' involvement with free and open source semiconductor design began with his work as part of the OpenRISC community in 2008. After initial technical contributions, he's since focused on promoting greater community coordination, finding a solution for copyleft semiconductor design licensing, and encouraging greater uptake of the technology by the wider semiconductor industry.
     socialLinks:
       email: julius@fossi-foundation.org
@@ -29,7 +29,7 @@ people:
 
   - name: Alex Bradbury
     subheading:
-    img: people/AlexBradbury.jpg
+    img: /about-us/people/AlexBradbury.jpg
     about:
     socialLinks:
       email: asbradbury@fossi-foundation.org
@@ -38,7 +38,7 @@ people:
 
   - name: Simon Cook
     subheading: Secretary
-    img: people/SimonCook.jpg
+    img: /about-us/people/SimonCook.jpg
     about: Simon has keen interests in open source hardware and software. He maintains the AAP project, an open source processor designed to improve software tooling for all hardware architectures. Simon acts as secretary to the FOSSi Foundation.
     socialLinks:
       email: simon@fossi-foundation.org
@@ -48,7 +48,7 @@ people:
 
   - name: Peter Gielda
     subheading: Advisor
-    img: people/PeterGielda.jpg
+    img: /about-us/people/PeterGielda.jpg
     about: Peter has always been involved with open source and made spreading the adoption of open software, hardware and silicon lay at the foundations of Antmicro back in 2009. A member of the RISC-V Foundation's Technical Committee, he is also active in CHIPS Alliance, the Linux Foundation and the Zephyr Project.
     socialLinks:
       email: peter@fossi-foundation.org
@@ -57,7 +57,7 @@ people:
 
   - name: Olof Kindgren
     subheading: Director
-    img: people/OlofKindgren.jpg
+    img: /about-us/people/OlofKindgren.jpg
     about: Olof became actively involved with free and open source silicon through the OpenRISC project in 2011. He has since then worked in many areas with a special interest in tools and collaborations. Also known as the maintainer of the FuseSoc IP core package manager - a tool for collaborations.
     socialLinks:
       email: olof@fossi-foundation.org
@@ -67,7 +67,7 @@ people:
 
   - name: Dan Petrisko
     subheading:
-    img: people/DanPetrisko.jpg
+    img: /about-us/people/DanPetrisko.jpg
     about:
     socialLinks:
       email: dan@fossi-foundation.org
@@ -75,7 +75,7 @@ people:
 
   - name: Matt Venn
     subheading: Director
-    img: people/MattVenn.jpg
+    img: /about-us/people/MattVenn.jpg
     about: Matthew Venn is a science & technology communicator and electronic engineer. He received a degree in Electronic Engineering from Leeds, UK in 1999. He has had a varied career in industry with a combination of engineering and teaching jobs. He has been a central figure in the open source silicon movement with his Zero to ASIC course and Tiny Tapeout initiative.
     socialLinks:
       email: matthew@fossi-foundation.org
@@ -83,7 +83,7 @@ people:
 
   - name: Philipp Wagner
     subheading: Director
-    img: people/PhilippWagner.jpg
+    img: /about-us/people/PhilippWagner.jpg
     about: A long-time free and open source veteran, Philipp has been involved in various projects over the last decade. With interests from web development to hardware architectures, he loves to bring together different communities and approaches.
     socialLinks:
       email: philipp@fossi-foundation.org
@@ -93,7 +93,7 @@ people:
 
   - name: Stefan Wallentowitz
     subheading: Director
-    img: people/StefanWallentowitz.png
+    img: /about-us/people/StefanWallentowitz.png
     about: Stefan is a curious developer and has been involved in the OpenRISC project for many years and is contributor and maintainer of several free and open source projects around SoC design. He is professor at Munich University of Applied Sciences.
     socialLinks:
       email: stefan@fossi-foundation.org

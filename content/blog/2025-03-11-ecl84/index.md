@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2025-03-11
 ---
 
-<img src="latchup.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/latchup.jpg" style="max-width:100%" />
 
 ## First Speakers Confirmed for Latch-Up 2025
 
@@ -55,7 +55,7 @@ Latch-Up is, as always, free to attend. If you are able to, however, please cons
 
 If you’re as eager as us to hear from the above speakers, and more to come, you can [register now on the Latch-Up 2025 website](https://fossi-foundation.org/latch-up/2025) - and we look forward to seeing you there!
 
-<img src="gsoc.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/gsoc.jpg" style="max-width:100%" />
 
 ## FOSSi Foundation Joins Google Summer of Code (GSoC) 2025
 
@@ -68,7 +68,7 @@ Given the expansive nature of the free and open-source silicon ecosystem, there 
 
 More information is available in [Jonathan’s blog post](https://fossi-foundation.org/blog/2025-03-09-gsoc), including the address for applications; you can find additional resources [in Google’s documentation](https://developers.google.com/open-source/gsoc/resources/manual). Applications close on the 8th of April, a hard deadline set by [Google’s own project timeline](https://developers.google.com/open-source/gsoc/timeline).
 
-<img src="nanoxplore.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/nanoxplore.jpg" style="max-width:100%" />
 
 ## YosysHQ Boasts of 500k-LUT Space Chip Support
 
@@ -85,7 +85,7 @@ The nextpnr open-source route-and-place tool has reached heady new heights as it
 
 More information is available [on the ESA website](https://www.esa.int/Enabling_Support/Preparing_for_the_Future/Discovery_and_Preparation/Developing_an_open-source_tool_for_a_European_space-grade_computer_chip).
 
-<img src="ttsdr.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/ttsdr.jpg" style="max-width:100%" />
 
 ## Sylvain Munaut Turns Two Tiny Tapeout Projects into an SDR
 
@@ -100,7 +100,7 @@ The sixth and seventh Tiny Tapeout production runs saw a range of contributions 
 
 The project is detailed in a video [on Sylvain’s YouTube channel](https://www.youtube.com/watch?v=ynHy9gpcBgc).
 
-<img src="efablessshutdown.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/efablessshutdown.jpg" style="max-width:100%" />
 
 ## Efabless Shuts Down, Tiny Tapeout Seeks a Path Forward
 
@@ -117,7 +117,7 @@ That doesn’t mean Matt and colleagues are giving up on Tiny Tapeout, though - 
 
 Updates will be published [to the Tiny Tapeout website](https://tinytapeout.com/).
 
-<img src="opentitanboot.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/opentitanboot.jpg" style="max-width:100%" />
 
 ## OpenTitan Production Begins
 
@@ -132,7 +132,7 @@ Open silicon specialist lowRISC has announced that its partnership with Google a
 
 More information is available on the [OpenTitan website](https://opentitan.org/); the project’s source is published [on GitHub](https://github.com/lowRISC/opentitan) under the permissive Apache 2.0 licence.
 
-<img src="fusesoc.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/fusesoc.jpg" style="max-width:100%" />
 
 ## FuseSoC Launches User Survey
 
@@ -146,7 +146,7 @@ And showing your support will not only help the FuseSoC developers," Olof adds, 
 
 The one-question survey - two if you count adding your name, four if you’re adding optional information on your profession affiliation and location - is open now [on Google Docs](https://docs.google.com/forms/d/e/1FAIpQLSdrFzAmw_ixYOIecQJQ4Za57fAm2WOnHMe2F0GEhkhwWd-f1Q/viewform).
 
-<img src="shaktispace.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/shaktispace.jpg" style="max-width:100%" />
 
 ## First-Boot for Space-Grade SHAKTI Chip
 
@@ -161,7 +161,7 @@ The Indian Institute of Technology Madras (IIT Madras) has announced a successfu
 
 More information on the SHAKTI project is available [on the official website](https://shakti.org.in/). A video announcing IRIS-LV is available [on YouTube](https://www.youtube.com/watch?v=HjYdUx9LPTA).
 
-<img src="subthresh.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/subthresh.jpg" style="max-width:100%" />
 
 ## Researchers Pinpoint "Sweet Spot' for Sub-Threshold RISC-V Cores
 
@@ -176,7 +176,7 @@ Researchers from the Norwegian University of Science and Technology (NTNU) in Tr
 
 The full paper is available in preprint on [Cornell’s arXiv server](https://arxiv.org/abs/2502.06588)
 
-<img src="zuckerchip.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/zuckerchip.jpg" style="max-width:100%" />
 
 ## Philip Zucker Puts EBMC to Work Comparing Two Verilog CPUs
 
@@ -189,7 +189,7 @@ Self-described “physics/computer boy” Philip Zucker has written up a project
 
 The full write-up is available [on Philip’s website](https://www.philipzucker.com/td4_ebmc/).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2025-03-11-ecl84/newsinbrief.jpg" style="max-width:100%" />
 
 ## News In Brief
 

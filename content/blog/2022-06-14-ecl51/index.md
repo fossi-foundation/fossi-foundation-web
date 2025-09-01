@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2022-06-14
 ---
 
-<img src="google-open-silicon.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/google-open-silicon.jpg" style="max-width:100%" />
 
 ## Google Launches Resource Portal for Building Open Silicon
 
@@ -22,7 +22,7 @@ The launch rides on a wave of massive interest, with the latest shuttle - MPW-5,
 
 Google's [free and open source silicon developer portal](https://developers.google.com/silicon) is live now, and while submissions for MPW-6 have just closed it's a great time to prepare for the opening of MPW-7.
 
-<img src="enjoy-digital-virtex.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/enjoy-digital-virtex.jpg" style="max-width:100%" />
 
 ## CoreScore Benchmark Sees New Record with 10,000 RISC-V Cores on One FPGA
 
@@ -37,7 +37,7 @@ The former record-holder was the Virtex UltraScale+ VCU128, onto which 6,000 cor
 
 Those eager to try CoreScore for themselves can find it [on Olof Kindgren's GitHub repository](https://github.com/olofk/corescore), while the award-winning SERV core [has its own repository too](https://github.com/olofk/serv).
 
-<img src="opentitan.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/opentitan.jpg" style="max-width:100%" />
 
 ## LowRISC Acquires NewAE to Add Functionality to its OpenTitan Platform
 
@@ -52,7 +52,7 @@ Open silicon specialist lowRISC has announced the acquisition of NewAE Technolog
 
 More information on the OpenTitan project, which offers a free and open reference design for silicon root of trust chips, is available [on the official website](https://opentitan.org/).
 
-<img src="lljs-video-series.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/lljs-video-series.jpg" style="max-width:100%" />
 
 ## Low Level JavaScript's Francis Stokes Publishes 12-Part RISC-V Video Series
 
@@ -67,7 +67,7 @@ The videos build from one first published in October 2021, in which Francis laun
 
 "I know that the audio is a little rough in the first couple of videos," Francis admits. "That improves significantly a few episodes later when I finally get myself a decent mic."
 
-<img src="hero.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/hero.jpg" style="max-width:100%" />
 
 ## HEROv2 is a Full-Stack Open Research Platform for Heterogeneous Computing
 
@@ -82,7 +82,7 @@ The results are impressive: One key takeaway is tiling loops and inference of da
 
 A preprint of the paper detailing HEROv2 is available [on Cornell's arXiv server](https://arxiv.org/abs/2201.03861); the source code for HEROv2 is available [on the PULP Platform GitHub repository](https://github.com/pulp-platform/hero) under a mixture of free and open-source licences.
 
-<img src="riscvwasm.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/riscvwasm.jpg" style="max-width:100%" />
 
 ## Web-Based Tool Puts a Kite RISC-V Simulator In Your Browser
 
@@ -95,7 +95,7 @@ Pseudonymous developer "9oelM" has released a RISC-V simulator which puts Willia
 
 The source code for the project is available [on 9oelM's GitHub repository](https://github.com/9oelM/risc-v-web-simulator) under the permissive MIT licence, while a deployed version can be used directly in-browser [on riscv.vercel.app](https://riscv.vercel.app/).
 
-<img src="wch-debug.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/wch-debug.jpg" style="max-width:100%" />
 
 ## WCH Releases an Open-Source USB-JTAG/SPI Solution Under Apache 2.0
 
@@ -110,7 +110,7 @@ At the time of writing, the software side was exclusively compatible with Micros
 
 The project's source code is available [on the OpenWCH GitHub repository](https://github.com/openwch/usb-jtag-spi) now under the permissive Apache 2.0 licence.
 
-<img src="i2cgithub.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/i2cgithub.jpg" style="max-width:100%" />
 
 ## Olof Kindgren Modernises a Wishbone-Compatible I2C Controller, Releases IP-XACT to Verilog Converter
 
@@ -125,7 +125,7 @@ The new release of ipyxact, Olof's Python-based IP-XACT parser, also represents 
 
 The updated Wishbone-compatible I2C controller core is available [on the FreeCores GitHub repository](https://github.com/freecores/i2c); ipyxact 0.3.1 is available [on Olof's GitHub repository](https://github.com/olofk/ipyxact).
 
-<img src="erik-cheat-sheet.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/erik-cheat-sheet.jpg" style="max-width:100%" />
 
 ## Erik Engheim's RISC-V Cheat Sheet is a Handy ISA Reference
 
@@ -138,7 +138,7 @@ The resulting cut-down instruction set reference fits on a single page, and offe
 
 A full write-up of the project, including justification for certain exclusions, is available [on Erik's Medium blog](https://itnext.io/risc-v-instruction-set-cheatsheet-70961b4bbe8) - along with free PDF downloads of the cheat-sheet itself and a comparison between RISC-V and AVR instructions.
 
-<img src="ismael-board.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/ismael-board.jpg" style="max-width:100%" />
 
 ## Student Ismael Garcia Offers an Insight into Taping-Out a RISC-V OOO Processor
 
@@ -155,7 +155,7 @@ Unfortunately, passing the design rules check wasn't a guarantee of function. "W
 
 More details, including images of the design and the flaw, are available [in Ismael's Twitter thread](https://twitter.com/ismaelg54536684/status/1532839933638893568).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/newsinbrief.jpg" style="max-width:100%" />
 ## FOSSi News In Brief
 
 -   [The University of Engineering and Technology (UET), Lahore, releases the UETRV_ESoC, a RISC-V embedded system-on-chip.](https://github.com/ee-uet/UETRV_ESoC) ([News coverage](https://academiamag.com/first-microprocessor-system-of-uet/), [video demo](https://www.youtube.com/watch?v=nsFyD8QpKSA).)
@@ -164,7 +164,7 @@ More details, including images of the design and the flaw, are available [in Ism
 -   [Che Pan, South China Morning Post: "Tech war: China bets on open-source RISC-V for chip design to minimise potential damage from 'being cut off' by US sanctions."](https://www.scmp.com/tech/big-tech/article/3178109/tech-war-china-bets-open-source-risc-v-chip-design-minimise-potential)
 -   [Brian Bailey, Semiconductor Engineering: "How to Optimise a Processor."](https://semiengineering.com/how-to-optimize-a-processor/)
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-06-14-ecl51/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to** [**ecl@librecores.org**](mailto:ecl@librecores.org)**.**
 

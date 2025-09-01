@@ -7,7 +7,7 @@ date: 2022-11-08
 ---
 
 
-<img src="mission-accomplished.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/mission-accomplished.jpg" style="max-width:100%" />
 
 ## Mission Accomplished - LibreCores is Closing Down
 
@@ -29,7 +29,7 @@ We are extremely thankful to all contributors and GSoC students who helped to de
 
 _-Philipp Wagner, Director, FOSSi Foundation_
 
-<img src="googlechips.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/googlechips.jpg" style="max-width:100%" />
 
 ## Applications Open for the First GlobalFoundries 180nm OpenMPW Shuttle
 
@@ -46,7 +46,7 @@ The first GlobalFoundries shuttle is open for submissions now, and closes on the
 
 Those interested in applying can submit a design [on Google's open silicon landing page](http://developers.google.com/silicon); projects already submitted as part of a SkyWater shuttle are welcome to reapply, the company has confirmed, as a means of testing portability between PDKs.
 
-<img src="tinytapeout.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/tinytapeout.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout Aims to Go "From Idea to Chip Design in Minutes"
 
@@ -61,7 +61,7 @@ Unlike the OpenMPW programme, there is a price attached - but one designed to be
 
 More information is available [on the Tiny Tapeout website](https://tinytapeout.com/); submissions for the second Tiny Tapeout begin on the 9th of November 2022.
 
-<img src="olofsocedalize.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/olofsocedalize.jpg" style="max-width:100%" />
 
 ## From Simulation to System-on-Chip with FuseSoC and Edalize
 
@@ -78,7 +78,7 @@ The tutorial walks through taking the SERV CPU design and turning it into the Su
 
 The full tutorial is available [on Olof's website now](https://olofkindgren.blogspot.com/2022/10/from-simulation-to-soc-with-fusesoc-and.html).
 
-<img src="flamegraph.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/flamegraph.jpg" style="max-width:100%" />
 
 ## Frans Skarman's Yosys Plugin Turns FPGA Resource Monitoring into a Flame Graph
 
@@ -93,7 +93,7 @@ Developer Frans Skarman has written an experimental plugin for Yosys which aims 
 
 A video demo is available [on Frans' Twitter thread](https://twitter.com/TheZoq2/status/1584179481081573377), with the plugin's source code available [on GitLab](https://gitlab.com/TheZoq2/yosys_flamegraph) under an unspecified open-source licence.
 
-<img src="librebmc.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/librebmc.jpg" style="max-width:100%" />
 
 ## OpenPOWER Foundation Presents a LibreBMC Showcase at the OCP Summit
 
@@ -108,7 +108,7 @@ Built around the free and open source Microwatt POWER soft-core, the demonstrati
 
 A technical write-up of LibreBMC by Jeremy Kerr and Matt Johnston is available [on the Code Construct blog](https://codeconstruct.com.au/docs/dcscm-openbmc/); a video of the OCP Global Summit demo is available [on YouTube](https://www.youtube.com/watch?v=YYNegXDsRoU). The project's documentation is available [on the LibreBMC Git repository](https://git.openpower.foundation/librebmc/librebmc).
 
-<img src="caliptra.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/caliptra.jpg" style="max-width:100%" />
 
 ## The Open Compute Project Launches Caliptra 0.5, an Open Silicon Root-of-Trust
 
@@ -123,7 +123,7 @@ Having been initially proposed by staff at AMD, Google, and Microsoft in Februar
 
 More information on the project is available in the Caliptra specification document, available from the Open Compute Project [as a PDF download](https://www.opencompute.org/documents/caliptra-silicon-rot-services-09012022-pdf).
 
-<img src="serv120-docs.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/serv120-docs.jpg" style="max-width:100%" />
 
 ## The Award-Winning SERV RISC-V CPU Hits v1.2.0, Still the World's Smallest
 
@@ -142,7 +142,7 @@ Other new features include improvements to the documentation, a fix for a bug wh
 
 More information on all these new features, and others besides, are available [in Olof's announcement post](https://olofkindgren.blogspot.com/2022/10/serv-little-cpu-that-could.html); SERV itself, meanwhile, is available [on GitHub](https://github.com/olofk/serv) under the permissive ISC licence.
 
-<img src="minimax.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/minimax.jpg" style="max-width:100%" />
 
 ## Graeme Smecher's Minimax is a Compressed-First RISC-V CPU
 
@@ -159,7 +159,7 @@ The Minimax core handles compressed instructions as "first-class" and executes i
 
 Minimax is available now [on the project's GitHub repository](https://github.com/gsmecher/minimax), under the permissive BSD 3-clause licence.
 
-<img src="riscvvp.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/riscvvp.jpg" style="max-width:100%" />
 
 ## Researchers Aim to Broaden Virtual Prototyping in the RISC-V Ecosystem
 
@@ -176,7 +176,7 @@ The team's extension, building on an open-source platform, comes with a graphica
 
 The paper describing the project has been published in the _[Journal of Low Power Electronics and Applications](https://www.mdpi.com/2079-9268/12/4/52/htm)_ under open-access terms; the source code is available [on GitHub](https://github.com/agra-uni-bremen/riscv-vp) under the permissive MIT licence.
 
-<img src="selene-accelerators.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/selene-accelerators.jpg" style="max-width:100%" />
 
 ## SELENE Project Releases New Linux-Class Six-Core RISC-V Design
 
@@ -191,7 +191,7 @@ In the latest release, the six-core system-on-chip - which uses Cobham Gaisler's
 
 The latest version of the platform design has been published to the [SELENE GitLab repository](https://gitlab.com/selene-riscv-platform/selene-hardware), with more information available [on the project website](https://www.selene-project.eu/).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -204,7 +204,7 @@ The latest version of the platform design has been published to the [SELENE GitL
 -   [RISC-V Summit schedule now live, opens December 12th 2022.](https://events.linuxfoundation.org/riscv-summit/program/schedule/)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-11-08-ecl56/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

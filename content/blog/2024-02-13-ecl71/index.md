@@ -9,7 +9,7 @@ date: 2024-02-13
 
 
 
-<img src="latchup.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/latchup.jpg" style="max-width:100%" />
 
 ## Latch-Up 2024 Gets its First Batch of Speakers
 
@@ -64,7 +64,7 @@ For information on submitting a talk proposal, registering to attend - free of c
   
 Latch-Up 2024 will be held from the 19th to the 21st of April, and we hope to see you there!
 
-<img src="kohnmandlebrot.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/kohnmandlebrot.jpg" style="max-width:100%" />
 
 ## Mike Kohn Developers a Custom RISC-V Extension - For The Mandelbrot Set
 
@@ -79,7 +79,7 @@ Mike's customised core runs at 6MHz, with a 12MHz peripherals module - "when I g
   
 Mike's full write-up is available [on his website](https://www.mikekohn.net/micro/riscv_fpga.php), with the source code available [on GitHub](https://github.com/mikeakohn/riscv_fpga) under the permissive MIT licence.
 
-<img src="gatemate.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/gatemate.jpg" style="max-width:100%" />
 
 ## Cologne Chip Releases an Open-Source GateMate A1 Integrated Logic Analyser
 
@@ -94,7 +94,7 @@ The release comes as the first third-party development boards built around the G
   
 The GateMate FPGA ILA is available now [on the Cologne Chip GitHub repository](https://github.com/colognechip/gatemate_ila).
 
-<img src="olofpay.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/olofpay.jpg" style="max-width:100%" />
 
 ## Olof Kindgren Suggests A Way to Get More Value from Open Source Projects: Pay
 
@@ -111,7 +111,7 @@ Olof's advice doesn't come out of nowhere: he cites [a study published in 2021](
   
 The full article is available on Olof's blog, [Tales from Beyond the Register Map](https://blog.award-winning.me/2024/01/how-to-get-more-value-from-open-source.html).
 
-<img src="moosiclocking.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/moosiclocking.jpg" style="max-width:100%" />
 
 ## Gabriel Gouvine Demonstrates Logic Locking in Yosys via Moosic
 
@@ -126,7 +126,7 @@ Gabriel's demonstration uses the Moosic plugin for Yosys, which provides logic-l
   
 The full write-up is available [on the Yosys blog](https://blog.yosyshq.com/p/logic-locking-with-moosic/), while the Moosic source code [is on GitHub](https://github.com/Coloquinte/moosic-yosys-plugin) under the GNU General Public Licence 2. The Moosic-locked counter itself will be produced in hardware as part of Tiny Tapeout 6, Gabriel has confirmed.
 
-<img src="projectfriscvassembler.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/projectfriscvassembler.jpg" style="max-width:100%" />
 
 ## Will Green's Guide Series Gets You Up and Running with RISC-V Assembly
 
@@ -141,7 +141,7 @@ The fourth entry, meanwhile, will take a look at load and store instructions - t
   
 Interested parties can read the guide in full [on the Project F website](https://projectf.io/posts/riscv-arithmetic/).
 
-<img src="vennnewyear.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/vennnewyear.jpg" style="max-width:100%" />
 
 ## Matt Venn Celebrates the Highlights of 2023, and Sets Goals for the Year to Come
 
@@ -158,7 +158,7 @@ Matt's not only looking backward, however, but also forward. "We'll continue to 
   
 Venn's full post is available [on the Zero to ASIC Course website](https://zerotoasiccourse.com/post/year_update_2023/), and as a video [on YouTube](https://www.youtube.com/watch?v=RBdZX3fBYTM).
 
-<img src="ttlogo.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/ttlogo.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout 6 Submissions Open with New Mixed-Signal and Analogue Support
 
@@ -173,7 +173,7 @@ Projects from Tiny Tapeout 5 include Brandon Cruz' SAP-1 Computer, a spiking LST
   
 Those interested in submitting a design have around two months to do so, with full details available [on the Tiny Tapeout website](https://tinytapeout.com/).
 
-<img src="renodebitmanip.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/renodebitmanip.jpg" style="max-width:100%" />
 
 ## Renode Gains RISC-V Bitmanip Extension Support
 
@@ -190,7 +190,7 @@ We're also working on adding bitmanip to the RISC‑V Torture test generator," A
   
 The full write-up is available [on the Renode blog](https://renode.io/news/expanding-risc-v-support-in-renode-with-bit-manipulation-extensions/).
 
-<img src="ledtobelieve.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/ledtobelieve.jpg" style="max-width:100%" />
 
 ## Project LED to Believe Breaks Through the 100 FPGA Board Milestone
 
@@ -205,7 +205,7 @@ The most recently-added boards include the Terasic DE10-Lite, the ICE-V Wireless
   
 The full list of boards is available [on the LED to Believe GitHub repository](https://github.com/fusesoc/blinky), along with the source code under the permissive MIT licence.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2024-02-13-ecl71/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News in Brief
 

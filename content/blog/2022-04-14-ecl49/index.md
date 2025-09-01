@@ -5,7 +5,7 @@ description: El Correo Libre Newsletter, Issue 49
 author: Gareth Halfacree
 date: 2022-04-14
 ---
-<img src="verigpu.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/verigpu.jpg" style="max-width:100%" />
 
 ## VeriGPU is a Permissively-Licensed ML GPU Core, "Loosely Based" on RISC-V
 
@@ -21,7 +21,7 @@ The core design goal for the project is a core capable of running workloads writ
 
 More details on the project are available [on the VeriGPU GitHub repository](https://github.com/hughperkins/VeriGPU), where the source is made available under the permissive MIT licence.
 
-<img src="riscv-uefi-frozen.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/riscv-uefi-frozen.jpg" style="max-width:100%" />
 
 ## RISC-V International Opens UEFI Protocol Spec to Public Review
 
@@ -36,7 +36,7 @@ Now standard among x86/x86-64 desktops, laptops, tablets, and servers, UEFI rema
 
 Following months of work, the RISC-V end of the specification has now been frozen - making it ready for public review. The latest version of the specification is available [on the RISC-V Non-ISA GitHub repository](https://github.com/riscv-non-isa/riscv-uefi/releases/tag/1.0-rc3), with corrections, comments, and suggestions welcomed through to the close of the review period on the 6th of May 2022.
 
-<img src="xuantie-security.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/xuantie-security.jpg" style="max-width:100%" />
 
 
 ## Alibaba's Xuan Jian Details XuanTie VirtualZone Security Extensions
@@ -52,7 +52,7 @@ Alibaba's Xuan Jian has written a blog post detailing XuanTie VirtualZone truste
 
 Full details are available [on the RISC-V International blog](https://riscv.org/blog/2022/04/xuantie-virtualzone-risc-v-based-security-extensions-xuan-jian-alibaba/); T-Head, Alibaba's chip division, has previously released [the XuanTie OpenC906](https://github.com/T-head-Semi/openc906) and [OpenC910](https://github.com/T-head-Semi/openc910) cores under the permissive Apache 2.0 license.
 
-<img src="vroom.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/vroom.jpg" style="max-width:100%" />
 
 ## VRoom! Takes Aim at High-End, Out-of-Order, Super-Scalar, Speculative RISC-V
 
@@ -67,7 +67,7 @@ At present, the performance of the design sits at around 6.5 DMIPS/MHz - with Ca
 
 More details on the project are available [on the Moonbase Otago website](https://moonbaseotago.github.io/index.html), while full source is available [on the project's GitHub repository](https://github.com/MoonbaseOtago/vroom).
 
-<img src="silice-dualmemory.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/silice-dualmemory.jpg" style="max-width:100%" />
 
 ## Sylvain Lefebvre Shows Off Dual-Core Dual-Memory-Interface Silice Functionality
 
@@ -80,7 +80,7 @@ At the time of writing, the feature had yet to make it into the main branch of S
 
 The short video demo is available [on Twitter](https://twitter.com/sylefeb/status/1507104033902837766), while Silice itself is [published to GitHub](https://github.com/sylefeb/Silice/) under the reciprocal GNU General Public Licence 3.
 
-<img src="icesugar-nano.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/icesugar-nano.jpg" style="max-width:100%" />
 
 ## MuseLab Launches iCESugar-nano, iCESugar-Pro FPGA Boards
 
@@ -95,7 +95,7 @@ The larger iCESugar-Pro, meanwhile, is a system-on-module design with a Lattice 
 
 Both boards are available to buy [on the MuseLab Tindie store](https://www.tindie.com/stores/johnnywu/) now, priced at $19 and $60 respectively. Schematics and source code, meanwhile, are available [on the iCESugar-nano](https://github.com/wuxx/icesugar-nano/blob/main/schematic/ICESugar-nano-v1.2.pdf) and [iCESugar-Pro GitHub repositories](https://github.com/wuxx/icesugar-pro) under an unspecified licence. The iCELink source, however, has yet to be shared.
 
-<img src="precursor-braille.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/precursor-braille.jpg" style="max-width:100%" />
 
 ## Precursor Portable RISC-V FPGA Dev Kit Hardware Begins Shipping
 
@@ -112,7 +112,7 @@ While waiting for the hardware to wind its way through the logistics chain, bunn
 
 A full update is available [on the Precursor Crowd Supply campaign page.](https://www.crowdsupply.com/sutajio-kosagi/precursor/updates/more-supply-chain-issues-surprise-edition-the-good-the-bad-and-the-ugly)
 
-<img src="isadsp.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/isadsp.jpg" style="max-width:100%" />
 
 ## RISC-V Extension Promises to Boost Suitability for Ultra-Low Power IoT Work
 
@@ -127,7 +127,7 @@ In simulated testing, the extension showed cycle-count improvements ranging from
 
 The team's work has been published in the journal [_IEEE Transactions on Computers_](https://www.computer.org/csdl/journal/tc/2022/04/09366907/1rDRgr9Zn7G) under closed-access terms, with a preprint copy available [via the HAL archive (PDF)](https://hal-cea.archives-ouvertes.fr/cea-03158876/file/TCOMP__A_RISC_V_ISA_Extension_for_ULP_IoT_DSP.pdf).
 
-<img src="naxriscv.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/naxriscv.jpg" style="max-width:100%" />
 
 ## SpinalHDL Shows its Capabilities via the Linux-Ready NaxRiscv Core
 
@@ -144,7 +144,7 @@ The resulting core design is based on RV32-IMASU, with RV64 support in the works
 
 More details are available [on the project's GitHub repository](https://github.com/SpinalHDL/NaxRiscv), where it's made available under the permissive MIT licence.
 
-<img src="tong-laser.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/tong-laser.jpg" style="max-width:100%" />
 
 ## Zachary Tong Puts Together a Laser Lithographic Etching Machine
 
@@ -159,7 +159,7 @@ The device, which Zachary describes as having been "cobbled together with alumin
 
 The full video is available [on Zachary's YouTube channel](https://www.youtube.com/watch?v=XJ9w7DjI_Bc).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -172,7 +172,7 @@ The full video is available [on Zachary's YouTube channel](https://www.youtube.c
 -   [Alphawave IP acquires SiFive's OpenFive business unit for $210m in cash.](https://www.awaveip.com/en/news-views/alphawave-ip-announces-definitive-agreement-to-acquire-entire-openfive-business-unit-from-sifive-for-us-210m-in-cash/) [(Interesting commentary from former SiFive staffer Bruce Hoult here.)](https://www.reddit.com/r/RISCV/comments/te7pzs/alphawave_ip_announces_definitive_agreement_to/i0oa340/)
 -   [Erik Engheim: "Addressing criticism of RISC-V microprocessors."](https://medium.com/codex/addressing-criticism-of-risc-v-microprocessors-803239b53284)
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-04-14-ecl49/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to** [**ecl@librecores.org**](mailto:ecl@librecores.org)**.**
 

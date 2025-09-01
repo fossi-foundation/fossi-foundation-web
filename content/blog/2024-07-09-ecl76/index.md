@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2024-07-09
 ---
 
-<img src="euroflag.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/euroflag.jpg" style="max-width:100%" />
 
 ## Europe Looks for a Roadmap Towards Open-Source EDA
 
@@ -25,7 +25,7 @@ If you missed FSiC, the next great Free and Open Source Silicon conference is ju
   
 _-Stefan Wallentowitz, FOSSi Foundation Director_
 
-<img src="fossifreakout.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/fossifreakout.jpg" style="max-width:100%" />
 
 ## Olof Kindgren Takes Stock, Celebrates 2023's "FOSSi Freakout"
 
@@ -42,7 +42,7 @@ FOSSi Foundation director Olof Kindgren has penned a retrospective of 2023, decl
   
 Olof's full summary of the year recently closed is available [on his website](https://blog.award-winning.me/2024/06/fossi-freakout-2023.html).
 
-<img src="socurellm.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/socurellm.jpg" style="max-width:100%" />
 
 ## SoCureLLM Offers a New Approach to Security Verification - Using Large Language Models
 
@@ -59,7 +59,7 @@ The team's experiments focused on three known-vulnerable RISC-V system-on-chip d
   
 The full paper is available [on the IACR's ePrint server](https://eprint.iacr.org/2024/983) under open-access terms.
 
-<img src="ara2.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/ara2.jpg" style="max-width:100%" />
 
 ## Ara2 Delivers an Open-Source RISC-V Processor with RVV 1.0-Compliant Vector Processing
 
@@ -74,7 +74,7 @@ Researchers at the Integrated Systems Laboratory (IIS) of ETH Zurich and Stanfor
   
 The team's work has been published in the journal [_IEEE Transactions on Computers_](https://www.computer.org/csdl/journal/tc/2024/07/10500752/1Warb1R886Y) under closed-access terms; an open-access preprint is available [on Cornell's arXiv server](https://arxiv.org/abs/2311.07493v2).
 
-<img src="mirmis.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/mirmis.jpg" style="max-width:100%" />
 
 ## Yosys Shines a Spotlight into Space, Highlights the MIRMIS Project
 
@@ -91,7 +91,7 @@ The latest Yosys community spotlight focuses on the Modular Infrared Molecules a
   
 The full spotlight is available [on the YosysHQ Blog](https://blog.yosyshq.com/p/community-spotlight-mirmis/) now.
 
-<img src="serv13.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/serv13.jpg" style="max-width:100%" />
 
 ## SERV Hits Version 1.3, Stops Shrinking - But is Still Getting Better
 
@@ -106,7 +106,7 @@ FOSSi Foundation director Olof Kindgren has released a new version of SERV, the 
   
 Other new features in the latest release, including a move to supporting Zephyr 3.5 and information on SERV's larger QERV and HERV stablemates, are detailed [in Olof's blog post](https://blog.award-winning.me/2024/07/serv-13.html).
 
-<img src="xvpfloat.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/xvpfloat.jpg" style="max-width:100%" />
 
 ## Proposed Xvpfloat Extension Adds Variable Precision Computing to RISC-V
 
@@ -123,7 +123,7 @@ A team from the Université Grenoble Alpes have proposed a new extension for the
   
 The researchers' paper has been published in the journal [_IEEE Transactions on Computers_](https://www.computer.org/csdl/journal/tc/2024/07/10488759/1VORypu0Yq4) under closed-access terms; a preprint is available [from the HAL open access archive](https://cea.hal.science/cea-04546949v1) (automatic PDF download warning.)
 
-<img src="verilatorassert.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/verilatorassert.jpg" style="max-width:100%" />
 
 ## Verilator 5.026 Brings Initial Assertion Control Support
 
@@ -140,7 +140,7 @@ Verilator, the popular open-source SystemVerilog simulator and lint system, has 
   
 Antmicro's full announcement is available [on the company's blog](https://antmicro.com/blog/2024/06/initial-assertion-control-support-in-verilator/); additional information is available [in the pull request](https://github.com/verilator/verilator/pull/5010), which was merged in time for [the Verilator 5.026 release](https://github.com/verilator/verilator-announce/issues/70).
 
-<img src="cherialliance.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/cherialliance.jpg" style="max-width:100%" />
 
 ## CHERI Alliance Founded as lowRISC Partners with Microsoft on CHERIoT-Ibex Production
 
@@ -157,7 +157,7 @@ The announcement of the organisation's founding, ahead of a full launch in Septe
   
 More information on the CHERI Alliance is available [on the official website](https://cheri-alliance.net/).
 
-<img src="terapool.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/terapool.jpg" style="max-width:100%" />
 
 ## TeraPool-SDR Taps 1,024 RISC-V Cores for Next-Generation Software-Defined Radios
 
@@ -172,7 +172,7 @@ Researchers at ETH Zurich have designed a cluster platform designed to deliver h
   
 The team's work has been published in the [_Proceedings of the Great Lakes Symposium on VLSI 2024 (GLSVSLI '24)_](https://dl.acm.org/doi/10.1145/3649476.3658735) under open access terms.
 
-<img src="yosystalks.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/yosystalks.jpg" style="max-width:100%" />
 
 ## Yosys User Group 7 Lightning-Talk Videos Available Now
 
@@ -187,7 +187,7 @@ Ashe Connor's talk covers combining the Chisel hardware description language wit
   
 All the aforementioned videos are live now on the YosysHQ YouTube channel, gathered into [one handy playlist](https://www.youtube.com/playlist?list=PL-ggbobZGIQuMGBkQgubVbJ1jffe2k18O) for ease of access.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2024-07-09-ecl76/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News in Brief
 

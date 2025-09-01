@@ -8,7 +8,7 @@ date: 2022-12-12
 
 
 
-<img src="santabarbara.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/santabarbara.jpg" style="max-width:100%" />
 
 ## Latch-Up 2023 is a Go!
 
@@ -22,7 +22,7 @@ Questions? [Visit the website](https://www.fossi-foundation.org/latchup/) for mo
 
 _-Philipp Wagner, Director, FOSSi Foundation_
 
-<img src="gsoc.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/gsoc.jpg" style="max-width:100%" />
 
 ## The FOSSi Foundation Prepares for Google Summer of Code 2023
 
@@ -35,7 +35,7 @@ Participants working with the FOSSi Foundation as part of [GSoC 2022](https://ww
 
 Where previous years have focused on accredited students, however, GSoC 2023 will be casting a wider net. Interested parties can find out more and how to apply [on the GSoC website](https://summerofcode.withgoogle.com/) - and the FOSSi Foundation will be announcing its slots as an umbrella organisation as soon as they are confirmed.
 
-<img src="verilator.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/verilator.jpg" style="max-width:100%" />
 
 ## Verilator 5 Takes the First Steps Towards Non-Synthesisable Verilog Subset Support
 
@@ -50,7 +50,7 @@ The new release also brings with it gains for usability, Philipp explains, "maki
 
 More details on Verilator 5 are available [in the GitHub announcement](https://github.com/verilator/verilator-announce/issues/57); the project itself is available [on GitHub](https://github.com/verilator/verilator) under the reciprocal GNU Lesser General Public Licence 3.
 
-<img src="vlsiffra.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/vlsiffra.jpg" style="max-width:100%" />
 
 ## Anton Blanchard's Vlsiffra is an Amaranth HDL Standard Cell Generator
 
@@ -65,7 +65,7 @@ The project includes a range of configuration options, from the the number of bi
 
 Vlsiffra is available [on GitHub](https://github.com/antonblanchard/vlsiffra/) now, under the permissive Apache 2.0 licence.
 
-<img src="riscvlim2.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/riscvlim2.jpg" style="max-width:100%" />
 
 ## RISC-Vlim is a RISC-V Framework for Logic-in-Memory Architectures
 
@@ -78,7 +78,7 @@ Researchers from the _Politecnico di Torin_, University of Tor Vergata, and the 
 
 A paper detailing the framework, dubbed RISC-Vlim, is available under open-access terms following its publication in the journal [_Electronics_](https://www.mdpi.com/2079-9292/11/19/2990/htm); the framework, including the ISA and toolchain modifications, is available [on GitHub](https://github.com/vlsi-nanocomputing/risc-v-lim-architecture) under the permissive Solderpad Hardware Licence v0.51.
 
-<img src="lohremulator.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/lohremulator.jpg" style="max-width:100%" />
 
 ## Charles Lohr's RISC-V Emulator Lives in a Single, 400-Line C Header
 
@@ -91,7 +91,7 @@ Electrical engineer Charles Lohr has been experimenting with the free and open-s
 
 A demonstration of the emulator, which implements RV32IMA with Zifencei and Zicsr extensions, is available [on YouTube](https://www.youtube.com/watch?v=YT5vB3UqU_E&feature=emb_logo); the emulator itself is available [on GitHub](https://github.com/cnlohr/mini-rv32ima) under the permissive MIT, BSD three-clause, and Creative Commons Zero licences.
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/riscv.jpg" style="max-width:100%" />
 
 ## RISC-V Advanced Interrupt Architecture, Zicntr, Zihpm Enter Public Review Period
 
@@ -106,7 +106,7 @@ The Zicntr and Zihpm ISA extensions, meanwhile, add standardised functionality f
 
 Those interested in commenting on any of the extensions can find out how to do so [in the Zicntr/Zihpm](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/HZGoqP1eyps/m/7e8iXjJhAQAJ) or [AIA announcement posts](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/sQKM-qZWfSw); the former review period lasts until the 23th of December with the latter expiring on the 24th.
 
-<img src="siliwiz.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/siliwiz.jpg" style="max-width:100%" />
 
 ## Matthew Venn's SiliWiz Aims to Drop the Barrier to Analogue Silicon Design Entry
 
@@ -121,7 +121,7 @@ In an effort to reduce these pain points and speed experimentation, Matthew has 
 
 A demonstration of SiliWiz is available [on Matthew's YouTube channel](https://www.youtube.com/watch?v=V9xCa4RNfCM), while the tool itself is currently only available under early-access terms [to Tiny Tapeout submitters](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEVwUlQzaE56QnJQWmpZWDMzRnMxTnN5YnJWd3xBQ3Jtc0tsMU9VdllnTFJXTVdxR0lrajV0RE9KRUdjTUQ3Wm0xZW8wN0NyaUw3RWlCZW12U0p4alFpdXhfSFVYNmhUTy1Eck1JVFJsdjJEMzlOX2hCaDdOLTJHUUJMNjgwN09yQ1k4eDJNN1J5ZUdIS1kzXzNXNA&q=https%3A%2F%2Ftinytapeout.com%2F&v=V9xCa4RNfCM).
 
-<img src="hulkv.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/hulkv.jpg" style="max-width:100%" />
 
 ## The PULP Platform Announces "The Incredible" HULK-V, a Low-Cost RISC-V SoC
 
@@ -136,7 +136,7 @@ The PULP Platform has announced a new design, "The Incredible" HULK-V - a hetero
 
 The team's paper is available [on Cornell's arXiv preprint server](https://arxiv.org/abs/2211.14944) now
 
-<img src="shakti.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/shakti.jpg" style="max-width:100%" />
 
 ## Kamakoti Veezhinathan Reflects on Building the SHAKTI Microprocessor
 
@@ -149,7 +149,7 @@ Kamakoti Veezhinathan has penned an article for the _Communications of the ACM_ 
 
 The full article is available [on the ACM website](https://cacm.acm.org/magazines/2022/11/265822-building-the-shakti-microprocessor/fulltext); more information is available [on the project website](https://shakti.org.in/).
 
-<img src="zeloof.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/zeloof.jpg" style="max-width:100%" />
 
 ## Wired Magazine Profiles Sam Zeloof and his Garage Silicon Fab
 
@@ -162,7 +162,7 @@ Regular readers of El Correo Libre will remember Sam's achievement well - and th
 
 The full profile is available [on the Wired website](https://www.wired.com/story/22-year-old-builds-chips-parents-garage/?mbid=social_twitter&utm_brand=wired&utm_social-type=owned), with more information available [on Sam's blog](http://sam.zeloof.xyz/).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -175,7 +175,7 @@ The full profile is available [on the Wired website](https://www.wired.com/story
 -   [Intel announces changes to its Pathfinder for RISC-V development environment, including the "unification" of the Starter and Professional Editions.](https://pathfinder.intel.com/news/intel-pathfinder-for-risc-v-new-capabilities-and-a-growing-ecosystem/)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-12-12-ecl57/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

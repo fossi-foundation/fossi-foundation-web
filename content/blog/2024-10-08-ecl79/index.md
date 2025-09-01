@@ -5,7 +5,7 @@ description: El Correo Libre Newsletter, Issue 79
 author: Gareth Halfacree
 date: 2024-10-08
 ---
-<img src="orconfvids.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/orconfvids.jpg" style="max-width:100%" />
 
 ## Celebrating ORConf 2024
 
@@ -19,7 +19,7 @@ A [separate video](https://www.youtube.com/watch?v=Xm_kUVhMBdw) covers all of th
 
 If you’re looking for a particular talk, links to each video are now included [on the ORConf 2024 schedule](https://fossi-foundation.org/orconf/2024) - along with slide deck downloads, where available. Thanks again to all involved, and here’s to the next ORConf!
 
-<img src="flexrv.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/flexrv.jpg" style="max-width:100%" />
 
 ## SERV Goes Flexible with Silicon-Free ASIC Implementation
 
@@ -34,7 +34,7 @@ The Flex-RV chip designed by the team is a hardware implementation of SERV, usin
 
 Flex-RV is documented in full in [Nature](https://www.nature.com/articles/s41586-024-07976-y) under open-access terms.
 
-<img src="vennasics.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/vennasics.jpg" style="max-width:100%" />
 
 ## Matt Venn Offers an Intro to Open Source ASIC Design
 
@@ -49,7 +49,7 @@ One of those demonstrations is Tiny Tapeout itself, an educational platform whic
 
 The full video is available [on the Zero to ASIC Course YouTube channel](https://www.youtube.com/watch?v=hSFUd7S2otE).
 
-<img src="fusesoc.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/fusesoc.jpg" style="max-width:100%" />
 
 ## FuseSoC 2.4 Brings EDAM Filter Functions
 
@@ -66,7 +66,7 @@ The new release includes “a few built-in filters for generally useful tasks,�
 
 The latest version of FuseSoC is available [on the project’s GitHub repository](https://github.com/olofk/fusesoc), where it is released under the permissive BSD two-clause licence; more information on the EDAM filters is available [in the online documentation](https://fusesoc.readthedocs.io/en/latest/user/build_system/filters.html).
 
-<img src="alphachip.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/alphachip.jpg" style="max-width:100%" />
 
 ## Google DeepMind Digs Deep into AlphaChip AI
 
@@ -81,7 +81,7 @@ Google’s DeepMind, a division dedicated to deep learning and artificial intell
 
 To support its claims, DeepMind has published an addendum in [Nature](https://www.nature.com/articles/s41586-024-08032-5) as a follow-up to [its original paper](https://www.nature.com/articles/s41586-021-03544-w); AlphaChip remains available [on GitHub](https://github.com/google-research/circuit_training) under the permissive Apache 2.0 licence, and now includes [a pre-trained model checkpoint](https://github.com/google-research/circuit_training/?tab=readme-ov-file#PreTrainedModelCheckpoint).
 
-<img src="openhwcorev.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/openhwcorev.jpg" style="max-width:100%" />
 
 ## OpenHW Group Joins the Eclipse Foundation
 
@@ -96,7 +96,7 @@ The shift comes with a change for the OpenHW Group, in the form of a new name: u
 
 More information about the deal, including answers to questions about the transition process which is expected to complete by year’s end, is available [on the OpenHW Group website](https://www.openhwgroup.org/about-us/transition-faq/).
 
-<img src="semihosting.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/semihosting.jpg" style="max-width:100%" />
 
 ## RISC-V Opens Semihosting Spec Up for Public Review
 
@@ -111,7 +111,7 @@ RISC-V International has announced the start of the public review period for the
 
 The RISC-V Semihosting specification is available [on GitHub](https://github.com/riscv-non-isa/riscv-semihosting) under a Creative Commons Attribution-ShareAlike 4.0 licence; feedback should be sent as Issues or Pull Requests on the repository, or mailed to the RISC-V isa-dev mailing list.
 
-<img src="gaislerverification.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/gaislerverification.jpg" style="max-width:100%" />
 
 ## Frontgrade Gaisler Details its Co-Simulation Strategy
 
@@ -126,7 +126,7 @@ Frontgrade Gaisler’s Fabio Malatesta has written up the company’s co-simulat
 
 The full write-up is available [on the Frontgrade Gaisler blog](http://blog.gaisler.com/accelerating-risc-v-processor-verification-a-co-simulation-strategy/).
 
-<img src="mavencourse.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/mavencourse.jpg" style="max-width:100%" />
 
 ## Maven Silicon Launches a Free RISC-V Design Course
 
@@ -141,7 +141,7 @@ The course is split into two, with the first ten videos covering the RISC-V arch
 
 The first half of the course can be accessed [through this playlist](https://www.youtube.com/playlist?list=PL3_RRtJ5Iqgg94er7ErGAUSyhTXwPv6zy), with the second half [on this playlist](https://www.youtube.com/playlist?list=PL3_RRtJ5Iqgj2f37E_0ylvGQnCS14u7wX).
 
-<img src="ai.jpg" style="max-width:100%" />
+<img src="/blog/2024-10-08-ecl79/ai.jpg" style="max-width:100%" />
 
 ## RISC-V “Changes the Global Landscape of AI and ML”
 

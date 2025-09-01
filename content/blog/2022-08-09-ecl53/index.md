@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2022-08-09
 ---
 
-<img src="sky90.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/sky90.jpg" style="max-width:100%" />
 
 ## OpenMPW Programme Expands to 90nm, Adds a PDK from GlobalFoundries
 
@@ -24,7 +24,7 @@ It's not just SkyWater which is seeing the benefits of opening PDKs to a wider a
 
 The GlobalFoundries GF180MCU PDK is available [on GitHub now](https://github.com/google/gf180mcu-pdk), with SkyWater's SKY90-FD to follow; those looking to stay updated can find more information [on the Google custom silicon landing page](https://developers.google.com/silicon).
 
-<img src="sbydemo.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/sbydemo.jpg" style="max-width:100%" />
 
 ## Yosys Autotune Aims to Find You the Fastest Solver for Formal Verification
 
@@ -41,7 +41,7 @@ The new -autotune option, by contrast, runs through a range of recommended engin
 
 Additional information is available in the Sby documentation, with a small sample project [available on GitHub](https://github.com/YosysHQ/sby/tree/master/docs/examples/autotune) for those who prefer hands-on learning.
 
-<img src="v8-outline.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/v8-outline.jpg" style="max-width:100%" />
 
 ## Google's V8 JavaScript Engine's RISC-V RV32GC Port Merged Upstream
 
@@ -56,7 +56,7 @@ In addition to the RV64 and RV32 ports, the effort to port V8 to RISC-V has also
 
 More details are available [on the RISC-V software development mailing list](https://groups.google.com/a/groups.riscv.org/g/sw-dev/c/zeml52WHAU4/m/hMbGwJzHAgAJ) and [in the upstream commit](https://chromium-review.googlesource.com/c/v8/v8/+/3736732). The source code, meanwhile, [is available on GitHub](https://github.com/riscv-collab/v8) under a mix of licences.
 
-<img src="chipsact.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/chipsact.jpg" style="max-width:100%" />
 
 ## The US Government Passes the CHIPS Act, Authorises $250bn Funding Over Five Years
 
@@ -71,7 +71,7 @@ As the name implies the CHIPS Act aims to promote US interests in the semiconduc
 
 The full text of the CHIPS Act is available [as a PDF download](https://www.commerce.senate.gov/services/files/CFC99CC6-CE84-4B1A-8BBF-8D2E84BD7965) from the US Senate Committee on Commerce, Science, and Transportation; sadly, the Act does not specifically offer provisions for free and open-source silicon efforts.
 
-<img src="venn-openmpwbrowser.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/venn-openmpwbrowser.jpg" style="max-width:100%" />
 
 ## Matthew Venn Launches a Tool For Browsing, Searching OpenMPW Projects
 
@@ -86,7 +86,7 @@ The open-source utility, written in Python, is designed as a workaround for the 
 
 The tool is available [from Matthew's GitHub repository](https://github.com/mattvenn/efabless_project_tool), where it is published under the permissive Apache 2.0 licence.
 
-<img src="ocpbow.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/ocpbow.jpg" style="max-width:100%" />
 
 ## The Open Compute Project Foundation Launches "Bunch of Wires" Interface Spec
 
@@ -101,7 +101,7 @@ The ODSA BoW PHY specification, to give the spec its full title, is designed for
 
 Bunch of Wires is made available under the Open Web Foundation Final Specification Agreement (OWFa) 1.0, with contributors asked to sign a modified OWF Contributor Licence Agreement. A PDF of the release version of the specification is available [on the OCP website](https://www.opencompute.org/contributions).
 
-<img src="eandt-opensource.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/eandt-opensource.jpg" style="max-width:100%" />
 
 ## The IET's Engineering and Technology Highlights "Open-Source Choices" for Chips
 
@@ -116,7 +116,7 @@ Chris highlights RISC-V as offering "a wide range of options" in the field of pr
 
 The full piece, which includes comment from Rapid Silicon's Tony McDowell, CHIPS Alliance's Rob Mains, Open Hardware Group's Rick O'Connor, and Silicon Initiative's Vic Kulkarni, [is available on the E&T website now](https://eandt.theiet.org/content/articles/2022/07/chip-democratisation-leads-to-open-source-choices/).
 
-<img src="wallentowitz-boardmember.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/wallentowitz-boardmember.jpg" style="max-width:100%" />
 
 ## FOSSi Foundation Director Stefan Wallentowitz Elected to RISC-V International Board
 
@@ -131,7 +131,7 @@ Stefan joins four other newly-elected board members: Frans Sijstermans from Nvid
 
 The current list of board members is available [on the RISC-V International website](https://riscv.org/about/board-of-directors/).
 
-<img src="cpuwebring.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/cpuwebring.jpg" style="max-width:100%" />
 
 ## The Homebuilt CPUs WebRing Highlights Hobbyist Processor Efforts
 
@@ -146,7 +146,7 @@ The New Stack's David Cassel has written a piece highlighting a "webring" which 
 
 David's article is available [on The New Stack](https://thenewstack.io/the-hobbyists-who-build-their-own-cpus/) now, while the 85-and-counting machines which make up the Homebuilt CPUs WebRing can be seen [on the project's homepage](https://www.homebrewcpuring.org/ringhome.html).
 
-<img src="serv.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/serv.jpg" style="max-width:100%" />
 
 ## Tiny SERV Core Hits 1.2.0 Release, Brings M and C Extension Support
 
@@ -161,7 +161,7 @@ Other enhancements in the new release include: SERV "Servant" system-on-chip sup
 
 The new release is available [on the SERV GitHub repository now](https://github.com/olofk/serv), under the permissive ISC licence.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -172,7 +172,7 @@ The new release is available [on the SERV GitHub repository now](https://github.
 -   [Codasip's Brett Cline asks "is it too risky _not_ to adopt RISC-V" in DAC 2022 round-up piece.](https://codasip.com/2022/07/18/dac-2022-is-it-too-risky-not-to-adopt-risc-v/)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-08-09-ecl53/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

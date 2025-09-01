@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2025-02-11
 ---
 
-<img src="henleyhall.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/henleyhall.jpg" style="max-width:100%" />
 
 ## Latch-Up 2025 Opens for Registration, Talks
 
@@ -33,7 +33,7 @@ All event information is available at [latchup.io](https://fossi-foundation.org/
   
 _-Philipp Wagner, Director, FOSSi Foundation_
 
-<img src="tt6bringup.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/tt6bringup.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout 6 Analogue a Hit, TT10 Demoscene Contest Opens
 
@@ -50,7 +50,7 @@ Carsten’s SAR ADC isn’t the only analogue design in Tiny Tapeout 6: Vincent 
 
 In addition to the bringup of Tiny Tapeout 6, Matt is bringing back [the Demoscene Contest from Tiny Tapeout 8](https://tinytapeout.com/competitions/demoscene-tt08-entries/). Inspired by digital artists of the eight- and 16-bit era, the contest asks entrants to create a chip design which outputs video using a VGA-compatible signal, audio via a standardised PMOD pinout, and optionally accepts gamepad input, all running from as few tiles as possible. Details are available [on the Tiny Tapeout website](https://tinytapeout.com/competitions/demoscene-tt10/); Tiny Tapeout 10 closes submissions on the 7th of March 2025.
 
-<img src="donut.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/donut.jpg" style="max-width:100%" />
 
 ## Andy Sloane’s ASIC Delivers Digitised Doughnuts
 
@@ -67,7 +67,7 @@ The project was developed and submitted as part of the Tiny Tapeout 8 Demoscene 
 
 Andy’s full write-up is available [on his website](http://[https://www.a1k0n.net/2025/01/10/tiny-tapeout-donut.html), while the project source is available [on GitHub](https://github.com/a1k0n/tt08-vga-donut/) under the permissive Apache 2.0 licence. Testing of the physical chip itself is waiting manufacturing and delivery of the silicon from SkyWater, scheduled for later this year.
 
-<img src="ferris.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/ferris.jpg" style="max-width:100%" />
 
 ## lowRISC Chief Gavin Ferris Talks Challenges and Milestones
 
@@ -82,7 +82,7 @@ Those challenges led to lowRISC adopting an approach in which it “learned from
 
 The full interview is available [on Pulse 2.0](https://pulse2.com/lowrisc-profile-gavin-ferris-interview/) now.
 
-<img src="riscvspace.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/riscvspace.jpg" style="max-width:100%" />
 
 ## April Workshop Targets RISC-V in Space
 
@@ -99,7 +99,7 @@ Those interested in presenting during the event have a short window in which to 
   
 More information is available [on the event website](https://www.risc-v.space/wp/).
 
-<img src="siliceasic.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/siliceasic.jpg" style="max-width:100%" />
 
 ## Sylvain Lefebvre Celebrates the First Silice ASIC
 
@@ -116,7 +116,7 @@ Sylvain Lefebvre, creator of the Silice hardware description language (HDL), is 
 
 Sylvain’s full write-up is available [in his Mastodon thread](https://mastodon.online/@sylefeb/113924343576976008), with additional information available [on GitHub](https://github.com/sylefeb/tt07-explorer/blob/main/docs/info.md) alongside links to the project’s Silice source code.
 
-<img src="placeit.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/placeit.jpg" style="max-width:100%" />
 
 ## PlaceIT Delivers an Open-Source Chiplet Placement Solution
 
@@ -131,7 +131,7 @@ Researchers from ETH Zürich and the University of Bologna have unveiled a proje
 
 The researchers’ paper is available in preprint [on Cornell’s arXiv server](https://arxiv.org/abs/2502.01449); PlaceIT itself has been published [on GitHub](https://github.com/spcl/placeit) under an unspecified open-source licence.
 
-<img src="matrixsig.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/matrixsig.jpg" style="max-width:100%" />
 
 ## RISC-V SIG-Vector Works Towards an Integrated Matrix Extension
 
@@ -146,7 +146,7 @@ Matheus Ferst and Guido Araújo, members of the RISC-V Vector Special Interest G
 
 The full write-up is available [on the RISC-V International blog](https://riscv.org/blog/2025/01/towards-an-integrated-matrix-extension-workload-analysis-of-cnn-inference-with-qemu-tcg-plugings/).
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/riscv.jpg" style="max-width:100%" />
 
 ## RISC-V International’s CEO Search is Underway
 
@@ -161,7 +161,7 @@ Calista had held the post of CEO at the organisation for over five years at the 
 
 No timescale for the appointment of a replacement CEO has yet been announced.
 
-<img src="tux.jpg" style="max-width:100%" />
+<img src="/blog/2025-02-11-ecl83/tux.jpg" style="max-width:100%" />
 
 ## Linux Patches Introduce Xen RISC-V Guest Support
 

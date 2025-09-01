@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2022-07-12
 ---
 
-<img src="johann-openlane.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/johann-openlane.jpg" style="max-width:100%" />
 
 ## Google's Johan Euphrosine Puts "Silicon Notebooks" in the Cloud
 
@@ -22,7 +22,7 @@ But making the tools easier to install locally was only the first step: The next
 
 Johann's work has resulted in a pair of notebooks [shared on GitHub](https://github.com/chipsalliance/silicon-notebooks) under the permissive Apache 2.0 licence: a digital inverter using OpenLane and an analogue inverter using MAGIC. More information is available [in Johann's interview](https://www.youtube.com/watch?v=yCyOVq5ZHYg).
 
-<img src="guarav-camera.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/guarav-camera.jpg" style="max-width:100%" />
 
 ## Gaurav Singh's Modular USB 3.0 Camera Packs an FPGA, Interchangeable Lenses
 
@@ -37,7 +37,7 @@ The camera itself, which boasts a 3D-printed housing, is made up of three boards
 
 Full details are available [in Guarav's build log](https://www.circuitvalley.com/2022/06/pensource-usb-c-industrial-camera-c-mount-fpga-imx-mipi-usb-3-crosslinknx.html), with the project source code and design files [published to GitHub](https://github.com/circuitvalley/USB_C_Industrial_Camera_FPGA_USB3) under the permissive Creative Commons Attribution 4.0 International licence.
 
-<img src="chips4makers-bandgap.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/chips4makers-bandgap.jpg" style="max-width:100%" />
 
 ## Chips4Makers Publishers its First Mixed-Signal Project Results
 
@@ -52,7 +52,7 @@ The Chips4Makers project, meanwhile, builds on the PDK Master and NLNet Analogue
 
 Progress reports for all sections are available now [on the Chips4Makers blog](https://chips4makers.io/blog/first-analogmixed-signal-project-results.html).
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/riscv.jpg" style="max-width:100%" />
 
 ## RISC-V International Ratifies its First Specifications of 2022
 
@@ -67,7 +67,7 @@ The new specifications include: E-Trace for RISC-V, an efficient approach to pro
 
 The new specifications are available now [on the RISC-V Non-ISA Specifications](https://github.com/riscv-non-isa) and [RISC-V ISA Specifications GitHub repositories](https://github.com/riscv).
 
-<img src="renode113.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/renode113.jpg" style="max-width:100%" />
 
 ## Antmicro Launches Renode 1.13, Promises Improved Pre-Silicon Development
 
@@ -82,7 +82,7 @@ Those improvements include support for the RISC-V Vector Extensions 1.0, as rati
 
 Full details are available in Antmicro's announcement; Renode itself is available [on the project's GitHub repository](https://github.com/renode/renode/) under the permissive MIT licence.
 
-<img src="cellift.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/cellift.jpg" style="max-width:100%" />
 
 ## CellIFT Offers Dynamic Information Flow Tracking for Hardware Design
 
@@ -97,7 +97,7 @@ In micro- and standard benchmark tests on those five RISC-V designs - Ibex, Aria
 
 The CellIFT paper is available [from ETH Zurich's Computer Security Group](https://comsec.ethz.ch/research/microarch/cellift/) as a PDF download; the source code [has been published to GitHub](https://github.com/comsec-group/cellift-meta) under the reciprocal GNU General Public Licence 3.
 
-<img src="marz-msi.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/marz-msi.jpg" style="max-width:100%" />
 
 ## Stephen Marz Tests Out The RISC-V Advanced Interrupt Architecture's MSIs
 
@@ -110,7 +110,7 @@ Developer Stephen Marz is experimenting with message signalled interrupts (MSIs)
 
 Stephen's full write-up is available on his blog, while the Rust source code - which requires a version of QEMU recent enough to include the MSI controller in the virt machine - has been published to GitHub under an unspecified open-source licence.
 
-<img src="leamoon-redstone.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/leamoon-redstone.jpg" style="max-width:100%" />
 
 ## Students Build an MNIST Recognition Neural Network - in Minecraft
 
@@ -125,7 +125,7 @@ A team of students led by Xuezhao "Leamoon" Wu has built a stochastic neural net
 
 The team's source code [has been published to GitHub](https://github.com/leamoon/StochasticNet) under the permissive MIT license, while a video of the network in action [is available on Bilibili](https://www.bilibili.com/video/BV1yv4y1u7ZX/?spm_id_from=333.788.recommend_more_video.6&vd_source=923ade385facaf796f5897884fb921eb).
 
-<img src="serv-colour.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/serv-colour.jpg" style="max-width:100%" />
 
 ## Abdul Wadood Offers a "Final Report" into Adding Compressed Instructions to SERV
 
@@ -140,7 +140,7 @@ Abdul's work during the mentorship saw the addition of RISC-V compressed instruc
 
 Abdul's full write-up, including technical details of the work and the benefit compressed instructions brings to the SERV core, [is available on Medium](https://medium.com/@abdulwadoodd/risc-v-compressed-instructions-for-serv-6065f55158b4) now.
 
-<img src="litex-c906.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/litex-c906.jpg" style="max-width:100%" />
 
 ## LiteX Gains Support for Alibaba T-Head's OpenC906 Core
 
@@ -155,7 +155,7 @@ T-Head, the semiconductor division of Alibaba, released the OpenC906 core in Nov
 
 The OpenC906 is available in LiteX now using the CPU type "openc906"; LiteX itself [is available on GitHub](https://github.com/enjoy-digital/litex) under a custom free software licence.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -165,7 +165,7 @@ The OpenC906 is available in LiteX now using the CPU type "openc906"; LiteX itse
 -   [Joseph Zuchman, Paolo Mantovani, Davide Giri, Luca P. Carloni: Enabling Heterogenous, Multicore SoC Research with RISC-V and ESP.](https://arxiv.org/abs/2206.01901)
 -   [Mazin Mohammed releases RISC-V Computer 2.0 (RVCOM 2.0), an "enhanced yet simplified" version of the original RISC-V Computer built in Logisim.](https://github.com/MazinCE/RVCOM2.0)
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-07-12-ecl52/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

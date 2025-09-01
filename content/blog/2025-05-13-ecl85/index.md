@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2025-05-13
 ---
 
-<img src="latchup2025crowd.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/latchup2025crowd.jpg" style="max-width:100%" />
 
 ## Celebrating Latch-Up 2025
 
@@ -33,7 +33,7 @@ Next up is [ORConf 2025](https://fossi-foundation.org/orconf/2025/) in Valencia,
 
 _-Julius Baxter, Director, FOSSi Foundation_
 
-<img src="sunburst.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/sunburst.jpg" style="max-width:100%" />
 
 ## lowRISC, SCI Semiconductor Open the Sunburst Chip Repo
 
@@ -50,7 +50,7 @@ The Sunburst Chip repository contains an open-source microcontroller implementat
 
 The repository is live now [on GitHub](https://github.com/lowRISC/sunburst-chip).
 
-<img src="formalv.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/formalv.jpg" style="max-width:100%" />
 
 ## Rohith V. Extends riscv-formal into Synopsis VC Formal
 
@@ -67,7 +67,7 @@ Built atop the SymbiYosys Formal Verification FLow, risc-formal delivers formal 
 
 The full article is available as a guest post [on the YosysHQ Blog](https://blog.yosyshq.com/p/risc-v-formal-verification-framework-extension-for-synopsys-vc-formal/); the extension itself is published [on GitHub](https://github.com/Chaotic-VRBlue/riscv-formal-vc-formal-extension/) under an unspecified licence.
 
-<img src="ttapeout.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/ttapeout.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout opens a New Shuttle with IHP
 
@@ -82,7 +82,7 @@ There is, however, one big shift from previous runs: the chips are being provide
 
 The shuttle is open to contributors [on the Tiny Tapeout website](https://tinytapeout.com/) now.
 
-<img src="vennlightning.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/vennlightning.jpg" style="max-width:100%" />
 
 ## Matt Venn Talks Efabless’ Closure, Tiny Tapeout’s Future
 
@@ -97,7 +97,7 @@ Just prior to opening the IHP25b Tiny Tapeout shuttle, Matt Venn gave a lightnin
 
 The full talk is available [on the Zero to ASIC Course YouTube channel](https://www.youtube.com/watch?v=EoDauBaAxVM).
 
-<img src="oloftalk.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/oloftalk.jpg" style="max-width:100%" />
 
 ## Olof Kindgren’s UCM Talk Now Available
 
@@ -114,7 +114,7 @@ FOSSi Foundation director and award-winning chip designer Olof Kindgren’s talk
 
 The lecture is available to stream freely [on the UCM YouTube channel](https://www.youtube.com/watch?v=qhKjHicC6d0) now.
 
-<img src="ddr3.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/ddr3.jpg" style="max-width:100%" />
 
 ## UberDDR3 Demonstrated with the OpenXC7 Toolchain
 
@@ -129,7 +129,7 @@ Angelo does, however, highlight a few limitations - including the demos running 
 
 More details are available [in Angelo’s blog post](https://www.openiphub.com/post/uberddr3-openxc7-open-source-ddr3-controller-meets-open-source-fpga-toolchain), including instructions on trying it out for yourself.
 
-<img src="sim.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/sim.jpg" style="max-width:100%" />
 
 ## Making RAM in Sebastian Lague’s Open-Source Logic Sim
 
@@ -146,7 +146,7 @@ The video walkthrough is available [on YouTube](https://www.youtube.com/watch?v=
   
 “Pull requests are welcome,” the developer says, "but please be aware that I’m far more likely to merge performance/ux improvements and bug fixes than new built-in chips or features. I do hope to provide some form of mod support in the future, but don’t have any concrete plans for it right now."
 
-<img src="edalize.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/edalize.jpg" style="max-width:100%" />
 
 ## Edalize 0.6.1 Fixes Bugs, Adds Frontend Support
 
@@ -161,7 +161,7 @@ Other changes in the new release include fixes for coctb 2.0 compatibility, the 
 
 The latest release is available [on the Edalize GitHub repository](https://github.com/olofk/edalize/releases), along with the full source code under the permissive BSD two-clause licence.
 
-<img src="glyph.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/glyph.jpg" style="max-width:100%" />
 
 ## Michael Clark’s glyph is a Super-Regular RISC ISA
 
@@ -178,7 +178,7 @@ Developer Michael Clark has announced a work-in-progress super-regular RISC arch
 
 A thread discussing the project is available [on the RISC-V ISA-DEV mailing list](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/vognIEEVzj4); the source code for the simulator is available [on GitHub](https://github.com/michaeljclark/glyph/) under an unspecified licence.
 
-<img src="qemu.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/qemu.jpg" style="max-width:100%" />
 
 ## QEMU 10.0 Launched, Bringing New RISC-V Extensions
 
@@ -192,7 +192,7 @@ The latest release also brings reduced overhead for RISC-V vector unit-stride lo
 
 More information is available [in the project changelog](https://wiki.qemu.org/ChangeLog/10.0); the latest release can be found [on the QEMU download page](https://www.qemu.org/download/), with source code available on GitLab under the GNU General Public License 2.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2025-05-13-ecl85/newsinbrief.jpg" style="max-width:100%" />
 
 ## News In Brief
 

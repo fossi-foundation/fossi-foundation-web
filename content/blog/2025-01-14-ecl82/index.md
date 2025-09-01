@@ -5,7 +5,7 @@ description: El Correo Libre Newsletter, Issue 82
 author: Gareth Halfacree
 date: 2025-01-14
 ---
-<img src="ttulinux.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/ttulinux.jpg" style="max-width:100%" />
 
 ## Booting uLinux on Tiny Tapeout 6 Chips
 
@@ -22,7 +22,7 @@ Tiny Tapeout delivers ultra-low-cost and readily-accessible silicon production u
 
 More information is available [on Leo’s Mastodon account](https://fosstodon.org/@mole99/113758788955951960), while details on the Tiny Tapeout programme and all projects submitted so far are available [on the official website](https://tinytapeout.com/).
 
-<img src="silicegithub.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/silicegithub.jpg" style="max-width:100%" />
 
 ## Silice Gains In-Browser Generation, Programming Powers
 
@@ -37,7 +37,7 @@ The toolchain is powered by GitHub Actions, a feature of Microsoft’s collabora
 
 More information is available [on Sylvain’s Mastodon thread](https://mastodon.online/@sylefeb/113594633345217128), with the project template available [on GitHub](https://github.com/sylefeb/silice-project-template/).
 
-<img src="beehive.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/beehive.jpg" style="max-width:100%" />
 
 ## Beehive: A 100Gb/s Hardware Network Stack for FPGAs
 
@@ -52,7 +52,7 @@ Researcher Katie Lim and colleagues have officially released Beehive, a permissi
 
 Beehive is documented in a paper published in the [Proceedings of the 57th IEEE/ACM International Symposium on Microarchitecture (MICRO 2024)](https://ieeexplore.ieee.org/document/10764472); an open-access preprint is available [on Cornell’s arXiv server](https://arxiv.org/abs/2403.14770). Beehive itself is available [on GitHub](https://github.com/beehive-fpga/beehive) under the permissive BSD 3-Clause licence.
 
-<img src="ebeamlitho.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/ebeamlitho.jpg" style="max-width:100%" />
 
 ## Homebrew Electron-Beam Lithography
 
@@ -71,7 +71,7 @@ Developing the resist reveals the test pattern, which can then be transferred to
 
 The full video is avilable on [Peter’s YouTube channel](https://www.youtube.com/watch?v=HA9p38AnByY) as the first in a planned series.
 
-<img src="fusesoc.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/fusesoc.jpg" style="max-width:100%" />
 
 ## FuseSoC 2.4.2 Brings Features, Fixes
 
@@ -86,7 +86,7 @@ With no breaking changes included, FuseSoC 2.4.2 is a recommended upgrade to all
 
 The latest release of FuseSoC is, as always, available [on GitHub](https://github.com/olofk/fusesoc/releases/latest), alongside its source code under the permissive BSD 2-Clause licence.
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/riscv.jpg" style="max-width:100%" />
 
 ## RISC-V CX TG to Host Extension Logic Interface Workshop
 
@@ -101,7 +101,7 @@ Logic interfaces already confirmed as being presented during the event include R
 
 Those looking to attend can find an agenda [on GitHub](https://github.com/riscv-admin/composable-custom-extensions/blob/main/meetings/2025-01-31-xli-agenda.md), while the meeting itself is to be held [on Zoom](https://zoom.us/j/99210229713?pwd=YjJNZEZzMVZ1akdFL2s0eEpvNmw4QT09) with the meeting ID 992 1022 9713 and passcode 822239 on the 31st of January 2025 from 0700 to 1000 Pacific Time.
 
-<img src="hadesv.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/hadesv.jpg" style="max-width:100%" />
 
 ## Tobias Scheipel Opens HaDes-V Hands-On Lab To All
 
@@ -116,7 +116,7 @@ Educator Tobias Scheipel has delivered a gift for anyone looking to learn about 
 
 More information is available [Tobias’ LinkedIn post](https://www.linkedin.com/posts/tscheipel_openeducationalresources-oer-risc-activity-7275057257246056449-4vQl/), while HaDes-V itself is available [on GitHub](https://github.com/tscheipel/HaDes-V) under the permissive MIT licence.
 
-<img src="tux.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/tux.jpg" style="max-width:100%" />
 
 ## Proposed Linux Patches Bring RISC-V 64k Page Size Support
 
@@ -131,7 +131,7 @@ Xu submitted an earlier version of the patch set in November 2023, based on Linu
 
 More information is available [in Xu’s post to the LKML](https://lore.kernel.org/lkml/20241205103729.14798-1-luxu.kernel@bytedance.com/), along with the resulting replies.
 
-<img src="redmond.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/redmond.jpg" style="max-width:100%" />
 
 ## Calista Redmond Resigns as RISC-V International CEO
 
@@ -146,7 +146,7 @@ RISC-V International has announced a major change at the top: chief executive of
 
 The search for a successor for Calista, who leaves to become vice-president for global artificial intelligence initiatives at Nvidia, is currently underway, with more information available [on the RISC-V International blog](https://riscv.org/riscv-news/2024/12/risc-v-ceo-calista-redmond-resigns-after-5-years-of-progress/).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2025-01-14-ecl82/newsinbrief.jpg" style="max-width:100%" />
 
 ## News In Brief
 

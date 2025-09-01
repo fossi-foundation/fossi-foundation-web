@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2022-09-13
 ---
 
-<img src="cocotb.png" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/cocotb.png" style="max-width:100%" />
 
 ## Cocotb 1.7 Gets You From Zero to Testing Quicker Than Ever
 
@@ -24,7 +24,7 @@ More information on the release can be found [on the coctb blog](https://www.coc
 
 _-Philipp Wagner, Director, FOSSi Foundation_
 
-<img src="gsoc.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/gsoc.jpg" style="max-width:100%" />
 
 ## FOSSi Foundation Unveils its Google Summer of Code Class of 2022
 
@@ -48,7 +48,7 @@ The participants and their projects confirmed for this year are:
 
 More information on the ten projects is available [on the FOSSi Foundation blog](https://www.fossi-foundation.org/2022/08/11/gsoc22-students).
 
-<img src="ocelot.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/ocelot.jpg" style="max-width:100%" />
 
 ## Tenstorrent's Ocelot is a BOOM RISC-V Port with Vector Extensions
 
@@ -63,7 +63,7 @@ Tenstorrent has released a variant of the Berkeley Out-of-Order Machine (BOOM) R
 
 The company has released the RISC-V Ocelot core [to GitHub](https://github.com/tenstorrent/riscv-ocelot) under the same permissive BSD 3-Clause and Apache 2.0 licences as BOOM.
 
-<img src="gemmini.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/gemmini.jpg" style="max-width:100%" />
 
 ## Researchers Reveal Gemmini, an Open-Source Tool for DNN Accelerator Generation
 
@@ -78,7 +78,7 @@ In testing, the designs created using Gemmini proved impressively capable: Using
 
 More details on Gemmini are available [in the research paper](https://people.eecs.berkeley.edu/~ysshao/assets/papers/genc2021-dac.pdf) (PDF warning), and [in a presentation video](https://www.youtube.com/watch?v=g5uQU7tUoaY) from the IEEE CEDA Design Automation Webinar (DAWN) series. Gemmini itself, meanwhile, has been published [to GitHub](https://github.com/ucb-bar/gemmini) under a variant of the permissive BSD 3-Clause licence.
 
-<img src="fusezynq.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/fusezynq.jpg" style="max-width:100%" />
 
 ## Craig Bishop's Fuse-Zynq Frees You From the World of AMD-Xilinx GUIs
 
@@ -93,7 +93,7 @@ Thus far, Craig's tool handles a healthy subset of the possible configuration - 
 
 Fuse-Zynq is available [on Craig's GitHub](https://github.com/craigjb/fuse-zynq) repository under an unspecified open-source licence.
 
-<img src="neorv32.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/neorv32.jpg" style="max-width:100%" />
 
 ## Stephan Nolting Offers VHDL-to-Verilog Conversion Guidance via NEORV32
 
@@ -108,7 +108,7 @@ Following conversion, the resulting all-Verilog version of the core synthesised 
 
 Stephan's full guide and supporting source code are available on the project GitHub repository under the permissive BSD 3-Clause licence.
 
-<img src="linux.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/linux.jpg" style="max-width:100%" />
 
 ## Linux 6.0 Gains OpenRISC PCI Support, New RISC-V Extensions
 
@@ -123,7 +123,7 @@ Linux 6.0's merge window had closed, but at the time of writing only release can
 
 Once testing is complete, the full release of Linux 6.0 will be available [on Kernel.org](https://kernel.org/).
 
-<img src="chipsforamerica.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/chipsforamerica.jpg" style="max-width:100%" />
 
 ## US Government Releases CHIPS Act, CHIPS for America Implementation Details
 
@@ -137,7 +137,7 @@ The programme will, the US Department of Commerce has announced, aim to deliver 
 
 Those looking to apply for funding under the CHIPS for America programme, though, will have to wait: the Department of Commerce's official announcement confirms that application guidance will not be released until February 2023. More information is available [on the CHIPS.gov website](https://www.nist.gov/chips).
 
-<img src="rv32e.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/rv32e.jpg" style="max-width:100%" />
 
 ## Public Review Periods Open for RISC-V RV32E, RV64E, Ztso, PLIC Specifications
 
@@ -152,7 +152,7 @@ Alongside the RV32E and RV64E specifications are two other key specifications up
 
 The RV32E/RV64E review period ends on the 6th of October, with participation details available [in the announcement](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/FR9sOhEx_O8); the Ztso extension review period ends on the 3rd of October, with participation details available [in its own announcement](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/nUkSqFPbs_o); and the PLIC review period ends on the 16th of October, with participation details again available [in the announcement](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/Pio-7A8W1Kk/m/SRn5fLzoBwAJ).
 
-<img src="uefi210.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/uefi210.jpg" style="max-width:100%" />
 
 ## UEFI Forum Embraces Free and Open Source Silicon with its First RISC-V Support
 
@@ -181,7 +181,7 @@ The UEFI 2.10 specification is available "for downloading and to read only" in P
 -   [John Min, Embedded: "Case Study: Optimising PPA with RISC-V Custom Extensions in TWS Earbuds."](https://www.embedded.com/case-study-optimizing-ppa-with-risc-v-custom-extensions-in-tws-earbuds/)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-09-13-ecl54/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

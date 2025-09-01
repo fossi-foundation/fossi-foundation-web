@@ -7,7 +7,7 @@ date: 2022-10-11
 ---
 
 
-<img src="uvm-spark-joy.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/uvm-spark-joy.jpg" style="max-width:100%" />
 
 ## It's Time to Thank UVM - and Say Goodbye
 
@@ -25,7 +25,7 @@ _-Olof Kindgren, Director, FOSSi Foundation_
 
 **_A longer and more detailed version of this editorial is available on Olof's blog, [Tales from Beyond the Register Map](https://olofkindgren.blogspot.com/2022/10/its-time-to-to-thank-uvm-and-say-goodbye.html)._**
 
-<img src="maverick.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/maverick.jpg" style="max-width:100%" />
 
 ## RadioStack's Maverick-603 Packs an OpenMPW Chip on an FT8 SDR
 
@@ -40,7 +40,7 @@ In addition to the custom-built open-silicon FT8 chip, designed for a digital-mo
 
 The chip's design [has been published on GitHub](https://github.com/Radio-Stack/caravel_ft8_receiver) under the permissive Apache 2.0 licence; additional information is available [on the project's Efabless page](https://platform.efabless.com/projects/956). RadioStack plans to sell a number of pre-assembled boards commercially through [the Crowd Supply crowdfunding platform](https://www.crowdsupply.com/radiostack/maverick-603) in the near future.
 
-<img src="naxriscv-debian.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/naxriscv-debian.jpg" style="max-width:100%" />
 
 ## Enjoy Digital Demos Debian on Papon Charles' NaxRiscv Open-Source SoC
 
@@ -55,7 +55,7 @@ Enjoy Digital's demo follows the porting of NaxRiscv to the LiteX system-on-chip
 
 Enjoy Digital's post is available, with screenshots, [on Twitter](https://twitter.com/enjoy_digital/status/1569313567458967553); instructions on generating and loading a bitstream and loading the Debian image onto an SD Card are available [in the NaxRiscv documentation](https://spinalhdl.github.io/NaxRiscv-Rtd/main/NaxRiscv/hardware/index.html#).
 
-<img src="circuitnet.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/circuitnet.jpg" style="max-width:100%" />
 
 ## CircuitNet is an Open-Source Dataset for EDA Machine Learning Work
 
@@ -70,7 +70,7 @@ The team has confirmed it plans to extend the dataset to "include diverse and la
 
 A brief paper introducing the dataset and its tools was published in the journal [_Science China Information Sciences_](https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3571-8), with full documentation available [on the project's website](https://circuitnet.github.io/); the dataset and source code itself, meanwhile, [have been published to GitHub](https://github.com/circuitnet/CircuitNet) under the permissive BSD 3-Clause licence.
 
-<img src="nextpnr.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/nextpnr.jpg" style="max-width:100%" />
 
 ## Nextpnr 0.4 Brings Higher Utilisation View to ECP5, Adds PsuedoCell API
 
@@ -85,7 +85,7 @@ Other changes in the new release include improvements to the Gowin architecture,
 
 The latest release is available [on the nextpnr GitHub repository](https://github.com/YosysHQ/nextpnr/releases/tag/nextpnr-0.4), alongside full source code under the permissive ISC licence.
 
-<img src="riscvlim.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/riscvlim.jpg" style="max-width:100%" />
 
 ## RISC-Vlim Offers a RISC-V Framework for Logic-in-Memory Architectures
 
@@ -102,7 +102,7 @@ RISC-Vlim is designed to offer one approach to resolving the problem, offering a
 
 The team's work has been published [in the journal _Electronics_](https://www.mdpi.com/2079-9292/11/19/2990/htm) under open-access terms; the source code for the project, which uses an extended RI5CY core from the PULP Platform, is available [on GitHub](https://github.com/vlsi-nanocomputing/risc-v-lim-architecture) under the permissive SolderPad Hardware Licence.
 
-<img src="sphery.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/sphery.jpg" style="max-width:100%" />
 
 ## PipelineC-Graphics Project Releases "The First Raytraced Game That Is Not Software"
 
@@ -115,7 +115,7 @@ Victor Suarez Rovere and Julian Kemmerer, developers of the PipelineC-Graphics p
 
 A [video demonstrating the fully-functional interactive game](https://www.youtube.com/watch?v=hn3sr3VMJQU), dubbed Sphery vs. Shapes, has been published on YouTube to accompany [a PDF write-up](https://github.com/JulianKemmerer/PipelineC-Graphics/blob/main/doc/Sphery-vs-Shapes.pdf) of the project; the source code is available on the PipelineC-Graphics project's [GitHub repository](https://github.com/JulianKemmerer/PipelineC-Graphics) under the reciprocal GNU General Public Licence 3.
 
-<img src="hammer.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/hammer.jpg" style="max-width:100%" />
 
 ## Rivos Releases Hammer, a Library for Lock-Stepped Spike Operation
 
@@ -130,7 +130,7 @@ In addition to instantiating Spike, hammer provides C++ and Python interfaces fo
 
 More details are available [in Jerin's announcement](https://groups.google.com/a/groups.riscv.org/g/sw-dev/c/HP0cj7dNXv0); the source code for hammer is available [on GitHub](https://github.com/rivosinc/hammer) under the permissive Apache 2.0 licence.
 
-<img src="newstackbuildmpus.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/newstackbuildmpus.jpg" style="max-width:100%" />
 
 ## The New Stack's Miao Luo Declares it "Time for Businesses to Build Their Own" Chips
 
@@ -145,7 +145,7 @@ Miao Luo, writing for The New Stack, has stated that it's time for businesses to
 
 The full piece is available [on The New Stack](https://thenewstack.io/it-is-time-for-businesses-to-build-their-own-microprocessors/) now.
 
-<img src="starfivevisionfive.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/starfivevisionfive.jpg" style="max-width:100%" />
 
 ## RISC-V International Expands its Developer Boards Programme
 
@@ -160,7 +160,7 @@ RISC-V International is now seeking additional participation in the programme, o
 
 Full details on how to participate in the programme are available [on the RISC-V website](https://riscv.org/risc-v-developer-boards/details/), along with a link to the form to apply for a board; half of the boards available will be provided to academia, the organisation says.
 
-<img src="cherilinux.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/cherilinux.jpg" style="max-width:100%" />
 
 ## Memory-Safe CHERI RISC-V Project Gets a Linux Port, Courtesy Huawei Technologies
 
@@ -187,7 +187,7 @@ The project's source code, under a range of open-source licences, is available a
 -   [Acceleration Robotics, PlanV collaborate on an open-source microcontroller built specifically for ROS 2-based robotics workloads.](https://news.accelerationrobotics.com/acceleration-robotics-planv-robotics-mcu-ros2-riscv/)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-10-11-ecl55/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 
