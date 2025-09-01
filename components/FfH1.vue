@@ -9,7 +9,7 @@ Style guide references:
 -->
 <template>
   <h1 class="font-black text-phone-31 tablet:text-54 tracking-tighter leading-tighter mb-[15px] tablet:mb-[27px] max-w-prose text-balance" :id="id">
-    <ContentSlot :use="$slots.default" unwrap="p" />
+    <slot :use="$slots.default" mdc-unwrap="p" />
   </h1>
 </template>
 
