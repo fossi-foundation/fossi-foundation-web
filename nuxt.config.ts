@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     // @ts-ignore
     ExcerptTransformerModule,
     '@nuxtjs/tailwindcss',
-    'nuxt-content-assets', // needs to be before @nuxt/content
     '@nuxt/content',
     'unplugin-icons/nuxt',
     '@nuxt/devtools',
@@ -86,37 +85,12 @@ export default defineNuxtConfig({
     },
   },
 
-  // Nuxt Content Assets configuration.
-  // See https://github.com/davestewart/nuxt-content-assets for options.
-  contentAssets: {
-    // add image size hints
-    // Note: *Do not* add the 'url' size hint as it prevents IPX (the library
-    // behind Nuxt Image) from processing the image, resulting in an error
-    // like
-    // [403] [IPX_FORBIDDEN_PATH] Forbidden path: /blog/2023-04-11-ecl61/latchup-colour.jpg?width=600&height=400
-    imageSize: 'attrs',
-  },
-
-  // Integrate Nuxt Content Assets with Nuxt Image.
-  extends: [
-    'node_modules/nuxt-content-assets/cache',
-  ],
-
   // Nuxt Image configuration
   image: {
     // Serve images as webp by default (if supported by the browser and the
     // provider), JPEG otherwise.
     // Note: The netlify provider does *not* support webp.
     format: ['webp', "jpeg"],
-
-    // Only for IPX (local previews and static generation)
-    // Base directory for images.
-    // Use Nuxt Image (only) for images served through nuxt-content-assets,
-    // i.e., all images in the `content` directory.
-    //
-    // IMPORTANT: No images are served from the assets or public directory.
-    // Store all images in content/images instead!
-    dir: '.nuxt/content-assets/public',
   },
 
   app: {
