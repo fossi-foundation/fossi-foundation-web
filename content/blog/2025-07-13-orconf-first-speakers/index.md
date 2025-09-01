@@ -8,7 +8,7 @@ author: Philipp Wagner
 date: 2025-07-13
 ---
 
-<img src="valencia-city-arts-sciences.jpg" style="max-width:100%" title="Sunset in the City of Arts and Sciences, Valencia, Spain by palsson via Flickr (CC BY)" alt="Sunset in the City of Arts and Sciences, Valencia, Spain by palsson via Flickr (CC BY)" />
+<img src="/blog/2025-07-13-orconf-first-speakers/valencia-city-arts-sciences.jpg" style="max-width:100%" title="Sunset in the City of Arts and Sciences, Valencia, Spain by palsson via Flickr (CC BY)" alt="Sunset in the City of Arts and Sciences, Valencia, Spain by palsson via Flickr (CC BY)" />
 
 The countdown to ORConf 2025 has officially begun, and we're thrilled to announce that the **first wave of talks** is now live at [orconf.org](https://orconf.org)! This year’s gathering will take place in the vibrant city of **Valencia, Spain**—a cultural hotbed and the perfect backdrop for the free and open source silicon community to connect, innovate, and inspire.
 

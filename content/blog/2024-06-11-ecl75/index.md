@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2024-06-11
 ---
 
-<img src="gothenberg.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/gothenberg.jpg" style="max-width:100%" />
 
 ## ORConf 2024 Registration Now Open
 
@@ -39,7 +39,7 @@ We hope to see you there!
   
 _-Julius Baxter, on behalf of the ORConf organisers at the FOSSi Foundation_
 
-<img src="basilisk.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/basilisk.jpg" style="max-width:100%" />
 
 ## Basilisk Boosts Open EDA Flows for a RISC-V ASIC with "Competitive Performance"
 
@@ -56,7 +56,7 @@ The paper includes an extensive study on a state-of-the-art open EDA flow, based
   
 The paper has been submitted as a poster to the RISC-V Summit Europe 2024, with a preprint available [on Cornell's arXiv server](https://arxiv.org/abs/2405.03523).
 
-<img src="turbo9.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/turbo9.jpg" style="max-width:100%" />
 
 ## Turbo9 Brings Motorola's 6809 Back as Open Silicon for Vintage Computing and More
 
@@ -71,7 +71,7 @@ Computer engineers Kevin Phillipson and Micheal Rywalt have delved into Motorola
   
 More information on the project is available [on the Turbo9 GitHub repository](https://github.com/turbo9team/turbo9), where the source is made available under the permissive BSD 1-Clause licence.
 
-<img src="faulttracing.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/faulttracing.jpg" style="max-width:100%" />
 
 ## Researchers Showcase Formal Verification for Ibex Soft-Error Evaluation
 
@@ -88,7 +88,7 @@ In their testing of the free and open source Ibex core the researchers found tha
   
 A preprint of the team's paper is available [on Cornell's arXiv server](https://arxiv.org/abs/2405.12089).
 
-<img src="underserved.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/underserved.jpg" style="max-width:100%" />
 
 ## SERV, the World's Smallest RISC-V CPU, Heads to Silicon via Tiny Tapeout
 
@@ -107,7 +107,7 @@ More information on the project is available [on the Underserved GitHub reposito
   
 Submissions for Tiny Tapeout 8 are open [on the website](https://tinytapeout.com/) now.
 
-<img src="r2rdac.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/r2rdac.jpg" style="max-width:100%" />
 
 ## Matt Venn Showcases Tiny Tapeout's Shiny New Mixed-Signal Capabilities
 
@@ -122,7 +122,7 @@ Matt Venn, creator of the Zero to ASIC Course and Tiny Tapeout multi-project chi
   
 The full video is available [on the Zero to ASIC Course YouTube channel](https://www.youtube.com/watch?v=sXWISMBNh_w), and includes an overview of the toolchain used to create R2R DAC, while more information on Tiny Tapeout is available [on the official website](https://tinytapeout.com/). R2R DAC itself is published [to GitHub](https://github.com/mattvenn/tt06-analog-r2r-dac) under the permissive Apache 2.0 licence.
 
-<img src="lowrisc.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/lowrisc.jpg" style="max-width:100%" />
 
 ## lowRISC Chief Gavin Ferris Talks OpenTitan, Open Source Silicon, and More
 
@@ -137,7 +137,7 @@ Shauli Zacks, of Safety Detectives, has published an interview with Gavin Ferris
   
 The full interview is available [on Safety Detectives](https://www.safetydetectives.com/blog/gavin-ferris-lowrisc/) now.
 
-<img src="rvpc.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/rvpc.jpg" style="max-width:100%" />
 
 ## Olimex Unveils the "Lowest Cost" RISC-V PC, the RVPC - Priced at Just €1
 
@@ -154,7 +154,7 @@ Built with cost very much in mind, the RVPC uses a proprietary implementation of
   
 More information on the RVPC, which will launch at OpenFest in Sofia later this year, is available [on the Olimex blog](https://olimex.wordpress.com/2024/05/15/meet-rvpc-the-world-lowest-cost-open-source-hardware-all-in-one-educational-risc-v-computer-with-vga-and-ps2-keyboard-which-will-be-available-for-diy-soldering-workshop-on-open-fest-in-sofia-this-year/); the hardware designs will, as with all Olimex creations, be released as open hardware.
 
-<img src="gaisleresa.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/gaisleresa.jpg" style="max-width:100%" />
 
 ## Frontgrade Gaisler Partners with the ESA to Send RISC-V to the Stars
 
@@ -169,7 +169,7 @@ This isn't the first time Frontgrade Gaisler has experimented with RISC-V: the c
   
 More information on NOEL-V is available [on the Frontgrade Gaisler website](https://www.gaisler.com/index.php/products/processors/noel-v).
 
-<img src="markgraf.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/markgraf.jpg" style="max-width:100%" />
 
 ## Steve Markgraf Turns Cheap HDMI Capture Dongles into High-Speed Data Paths
 
@@ -184,7 +184,7 @@ Steve's solution is simple: while adding USB 3.0 or higher to a project is compl
   
 More details on Steve's creation are available [on the hsdoah GitHub repository](https://github.com/steve-m/hsdaoh), where the client-side source code is published; the FPGA source code is available [on a separate repository](https://github.com/steve-m/hsdaoh-fpga) under the permissive MIT licence. Steve's OsmoDevCon presentation video, meanwhile, can be found [on media.ccc.de](https://media.ccc.de/v/osmodevcon2024-200-low-cost-high-speed-data-acquisition-over-hdmi#t=53).
 
-<img src="littlefilmroll.jpg" style="max-width:100%" />
+<img src="/blog/2024-06-11-ecl75/littlefilmroll.jpg" style="max-width:100%" />
 
 ## Kleines Filmröllchen Highlights RISC-V, "The Only Architecture You'll Ever Need"
 

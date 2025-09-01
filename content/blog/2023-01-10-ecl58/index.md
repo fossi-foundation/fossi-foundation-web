@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-01-10
 ---
 
-<img src="latchup.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/latchup.jpg" style="max-width:100%" />
 
 ## Preparations Begin for Latch-Up 2023
 
@@ -39,7 +39,7 @@ Again, we look forward to our next instalment of Latch-Up and hope to see plenty
 
 _-Julius Baxter, Director, FOSSi Foundation_
 
-<img src="rp2040.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/rp2040.jpg" style="max-width:100%" />
 
 ## FakePGA Runs Verilog on a Raspberry Pi RP2040 Microcontroller - Slowly
 
@@ -54,7 +54,7 @@ The idea behind the project is to provide something halfway between a pure simul
 
 The project's source code is available [on GitHub](https://github.com/tvlad1234/FakePGA) under the reciprocal GNU General Public Licence 3.
 
-<img src="iskra-fpga.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/iskra-fpga.jpg" style="max-width:100%" />
 
 ## Former Yugoslavia's Iskra EMZ1001A Enjoys a "Virtual Resurrection"
 
@@ -69,7 +69,7 @@ Finding a physical version of the EMZ1001A five decades after its launch, and th
 
 More details on the project are available [on Zoltan's Hackaday.io page](https://hackaday.io/project/188614-iskra-emz1001a-a-virtual-resurrection), with the source code published [to GitHub](https://github.com/zpekic/sys_emz1001) under the permissive Creative Commons Zero v1.0 Universal licence. A demo video is also available [on YouTube](https://www.youtube.com/watch?v=Bn3rqHyoyjo).
 
-<img src="edalize.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/edalize.jpg" style="max-width:100%" />
 
 ## Edalize 0.4.1 Brings Slang, Questa Formal, and F4PGA Support - Plus "Polish and Fixes"
 
@@ -82,7 +82,7 @@ Other changes in the new release include support for FPGA families with spaces i
 
 The new release is available [on GitHub](https://github.com/olofk/edalize/releases/latest), along with the project's full source code under the permissive BSD two-clause licence.
 
-<img src="chipflow2.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/chipflow2.jpg" style="max-width:100%" />
 
 ## ChipFlow Launches First Open Source Silicon Platform Tutorial
 
@@ -99,7 +99,7 @@ The tutorial does not, however, go into the next step: turning an HDL project in
 
 The full tutorial is available [on the ChipFlow website](https://docs.chipflow.io/en/latest/tutorial-intro-chipflow-platform.html) now.
 
-<img src="baier-ddr3.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/baier-ddr3.jpg" style="max-width:100%" />
 
 ## Hans Baier Demos Kintex High-Performance Bank DDR3 on an Open Toolchain
 
@@ -114,7 +114,7 @@ Writing of the work required, Hans explains that "the LiteDRAM BIOS helped me so
 
 More information is available [in Hans' Twitter thread](https://twitter.com/hansfbaier/status/1603000220651909120).
 
-<img src="tinyfpgabx.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/tinyfpgabx.jpg" style="max-width:100%" />
 
 ## The TinyFPGA BX is Heading Back Into Production
 
@@ -129,7 +129,7 @@ Now, though, the required components have been secured - and the TinyFPGA BX is 
 
 More information is available [on the TinyFPGA BX Crowd Supply page](https://www.crowdsupply.com/tinyfpga/tinyfpga-ax-bx/updates/production-of-a-new-batch-starting-soon).
 
-<img src="serv.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/serv.jpg" style="max-width:100%" />
 
 ## SERV 1.2.1 Offers RISCOF Compliance Framework Support, an ICE-V Wireless Port
 
@@ -142,7 +142,7 @@ The RISCOF compliance framework was launched with a view to providing an easy an
 
 The latest SERV release is available [on the project's GitHub repository](https://github.com/olofk/serv/releases/latest), along with all source code under the permissive ISC licence.
 
-<img src="tinytapeout2.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/tinytapeout2.jpg" style="max-width:100%" />
 
 ## The Full Run-Down of Tiny Tapeout 02 Projects is Now Live
 
@@ -157,7 +157,7 @@ Following the closure of Tiny Tapeout 2, Matthew has published a full project li
 
 The full list of the 165 projects chosen for inclusion in the second Tiny Tapeout production run is available [on the project website](https://tinytapeout.com/runs/tt02/).
 
-<img src="europeanflag.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/europeanflag.jpg" style="max-width:100%" />
 
 ## European Union Announces a €270M Fund for RISC-V-Based Silicon Projects
 
@@ -172,7 +172,7 @@ The call for proposals comes under the European High Performance Computing Joint
 
 The call opens on the 26th of January 2023 and runs through to the 4th of April the same year; more information is available [on the EuroHPC JU website](https://eurohpc-ju.europa.eu/framework-partnership-agreement-fpa-developing-large-scale-european-initiative-high-performance_en).
 
-<img src="android.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/android.jpg" style="max-width:100%" />
 
 ## Google Announces Official RISC-V Support in the Android Open Source Project (AOSP)
 
@@ -187,7 +187,7 @@ This isn't Google's first dalliance with free and open-source silicon. A few yea
 
 Lars' full presentation has been uploaded [to the RISC-V International YouTube channel](https://www.youtube.com/watch?v=70O_RmTWP58).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -200,7 +200,7 @@ Lars' full presentation has been uploaded [to the RISC-V International YouTube c
 -   [RISC-V International boasts of "significant growth and technical progress," with "billions of RISC-V cores" shipped into the market.](https://riscv.org/announcements/2022/12/risc-v-sees-significant-growth-and-technical-progress-in-2022-with-billions-of-risc-v-cores-in-market/)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-01-10-ecl58/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

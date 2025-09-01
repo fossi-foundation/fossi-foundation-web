@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-04-11
 ---
 
-<img src="latchup-colour.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/latchup-colour.jpg" style="max-width:100%" />
 
 ## Celebrating Latch-Up, and Planning for ORConf 2023
 
@@ -20,7 +20,7 @@ What's next, then? We are now even more excited about [ORConf 2023](https://orco
 
 _- Olof Kindgren, Director, FOSSi Foundation_
 
-<img src="box64.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/box64.jpg" style="max-width:100%" />
 
 ## Box64 Gets an Early RISC-V Port to Help Broaden the Software Ecosystem
 
@@ -37,7 +37,7 @@ RISC-V developer Wei Wu, who is not involved in the project directly, has [poste
 
 Anyone wishing to try the tool out, or aid with the port, can find more information [on the project's GitHub repository](https://github.com/ptitSeb/box64).
 
-<img src="edalize2.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/edalize2.jpg" style="max-width:100%" />
 
 ## Olof Kindgren Launches Edalize 0.5.0 with New Backends, New Flows, and More
 
@@ -54,7 +54,7 @@ Other improvements in the new release include support for PEP0420 implicit names
 
 More information is available on Olof's blog, [Tales from Beyond the Register Map](https://blog.award-winning.me/2023/03/edalize-050.html), and [the Edalize GitHub repository](https://github.com/olofk/edalize/releases/latest) where the source code is available under the permissive BSD two-clause licence.
 
-<img src="autodmp.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/autodmp.jpg" style="max-width:100%" />
 
 ## Nvidia's DREAMPlace Analytical Placer Promises an Order of Magnitude Speed-Up
 
@@ -69,7 +69,7 @@ In its latest work on the project, Nvidia has made DREAMPlace entirely autonomou
 
 More information is available [on Nvidia's technical blog](https://developer.nvidia.com/blog/autodmp-optimizes-macro-placement-for-chip-design-with-ai-and-gpus/), and [in the AutoDMP paper](https://research.nvidia.com/publication/2023-03_autodmp-automated-dreamplace-based-macro-placement). The AutoDMP source code, meanwhile, is available [on GitHub](https://github.com/NVlabs/AutoDMP) under the permissive Apache 2.0 licence.
 
-<img src="xilinxsmartnic.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/xilinxsmartnic.jpg" style="max-width:100%" />
 
 ## AMD-Xilinx Releases Nanotube, an Open-Source Framework for SmartNIC FPGAs
 
@@ -84,7 +84,7 @@ While the Nanotube tool itself is open-source, however, it does come with a requ
 
 More information, along with the full source code under the permissive MIT license and an example project based on Facebook's Katran L4 load balancer, is available [on the project's GitHub repository](https://github.com/Xilinx/nanotube).
 
-<img src="antmicrok410t.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/antmicrok410t.jpg" style="max-width:100%" />
 
 ## Antmicro Releases an Open-Hardware Kintex-7 K410T FPGA Dev Board
 
@@ -99,7 +99,7 @@ The resulting design uses a 400k logic-cell K410T FPGA with 512MB of DDR3L memor
 
 The board's design files are available [on the Antmicro GitHub repository](https://github.com/antmicro/kintex-410t-devboard) under the permissive Apache 2.0 licence.
 
-<img src="fusesoc.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/fusesoc.jpg" style="max-width:100%" />
 
 ## FuseSoC 2.1 Brings Generator Caching, Improved Error Handling, and More
 
@@ -114,7 +114,7 @@ Other changes in the new release include improved error handling, Olof notes, al
 
 The new release is available [on the FuseSoC GitHub repository](https://github.com/olofk/fusesoc/releases/latest), along with the full source code under the permissive BSD two-clause licence; existing users can upgrade with _pip install -U fusesoc_.
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/riscv.jpg" style="max-width:100%" />
 
 ## David Patterson Dispels the "Top Ten Fallacies" Surrounding RISC-V
 
@@ -129,7 +129,7 @@ All of these, David argues, are false - especially the latter. "In a little over
 
 David's full argument is available [on the RISC-V International blog](https://riscv.org/blog/2023/03/top-ten-fallacies-about-risc-v/).
 
-<img src="gcc.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/gcc.jpg" style="max-width:100%" />
 
 ## GCC Adds "Basic Support" for T-Head's RISC-V ISA Extensions
 
@@ -144,7 +144,7 @@ More notably, the move also telegraphs an acceptance by the GCC project that ope
 
 The patch adding XThead* support to GCC is available [on the GCC git repository](https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=8351535f20b52cf332791f60d2bf22a025833516), while the XTHead* extension specifications have been published [on GitHub](https://github.com/T-head-Semi/thead-extension-spec) under the Apache 2.0 licence.
 
-<img src="riscvisaextensions.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/riscvisaextensions.jpg" style="max-width:100%" />
 
 ## Researchers Publish a Survey of RISC-V Instruction Set Extension Work
 
@@ -161,7 +161,7 @@ The researchers' paper finishes with a look at future opportunities for research
 
 The full paper is available under open-access terms [in the journal _IEEE Access_](https://ieeexplore.ieee.org/document/10049118).
 
-<img src="artypadlock.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/artypadlock.jpg" style="max-width:100%" />
 
 ## The LLVM Project Adds Support for the RISC-V Vector Extension Draft
 
@@ -176,7 +176,7 @@ LLVM's support of the extensions allows developers to begin experimentation, tho
 
 More information is available [in the LLVM GitHub commit](https://github.com/llvm/llvm-project/commit/9795aa042a843811120b1b2ef4f8a6d7f398a369), while the latest version of the vector cryptographic extensions draft can be found [on the RISC-V GitHub repository](https://github.com/riscv/riscv-crypto/releases/latest).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -188,7 +188,7 @@ More information is available [in the LLVM GitHub commit](https://github.com/llv
 -   [Matt Venn: Soldering the MPW ASICs with hotplate and hot air gun. (Video)](https://www.youtube.com/watch?v=1eEGGWLCVsc)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-04-11-ecl61/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

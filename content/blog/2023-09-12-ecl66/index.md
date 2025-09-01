@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-09-12
 ---
 
-<img src="pragmaticsemi.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/pragmaticsemi.jpg" style="max-width:100%" />
 
 ## Pragmatic Semi Plans Out OpenLane Compatibility, "Democratising IC Design"
 
@@ -21,7 +21,7 @@ The company explains that its efforts are inspired by "pioneering initiatives" i
 
 Pragmatic Semi has not provided a date for full OpenLane compatibility, but more information is available [on the company blog](https://www.pragmaticsemi.com/newsroom/blogs/democratising-ic-design); OpenLane itself is available under the permissive Apache 2.0 license [on the project's GitHub repository](https://github.com/The-OpenROAD-Project/OpenLane).
 
-<img src="edx-riscv.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/edx-riscv.jpg" style="max-width:100%" />
 
 ## The Linux Foundation Launches an "Industrial RISC-V" Architecture Course
 
@@ -36,7 +36,7 @@ The course material builds on the VeeRwolf reference platform for the EH1, relea
 
 Interested parties can read more and sign up for the course [on the edX website](https://www.edx.org/learn/computer-programming/the-linux-foundation-computer-architecture-with-an-industrial-risc-v-core); the course itself is free, though a paid-for "verified track" adds graded assignment and exams which culminate in a certificate upon completion.
 
-<img src="jiri-cpu.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/jiri-cpu.jpg" style="max-width:100%" />
 
 ## Jiri Stepanovsky's Homebrew 16-bit CPU is Built from Just Eight Chips
 
@@ -53,7 +53,7 @@ The answer, for Jiri's project at least, appears to be eight. which proved enoug
 
 Jiri's full write-up is available [on his website](https://www.jiristepanovsky.cz/project.php?p=23cpu), with a supporting video [on YouTube](https://youtu.be/3uzoFJyYQ5E).
 
-<img src="fsic-2023.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/fsic-2023.jpg" style="max-width:100%" />
 
 ## Free Silicon Conference (FSiC) 2023 Videos Now Available on PeerTube
 
@@ -68,7 +68,7 @@ The videos recorded at the event include a talk on the road to fully-open-hardwa
 
 All the videos are available now [on the FSi PeerTube instance](https://peertube.f-si.org/video-channels/fsic2023/videos?sort=-publishedAt).
 
-<img src="doom.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/doom.jpg" style="max-width:100%" />
 
 ## Semidynamics Releases a Doom Port with RISC-V Vector Extensions Support
 
@@ -83,7 +83,7 @@ Unlike the stock fbDOOM engine, though, Semidynamics' version offers support for
 
 The source code for the project is available under an open-source licence [on Semidynamics' GitHub repository](https://github.com/semidynamics/fbDOOM-RISCV).
 
-<img src="nukedmd.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/nukedmd.jpg" style="max-width:100%" />
 
 ## Nuked-MD-FPGA is a Cycle-Accurate Sega Mega Drive Core Built from Die Shots
 
@@ -100,7 +100,7 @@ At the time of writing, the project had completed Verilog versions of the FM and
 
 The project's Verilog source code is available on GitHub under the reciprocal GNU General Public Licence 3.
 
-<img src="switzerland.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/switzerland.jpg" style="max-width:100%" />
 
 ## Thomas Macaulay Outlines how RISC-V Can Usurp Arm as the "Switzerland" of Silicon
 
@@ -115,7 +115,7 @@ The formation of a still-unnamed new company comprised of Bosch, Infineon, Nordi
 
 Thomas' full article is available [on The Next Web](https://thenextweb.com/news/risc-v-chips-versus-arm) now.
 
-<img src="ttspade.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/ttspade.jpg" style="max-width:100%" />
 
 ## Spade Developer Frans Skarman Adds a Tiny Tapeout Workflow to the Language
 
@@ -129,7 +129,7 @@ Frans developed Spade, in partnership with Oscar Gustafsson, as an HDL inspired 
 
 More information on the project is available [in Frans' Mastodon posts](https://mastodon.social/@thezoq2/111000923039384681), while the plugin itself is [on GitLab](https://gitlab.com/TheZoq2/swim-tinytapeout) under an unspecified open-source licence; the Spade programming language is detailed [on its official website](https://spade-lang.org/).
 
-<img src="qemu.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/qemu.jpg" style="max-width:100%" />
 
 ## QEMU 8.1 Brings New Features for RISC-V, OpenRISC, and POWER
 
@@ -144,7 +144,7 @@ In addition to the RISC-V changes, QEMU 8.1 added support for accessing the FPCS
 
 QEMU 8.1 is available to download [from the project website](https://www.qemu.org/download/#source) now, with source code available [on GitLab](https://gitlab.com/qemu-project/qemu) under the reciprocal GNU General Public Licence 2.
 
-<img src="china-statue.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/china-statue.jpg" style="max-width:100%" />
 
 ## Chinese Chip Companies Form a Patent Alliance to Promote RISC-V Self-Sufficiency
 
@@ -159,7 +159,7 @@ The list of companies includes Alibaba's T-Head chip arm, which recently release
 
 More information is available [in the South China Morning Post article](https://www.scmp.com/tech/tech-trends/article/3232686/chinas-top-chip-designers-form-risc-v-patent-alliance-promote-semiconductor-self-sufficiency).
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/ecl-logo-small.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -170,7 +170,7 @@ More information is available [in the South China Morning Post article](https://
 -   [T-Head launches third XuanTie RISC-V Contest on Innovation of Applications, proposal submission closes on 15 September 2023.](https://xrvm.com/activities/occ-xuantieCompetition?spm=xrvm.27140568.0.0.78f17c685XZgJA)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-09-12-ecl66/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

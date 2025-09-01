@@ -8,7 +8,7 @@ author: Julius Baxter
 date: 2017-09-14
 ---
 
-<img src="orconf-2017-group-photo.jpg" class="img-responsive" />
+<img src="/blog/2017-09-14-orconf_2017_roundup/orconf-2017-group-photo.jpg" class="img-responsive" />
 
 [ORConf](https://orconf.org) 2017 came to a close last Sunday, and on
 behalf of the FOSSi Foundation I'd like to thank all who attended,

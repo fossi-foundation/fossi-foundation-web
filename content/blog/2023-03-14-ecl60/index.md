@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-03-14
 ---
 
-<img src="gsoc.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/gsoc.jpg" style="max-width:100%" />
 
 ## Apply Now for Google Summer of Code 2023
 
@@ -24,7 +24,7 @@ Please also get in touch if you have project ideas with your community and think
 
 _- Jonathan Balkind, Director, FOSSi Foundation_
 
-<img src="firefoxlogo.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/firefoxlogo.jpg" style="max-width:100%" />
 
 ## Firefox's SpiderMonkey Gains a RISC-V JIT/Wasm Back-End For Better Performance
 
@@ -37,7 +37,7 @@ While Firefox's performance on RISC-V devices, emulated or in silico, has been a
 
 More information is available [in the SpiderMonkey newsletter](https://spidermonkey.dev/blog/2023/02/16/newsletter-firefox-110-111.html), and [in the Bugzilla entry](https://bugzilla.mozilla.org/show_bug.cgi?id=1800431) for the patch set.
 
-<img src="siliwiz.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/siliwiz.jpg" style="max-width:100%" />
 
 ## Matt Venn, Uri Shaked Release SiliWiz to Teach Silicon-Level Chip Design
 
@@ -52,7 +52,7 @@ Companion documentation includes a tutorial, designed to be accessible to users 
 
 SiliWiz can be used freely and without registration [on the official website](https://app.siliwiz.com/), with the source code [published to GitHub](https://github.com/wokwi/siliwiz) under the permissive Apache 2.0 licence.
 
-<img src="tomsalvage.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/tomsalvage.jpg" style="max-width:100%" />
 
 ## Tom Verbeure Turns to Discarded Cisco Modems as a Source of Cheap FPGAs
 
@@ -69,7 +69,7 @@ With practice, though, the process should become easier - and Tom already has hi
 
 More information is available [on Tom's Twitter thread](https://twitter.com/tom_verbeure/status/1629370764859408391).
 
-<img src="quark.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/quark.jpg" style="max-width:100%" />
 
 ## Quark is an Integer RISC-V Vector Core for Sub-Byte Neural Network Inference
 
@@ -84,7 +84,7 @@ In simulated testing, Quark proved capable of running a two-bit quantised versio
 
 More information is available in the paper, published as a preprint [on Cornell's arXiv server](https://arxiv.org/abs/2302.05996).
 
-<img src="tinytapeout3.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/tinytapeout3.jpg" style="max-width:100%" />
 
 ## Matt Venn Announces Tiny Tapeout 3, Aims to Fab 250 Designs
 
@@ -97,7 +97,7 @@ The third Tiny Tapeout had, at the time of writing, room for 195 additional desi
 
 More information, and instructions on signing up for a design-only slot at $25 or a production slot at $100 plus postage, is available [on the Tiny Tapeout website](https://tinytapeout.com/).
 
-<img src="schroderxv6.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/schroderxv6.jpg" style="max-width:100%" />
 
 ## Michael Schröder's Compact PC is a Fully-Open RISC-V UNIX xv6 Box
 
@@ -112,7 +112,7 @@ Designed as an educational project in its own right, Michael's xv6-riscv-fpga wa
 
 The full guide is available [on Michael's GitLab repository](https://gitlab.com/x653/xv6-riscv-fpga), along with source code and 3D-printable chassis files under an open-source licence.
 
-<img src="livehd.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/livehd.jpg" style="max-width:100%" />
 
 ## LiveHD, a Multi-Threaded Compiler for HDLs, Offers a Major Performance Boost
 
@@ -127,7 +127,7 @@ The claimed performance gains are impressive. Running single-threaded, LiveHD of
 
 The team has said that it plans to release LiveHD under an open-source licence, with the paper available under open-access terms [from the ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3578360.3580254).
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/riscv.jpg" style="max-width:100%" />
 
 ## The First RISC-V Summit Europe Opens This June in Barcelona
 
@@ -142,7 +142,7 @@ The event is to be held at the _Barceló Sants_ hotel in Barcelona across five d
 
 More information is available on the event website.
 
-<img src="aalto.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/aalto.jpg" style="max-width:100%" />
 
 ## Aalto Students Extend the A-Core, a Modular RISC-V Implementation, With AI Acceleration
 
@@ -157,7 +157,7 @@ The newly-expanded A-Core now includes an accelerator for vector-matrix multipli
 
 More information is available [on the Aalto University website](https://www.aalto.fi/en/news/aalto-university-students-combine-an-open-microprocessor-with-an-ai-accelerator), with the A-Core sources [available on GitLab](https://gitlab.com/a-core) under open-source licences.
 
-<img src="theadglass.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/theadglass.jpg" style="max-width:100%" />
 
 ## Alibaba's T-Head Semi Silicon Division "Steps Up RISC-V Development"
 
@@ -172,7 +172,7 @@ The paper describes RISC-V as "a new hope for China" as the nation, still under 
 
 The full report is available [on the South China Morning Post website](https://www.scmp.com/tech/big-tech/article/3212122/alibabas-chip-unit-t-head-steps-risc-v-development-china-pushes-open-source-architecture-face-us?module=perpetual_scroll_0&pgtype=article&campaign=3212122) now. T-Head's previously-released open-source RISC-V cores, made available under the permissive Apache 2.0 licence, are available [on the company's GitHub repository](https://github.com/T-head-Semi/).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -181,7 +181,7 @@ The full report is available [on the South China Morning Post website](https://w
 -   [The first International Workshop for High-Performance Computing on RISC-V is confirmed for ISC23 in Hamburg, Germany, on the 25th of May.](https://riscv.org/blog/2023/02/announcing-the-first-international-workshop-for-hpc-based-on-risc-v/) [(Call for papers open until the 24th of March.)](https://riscv.epcc.ed.ac.uk/community/isc23-workshop)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-03-14-ecl60/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

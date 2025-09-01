@@ -8,7 +8,7 @@ author: Julius Baxter
 date: 2023-09-19
 ---
 
-<img src="group-photo-orconf-2023.jpg" alt="ORConf 2023 group photo" class="max-w-full" />
+<img src="/blog/2023-09-19-looking-back-at-orconf/group-photo-orconf-2023.jpg" alt="ORConf 2023 group photo" class="max-w-full" />
 
 [ORConf](https://www.orconf.org) is back! We've returned with yet another open source chip
 design tour de force courtesy of the brilliant community, our first
@@ -73,7 +73,7 @@ used IP and tooling and we're honoured to have hosted Davide a decade
 back in Cambridge and to have him join us this year to recap 10 years
 of work. Grazie Davide!
 
-<img src="orconf-2023-break.jpg" alt="ORConf 2023 break" class="max-w-full" />
+<img src="/blog/2023-09-19-looking-back-at-orconf/orconf-2023-break.jpg" alt="ORConf 2023 break" class="max-w-full" />
 
 ORConf wouldn't be ORConf without plenty of social time, and this year
 we were treated to a couple of fantastic evening events in different

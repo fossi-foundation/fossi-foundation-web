@@ -5,7 +5,7 @@ description: El Correo Libre Newsletter, Issue 81
 author: Gareth Halfacree
 date: 2024-12-10
 ---
-<img src="latchup.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/latchup.jpg" style="max-width:100%" />
 
 ## Join Us for Latch-Up 2025 in Santa Barbara
 
@@ -48,7 +48,7 @@ All event information is available at [latchup.io](http://latchup.io)
 
 _-Philipp Wagner, Director, FOSSi Foundation_
 
-<img src="excelcpu.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/excelcpu.jpg" style="max-width:100%" />
 
 ## Inkbox Software Unveils a Custom Eight-Bit RISC CPU - in Excel
 
@@ -65,7 +65,7 @@ The spreadsheet’s creator then set about figuring out exactly what those instr
 
 The result is a working CPU which runs in an unmodified version of Microsoft Excel running on a modern desktop or laptop at around 12-14Hz - sedate by modern standards, true, but impressive for a CPU running in a spreadsheet. A full video walkthrough is available [on YouTube](https://www.youtube.com/watch?v=MNRKi7Rum_c), with files [on GitHub](https://github.com/InkboxSoftware/excelRISC-CPU) under the reciprocal GNU General Public License; the earlier 16-bit design, which runs at around a tenth the speed, is available [in a separate repository](https://github.com/InkboxSoftware/excelCPU).
 
-<img src="pexels-tara-winstead-8386440.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/pexels-tara-winstead-8386440.jpg" style="max-width:100%" />
 
 ## Intel Scientists Argue for a Classical-plus-AI Chip Design Approach
 
@@ -80,7 +80,7 @@ While Intel, and others, are investigating how machine learning and generative A
 
 The full article is available [on the IEEE Spectrum website](https://spectrum.ieee.org/chip-design-ai), and in the publication’s December 2024 print issue.
 
-<img src="blinky.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/blinky.jpg" style="max-width:100%" />
 
 ## Michael Wiebusch Investigates Yosys’ Lesser-Known VHDL Support
 
@@ -95,7 +95,7 @@ Traditionally, the OSS CAD Suite - an all-in-one binary distribution of the Yosy
 
 Michael’s full write-up is available [on his blog](https://acidbourbon.wordpress.com/2024/12/02/yosyshq-fpga-toolchain-with-vhdl-support/), including an eight-step process for downloading the latest Yosys OSS CAD Suite and compiling a simple blinky VHDL sample.
 
-<img src="sylbit.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/sylbit.jpg" style="max-width:100%" />
 
 ## Sylvain Munaut Offers More Details on his SKY130 ROM Compiler
 
@@ -110,7 +110,7 @@ Sylvain’s video walks through the creation of the smallest transistor possible
 
 The full video is available [on Sylvain’s YouTube channel](https://www.youtube.com/watch?v=j_K0H7tIKok).
 
-<img src="sonata1point0.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/sonata1point0.jpg" style="max-width:100%" />
 
 ## Phil Day Offers a Tour of the CHERIoT Ecosystem as Sonata Boards Launch
 
@@ -125,7 +125,7 @@ Anyone interested in the CHERIoT project, which brings the Capability Hardware E
 
 The full tour, which includes links to each code repository and what they are for, is available [on the CHERIoT blog](https://cheriot.org/rtos/sonata/git/2024/11/08/navigating-the-ecosystem.html). More information on the Sonata board is available [on the lowRISC website](https://lowrisc.org/news/sonata-v1-0-release/).
 
-<img src="lowrisc.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/lowrisc.jpg" style="max-width:100%" />
 
 ## lowRISC Partners with SCI for Commercial CHERIoT Tapeout
 
@@ -142,7 +142,7 @@ The collaboration will see the release of a new open-source top-level design wit
 
 More information is available [from lowRISC](https://lowrisc.org/news/lowrisc-and-sci-semiconductor-partner-to-create-first-cheriot-commercial-tapeout/).
 
-<img src="circularknowledge.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/circularknowledge.jpg" style="max-width:100%" />
 
 ## Olof Kindgren Interviewed on Open Source’s Past, Present, Future
 
@@ -157,7 +157,7 @@ FOSSi Foundation director Olof Kindgren has been interviewed Qamcom colleague Ch
 
 The full interview is available [on the Qamcom website](https://www.qamcom.com/circular-knowledge-episode-02/).
 
-<img src="fveval.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/fveval.jpg" style="max-width:100%" />
 
 ## FVEval Investigates Large Language Models for Formal Verification
 
@@ -172,7 +172,7 @@ Researchers from the University of California at Berkeley and NVIDIA have publis
 
 A preprint of the paper is available [on Cornell’s arXiv server](https://arxiv.org/abs/2410.23299); the benchmark it self has been published [on GitHub](https://github.com/NVlabs/FVEval) under the permissive Apache 2.0 licence.
 
-<img src="hifive.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/hifive.jpg" style="max-width:100%" />
 
 ## CSIS’ Sujai Shivakumar, Julie Heng Opine on RISC-V as the Future of Chip Development
 
@@ -187,7 +187,7 @@ Sujai Shivakumar and Julie Heng of the Center for Strategic & International Stud
 
 The full article is available [on the CSIS website](https://www.csis.org/analysis/what-risc-v-means-future-chip-development).
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/riscv.jpg" style="max-width:100%" />
 
 ## Public Review for Zilsd and Zclsd Closes Soon
 
@@ -202,7 +202,7 @@ Christian Herber, owner of the Load/Store Pair for RV32 fast-track extension, ha
 
 The specification is available [on GitHub](https://github.com/riscv/riscv-zilsd), and interested parties can submit comments as Issues or Pull Requests or join in with the discussion [on the isa-dev mailing list](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/NTC65wlcF8o/m/q9FRTZeOCgAJ) - at least, until the review period closes on the 13th of December 2024.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2024-12-10-ecl81/newsinbrief.jpg" style="max-width:100%" />
 
 ## News In Brief
 

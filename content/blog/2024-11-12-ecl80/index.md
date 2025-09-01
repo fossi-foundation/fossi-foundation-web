@@ -5,7 +5,7 @@ description: El Correo Libre Newsletter, Issue 80
 author: Gareth Halfacree
 date: 2024-11-12
 ---
-<img src="beginningfpgagraphics.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/beginningfpgagraphics.jpg" style="max-width:100%" />
 
 ## Will Green Updates "Beginning FPGA Graphics" for the Radiona ULX3S
 
@@ -20,7 +20,7 @@ The update adds support for the Radiona ULX3S and other Lattice ECP5-based board
 
 The tutorial series is available [on the Project F website](https://projectf.io/posts/fpga-graphics/), with all SystemVerilog sources - including sources designed for use in simulation, for those looking to learn but without access to hardware - [published to GitHub](https://github.com/projf/projf-explore/tree/main/graphics/fpga-graphics) under the permissive MIT licence.
 
-<img src="taylorfunwithfusesoc.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/taylorfunwithfusesoc.jpg" style="max-width:100%" />
 
 ## Adam Taylor Invites You to Have Fun with FuseSoC
 
@@ -35,7 +35,7 @@ Embedded engineer Adam Taylor has published a guide which invites the reader to 
 
 The full tutorial is available [on Hackster.io](https://www.hackster.io/adam-taylor/fun-with-fusesoc-7b2b1d); the source files are available [on GitHub](https://github.com/ATaylorCEngFIET/hackster_fusesoc) under an unspecified licence. FuseSoC itself is also available [on GitHub](https://github.com/olofk/fusesoc), under the permissive BSD two-clause licence.
 
-<img src="fosdem24.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/fosdem24.jpg" style="max-width:100%" />
 
 ## FOSDEM 2025 Opens its Call for Participation
 
@@ -54,7 +54,7 @@ More information, and links to both the main track and individual developer room
 
 _FOSDEM 2024 crowd picture courtesy [RichiH](https://en.wikipedia.org/wiki/FOSDEM#/media/File:FOSDEM_2024_welcome.jpg), CC BY-SA 4.0._
 
-<img src="guaravcarrierboard.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/guaravcarrierboard.jpg" style="max-width:100%" />
 
 ## Gaurav Singh Designs an Open-Source UltraZed Carrier Card
 
@@ -69,7 +69,7 @@ Guarav has released the design of the board under the permissive Creative Common
 
 More information on the carrier board is available [on Guarav’s website](https://www.circuitvalley.com/2024/09/open-source-avnet-ultrazed-pcie-carrier-xilinx-zynq-ultrascale-plus-amd.html) and [in a supporting video](https://www.youtube.com/watch?v=APrIkn0p9bU); the design files are available [on GitHub](https://github.com/circuitvalley/ultrazed_base_boards) along with production-ready Gerbers, a 3D-printable PCIe bracket, and a stock firmware.
 
-<img src="rva23.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/rva23.jpg" style="max-width:100%" />
 
 ## RISC-V International Ratifies the RVA23 Profile Standard
 
@@ -84,7 +84,7 @@ The main changes in RVA23 are the inclusion of two extensions to the instruction
 
 The ratified version of the RVA23 Profile is available [on the RISC-V Technical Specifications wiki](https://lf-riscv.atlassian.net/wiki/spaces/HOME/pages/16154769/RISC-V+Technical+Specifications#Profiles); sources for all profiles are published [on GitHub](https://github.com/riscv/riscv-profiles) under the Creative Commons Attribution 4.0 International licence.
 
-<img src="sylvain.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/sylvain.jpg" style="max-width:100%" />
 
 ## Sylvain Munaut Unveils the SKY130 ROM Compiler Project
 
@@ -99,7 +99,7 @@ While there’s an existing ROM compiler for Sky130, detailed in a 2023 thesis b
 
 Sylvain goes into more detail [in a YouTube video](https://www.youtube.com/watch?v=MlqDm_Kg0u8) introducing the project, and has promised more videos to follow.
 
-<img src="cheriot.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/cheriot.jpg" style="max-width:100%" />
 
 ## The CHERIoT Platform Details Roadmap to ISA 1.0 and Beyond
 
@@ -114,7 +114,7 @@ The CHERIoT Platform, a project to create a version of the Capability Hardware E
 
 David’s full roadmap is available [on the CHERIoT website](https://cheriot.org/isa/roadmap/2024/10/31/isa-roadmap.html).
 
-<img src="codasip.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/codasip.jpg" style="max-width:100%" />
 
 ## Codasip Donates its CHERI SDK to the CHERI Alliance
 
@@ -127,7 +127,7 @@ In other CHERI news, Codasip has donated its CHERI software development kit (SDK
 
 The SDK is available [from the CHERI Alliance GitHub organisation](https://github.com/CHERI-Alliance), under a range of free and open-source licences.
 
-<img src="calistaredmond.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/calistaredmond.jpg" style="max-width:100%" />
 
 ## RISC-V’s Calista Redmond Highlights the “Stronger Path from Research to Commercialisation”
 
@@ -142,7 +142,7 @@ Other topics touched on in the interview include RISC-V International’s relati
 
 The full interview is available [on eeNews Europe now](https://www.eenewseurope.com/en/ceo-interview-chips-act-boost-for-risc-v/).
 
-<img src="kairos.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/kairos.jpg" style="max-width:100%" />
 
 ## ControlPULPlet Delivers a RISC-V Controller for 2.5D Systems-in-Package
 
@@ -157,7 +157,7 @@ A team from ETH Zurich and the University of Bologna have published a paper deta
 
 The paper detailing ControlPULPlet is available as a preprint on Cornell’s arXiv server under open-access terms; the project’s sources have been published [on the ControlPULP GitHub repository](https://github.com/pulp-platform/control-pulp) under the permissive SolderPad Hardware License v0.51.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2024-11-12-ecl80/newsinbrief.jpg" style="max-width:100%" />
 
 ## News In Brief
 

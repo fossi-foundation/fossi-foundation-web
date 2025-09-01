@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2022-05-10
 ---
 
-<img src="riscvprofiles.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/riscvprofiles.jpg" style="max-width:100%" />
 
 ## RISC-V Architecture Profiles v0.6 Published "For Discussion Only"
 
@@ -20,7 +20,7 @@ The initial release focuses on two architecture profiles, both aimed at applicat
 
 The latest version of the RISC-V Profiles document, which at the time of writing was v0.6, is available [on the RISC-V GitHub repository](https://github.com/riscv/riscv-profiles/) where it's published under the permissive Creative Commons-Attribution 4.0 licence. Those looking to contribute should open issues or submit a pull request.
 
-<img src="qemu.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/qemu.jpg" style="max-width:100%" />
 
 ## QEMU 7.0 Adds Quad-Core OpenRISC, RISC-V Vector Extension 1.0
 
@@ -35,7 +35,7 @@ Other improvements for RISC-V users include support for OpenSBI binary loading i
 
 Full details are available [in the official change log](https://wiki.qemu.org/ChangeLog/7.0), while QEMU 7.0 itself can be downloaded [from the project website](https://www.qemu.org/) under the reciprocal GNU General Public License 2 and others.
 
-<img src="rvfpga.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/rvfpga.jpg" style="max-width:100%" />
 
 ## Imagination Technology Calls for Teachers to "Empower the Next Gen" with RVfpga
 
@@ -50,7 +50,7 @@ Those participating will, Robert promises, receive hands-on experience with the 
 
 More information on the courses, which are presently aimed at teaching academic teachers and training corporate trainers though is also said to be of value to "postgrads who are considering a career in teaching or becoming a chip designer," is available [on the RISC-V blog](https://riscv.org/blog/2022/04/join-us-in-the-classroom-put-risc-v-into-your-computer-architecture-course-using-rvfpga-robert-c-w-owen-imagination-technologies/). Dates and registration links are included in the table at the bottom.
 
-<img src="chipflowgatecat1.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/chipflowgatecat1.jpg" style="max-width:100%" />
 
 ## ChipFlow Releases First Video, Teases Future Plans for Chip-Design Platform
 
@@ -67,7 +67,7 @@ The video also offers a glimpse of the company's future plans: "The next steps t
 
 The full video is available [on the ChipFlow YouTube channel](https://www.youtube.com/watch?v=rVsOZE80c-k) now.
 
-<img src="thewildjarvi.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/thewildjarvi.jpg" style="max-width:100%" />
 
 ## BobbyCore is the "First Fully-Functional RISC-V CPU" to be Built in Logic World
 
@@ -82,7 +82,7 @@ TheWildJarvi has now taken that initial project and extended it into what is cla
 
 A full video tour of the project is available [on TheWildJarvi's YouTube channel](https://www.youtube.com/watch?v=T1PZ2LiSyQI); those interested in Logic World itself can find more [on the game's Steam page](https://store.steampowered.com/app/1054340/Logic_World/).
 
-<img src="abdulcompressed.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/abdulcompressed.jpg" style="max-width:100%" />
 
 ## Award-Winning SERV Core Gets Compressed Instruction Support
 
@@ -95,7 +95,7 @@ Abdul begin work on the effort as part of the [Spring '22 Linux Foundation Mento
 
 More information is available [on Abdul's Twitter post](https://twitter.com/AbdulWadoodAfz1/status/1512517490315776003), while the SERV core itself [is hosted on GitHub](https://github.com/olofk/serv) under the permissive ISC licence.
 
-<img src="lpc.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/lpc.jpg" style="max-width:100%" />
 
 ## Call For Papers Opens for the Linux Plumbers Conference 2022 RISC-V MC
 
@@ -110,7 +110,7 @@ The Linux Plumbers Conference 2022 is scheduled to take place in Dublin, Ireland
 
 More information is available [on the LPC blog](https://lpc.events/blog/2022/index.php/2022/02/04/cfp-open-microconferences/).
 
-<img src="cpsmusicbox.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/cpsmusicbox.jpg" style="max-width:100%" />
 
 ## David Lobato's CPS1 Musicbox Blends Modern RISC-V with Vintage Audio
 
@@ -123,7 +123,7 @@ Designed for use on a Radiona ULX3S FPGA development board, but also usable in s
 
 A video of the project in action is available [on David's](https://twitter.com/dlobato/status/1512121606147129346) [YouTube channel](https://www.youtube.com/watch?v=gQMUazSHyAo), while the CPS1 Musicbox itself [has been published to GitHub](https://github.com/dlobato/cps1-musicbox) under an unspecified mix of open-source licenses.
 
-<img src="andreasawesomelist.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/andreasawesomelist.jpg" style="max-width:100%" />
 
 ## Andreas Olofsson Publishes Open List of "Awesome Hardware Tools," Invites Collaboration
 
@@ -138,7 +138,7 @@ Projects published to the list so far include Amaranth HDL, Chisel, Kami, PyRTL,
 
 The full list is available [on Andreas' GitHub repository](https://github.com/aolofsson/awesome-hardware-tools) under an unspecified licence, with contribution invited via issues or pull requests.
 
-<img src="wadoodblinky.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/wadoodblinky.jpg" style="max-width:100%" />
 
 ## Introductory "LED to Believe" Project Hits 89 Boards Supported
 
@@ -153,7 +153,7 @@ The addition comes after other efforts from community contributors added support
 
 The latest version of the LED to Believe project is available [on the FuseSoC GitHub repository](https://github.com/fusesoc/blinky) under the permissive MIT licence.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -171,7 +171,7 @@ The latest version of the LED to Believe project is available [on the FuseSoC Gi
 -   [Nidhi Singal for BusinessToday.in: "Digital India RISC-V Microprocessor (DIR-V) Programme launched."](https://www.businesstoday.in/latest/story/digital-india-risc-v-microprocessor-dir-v-program-launched-331530-2022-04-27)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2022-05-10-ecl50/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to** [**ecl@librecores.org**](mailto:ecl@librecores.org)**.**
 

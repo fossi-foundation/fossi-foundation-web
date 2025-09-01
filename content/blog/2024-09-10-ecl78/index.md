@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2024-09-10
 ---
 
-<img src="gothenburg.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/gothenburg.jpg" style="max-width:100%" />
 ## ORConf 2024 is Here At Last!
 
   
@@ -32,7 +32,7 @@ Safe travels to everyone who is joining us, and I look forward to seeing you all
   
 _-Julius Baxter, Director, FOSSi Foundation_
 
-<img src="europe.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/europe.jpg" style="max-width:100%" />
 
 ## Delivering a Roadmap to Open-Source EDA
 
@@ -47,7 +47,7 @@ The first release of the roadmap is scheduled for the 13th of September, during 
   
 More information is available [on the FOSSi Foundation blog](https://fossi-foundation.org/blog/2024-08-16-roadmap).
 
-<img src="topwrap.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/topwrap.jpg" style="max-width:100%" />
 
 ## Antmicro's Topwrap Offers a Toolkit for Modular Digital Logic
 
@@ -62,7 +62,7 @@ Antmicro has designed an open-source toolkit, Topwrap, for modular, parameterisa
   
 A walkthrough of using Topwrap to build a VexRiscv-based system-on-chip is available [on the Antmicro blog](https://antmicro.com/blog/2024/08/parameterizable-digital-logic-design-with-the-topwrap-toolkit/); Topwrap itself is published [on GitHub](https://github.com/antmicro/topwrap) under the permissive Apache 2.0 licence.
 
-<img src="vote.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/vote.jpg" style="max-width:100%" />
 
 ## RISC-V International Announces New Board Members
 
@@ -77,7 +77,7 @@ Other board elected board members include Jeffrey Osier-Mixon from Red Hat and I
   
 The full announcement is available [on the RISC-V International website](https://riscv.org/blog/2024/08/introducing-the-newly-elected-risc-v-board-of-directors-officers/).
 
-<img src="cheriot.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/cheriot.jpg" style="max-width:100%" />
 
 ## CHERIoT Provides "A Study in CHERI"
 
@@ -92,7 +92,7 @@ Members of the research team behind CHERIoT have published a look at the platfor
   
 The full article is available [on the RISC-V International blog](https://riscv.org/blog/2024/08/cheriot-a-study-in-cheri/).
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/riscv.jpg" style="max-width:100%" />
 
 ## RISC-V Opens Public Reviews for Priv 1.13, RVA23/RVB23
 
@@ -109,7 +109,7 @@ A separate review period has also opened for the RVA23 and RVB23 profiles. "The 
   
 Information on how to participate in either or both of the review periods is available in [the Priv 1.13 review](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/m_C8HDUmrQw) and [RVA23/RVB23 review notifications](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/Vu4wuLzIid4).
 
-<img src="mips.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/mips.jpg" style="max-width:100%" />
 
 ## MIPS Celebrates a Milestone for the RISC-V N-Trace Technical Group
 
@@ -124,7 +124,7 @@ MIPS, which recently moved away from the proprietary architecture which bears it
   
 The full post is available [on the MIPS blog](http:// https://mips.com/blog/risc-v-international-n-trace-tg-milestone/); the frozen specifications are available [on GitHub](https://github.com/riscv-non-isa/tg-nexus-trace/releases/tag/1.0_rc50_Frozen).
 
-<img src="llms.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/llms.jpg" style="max-width:100%" />
 
 ## Researchers Investigate LLMs as High-Level Synthesis Tools
 
@@ -141,7 +141,7 @@ There is, of course, a caveat: the team discusses what it calls "the energy elep
   
 A preprint of the full paper is available [on Cornell's arXiv server](https://arxiv.org/abs/2408.10428).
 
-<img src="ai.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/ai.jpg" style="max-width:100%" />
 
 ## ACM's Samuel Greengard Looks at AI's Reinvention of Chip Design
 
@@ -156,7 +156,7 @@ Samuel Greengard, writing for Communications of the ACM, has a bold claim: that 
   
 The full article is available [on the Communications of the ACM website](https://cacm.acm.org/news/ai-reinvents-chip-design/).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2024-09-10-ecl78/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News in Brief
 

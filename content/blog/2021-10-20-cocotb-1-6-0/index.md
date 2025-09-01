@@ -56,7 +56,7 @@ The execution resumes in the line after the `await` statement once the event spe
 
 ### Schedule a coroutine using cocotb.start_soon()
 
-<img src="scheduling_start_soon.png" style="max-width:100%" />
+<img src="/blog/2021-10-20-cocotb-1-6-0/scheduling_start_soon.png" style="max-width:100%" />
 
 That's a lot of introduction: let's get back to `cocotb.fork()`, `cocotb.start_soon()`, and `await cocotb.start()`.
 What's common to all these three functions is that they *schedule* a coroutine, which only means: these functions let cocotb know that a coroutine exists, and that it would like to run at some point.
@@ -76,7 +76,7 @@ At this point, also `coro3()` will execute, and ultimately, control will return 
 
 ### Schedule and run coroutines using await cocotb.start()
 
-<img src="scheduling_start.png" style="max-width:100%" />
+<img src="/blog/2021-10-20-cocotb-1-6-0/scheduling_start.png" style="max-width:100%" />
 
 Things looks slightly different when using `await cocotb.start()`: `cocotb.start()` schedules a coroutine, *and immediately yields control* to let *any* other coroutine execute.
 Since `cocotb.start()` yields control, it needs to be used in conjunction with `await`.
@@ -90,7 +90,7 @@ In almost all cases you won't need the immediate trigger that `await cocotb.star
 
 ### The old way: cocotb.fork()
 
-<img src="scheduling_fork.png" style="max-width:100%" />
+<img src="/blog/2021-10-20-cocotb-1-6-0/scheduling_fork.png" style="max-width:100%" />
 
 Finally, there's the third and "old" way of scheduling a coroutine: `cocotb.fork()`.
 `cocotb.fork()` schedules the coroutine, executes *only this* coroutine until the next `await` statement, and then returns to the caller.

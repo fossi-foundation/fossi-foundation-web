@@ -6,7 +6,7 @@ author: Stefan Wallentowitz
 date: 2024-08-16
 ---
 
-<img src="chipsju.png" style="max-width:100%" />
+<img src="/blog/2024-08-16-roadmap/chipsju.png" style="max-width:100%" />
 
 ## FOSSi Supports GoIT in Drafting Roadmap Towards Open-Source EDA
 

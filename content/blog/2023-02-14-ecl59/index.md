@@ -7,7 +7,7 @@ date: 2023-02-14
 ---
 
 
-<img src="latchup-colour.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/latchup-colour.jpg" style="max-width:100%" />
 
 ## First Speakers Confirmed for Latch-Up 2023 in Sunny Santa Barbara
 
@@ -23,7 +23,7 @@ With more speakers to be announced in the coming weeks, now is a great time to r
 
 Latch-Up 2023 takes place at the University of California, Santa Barbara (UCSB) on Friday the 31st of March through to Sunday the 2nd of April. You can find out more [on the website](https://www.fossi-foundation.org/latchup/), and we look forward to a catch-up at Latch-Up!
 
-<img src="quicklogic-aurora.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/quicklogic-aurora.jpg" style="max-width:100%" />
 
 ## QuickLogic Launches New Aurora Tool Suite, Built Atop Open Source Projects
 
@@ -38,7 +38,7 @@ Moving away from proprietary solutions and towards open source means, the compan
 
 Aurora 2.1 is available from QuickLogic now, with more information available [on the company's website](https://www.quicklogic.com/products/efpga/efpga-ip-2-0-user-tools/).
 
-<img src="kicadtoverilog.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/kicadtoverilog.jpg" style="max-width:100%" />
 
 ## Bob Alexander's Plug-in Generates Verilog from a KiCad Schematic
 
@@ -53,7 +53,7 @@ The plug-in, however, only gets you part of the way to a solution. "It generates
 
 The plug-in is available [on GitHub](https://github.com/galacticstudios/KiCadVerilog) now, under the permissive MIT licence.
 
-<img src="barvinn.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/barvinn.jpg" style="max-width:100%" />
 
 ## BARVINN is a Deep Neural Network Accelerator with Arbitrary Precision
 
@@ -70,7 +70,7 @@ This is where BARVINN comes in. Built around eight processing elements with a RI
 
 A preprint copy of the BARVINN paper is available [on Cornell's arXiv server](https://arxiv.org/abs/2301.00290), while the full source code has been released [on GitHub](https://github.com/hossein1387/BARVINN) under the permissive MIT licence.
 
-<img src="antmicro-alkali.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/antmicro-alkali.jpg" style="max-width:100%" />
 
 ## Antmicro Releases Alkali, an Open-Source NVMe ML Accelerator Platform
 
@@ -85,7 +85,7 @@ The Alkali platform is split across four major components: a PCI Express (PCIe) 
 
 More information is available [on the Antmicro blog](https://antmicro.com/blog/2023/01/fpga-nvme-accelerator-platform-for-bpf-driven-ml-processing-with-linux-and-zephyr/), while an automated build system for a demo targeting Xilinx' Zynq UltraScale+ MPSoC XCZU7EV chips is available [on GitHub](https://github.com/antmicro/alkali-csd-projects). [A separate repository](https://github.com/antmicro/alkali-csd-fw) contains firmware source code under the permissive Apache 2.0 licence, with [a third repository](https://github.com/antmicro/alkali-csd-hw) hosting the FPGA design files.
 
-<img src="fusesoc.jpg" style="max-width:100%" />)
+<img src="/blog/2023-02-14-ecl59/fusesoc.jpg" style="max-width:100%" />)
 
 ## Olof Kindgren Announces the Release of FuseSoC 2.0
 
@@ -100,7 +100,7 @@ The latest FuseSoC release also brings with it a few removals, including the los
 
 The latest release is available [on the FuseSoC GitHub repository now](https://github.com/olofk/fusesoc/releases/latest), along with the full source code under the permissive BSD 2-Clause licence.
 
-<img src="ghazi.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/ghazi.jpg" style="max-width:100%" />
 
 ## GHAZI Uses a Completely Open-Source Path to Build a RISC-V SoC
 
@@ -115,7 +115,7 @@ The resulting GHAZI system-on-chip uses over 90,000 physical cells in a 6.9mm² 
 
 The team's work has been published as a preprint [on TechRxiv](https://www.techrxiv.org/articles/preprint/GHAZI_An_Open-Source_ASIC_Implementation_of_RISC-V_based_SoC/21770456), though at the time of writing a promised GitHub repository containing the GHAZI sources could not be located.
 
-<img src="antmicro-verilatedcpu.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/antmicro-verilatedcpu.jpg" style="max-width:100%" />
 
 ## Renode Gains Verilator-Powered CPU RTL Co-Simulation Capabilities
 
@@ -130,7 +130,7 @@ The functionality, available now, allows an RTL CPU model to be added into a Ren
 
 More information is available [on the Antmicro blog](https://antmicro.com/blog/2023/01/cpu-rtl-co-simulation-in-renode/), with the source code for samples available [on GitHub](https://github.com/antmicro/renode-verilator-integration) under the permissive MIT license.
 
-<img src="riscv-logo.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/riscv-logo.jpg" style="max-width:100%" />
 
 ## Xan Phung's "Alternative" RV128 Vision Proposes Skipping Over RV64
 
@@ -147,7 +147,7 @@ Xan's vision for RV128 includes energy efficiency gains by going straight to 128
 
 A discussion surrounding Xan's proposal is available [on the RISC-V ISA Dev mailing list](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/Woff1bia-t0/m/IjdMZkzCAAAJ).
 
-<img src="jan-xtightlycoupledio.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/jan-xtightlycoupledio.jpg" style="max-width:100%" />
 
 ## Jan Oleksiewicz's RISC-V Extension Offers Directly-Accessed Peripheral Registers
 
@@ -162,7 +162,7 @@ Jan's project was inspired by the 64 IO registers available in AVR8, as implemen
 
 The proposal source, and rendered PDFs, is available [on GitHub](https://github.com/jnk0le/XTightlyCoupledIO) under the Creative Commons Attribution 4.0 licence.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -174,7 +174,7 @@ The proposal source, and rendered PDFs, is available [on GitHub](https://github.
 
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-02-14-ecl59/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

@@ -5,7 +5,7 @@ description: El Correo Libre Newsletter, Issue 87
 author: Gareth Halfacree
 date: 2025-07-15
 ---
-<img src="val.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/val.jpg" style="max-width:100%" />
 
 ## ORConf 2025 Kicks Off - First Talks Announced!
 
@@ -40,7 +40,7 @@ Come for the talks, stay for the tapas. ORConf Valencia 2025 is going to be a bl
   
 _-Philipp Wagner, FOSSi Foundation Director_
 
-<img src="gem.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/gem.jpg" style="max-width:100%" />
 
 ## GEM Delivers GPU-Accelerated RTL Simulation
 
@@ -55,7 +55,7 @@ GEM, the paper for which was accepted for presentation at the Design Automation 
 
 More information is available [on the Nvidia research site](https://research.nvidia.com/publication/2025-06_gem-gpu-accelerated-emulator-inspired-rtl-simulation), along with a preprint of the paper; the project source code has been [published to GitHub](https://github.com/NVlabs/GEM) under the Apache 2.0 licence.
 
-<img src="ttviewer.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/ttviewer.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout Gets a Slick New Chip Viewer
 
@@ -68,7 +68,7 @@ The new viewer extends the existing system with a multi-layer look at what goes 
 
 The new viewer is live [on the Tiny Tapeout website](https://tinytapeout.com/runs/) for the [Tiny Tapeout 6](https://tinytapeout.com/runs/tt06/) and [Tiny Tapeout 7](https://tinytapeout.com/runs/tt07/) production runs; the project is currently accepting contributions for Tiny Tapeout IHP25b, which makes the move to a new semiconductor fabrication facility in the face of the closer of previous project partner Efabless. Additional imagery examples are available [on Matt’s Mastodon post](https://chaos.social/@matthewvenn/114760098171338300).
 
-<img src="gftt.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/gftt.jpg" style="max-width:100%" />
 
 ## …and Announces GlobalFoundries 180MCU Support
 
@@ -83,7 +83,7 @@ Matt Venn has also announced that Tiny Tapeout is to gain support for manufactur
 
 More information is available [in Matt’s LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7346868540353740801/), along with a call for sponsorship to address the remaining four work packages and add “complete support for analogue and mixed signal” designs.
 
-<img src="pyabv.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/pyabv.jpg" style="max-width:100%" />
 
 ## PyABV Brings Assertion-Based Verification to PyRTL
 
@@ -98,7 +98,7 @@ The idea behind the project is to embed “familiar, industry-standard assertion
 
 The team’s work has been published in the journal [_Frontiers of Computer Science_](https://link.springer.com/article/10.1007/s11704-024-40127-0) under closed-access terms, while the source code is available on Gitee under the permissive BSD three-clause licence “for immediate adoption and community-driven enhancements.”
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/riscv.jpg" style="max-width:100%" />
 
 ## RISC-V Boot and Runtime Services Spec Review Open
 
@@ -111,7 +111,7 @@ The RISC-V BRS aims to define a standardised set of software capabilities to all
 
 The current specification document is available, along with its source, [on GitHub](https://github.com/riscv-non-isa/riscv-brs/); feedback is sought as [GitHub Issues](https://github.com/riscv-non-isa/riscv-brs/issues), or as messages to the [RISC-V isa-dev mailing list](https://groups.google.com/a/groups.riscv.org/g/isa-dev). The review period closes on the 18th of July 2025.
 
-<img src="themis.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/themis.jpg" style="max-width:100%" />
 
 ## THEMIS Targets Fair Multi-Tenant FPGA Use
 
@@ -126,7 +126,7 @@ Researchers from Microsoft, North Carolina State University, and the University 
 
 The team’s work has been published in the journal [_IEEE Transactions on Computers_](https://www.computer.org/csdl/journal/tc/2025/07/10985821/26trkzt4dZS) under closed-access terms, with a preprint freely available [on Cornell’s arXiv server](https://arxiv.org/abs/2404.00507). The project’s source code is available [on GitHub](https://github.com/aamalik3/THEMIS) under the permissive MIT licence.
 
-<img src="sci.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/sci.jpg" style="max-width:100%" />
 
 ## SCI Gets UK Government Funding for CHERI Work
 
@@ -141,7 +141,7 @@ The grant, sponsored by the Ministry of Defence’s Directorate of Industrial St
 
 More information is available [on the SCI Semiconductor website](https://www.scisemi.com/).
 
-<img src="placement.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/placement.jpg" style="max-width:100%" />
 
 ## Researchers Claim an “Exact Algorithm” for Placement Optimisation
 
@@ -156,7 +156,7 @@ The researchers worked to developer a model which formalises the placement probl
 
 The team’s paper is available in the journal [_Engineering_](https://www.sciencedirect.com/science/article/pii/S2095809925001687?via%3Dihub) under open-access terms.
 
-<img src="trojanguard.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/trojanguard.jpg" style="max-width:100%" />
 
 ## TROJAN-GUARD Looks to Secure RTL Designs
 
@@ -173,7 +173,7 @@ Evaluated on a custom dataset, the researchers found that a TROJAN-GUARD impleme
 
 A preprint of the team’s work is available [on Cornell’s arXiv server](https://arxiv.org/abs/2506.17894) under open-access terms.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2025-07-15-ecl87/newsinbrief.jpg" style="max-width:100%" />
 
 ## News In Brief
 

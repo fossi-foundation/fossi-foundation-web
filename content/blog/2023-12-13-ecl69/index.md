@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-12-13
 ---
 
-<img src="fireworkmountain.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/fireworkmountain.jpg" style="max-width:100%" />
 
 ## 2023 Draws to a Close as the Free and Open Silicon Movement Powers Ahead
 
@@ -19,7 +19,7 @@ Enjoy the last El Correo Libre newsletter of 2023, and join us in 2024 to see wh
   
 _-The FOSSi Foundation Team_
 
-<img src="nsf.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/nsf.jpg" style="max-width:100%" />
 
 ## NSF Chip Workshop Report Says "Open-Source Options Should be Emphasized"
 
@@ -34,7 +34,7 @@ The workshop, funded by an NSF grant, further proposes that the NCDC manages tap
   
 The full report is available [on Cornell's arXiv preprint server](https://arxiv.org/abs/2311.02055).
 
-<img src="beer.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/beer.jpg" style="max-width:100%" />
 
 ## Hannah Thoreson Calls for a "Craft Beer Revolution" in Chip-Making
 
@@ -51,7 +51,7 @@ Hannah Thoreson has penned a piece detailing how the semiconductor industry look
   
 The full article is available on Hannah's website, [Brickstackr](https://www.brickstackr.com/posts/how-to-make-a-computer-chip).
 
-<img src="yosys036.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/yosys036.jpg" style="max-width:100%" />
 
 ## Yosys 0.36 Brings New Hardware Support, Shifts to ABC 9 By Default
 
@@ -66,7 +66,7 @@ Previously, the ABC 9 tool had only been available as a selectable option during
   
 The latest Yosys release is available, along with the project's source code, [on GitHub](https://github.com/YosysHQ/yosys) under the ISC licence.
 
-<img src="opentitanmembers.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/opentitanmembers.jpg" style="max-width:100%" />
 
 ## The OpenTitan Partnership Announces its "First SoC Secure Execution Environment"
 
@@ -79,7 +79,7 @@ lowRISC and zeroRISC, both members of the OpenTitan Partnership, have jointly an
   
 The OpenTitan Project was founded in 2018 with a view to creating a silicon root-of-trust built around a RISC-V core and made available under a permissive open-source licence. True to its promise, the new execution environment has been published to [the project's GitHub repository](https://github.com/lowRISC/opentitan/tree/integrated_dev) under the Apache 2.0 licence.
 
-<img src="howcpuworksrelease.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/howcpuworksrelease.jpg" style="max-width:100%" />
 
 ## "How CPU Works" Releases Their 11-Bit Discrete-Transistor CPU Design
 
@@ -92,7 +92,7 @@ The CPU itself is an 11-bit device made from 2,008 discrete transistors, with 32
   
 The project's educational material is available [on the How CPU Works website](https://us17.admin.mailchimp.com/campaigns/2,008 discrete transistors, with 32 micro-memory and ROM addresses, eight branch flags, a stack pointer register for recursive functions, and access to an LCD display and a keyboard for input and output.), while the KiCAD files for the build can be found [on GitHub](https://github.com/tensorway/2000transistors) under an unspecified licence.
 
-<img src="surfer.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/surfer.jpg" style="max-width:100%" />
 
 ## Yosys Team Shines a Spotlight on Frans Skarman's Surfer Waveform Viewer
 
@@ -109,7 +109,7 @@ Surfer, which includes signal translation capabilities, a RISC-V opcode translat
   
 The full Community Spotlight article is available [on the YosysHQ Blog](https://blog.yosyshq.com/p/community-spotlight-surfer/).
 
-<img src="vennnecklace.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/vennnecklace.jpg" style="max-width:100%" />
 
 ## Matt Venn Shows Off Custom Silicon's Capabilities with a Bit of Bling
 
@@ -124,7 +124,7 @@ The finished device, built with the help of Adam Zeloof and Patrick Deegan, uses
   
 A full video detailing the project is available [on Matt's YouTube channel](https://www.youtube.com/watch?v=QxjvktltZ9E).
 
-<img src="riscv.jpg" style="max-width:100%" />)
+<img src="/blog/2023-12-13-ecl69/riscv.jpg" style="max-width:100%" />)
 
 ## RISC-V International Announces a "Banner Year" for the Free and Open ISA
 
@@ -139,7 +139,7 @@ Among the organisation's highlights for the year are the ratification of the Vec
   
 The full retrospective is available [on the RISC-V International website](https://riscv.org/announcements/2023/11/risc-v-international-marks-banner-year-for-risc-v-adoption-technical-momentum-and-community-engagement/) now.
 
-<img src="nordic.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/nordic.jpg" style="max-width:100%" />
 
 ## Nordic Semi Details its Interest in RISC-V, But Doesn't Abandon Proprietary ISAs Yet
 
@@ -154,7 +154,7 @@ Nordic Semiconductor's Svein-Egil Nielsen has written an explainer on the compan
   
 The full article is available [on Nordic Semi's Get Connected blog](https://blog.nordicsemi.com/getconnected/why-nordic-is-getting-involved-in-risc-v).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2023-12-13-ecl69/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News in Brief
 

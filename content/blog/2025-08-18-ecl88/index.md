@@ -5,7 +5,7 @@ description: El Correo Libre Newsletter, Issue 88
 author: Gareth Halfacree
 date: 2025-08-18
 ---
-<img src="librelane.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/librelane.jpg" style="max-width:100%" />
 
 ## Announcing the Release of LibreLane
 
@@ -29,7 +29,7 @@ This represents years of hard work by many, many people, my colleagues back at E
 
 _-Mohamed Gaber_
 
-<img src="os2025.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/os2025.jpg" style="max-width:100%" />
 
 ## Hannah Thoreson Reports on Open Sauce 2025
 
@@ -46,7 +46,7 @@ Developer and technologist Hannah Thoreson has published a report into the prese
 
 The full report is available [on Hannah’s website](https://www.brickstackr.com/posts/how-to-make-your-own-computer-chip-part-3); “overall,” she concludes, “it seems like a pretty promising time to be interested in open source silicon technology.”
 
-<img src="crowdsourced.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/crowdsourced.jpg" style="max-width:100%" />
 
 ## Matt Venn Calls for Contributions to a “Crowdsourced Microcontroller”
 
@@ -63,7 +63,7 @@ The project is being run through the Tiny Tapeout platform, which accepts tile-b
 
 More information is available [on the Tiny Tapeout website](https://tinytapeout.com/competitions/risc-v-peripheral/), along with a list of prizes; submissions should be made before the deadline of the 5th of September 2025.
 
-<img src="rtlbench.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/rtlbench.jpg" style="max-width:100%" />
 
 ## RTLMeter Targets Verilator SystemVerilog Evaluation
 
@@ -78,7 +78,7 @@ For those looking to use the benchmark with Verilator, the only other dependency
 
 The project’s full source code is available [on GitHub](https://github.com/verilator/rtlmeter) under the permissive Apache 2.0 licence, with the designs used as inputs shared under their original licence terms.
 
-<img src="4004.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/4004.jpg" style="max-width:100%" />
 
 ## A Gate-Level Intel 4004, in 4004 Bytes of C Code
 
@@ -93,7 +93,7 @@ Nicholas Carlini has deservedly walked away from the latest International Obfusc
 
 The project is documented in full, complete with its source code, [on Nicholas’s blog](https://nicholas.carlini.com/writing/2025/ioccc-intel-4004-in-4004-bytes-c.html).
 
-<img src="dataset.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/dataset.jpg" style="max-width:100%" />
 
 ## VerilogDB Delivers Data for Gen-AI Training
 
@@ -108,7 +108,7 @@ Researchers from the University of Florida have announced VerilogDB, a dataset o
 
 The team’s work has been submitted to the Association of Computing Machinery (ACM), with a preprint available [on Cornell’s arXiv server](https://www.arxiv.org/abs/2507.13369); those interested in accessing the database are advised to contact the researchers.
 
-<img src="cherimicrokit.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/cherimicrokit.jpg" style="max-width:100%" />
 
 ## CHERI-seL4 and CHERI-Microkit Released
 
@@ -123,7 +123,7 @@ Hesham Almatary has announced the release of an “experimental” version of th
 
 Full source code for [CHERI-seL4](https://github.com/CHERI-Alliance/CHERI-seL4) and [CHERI-Microkit](https://github.com/CHERI-Alliance/CHERI-Microkit) has been published to GitHub under a mixture of licences including the GNU General Public License 2 and the two-clause BSD licence; exercises are provided [in the project’s documentation](https://cheri-alliance.github.io/CHERI-seL4-Exercises/). For those interested in the project’s history, Hesham can be see talking about seL4 on RISC-V in a presentation at ORCONF 2015, following that year’s Google Summer of Code, [on the FOSSi Foundation YouTube channel](https://www.youtube.com/watch?v=M8tE0seyNzE).
 
-<img src="llvm.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/llvm.jpg" style="max-width:100%" />
 
 ## RFC Opens on Upstreaming CHERI Target Support in LLVM
 
@@ -138,7 +138,7 @@ Owen Anderson, Jessica Clarke, Alex Richardson, and David Chisnall have issued a
 
 The RFC, which has already gained numerous comments in support of the proposal, is available [on the LLVM forum](https://discourse.llvm.org/t/rfc-upstream-target-support-for-cheri-enabled-architectures/87623/15).
 
-<img src="eprom.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/eprom.jpg" style="max-width:100%" />
 
 ## EPROMINT is an Eight-Bit CPU Built from EPROMs
 
@@ -155,7 +155,7 @@ The result was the EPROMINT, an eight-bit CPU inspired by but not a copy of the 
 
 More information is available in MINT’s video [on YouTube](https://www.youtube.com/watch?v=xBB1nAUvuqU); project documentation and source code are available [on GitHub](https://github.com/majsterkowanieinietylko/EPROMINT) under the permissive MIT licence.
 
-<img src="injection.jpg" style="max-width:100%" />
+<img src="/blog/2025-08-18-ecl88/injection.jpg" style="max-width:100%" />
 
 ## Encarsia Provides Evaluation of CPU Fuzzers
 

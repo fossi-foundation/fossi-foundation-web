@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-05-09
 ---
 
-<img src="opentitan.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/opentitan.jpg" style="max-width:100%" />
 
 ## The OpenTitan Project Hits a Major Milestone: RTL Feature Freeze
 
@@ -22,7 +22,7 @@ Those virtues, as seen by lowRISC: strong commercial viability with a sustainabl
 
 Gavin's full article is available [on EE Times](https://www.eetimes.com/ushering-in-a-new-era-for-open-source-silicon-development/) now, while [the OpenTitan GitHub repository](https://github.com/lowrisc/opentitan) hosts the project under the permissive Apache 2.0 licence.
 
-<img src="chipignite.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/chipignite.jpg" style="max-width:100%" />
 
 ## Efabless Plans an Open-Source Shuttle Competition with Four Slots
 
@@ -35,7 +35,7 @@ Matt Venn, open silicon developer, Zero to ASIC educator, and host of the Open S
 
 Matt's discussion on the subject is available [on YouTube now](https://www.youtube.com/watch?v=Mvx319O8NEo&t=350s), though Efabless has yet to post about the competition on its website.
 
-<img src="wasmeronriscv.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/wasmeronriscv.jpg" style="max-width:100%" />
 
 ## Wasmer 3.2 Brings the Project's First Support for RISC-V Chips
 
@@ -48,7 +48,7 @@ The Wasmer project has announced the latest release of its open-source WebAssemb
 
 The RISC-V release is fully supported in the Wasmer project's automated installer, and also [distributed as a pre-compiled executable](https://github.com/wasmerio/wasmer/releases/latest) in a compressed tarball. The project's source code, meanwhile, is available [on the Wasmer GitHub repository](https://github.com/wasmerio/wasmer) under the permissive MIT licence.
 
-<img src="skybox.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/skybox.jpg" style="max-width:100%" />
 
 ## Skybox Paper Describes the First Vulkan-Compatible RISC-V GPU Stack
 
@@ -65,7 +65,7 @@ Skybox itself is based on the RISC-V instruction set architecture, but with a cu
 
 The team's work has been published under open-access terms in the [_Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2023)_](https://dl.acm.org/doi/abs/10.1145/3582016.3582024).
 
-<img src="openriscfpu.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/openriscfpu.jpg" style="max-width:100%" />
 
 ## Stafford Horne Details the OpenRISC Floating Point Unit Port
 
@@ -82,7 +82,7 @@ Software engineer Stafford Horne has written a post detailing the work that has 
 
 Stafford's full write-up is available [on his blog](http://stffrdhrn.github.io/hardware/embedded/openrisc/2023/04/25/or1k-fpu-port.html), while the specification changes are live [in OpenRISC 1.4](https://openrisc.io/revisions/r1.4).
 
-<img src="fusesoc.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/fusesoc.jpg" style="max-width:100%" />
 
 ## Olof Kindgren Details the Features and Fixes in FuseSoC 2.2
 
@@ -99,7 +99,7 @@ While the new release fixes the above bug, and others, it also includes a few ne
 
 More details on the new release, including the introduction of a JSON Schema definition of the CAPI2 format to improve maintainability and potentially turn CAPI2 into a stand-alone project, are available [on Olof's blog](https://blog.award-winning.me/2023/04/fusesoc-22.html); FuseSoC is available [on GitHub](https://github.com/olofk/fusesoc) under the permissive BSD two-clause licence.
 
-<img src="riscv-logo.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/riscv-logo.jpg" style="max-width:100%" />
 
 ## RISC-V Ratifies the Code Size Reduction Extension
 
@@ -112,7 +112,7 @@ The RISC-V project has officially ratified the Code Size Reduction Extension, Zc
 
 The freshly-ratified extension is detailed in the V1.0 release [on the project's GitHub repository](https://github.com/riscv/riscv-code-size-reduction/releases/tag/v1.0).
 
-<img src="mempool.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/mempool.jpg" style="max-width:100%" />
 
 ## MemPool Offers a Scalable Many-Core Architecture with Shared L1 Memory
 
@@ -127,7 +127,7 @@ The team's test implementation, built on GlobalFoundries' 22DFX process node, oc
 
 The paper detailing MemPool is available as a preprint [on the Cornell arXiv server](https://arxiv.org/abs/2303.17742), while the source has been published [to GitHub](https://github.com/pulp-platform/mempool) under the permissive Apache 2.0 licence.
 
-<img src="tinytapeout3.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/tinytapeout3.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout 3 Sees 100 Submissions, Including a DEC PDP-8 CPU
 
@@ -140,7 +140,7 @@ Matt Venn has offered a look into the projects which were submitted for producti
 
 Full details of the designs in Tiny Tapeout 3 are available [on the project website](https://tinytapeout.com/runs/tt03/), with additional information [in Matt's Mastodon thread](https://chaos.social/@matthewvenn/110270846086316373).
 
-<img src="spiram.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/spiram.jpg" style="max-width:100%" />
 
 ## Olof Kindgren's SPI RAM Loader Makes it Easier to Work Without JTAG
 
@@ -153,7 +153,7 @@ FOSSi Foundation director Olof Kindgren has announced the release of a new proje
 
 The project's source code is available [on GitHub](https://github.com/olofk/spi_ram_loader) now.
 
-<img src="newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/newsinbrief.jpg" style="max-width:100%" />
 
 ## FOSSi News In Brief
 
@@ -169,7 +169,7 @@ The project's source code is available [on GitHub](https://github.com/olofk/spi_
 -   [Paper preprint: Manticore - Hardware-Accelerated RTL Simulation with Static Bulk-Synchronous Parallelism.](https://arxiv.org/abs/2301.09413)
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-05-09-ecl62/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

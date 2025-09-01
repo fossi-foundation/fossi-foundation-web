@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2025-06-17
 ---
 
-<img src="ttz80.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/ttz80.jpg" style="max-width:100%" />
 
 ## The Open-Source Z80 Lives
 
@@ -23,7 +23,7 @@ With the part discontinued, a second-source was sought - and that’s where Rene
 
 The design is detailed [on the Tiny Tapeout website](https://tinytapeout.com/runs/tt07/tt_um_rejunity_z80), with Reneldas’ interview available [on YouTube](https://www.youtube.com/watch?v=GI1e22A2J3U).
 
-<img src="icepi.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/icepi.jpg" style="max-width:100%" />
 
 ## 16-Year-Old Developer Releases Open Icepi Zero FPGA Board
 
@@ -40,7 +40,7 @@ The board, with a layout inspired by the Raspberry Pi Zero family of single-boar
 
 The project has been released [on GitHub](https://github.com/cheyao/icepi-zero?tab=readme-ov-file) under the permissive Solderpad Hardware Licence v2.1.
 
-<img src="redwood.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/redwood.jpg" style="max-width:100%" />
 
 ## Redwood EDA Launches First “ASIC Design Showdown”
 
@@ -55,7 +55,7 @@ The competition sees entrants working to create chip designs in challenges dubbe
 
 Interested parties can find out more [on the Redwood EDA website](https://www.redwoodeda.com/showdown-info), and [on the GitHub repository](https://github.com/rweda/showdown-2025-space-battle); registration must take place before the 26th of July and all designs must be made public by that time. The free-to-enter “Gamer’s Showdown” is scheduled to take place on the 1st of August; a paid “Gladiator’s Showdown,” at $40 per team until the end of the month, will take place on the 4th of August and include the chance to win prizes.
 
-<img src="egpu.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/egpu.jpg" style="max-width:100%" />
 
 ## e-GPU Turns RISC-V into a GPU for TinyAI
 
@@ -70,7 +70,7 @@ Researchers from the Embedded Systems Laboratory (ESL) at EPFL, Lausanne, have d
 
 A preprint of the team’s work is available [on Cornell’s arXiv server](https://arxiv.org/abs/2505.08421); the researchers have pledged to make the complete code and all documentation available under an unspecified open-source license, but at the time of writing the project’s [GitHub repository](https://github.com/esl-epfl/e-gpu) was not publicly accessible.
 
-<img src="semisim.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/semisim.jpg" style="max-width:100%" />
 
 ## Brandon Li Goes Fundamental with a Semiconductor Simulator
 
@@ -85,7 +85,7 @@ Quantum physicist Brandon Li has written a simulator which goes somewhat more lo
   
 The source code for the project is available [on GitHub](https://github.com/StunningLlama/Physics) under the reciprocal GNU General Public Licence 3; a browser-based version is available [on the author’s website](https://brandonli.net/semisim/).
 
-<img src="ibmllm.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/ibmllm.jpg" style="max-width:100%" />
 
 ## IBM Turns an LLM into a VHDL Assistant
 
@@ -100,7 +100,7 @@ IBM researchers have published a paper detailing how a large language model (LLM
 
 The team’s paper is available as a preprint [on Cornell’s arXiv server](https://arxiv.org/abs/2505.09610).
 
-<img src="cva6s.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/cva6s.jpg" style="max-width:100%" />
 
 ## Researchers Release Faster, More Energy-Efficient RISC-V Cores
 
@@ -115,7 +115,7 @@ A team of researchers from ETH Zürich, the Università di Bologna, and the Univ
 
 A preprint of the researchers’ work is available [on Cornell’s arXiv server](https://arxiv.org/abs/2505.24363).
 
-<img src="cheriot.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/cheriot.jpg" style="max-width:100%" />
 
 ## CHERI Looks Back on Ten Years of Progress
 
@@ -130,7 +130,7 @@ The CHERI (Capability Hardware Enhanced RISC Instructions) programme’s David C
 
 David’s full write-up is available [on the CHERIoT website](https://cheriot.org/cheri/history/2025/05/16/last-ten-years.html).
 
-<img src="roadmap.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/roadmap.jpg" style="max-width:100%" />
 
 ## …and Offers a Roadmap to The Future
 
@@ -145,7 +145,7 @@ While David may have been looking at CHERI’s history, Mike Aftimakis of the CH
 
 Mike’s full roadmap is available [on the CHERI Alliance blog](https://cheri-alliance.org/unlocking-the-future-a-roadmap-for-cheri-technology-advancement/); a preprint of the paper that triggered it is available [on Cornell’s arXiv server](https://arxiv.org/abs/2504.17904).
 
-<img src="lowrisc.jpg" style="max-width:100%" />
+<img src="/blog/2025-06-17-ecl86/lowrisc.jpg" style="max-width:100%" />
 
 ## Javier Orensanz Martinez Named as lowRISC CEO
 

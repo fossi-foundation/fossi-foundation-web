@@ -5,7 +5,7 @@ author: Philipp Wagner
 date: 2024-12-08
 ---
 
-<img src="latchup-logo-nolocation.png" style="max-width:100%" />
+<img src="/blog/2024-12-08-announcing-latchup-2025/latchup-logo-nolocation.png" style="max-width:100%" />
 
 The FOSSi Foundation is proud to announce [Latch-Up 2025](/latch-up/2025), a conference dedicated to free and open source silicon to be held over the weekend of May 2-4 in Santa Barbara, CA, USA.
 

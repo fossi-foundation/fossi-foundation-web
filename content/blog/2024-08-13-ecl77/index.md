@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2024-08-13
 ---
 
-<img src="orconf.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/orconf.jpg" style="max-width:100%" />
 
 ## First ORConf 2024 Speakers Confirmed, Register Now to Attend!
 
@@ -98,7 +98,7 @@ If those talks have you interested in attending, you can find out more about the
   
 We look forward to seeing all of you in Gothenburg this September!
 
-<img src="ttdemoscene.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/ttdemoscene.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout Gets a Demoscene Contest
 
@@ -113,7 +113,7 @@ Other judging categories include best soundtrack, best graphics, and most impres
   
 More information on the project is available [on the Tiny Tapeout website](https://tinytapeout.com/competitions/demoscene/); entries must be made for submission as part of Tiny Tapeout 8, which closes on the 6th of September.
 
-<img src="rp2350.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/rp2350.jpg" style="max-width:100%" />
 
 ## Raspberry Pi's New RP2350 Includes a Pair of Open Hazard3 RISC-V Cores
 
@@ -130,7 +130,7 @@ The inclusion of performant free and open RISC-V cores in what is likely to be a
   
 The Raspberry Pi Pico 2, which pairs the RP2350 with 4MB of off-chip flash on a compact breadboard-friendly development board, is available to order now at $5; RP2350 chips are available in two footprints with optional 2MB stacked flash memory from Raspberry Pi's authorised resellers. More information is available [on the Raspberry Pi website](https://www.raspberrypi.com/products/rp2350/), while Hazard3 is available [in Luke's GitHub repository](http:// https://github.com/Wren6991/Hazard3) under the permissive Apache 2.0 licence.
 
-<img src="chipflow.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/chipflow.jpg" style="max-width:100%" />
 
 ## Tomi Rantakari Says ChipFlow is "Making the Impossible Possible"
 
@@ -145,7 +145,7 @@ ChipFlow founder Tomi Rantakari has been interviewed by RISC-V International abo
   
 The full interview is available [on RISC-V International's website](https://riscv.org/uncategorized/2024/07/how-chipflow-is-making-the-impossible-possible/); ChipFlow plans to launch its platform in subscription late next year, promising a fee "a fraction of current EDA [Electronic Design Automation] prices." More information is available [on the ChipFlow website](https://www.chipflow.io/).
 
-<img src="covox.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/covox.jpg" style="max-width:100%" />
 
 ## Yeo Kheng Meng's Covox Speech Thing Clone is Tiny Tapeout Powered
 
@@ -162,7 +162,7 @@ Yeo's creation is a simple digital to analog converter, designed to mimic the fu
   
 More information, including demos of the device in use, is available [on Yeo's website](https://yeokhengmeng.com/2024/06/my-first-chip-with-tiny-tapeout-cvx/).
 
-<img src="ghostwrite.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/ghostwrite.jpg" style="max-width:100%" />
 
 ## GhostWrite Vulnerability Hits T-Head's XuanTie C910, C920 RISC-V Cores
 
@@ -179,7 +179,7 @@ The GhostWrite vulnerability was discovered during testing of a differential har
   
 Full details, including the team's paper on the topic, are available [on the GhostWrite website](https://ghostwriteattack.com/); the team has pledged to release RISCVuzz under an open license "with acceptance of the paper" with a preliminary release available [via Anonymous GitHub](https://anonymous.4open.science/r/riscvuzz-artifacts-116D).
 
-<img src="hackerfab.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/hackerfab.jpg" style="max-width:100%" />
 
 ## Hacker Fab Aims to Make ASIC Prototyping "As Fast As 3D Printing"
 
@@ -196,7 +196,7 @@ The first Hacker Fab has been opened at Carnegie Mellon University, with student
   
 More information is available [on the Hacker Fab website](https://hacker-fab.gitbook.io/hacker-fab-space); the hardware is licensed under the weakly reciprocal version of the CERN Open Hardware Licence v2, the software under the Mozilla Public Licence 2.0, and the documentation under the Creative Commons Attribution-ShareAlike 4.0 licence.
 
-<img src="breakingtaps.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/breakingtaps.jpg" style="max-width:100%" />
 
 ## Zachary Tong's Homebrew Photolithography Lab Nears a 1µm Feature Size
 
@@ -211,7 +211,7 @@ Even that, sadly, doesn't quite get the project to the target 1µm feature size 
   
 The full video is available on Zachary's YouTube channel, [Breaking Taps](https://www.youtube.com/watch?v=RuVS7MsQk4Y).
 
-<img src="ihp.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/ihp.jpg" style="max-width:100%" />
 
 ## IHP Launches Offers Free 130nm BiCMOS Production
 
@@ -228,7 +228,7 @@ Designs already submitted for production include a delta-sigma modulator from Bo
   
 More information is available [in the project documentation](http:// https://ihp-open-ip.readthedocs.io/en/latest/); interested parties can [fork the GitHub repository](https://github.com/IHP-GmbH/IHP-Open-DesignLib), made available under the permissive Apache 2.0 license, to receive copies of submitted projects and submit their own as a pull request.
 
-<img src="riscv.jpg" style="max-width:100%" />
+<img src="/blog/2024-08-13-ecl77/riscv.jpg" style="max-width:100%" />
 
 ## EE Times Details RISC-V's "Ambitious Prospects" in Europe
 
@@ -243,7 +243,7 @@ Pablo also interviewed Teresa Cervero, a research engineer at the Barcelona Supe
   
 The full article, which includes that the future of RISC-V in Europe "looks promising" thanks to its free and open nature and describes it as "a strategic imperative" in a move towards "greater technological sovereignty" for the region, is available [on the EE Times website](https://www.eetimes.com/risc-v-shows-ambitious-prospects-in-europe/).
 
-<img src="newsinbrief.jpg" style="max-width:100%" />pg)
+<img src="/blog/2024-08-13-ecl77/newsinbrief.jpg" style="max-width:100%" />pg)
 
 ## FOSSi News in Brief
 

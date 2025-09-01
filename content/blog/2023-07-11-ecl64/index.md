@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-07-11
 ---
 
-<img src="orconfpics.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/orconfpics.jpg" style="max-width:100%" />
 
 ## ORConf and ORktoberfest
 
@@ -20,7 +20,7 @@ We sincerely hope to see you in Munich this year. If you have any questions or n
 
 _-Stefan Wallentowitz, Director, FOSSi Foundation_
 
-<img src="germanflag.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/germanflag.jpg" style="max-width:100%" />
 
 ## Germany's BMBF Seeks Open-Source Design Tools to Further "Chip Sovereignty"
 
@@ -35,7 +35,7 @@ Germany's Federal Ministry of Education and Research (BMBF) is calling for propo
 
 Those interested in applying can find out more, in German, [on the BMBF website](https://translate.google.com/website?sl=auto&tl=en&hl=en-US&client=webapp&u=https://www.bmbf.de/bmbf/shareddocs/bekanntmachungen/de/2023/06/2023-06-02-Bekanntmachung-Chipentwicklung.html); applications close at the end of the month.
 
-<img src="computerraria.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/computerraria.jpg" style="max-width:100%" />
 
 ## Computerraria Does Away With the FPGA, Implements a RISC-V Core in Terarria
 
@@ -50,7 +50,7 @@ Xander's Computerraria is powerful enough to run games of its own, displayed wit
 
 The files required to reproduce Computerraria are available [in Xander's GitHub repository](https://github.com/misprit7/computerraria) under an unspecified open-source licence; more information is available in his explanatory video [on YouTube](https://youtu.be/zXPiqk0-zDY).
 
-<img src="veribleindexer.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/veribleindexer.jpg" style="max-width:100%" />
 
 ## Antmicro, Google Collaborate on Continuous Integration for the RISC-V VeeR Core Family
 
@@ -65,7 +65,7 @@ The CI work includes the open-source SystemVerilog parser Verible, the riscv-dv 
 
 Antmicro's full write-up is available [on the CHIPS Alliance blog](https://www.chipsalliance.org/news/open-source-rtl-ci-testing-and-verification-for-caliptra-veer/).
 
-<img src="tinytapeout.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/tinytapeout.jpg" style="max-width:100%" />
 
 ## Matt Venn Announces the Launch of the New, Improved Tiny Tapeout 4
 
@@ -80,7 +80,7 @@ Key to Tiny Tapeout's success is its take on the multi-project wafer concept: nu
 
 Submissions will open for Tiny Tapeout 4 soon, Matt says, with more information available [on the project website](https://tinytapeout.com/).
 
-<img src="vennaccelerator.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/vennaccelerator.jpg" style="max-width:100%" />
 
 ## Verifying a Physical Chip Against a Design - Using a Particle Accelerator
 
@@ -95,7 +95,7 @@ Using the Swiss Light Source synchrotron at the Paul Scherrer Institut (PSI) in 
 
 A full look at the project is available [in Matt's YouTube video](https://us17.admin.mailchimp.com/campaigns/Paul Scherrer Institut (PSI) in Switzerland).
 
-<img src="riscv-logo.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/riscv-logo.jpg" style="max-width:100%" />
 
 ## RISC-V Summit 2023 Call for Participation Closes This Friday
 
@@ -108,7 +108,7 @@ The call for participation seeks submissions in three categories: 25 minute pres
 
 Those interested in presenting can submit their proposals [on the event website](https://events.linuxfoundation.org/riscv-summit/program/cfp/#tracks-and-suggested-topics), but only have until Friday to do so.
 
-<img src="tilelinkuh.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/tilelinkuh.jpg" style="max-width:100%" />
 
 ## The Caravan Framework gets Tile Link Ultra High (UH) Integration
 
@@ -123,7 +123,7 @@ Students Dev Chadha and Mohsin Siddiqui, under the mentorship of Shahzaib Kashif
 
 The full project write-up is available [on the RISC-V International blog](https://riscv.org/blog/2023/06/integrating-tile-link-uh-in-the-caravan-framework-a-journey-of-enhanced-functionality/).
 
-<img src="bluepadlock.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/bluepadlock.jpg" style="max-width:100%" />
 
 ## The RISC-V Crypto Task Group Opens Public Review for Vector Cryptography Extensions
 
@@ -138,7 +138,7 @@ The review covers the Zvk extension, which in turn is a roll-up of a range of in
 
 The review runs through to the 23rd of July 2023, with a discussion already taking place [on the RISC-V ISA Dev mailing list](https://groups.google.com/a/groups.riscv.org/g/isa-dev/c/DpjkaK_1zQs/m/ubf7oSBFAgAJ); the latest versions of the extensions are available [on GitHub](https://github.com/riscv/riscv-crypto/tree/master/doc/vector), where issues and pull requests are welcomed.
 
-<img src="airiscvsbc.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/airiscvsbc.jpg" style="max-width:100%" />
 
 ## Researchers Develop an AI for Chip Design, Churn Out a RISC-V CPU in Just Five Hours
 
@@ -153,7 +153,7 @@ To prove the concept, the team taped out the chip and built a single-board compu
 
 A preprint of the team's paper is available [on Cornell University's arXiv server](https://arxiv.org/abs/2306.12456).
 
-<img src="sifivehifive.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/sifivehifive.jpg" style="max-width:100%" />
 
 ## RISC-V is "The Next Revolution in the Microchip Industry," Says Nasdaq Author
 
@@ -169,7 +169,7 @@ Lenore Elle Hawkins, writing for the Nasdaq Stock Market, has described RISC-V a
 The full article is available [on the Nasdaq website](https://www.nasdaq.com/articles/the-next-revolution-in-the-microchip-industry).
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-07-11-ecl64/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@librecores.org](mailto:ecl@librecores.org)**.
 

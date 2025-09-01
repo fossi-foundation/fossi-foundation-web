@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2023-10-10
 ---
 
-<img src="orconf23-group.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/orconf23-group.jpg" style="max-width:100%" />
 
 ## ORConf is Back, Videos Available Now
 
@@ -38,7 +38,7 @@ A big thank you to the hosts and the folks who helped out running the show. An e
 
 _-Julius Baxter, Director, FOSSi Foundation_
 
-<img src="howcpuworks.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/howcpuworks.jpg" style="max-width:100%" />
 
 ## "How CPU Works" Dives Deep with an 11-bit CPU Built from Discrete Transistors
 
@@ -54,7 +54,7 @@ The heart of the project is an 11-bit CPU built from 2,008 discrete transistors,
   
 [The How CPU Works site](https://howcpuworks.com/) is a work-in-progress, its creator says, with the first articles already published; more information is available [in this Reddit post](https://www.reddit.com/r/ArduinoProjects/comments/16ts5r6/built_a_processor_out_of_2000_transistors/), while [a browser-based simulator](https://howcpuworks.com/pages/cpu-simulator) allows you to go hands-on with the processor's instruction set. Its creator has pledged to make the hardware design available under an open-source licence in the near future.
 
-<img src="lowrisc-eev.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/lowrisc-eev.jpg" style="max-width:100%" />
 
 ## lowRISC CIC Announces "Significant Funding" from UKRI for New CHERI Boards
 
@@ -69,7 +69,7 @@ Under the programme, lowRISC will be funded to produce two prototype platforms: 
   
 More information is available [on the lowRISC website](https://lowrisc.org/blog/2023/09/dsbd-cheriot-announcement/), while anyone wishing to provide feedback on the Base Version board can find details [in a Google Doc file](https://docs.google.com/document/d/1b7hSMSCFgSK6isop1aiZAJxJ173uJqsQPHb4C6UucfI/edit#heading=h.vxv4kgl0l6ui).
 
-<img src="tinytapeoutmap.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/tinytapeoutmap.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout 4 Closes with Over 140 Designs, Tiny Tapeout 5 Opens
 
@@ -84,7 +84,7 @@ With Tiny Tapeout 4 now closed and the designs being sent off for production - f
   
 More information on the projects included in Tiny Tapeout 4 is available [on the shuttle status page](https://app.tinytapeout.com/shuttles/tt04); those interested in being part of Tiny Tapeout 5 can read more and apply [on the website](https://tinytapeout.com/).
 
-<img src="rvcodecjs.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/rvcodecjs.jpg" style="max-width:100%" />
 
 ## Joël Porquet-Lupine's rcvodec.js is a Browser-Based RISC-V Instruction Tool
 
@@ -99,7 +99,7 @@ Joël Porquet-Lupine, assistant professor of computer science at the University 
   
 The tool is available to use online [at luplab.gitlab.io/rvcodecjs](https://luplab.gitlab.io/rvcodecjs/), with the source code published [on GitLab](https://gitlab.com/luplab/rvcodecjs/) under the reciprocal GNU Affero General Public Licence 3.
 
-<img src="codethink-testing.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/codethink-testing.jpg" style="max-width:100%" />
 
 ## Neill Whillans Details Codethink's Automated RISC-V Kernel Testing Approach
 
@@ -114,7 +114,7 @@ Codethink's Neill Whillans has penned a post which looks at how the company uses
   
 The full post is available [on the Codethink blog](https://www.codethink.co.uk/articles/2023/riscv-kernel-testing/).
 
-<img src="davinci.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/davinci.jpg" style="max-width:100%" />
 
 ## Paolo Roberti's Da Vinci is an Open-Source RISC-V Macro Assembler
 
@@ -129,7 +129,7 @@ While the Da Vinci assembler aims to support multiple instruction set architectu
   
 Full details are available [on the project website](https://dvasm.com/), along with links to documentation, examples, and to download the project source code under a Creative Commons Attribution-NoDerivatives licence.
 
-<img src="uxlfoundation.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/uxlfoundation.jpg" style="max-width:100%" />
 
 ## The Unified Acceleration Foundation Aims for One API for All Workloads
 
@@ -144,7 +144,7 @@ The Linux Foundation has announced the formation of the Unified Acceleration (UX
   
 More information on the effort is available available [on the UXL Foundation's official website](https://uxlfoundation.org/).
 
-<img src="intel-ofs.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/intel-ofs.jpg" style="max-width:100%" />
 
 ## Intel Spins Out its FPGA Business, Releases the Open FPGA Stack to Open Source
 
@@ -159,7 +159,7 @@ The Intel Open FPGA Stack was released with the goal of addressing challenges in
   
 The Intel Open FPGA Stack source code is available [on GitHub](https://github.com/OFS) under the permissive MIT license.
 
-<img src="hoover-ai.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/hoover-ai.jpg" style="max-width:100%" />
 
 ## Steve Hoover Enlists Anthropic's Claude Chatbot to Build a RISC-V Core
 
@@ -178,7 +178,7 @@ The full experimental write-up is available [in Hoover's LinkedIn post](https://
 
 
 
-<img src="ecl-logo-small.jpg" style="max-width:100%" />
+<img src="/blog/2023-10-10-ecl67/ecl-logo-small.jpg" style="max-width:100%" />
 
 **Have feedback or news for inclusion in a future newsletter? Please send this to [ecl@fossi-foundation.org](mailto:ecl@fossi-foundation.org)**.
 
