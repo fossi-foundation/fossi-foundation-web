@@ -2,9 +2,12 @@
 Populate FfHeaderText with information from a page's frontmatter.
 -->
 <template>
-  <FfHeaderText :author="page?.author" :date="page?.date" :header="page?.header" :title="page?.title"/>
+  <FfHeaderText v-if="page" :author="page.author" :date="page.date" :header="page.header" :title="page.title"/>
 </template>
 
 <script setup lang="ts">
-const { page } = useContent();
+const route = useRoute()
+const { data: page } = await useAsyncData(route.path, () => {
+  return queryCollection('pages').path(route.path).first()
+})
 </script>

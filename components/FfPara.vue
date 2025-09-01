@@ -8,6 +8,6 @@ Style guide references:
 -->
 <template>
   <p class="text-16 font-normal leading-normal mt-12 mb-12 max-w-prose">
-    <ContentSlot :use="$slots.default" unwrap="p" />
+    <slot :use="$slots.default" mdc-unwrap="p" />
   </p>
 </template>

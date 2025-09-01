@@ -60,19 +60,6 @@ export default defineNuxtConfig({
   // Nuxt Content configuration
   content: {
     // https://content.nuxtjs.org/api/configuration
-    documentDriven: {
-      // The configuration below is supposed to be default according to
-      // https://content.nuxtjs.org/api/configuration#documentdriven, but that's
-      // somehow not the case.
-      // TODO: Double-check after a while and simplify to 'documentDriven: true'
-      globals: {
-        theme: {
-          where: [{
-            _id: 'content:_theme.yml'
-          }],
-        },
-      },
-    },
     highlight: {
       // See https://github.com/shikijs/shiki/blob/main/docs/themes.md
       theme: "github-light",

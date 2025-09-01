@@ -7,7 +7,7 @@ TODO:
 
 <template>
   <NuxtLink class="inline-block w-full tablet:w-auto text-center font-black text-phone-20 tablet:text-24 px-20 py-10 rounded-tr-xl shadow-mid" :class="{ 'bg-ultraviolet': !inverted, 'bg-white': inverted, 'text-white': !inverted, 'text-ultraviolet': inverted }" :to="linkTo" :title="linkTitle" :target="linkTarget">
-    <ContentSlot :use="$slots.default" unwrap="p" />
+    <slot :use="$slots.default" mdc-unwrap="p" />
   </NuxtLink>
 </template>
 

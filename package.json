@@ -21,7 +21,8 @@
     "@fontsource-variable/public-sans": "^5.0.0",
     "@fontsource/ibm-plex-mono": "^5.0.0",
     "@nuxt/devtools": "^1.0.0",
-    "@nuxt/image": "^1.2.0"
+    "@nuxt/image": "^1.2.0",
+    "better-sqlite3": "^12.2.0"
   },
   "resolutions": {
     "jackspeak": "2.1.1"

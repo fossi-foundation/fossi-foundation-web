@@ -11,6 +11,6 @@ TODO:
 -->
 <template>
   <code class="font-mono">
-    <ContentSlot :use="$slots.default" unwrap="p" />
+    <slot :use="$slots.default" mdc-unwrap="p" />
   </code>
 </template>

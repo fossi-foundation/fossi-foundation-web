@@ -1,7 +1,7 @@
 <template>
   <FfCards class="my-20">
     <FfCardInformation v-for="person in people" :headline="person.name" :subheading="person.subheading" :img="person.img">
-        <div class="my-20" v-if="'socialLinks' in person">
+        <div class="my-20" v-if="person.socialLinks">
           <FfSocialLinkCollection
             :linkedInUrl="person.socialLinks.linkedInUrl"
             :xTwitterUrl="person.socialLinks.xTwitterUrl"
@@ -17,14 +17,13 @@
 
 
 <script setup lang="ts">
-const data = await queryContent('/about-us/people/_people')
-  .findOne()
+// TODO: The data modeling is a bit strange here; it would be nicer if we had
+// an individual collection item per person, instead of a single collection item
+// with an array of people.
+const { data } = await useAsyncData('data', () => {
+  return queryCollection('people').first()
+})
 
 // Sort people by name.
-// TODO: Sorting breaks the association of images to other content (e.g., the
-// name). This looks at first sight like a problem in Nuxt Content Assets, but
-// that's to be confirmed.
-//const people = data.people.sort((a, b) => a.name > b.name);
-
-const people = data.people
+const people = data.value?.people.sort((a, b) => a.name.localeCompare(b.name));
 </script>
