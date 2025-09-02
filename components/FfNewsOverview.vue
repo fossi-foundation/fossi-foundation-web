@@ -14,19 +14,20 @@ TODO:
         <!-- Using the Content blocks/Image & text component. -->
         <div class="flex flex-col tablet:flex-row my-auto py-24 tablet:py-64">
           <div class="flex-auto">
-          <FfH3>Latest news</FfH3>
-            <NuxtLink :to="featuredBlogPost._path">
-              <FfH2 :href="featuredBlogPost._path">{{ featuredBlogPost.title }}</FfH2>
-              <ContentRendererMarkdown :value="featuredBlogPost" :excerpt="true" />
+            <FfH3>Latest news</FfH3>
+            <NuxtLink :to="featuredBlogPost.path">
+              <FfH2 :href="featuredBlogPost.path">{{ featuredBlogPost.title }}</FfH2>
+              <ContentRenderer :value="featuredBlogPost" :excerpt="true" />
             </NuxtLink>
             <p>
-              <FfLinkUnderline v-if="featuredBlogPost._path" :to="featuredBlogPost._path">Read more ...</FfLinkUnderline>
+              <FfLinkUnderline v-if="featuredBlogPost.path" :to="featuredBlogPost.path">Read more ...
+              </FfLinkUnderline>
             </p>
           </div>
           <div class="flex-none max-w-[344px] order-first tablet:order-none">
             <NuxtLink :to="featuredBlogPost._path">
-              <NuxtImg class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
-              <NuxtImg class="w-max" v-else src="/images/pattern-guardianship.png"/>
+              <NuxtImg class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage" />
+              <NuxtImg class="w-max" v-else src="/images/pattern-guardianship.png" />
             </NuxtLink>
           </div>
         </div>
@@ -36,7 +37,7 @@ TODO:
 
   <FfContainer>
     <!-- A selection of blog posts posts displayed as cards -->
-    <FfCards>
+    <FfCards v-if="blogPosts">
       <FfBlogPostCard v-for="post in blogPosts" :post="post" />
     </FfCards>
   </FfContainer>
@@ -44,15 +45,22 @@ TODO:
 
 <script setup lang="ts">
 // Get all blog posts.
-const blogPosts = await queryContent('/blog')
-  .sort({ date: -1 }) // show latest articles first
-  .where({ _partial: false })
-  .where({ _id: { $ne: 'content:blog:index.md' } }) // Filter out this page.
-  .only(["title", "excerpt", "coverImage", "_path"])
-  .find()
+const {data: blogPosts} = await useAsyncData('blogPosts', () => {
+  return queryCollection('blog')
+    .order('date', 'DESC') // show latest articles first
+    .all()
+})
+
+
+// const blogPosts = await queryCollection('/blog')
+//   .sort({ date: -1 }) // show latest articles first
+//   .where({ _partial: false })
+//   .where({ _id: { $ne: 'content:blog:index.md' } }) // Filter out this page.
+//   .only(["title", "excerpt", "coverImage", "_path"])
+//   .find()
 
 // Designate the most recent blog post as "featured", remove it from the list
 // of posts.
-const featuredBlogPost = blogPosts.shift()
+const featuredBlogPost = blogPosts.value?.shift()
 
 </script>
