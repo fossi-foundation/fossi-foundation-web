@@ -21,18 +21,11 @@ Fri,12:45,Break,Lunch break,,,,
 Fri,14:15,Normal,cocotb 2.0: celebrating 12 years of verification fun,The cocotb maintainers,Let's look together at cocotb 2.0 and see what it has in store for all of us!,,
 Fri,14:30,Normal,Advancing design verification with Verilator,Krzysztof Biegański,"A follow up to our [LatchUp 2024 verification with Verilator presentation](https://fossi-foundation.org/latch-up/2024#open-source-rtl-verification-with-verilator). In this talk we'll show recent improvements in the steady progress towards UVM support that Antmicro and others have been contributing to over the years. We'll also cover related topics such as constrained randomization support, enhancements to coverage reporting, and improved facilities for power estimation workflows.",,
 Fri,14:45,Normal,Constrainedrandom - a Python package that does what it says on the tin,William Keen,"Constrainedrandom is a Python package for - you guessed it - creating and solving constrained randomization problems. It's faster than PyVSC. It achieves this by walking the through state space randomly, rather than using exhaustive solutions for constraints. That makes it much faster for the majority case, though it's possible for it not to converge for harder problems.",,
-Fri,15:00,Normal,SpiceBind: Integrating SPICE-Level Analog Models into RTL verification,Tomasz Hemperek,"Open-source digital verification has advanced rapidly, but mixed-signal designs still lack a seamless path into modern RTL testbenches. This talk surveys today's community-driven options, pinpointing their remaining pain points.
-
-I then introduce [SpiceBind](https://github.com/themperek/spicebind), a lightweight VPI bridge that embeds an ngspice solver inside any VPI-capable simulator. RTL and SPICE devices step on the same timestep, while your existing testbench, coverage, and waveform tools remain unchanged.
-
-A top-level case study demonstrates how SpiceBind drops into a typical RTL simulation, and runs unmodified in a CI workflow. 
-
-Attendees will leave with an entirely open-source, reproducible recipe for bringing mixed-signal verification into their designed.",,
-Fri,15:15,Break,Coffee break,,,,
-Fri,16:00,Normal,10 Years of Chisel,Jack Koenig,"Chisel is the award-winning hardware description language embedded in Scala for writing reusable hardware generators. While Chisel has existed for 15 years, I have been involved in development for the last 10. This talk is a bit of a retrospective on the last decade and a look toward the future.",,
-Fri,16:15,Normal,"Experience with Chisel in designing a scalable, manufacturable cache directory for High-Performance server systems",Maarten Boersma,"At [ExpectedIT](https://www.expected-it.com/), we develop IP for AI and scale-up servers in the datacenter. As young startup company, we chose to use open-source EDA tools for chip development. One of our designs implements a high-performance cache directory, for orchestrating cache coherency in a multi-CPU system.
+Fri,15:00,Normal,10 Years of Chisel,Jack Koenig,"Chisel is the award-winning hardware description language embedded in Scala for writing reusable hardware generators. While Chisel has existed for 15 years, I have been involved in development for the last 10. This talk is a bit of a retrospective on the last decade and a look toward the future.",,
+Fri,15:15,Normal,"Experience with Chisel in designing a scalable, manufacturable cache directory for High-Performance server systems",Maarten Boersma,"At [ExpectedIT](https://www.expected-it.com/), we develop IP for AI and scale-up servers in the datacenter. As young startup company, we chose to use open-source EDA tools for chip development. One of our designs implements a high-performance cache directory, for orchestrating cache coherency in a multi-CPU system.
 
 We show our front-end design process, and share our RTL design and verification experiences so far. As minor contribution, we propose some enhancements to Chisel that helped us improve our code quality.",,
+Fri,15:30,Break,Coffee break,,,,
 Fri,16:30,Normal,"Slang Language Server: Accelerated, Reliable SystemVerilog Development",Andrew Nolte,"The Slang Language Server is a new tool built on top of [Slang](https://github.com/MikePopoloski/slang), the fastest and most compliant SystemVerilog frontend. Our goal is to provide a language server that is just as fast and accurate. This server offers a range of powerful features to accelerate your development in VSCode or Neovim. Here's what you can expect from the talk:
 
 Getting Started: We'll begin by showing you how to set up and use the server, and how to customize it for your repo
@@ -54,7 +47,15 @@ In this talk we will do an overview of the library’s capabilities and our plan
 Fri,17:45,Break,End of day 1,,,,
 ,,,,,,,
 Sat,9:00,Break,"Doors open, mingle with a coffee",,,,
-Sat,9:30,Normal,RV32I softcore and implementation from schematic to structural verilog (logilib) with Verilator,Jeremy Alcim,RV32I softcore and implementation from schematic to structural verilog (logilib) with verilator.,,
+Sat,9:30,Normal,RISC-V: Hardcore/Softcore Co-Simulation Environment with Cycle-Accurate Rollback,Jérémy Alcim,"Modern hardware verification reaches its limits: expensive proprietary tools, partial coverage, and time-consuming post-silicon debugging.
+
+We present a co-simulation environment that compares in real-time a RISC-V hardware processor (Verilog) with a software model (C) through an intelligent C++ checker.
+
+Key innovations:
+* Tri-granular architecture: transaction/stage/cycle-accurate based on requirements
+* Temporal rollback: Navigation through 64 compressed execution cycles
+* Automatic detection: Real-time hardware/software divergences
+",,
 Sat,9:45,Normal,"Extending RISC-V with SCAIE-V: Portable, Efficient, and Scalable Custom Instruction Integration",Tammo Mürmann,"Systems that require low power consumption or high performance often employ in-hardware accelerators to meet these demands. While complex algorithms can be efficiently offloaded to memory-mapped accelerators, small computational kernels are typically unsuitable due to overhead and latency. For these cases, custom instructions provide a more efficient acceleration path. However, custom instructions introduce new challenges, including the need for tight integration into the processor pipeline, which can reduce portability.
 
 Although tools for Instruction Set Architecture Extension (ISAX) integration exist, many are commercial, limited to specific core families (e.g., RoCC), support only a subset of instruction types (e.g., no memory access in CV-X-IF), or are still work-in-progress (e.g. RISC-V CX).
@@ -112,12 +113,7 @@ Sat,16:00,Normal,Shaping Tomorrow’s Chip Designers: Open-Source Initiatives at
 In addition to the challenge, the talk will briefly highlight the progress of the open-source EDA courses (digital and analog) developed within the FMD-QNC project at IHP. Following their first successful trial runs in early 2025, participant feedback has been largely integrated into the course content. All materials are openly licensed and made publicly available via Git repositories.
 The session will provide insights into the structure, motivation, and early outcomes of these initiatives, demonstrating how open-source tools and methodologies are being used to foster semiconductor education in Germany and beyond. This work is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) as part of the DI-OCDCpro project (Funding Code: 16ME0940) and the FMD-QNC project (Funding Code: 16ME0831).",,
 Sat,16:15,Normal,EuroCDP: the open branch,Macarena Martinez-Rodriguez,"This presentation will provide a brief overview of the EuroCDP (European Chip Design Platform), with a special focus on its open branch. The talk will highlight the key components available to the community, including an Open Source Software (OSS) toolbox for Level 0 users and an OSS sandbox environment for Level 1 and Level 2 users. The platform is designed to empower a broad range of stakeholders by enabling access to open EDA tools and an open IP catalog, all within a transparent and collaborative framework.",,
-Sat,16:30,Normal,How We Built a Semiconductor Startup in 6 Weeks based on an Open Source Ecosystems,Mohamed Kassem,"In this talk, we’ll share the story of how three engineers launched a semiconductor startup—ChipFoundry.io—in just six weeks, thanks to the open-source silicon ecosystem. With zero proprietary EDA licenses and no upfront IP costs, we built a real business around accessible, reproducible chip design.
-
-We’ll highlight how tools like OpenLane, the Sky130 PDK, the Caravel SoC template, and open IP libraries allowed us to go from concept to a working ASIC flow within weeks. We’ll also cover what worked, what didn’t, and how the vibrant community helped us overcome blockers that would’ve stalled a conventional startup for months.
-
-This is a talk about speed, leverage, and the power of open collaboration in a space once reserved for giants.",,
-Sat,16:45,Normal,Realising low cost and simple IC design - ChipFoundry and ChipFlow collaboration,Rob Taylor,"This talk will cover the background, technical aspects, and future plans of the recently announced collaboration between ChipFoundry and ChipFlow, including:
+Sat,16:30,Normal,Realising low cost and simple IC design - ChipFoundry and ChipFlow collaboration,Rob Taylor,"This talk will cover the background, technical aspects, and future plans of the recently announced collaboration between ChipFoundry and ChipFlow, including:
 
 * Background
 * A new graphical SoC tool
@@ -126,8 +122,8 @@ Sat,16:45,Normal,Realising low cost and simple IC design - ChipFoundry and ChipF
 * European and US programs
 
 We will also announce a new upcoming competition, continuing the legacy of Efabless’s Chipalooza!",,
-Sat,17:00,Normal,Open source chip design: for fun and for profit,Andreas Olofsson,"Open source EDA has come a long way since I first ""saw the light"" while founding the parallel processor company Adapteva in 2008. In this talk I will present my journey as a user and contributor to open source EDA and point out some of the technology gaps that still remain. I will then explain how Zero ASIC leverages open source tools successfully in our day to day business model. Finally, I will present some of our existing projects (SiliconCompiler, Switchboard, Logik, Lambdalib, LambdaPDK, UMI) and disclose a brand new open source project.",,
-Sat,17:15,Normal,"Tiliqua - Accessible, Reconfigurable Audio DSP Platform",Sebastian Holzapfel,"[Tiliqua](https://github.com/apfelaudio/tiliqua) is an open hardware development platform, DSP library and collection of examples (built in Amaranth HDL) that aims to make FPGA-based audio and video synthesis more accessible. This talk builds on [last year's edition](https://fossi-foundation.org/orconf/2024#synthesizing-music-synthesizers), this time covering some war stories from the past 12 months of getting Tiliqua hardware ready to ship, and all the new features added to the DSP/RTL library since then. We'll cover some fun topics such:
+Sat,16:45,Normal,Open source chip design: for fun and for profit,Andreas Olofsson,"Open source EDA has come a long way since I first ""saw the light"" while founding the parallel processor company Adapteva in 2008. In this talk I will present my journey as a user and contributor to open source EDA and point out some of the technology gaps that still remain. I will then explain how Zero ASIC leverages open source tools successfully in our day to day business model. Finally, I will present some of our existing projects (SiliconCompiler, Switchboard, Logik, Lambdalib, LambdaPDK, UMI) and disclose a brand new open source project.",,
+Sat,17:00,Normal,"Tiliqua - Accessible, Reconfigurable Audio DSP Platform",Sebastian Holzapfel,"[Tiliqua](https://github.com/apfelaudio/tiliqua) is an open hardware development platform, DSP library and collection of examples (built in Amaranth HDL) that aims to make FPGA-based audio and video synthesis more accessible. This talk builds on [last year's edition](https://fossi-foundation.org/orconf/2024#synthesizing-music-synthesizers), this time covering some war stories from the past 12 months of getting Tiliqua hardware ready to ship, and all the new features added to the DSP/RTL library since then. We'll cover some fun topics such:
 
 * Implementing low-latency USB host purely in gateware
 * Dynamic frequency scaling for display switching
@@ -136,10 +132,8 @@ Sat,17:15,Normal,"Tiliqua - Accessible, Reconfigurable Audio DSP Platform",Sebas
 * Lessons learned from shipping hardware (and some tricks for passing CE/EMC)
 
 As we walk through each theme, this talk will include some live demos on a small Eurorack system demonstrating each.",,
-Sat,17:30,Normal,WIP,Andrew Kahng,WIP,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
+Sat,20:00,Break,"Dinner at Restaurante Cocoa Patacona - Playa de la Patacona, Valencia",,,,
+Sat,21:30,Break,Lightning Talks,,,,
 ,,Lightning Talk,Design Understanding via Experimentation and Testing,Gus Henry Smith,We demonstrate how we can use LLMs to develop a deep understanding of complex designs via simple iterative experimentation. ,,
 ,,Lightning Talk,Bamlet: A VLIW SIMT Processor for Accelerators,Ben Reynwar,"[Bamlet](https://github.com/benreynwar/zamlet) is a VLIW SIMT processor designed to be used in a many-core accelerator mesh. Written in Chisel, tested with cocotb and PPA using OpenROAD-flow-scripts.",,
 ,,Lightning Talk,Machine Readable Architecture and Platform Automation with Jetbrains MPS Language Framework,"Johannes Schreiner
