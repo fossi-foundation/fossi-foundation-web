@@ -44,8 +44,8 @@ Fri,17:30,Normal,najaeada - Getting closer to an industrial grade ECO solution w
 One of the prominent uses for najaeda by the community has been ECOs due to its ease of use, friendly API and installation. 
 Licensed tools for ECOs can be costly and sometimes not dynamic enough. This results in a large number of engineers resorting to manual changes that can be time consuming and inconvenient. najaeda presents a reliable and straight forward open source alternative. 
 In this talk we will do an overview of the library’s capabilities and our plan to integrate embedded verification infrastructure in order to meet industrial standards and provide the community with a fully open source alternative.",,
-Fri,17:45,Break,End of day 1,,,,
-,,,,,,,
+Fri,17:45,Break,Refreshments,,,,
+Fri,18:00,Normal,Podcast live interview: Early Open Source EDA and POSH/IDEA,Andreas Olofsson and FOSSi Foundation,"Live interview with Andreas Olofsson about his early days in open source EDA. Andreas was program manager of POSH and IDEA programs of DARPA, which funded the OpenROAD project.",,
 Sat,9:00,Break,"Doors open, mingle with a coffee",,,,
 Sat,9:30,Normal,RISC-V: Hardcore/Softcore Co-Simulation Environment with Cycle-Accurate Rollback,Jérémy Alcim,"Modern hardware verification reaches its limits: expensive proprietary tools, partial coverage, and time-consuming post-silicon debugging.
 
@@ -132,6 +132,7 @@ Sat,17:00,Normal,"Tiliqua - Accessible, Reconfigurable Audio DSP Platform",Sebas
 * Lessons learned from shipping hardware (and some tricks for passing CE/EMC)
 
 As we walk through each theme, this talk will include some live demos on a small Eurorack system demonstrating each.",,
+Sat,17:30,Normal,Podcast live interview: History and Future of OpenROAD,Andrew Kahng and FOSSi Foundation,"Live interview with Andrew Kahng, project lead of OpenROAD. We will talk about how the program came together, the challenges it faced and how it became a household name. Of course we will also talk about the future of OpenROAD.",,
 Sat,20:00,Break,"Dinner at Restaurante Cocoa Patacona - Playa de la Patacona, Valencia",,,,
 Sat,21:30,Break,Lightning Talks,,,,
 ,,Lightning Talk,Design Understanding via Experimentation and Testing,Gus Henry Smith,We demonstrate how we can use LLMs to develop a deep understanding of complex designs via simple iterative experimentation. ,,
