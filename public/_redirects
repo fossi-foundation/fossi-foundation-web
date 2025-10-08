@@ -43,3 +43,10 @@ https://latchup.io/* https://fossi-foundation.org/latch-up/:splat 302!
 
 http://www.latchup.io/* https://fossi-foundation.org/latch-up/:splat 302!
 https://www.latchup.io/* https://fossi-foundation.org/latch-up/:splat 302!
+
+# Redirect http[s]://[www.]downunderflow.io/* to https://fossi-foundation.org/downunderflow/*
+http://downunderflow.io/* https://fossi-foundation.org/downunderflow/:splat 302!
+https://downunderflow.io/* https://fossi-foundation.org/downunderflow/:splat 302!
+
+http://www.downunderflow.io/* https://fossi-foundation.org/downunderflow/:splat 302!
+https://www.downunderflow.io/* https://fossi-foundation.org/downunderflow/:splat 302!
