@@ -72,11 +72,11 @@ Homepage
   -->
   <FfSignpostBanner
     class="bg-[url('/images/banner-orconf.jpg')]"
-    title="ORConf 2025 in Valencia, Spain is open for registrations"
-    ctaLabel="Visit the ORConf 2025 conference page for details"
-    ctaTo="/latch-up/2025"
+    title="Down Underflow 2026 in Sydney Australia is open for registrations"
+    ctaLabel="Visit the Down Underflow 2026 conference page for details"
+    ctaTo="/downunderflow/2026"
   >
-    <p>Join us in Valencia, Spain from September 12 to 14 for this year's ORConf and feel the pulse of the open source silicon community. Registration and talk submissions are open now.</p>
+    <p>Join us for the FOSSi Foundation's inaugural Down Underflow conference. Registration and talk submissions are open now.</p>
   </FfSignpostBanner>
 
   <!--
