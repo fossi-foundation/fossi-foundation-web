@@ -120,6 +120,9 @@ export default defineNuxtConfig({
     // Redirect the ORConf landing page to the most current one.
     '/orconf': { redirect: '/orconf/2025' },
 
+    // Redirect the ORConf landing page to the most current one.
+    '/downunderflow': { redirect: '/downunderflow/2026' },
+
     // Matrix server hosting
     // Disable prerendering to ensure that the redirects are done using HTTP
     // headers, and not HTML redirects.
