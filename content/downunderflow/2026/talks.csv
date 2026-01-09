@@ -2,7 +2,7 @@ Day,Time,Type,Title,Presenter,Abstract,Youtube,Slides
 Sat,9:00,Break,"Doors open, mingle with a coffee",,,,
 Sat,10:00,Normal,Opening,FOSSi Foundation team,Welcome to Down Underflow! All you need to know to have a successful conference.,,
 Sat,10:15,Normal,Cocotb: An Introduction and Update,Julius Baxter,An introduction to and round up of the latest and greatest from the Cocotb project: chip development and verification turbocharger in Python.,,
-Sat,10:45,Normal,wafer.space: 1000 parts for $7k,Tim Ansell,Update on [wafer.space](https://wafer.space/).,,,
+Sat,10:45,Normal,wafer.space: 1000 parts for $7k,Tim Ansell,An update on [wafer.space](https://wafer.space/).,,,
 Sat,11:15,Normal,OpenROAD in the Classroom: RTL to GDS flow,Samuel Tensingh,"This talk shares lessons from one of the early structured uses of the OpenROAD RTL-to-GDS flow in an Australian ASIC training course delivered through the Semiconductor Sector Service Bureau (S3B). The course used a fully open-source flow built around Yosys for synthesis, OpenSTA for timing analysis, OpenDP for placement, TritonCTS for clock tree synthesis, and TritonRoute for routing. The presentation focuses on practical flow behaviour, setup and integration challenges, and recurring issues observed in real student designs. It concludes with concrete suggestions on how the community can make OpenROAD easier to use, more reliable, and better suited for teaching and large-scale training.",,,
 Sat,12:00,Break,"Lunch",,,,
 Sat,13:00,Normal,Lowering barriers to entry to the semiconductor space,Julius Baxter,An exploration of open source tooling IP and flows which greatly reduce the barrier to entry for semiconductor startups informed by Morse Micro's experience circa 2016 to today.,,
