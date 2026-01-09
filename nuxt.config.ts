@@ -111,7 +111,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     // Redirect the Latch-Up landing page to the most current one.
-    '/latch-up': { redirect: '/latch-up/2025' },
+    '/latch-up': { redirect: '/latch-up/2026' },
 
     // Redirect legacy URL to the new dispatcher URL.
     // (Keep the URL aligned with the conference name "Latch-Up".)
@@ -120,7 +120,7 @@ export default defineNuxtConfig({
     // Redirect the ORConf landing page to the most current one.
     '/orconf': { redirect: '/orconf/2025' },
 
-    // Redirect the ORConf landing page to the most current one.
+    // Redirect the Downunderflow landing page to the most current one.
     '/downunderflow': { redirect: '/downunderflow/2026' },
 
     // Matrix server hosting
