@@ -22,7 +22,7 @@ You can expect the content of the event to cover all things open-source semicond
 
 ## S3B Gold Sponsor
 
-We are extremely pleased to announce the generous sponsorship by the NSW Semiconductor Sector Services Bureau (S3B) as the first Gold Sponsor of the inagural Down Underflow!
+We are extremely pleased to announce the generous sponsorship by the NSW Semiconductor Sector Service Bureau (S3B) as the first Gold Sponsor of the inagural Down Underflow!
 
 <img src="/downunderflow/2026/S3B-Logo-Horizontal.png" style="max-width:100%" />
 
@@ -46,7 +46,7 @@ We're sure everyone has something cool to talk about and we look forward to what
 
 The event will be free of charge but attendees are required to register.
 
-:ff-eventbrite-embedded-checkout{:eventId="1772979422179" type="modal" buttonText="Register for Latch-Up 2026"}
+:ff-eventbrite-embedded-checkout{:eventId="1772979422179" type="modal" buttonText="Register for Down Underflow 2026"}
 
 Head over to the [Down Underflow event site](/downunderflow/2026) site for all the details of the event.
 
