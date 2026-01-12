@@ -30,7 +30,7 @@ The S3B are now instrumental in supporting the development of the semiconductor 
 
 ## First speakers
 
-Head over to our [talks section](/down-underflow/2026#talks) of the Down Underflow page, we have our first handful of excellent talks covering open source tapeouts with [wafer.space](https://wafer.space), experiences teaching RTL to GDS with [OpenROAD](https://github.com/the-openroad-project), Verilog tooling based on [Slang](https://github.com/MikePopoloski/slang), a [Cocotb](https://cocotb.org) update, and some insight on using open source silicon tooling and IP in startups.
+Head over to our [talks section](/downunderflow/2026#talks) of the Down Underflow page, we have our first handful of excellent talks covering open source tapeouts with [wafer.space](https://wafer.space), experiences teaching RTL to GDS with [OpenROAD](https://github.com/the-openroad-project), Verilog tooling based on [Slang](https://github.com/MikePopoloski/slang), a [Cocotb](https://cocotb.org) update, and some insight on using open source silicon tooling and IP in startups.
 
 Presentation slots are still available, and we'd welcome and encourage folks to submit a talk on either their experience contributing to or using open source semiconductor IP, tools and flows. Slots of 20 minutes or lightning talks are available.
 
@@ -48,7 +48,7 @@ The event will be free of charge but attendees are required to register.
 
 :ff-eventbrite-embedded-checkout{:eventId="1772979422179" type="modal" buttonText="Register for Latch-Up 2026"}
 
-Head over to the [Down Underflow event site](/down-underflow/2026) site for all the details of the event.
+Head over to the [Down Underflow event site](/downunderflow/2026) site for all the details of the event.
 
 
 ## Supporting Down Underflow
@@ -65,6 +65,6 @@ We are very grateful to Morse Micro for offering to host us this year. Their off
 
 We very much look forward to seeing everyone at Down Underflow in February.
 
-Again all information can be found on the [Down Underflow event site](/down-underflow/2026) including how to contact organizers and details of the Matrix chat room for the event.
+Again all information can be found on the [Down Underflow event site](/downunderflow/2026) including how to contact organizers and details of the Matrix chat room for the event.
 
 Hoo roo.
