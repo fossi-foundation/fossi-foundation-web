@@ -223,7 +223,7 @@ _Duration:_  350 hours
 
 _Language/Tools:_  C++, SystemVerilog
 
-_Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es) , [Davy Million](mailto:davy.million@cea.fr) and  [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
+_Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es), [Davy Million](mailto:davy.million@cea.fr), [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
 
 
 ### OpenRISC Benchmarking and Performance improvements
