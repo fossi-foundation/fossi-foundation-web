@@ -45,7 +45,7 @@ or around the cursor would be extra useful.
 
 *Project Length:* medium (175 hours)
 
-*Mentors:* [Frans Skarman](mailto:frans.skarman@liu.se) [Oscar Gustafsson](mailto:oscar.gustafsson@liu.se)
+*Mentors:* [Frans Skarman](mailto:frans.skarman@liu.se), [Oscar Gustafsson](mailto:oscar.gustafsson@liu.se)
 
 *Languages/Tools:* Rust. Familiarity with hardware design is helpful to have some context of what the tool is used for is helpful, but the project itself is pure software. Some familiarity with egui is also helpful though certainly not required.
 
