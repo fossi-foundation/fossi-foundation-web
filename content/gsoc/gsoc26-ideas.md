@@ -101,7 +101,7 @@ CIRCT is based on MLIR and LLVM, and are implemented in C++. So you'll definitel
 
 *Language/Tools:* C++, CIRCT, MLIR, LLVM
 
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](maerhart@outlook.com), and others in the CIRCT community
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](mailto:maerhart@outlook.com), and others in the CIRCT community
 
 ### OpenRISC Linux Feature Development
 
