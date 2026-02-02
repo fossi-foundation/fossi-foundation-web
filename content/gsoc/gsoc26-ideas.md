@@ -122,21 +122,17 @@ _Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es)  and  [Jonath
 
 ### Using AI to Improve Open-Source IP
 
-What if we could instantly improve all the existing open-source Verilog by reducing its size, improving its maintainability, making it more configurable, identifying bugs, and creating visualization for it? How could you possibly do all those things over one summer as a student? Well, you can't. But you could help to make significant strides in that direction.
+What if we could instantly improve all existing open-source Verilog by reducing its size, improving its maintainability, making it more configurable, identifying bugs, and creating visualization for it? Transaction-Level Verilog (TL-Verilog) models are smaller, cleaner, and less bug-prone than their Verilog counterparts. Last year, we made great strides with agentic flows to automate the conversion of Verilog to TL-Verilog as well as to visualize simulations. Agents make incremental refactoring steps and test/debug each step using formal equivalence verification with SymbiYosys and EQY.
 
-Transaction-Level Verilog (TL-Verilog) models are smaller, cleaner, and less bug-prone than their Verilog counterparts. But there's not much TL-Verilog in the wild yet. If you ask ChatGPT to convert your code today, you won't be happy with the results. But with careful coaching, AI models can be trained for the job.
+You will use and enhance this flow to refactor open-source Verilog projects, as we've done with [SERV](https://github.com/stevehoover/serv/tree/main/tlv). In the process, you'll contribute to the automation, and your work will become training data to improve future LLMs for this task.
 
-Since LLMs understand Verilog better than TL-Verilog, we do as much as possible with the Verilog to prepare it for conversion to TL-Verilog. An initial flow has been put in place for this. A Python program iterates through a recipe of prompts, each performing an incremental refactoring step. After each step, formal equivalence verification (FEV) is used to ensure functional correctness. Human intervention is possible and is currently needed at almost every step.
-
-Your project will be to use and enhance this flow to refactor an open-source Verilog project like SERV. In the process, you'll contribute to the automation, and your work will become training data to improve future LLMs for this task.
-
-*Skill level:* Intermediate/Advanced
+*Skill level:* Intermediate
 
 *Duration:* 350 hours
 
 *Language/Tools:* Verilog, Python, TL-Verilog
 
-*Repo:* https://github.com/stevehoover/conversion-to-TLV
+*Repos:* https://github.com/stevehoover/conversion-to-TLV, https://github.com/stevehoover/LLM_TLV/tree/main/desktop_agent_verilog_conversion
 
 *Mentor:* [Steve Hoover](mailto:steve.hoover@redwoodeda.com)
 
@@ -252,5 +248,3 @@ These two features can currently be seen in the Makerchip IDE's waveform viewer.
 *Repo:* https://gitlab.com/surfer-project/surfer
 
 *Mentors:* [Frans Skarman](mailto:frans.skarman@protonmail.com) (creator of Surfer and Spade), [Oscar Gustafsson](mailto:oscar.gustafsson@liu.se), [Steve Hoover](mailto:steve.hoover@redwoodeda.com) (creator of TL-Verilog & Makerchip)
-
-
