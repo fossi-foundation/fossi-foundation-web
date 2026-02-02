@@ -28,7 +28,7 @@ RISC-V provides a trace format specification (https://github.com/riscv-non-isa/r
 
 *Project length:* medium (175 hours)
 
-*Mentors:* [Dan Petrisko](mailto:petrisko@cs.washington.edu)
+*Mentors:* [Dan Ruelas-Petrisko](mailto:dan@fossi-foundation.org)
 
 *Language/Tools:* SystemVerilog, C++, some knowledge of computer architecture. RISC-V knowledge preferred but not required. FPGA tools such as Vivado strongly encouraged but not required.
 
@@ -122,17 +122,21 @@ _Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es)  and  [Jonath
 
 ### Using AI to Improve Open-Source IP
 
-What if we could instantly improve all existing open-source Verilog by reducing its size, improving its maintainability, making it more configurable, identifying bugs, and creating visualization for it? Transaction-Level Verilog (TL-Verilog) models are smaller, cleaner, and less bug-prone than their Verilog counterparts. Last year, we made great strides with agentic flows to automate the conversion of Verilog to TL-Verilog as well as to visualize simulations. Agents make incremental refactoring steps and test/debug each step using formal equivalence verification with SymbiYosys and EQY.
+What if we could instantly improve all the existing open-source Verilog by reducing its size, improving its maintainability, making it more configurable, identifying bugs, and creating visualization for it? How could you possibly do all those things over one summer as a student? Well, you can't. But you could help to make significant strides in that direction.
 
-You will use and enhance this flow to refactor open-source Verilog projects, as we've done with [SERV](https://github.com/stevehoover/serv/tree/main/tlv). In the process, you'll contribute to the automation, and your work will become training data to improve future LLMs for this task.
+Transaction-Level Verilog (TL-Verilog) models are smaller, cleaner, and less bug-prone than their Verilog counterparts. But there's not much TL-Verilog in the wild yet. If you ask ChatGPT to convert your code today, you won't be happy with the results. But with careful coaching, AI models can be trained for the job.
 
-*Skill level:* Intermediate
+Since LLMs understand Verilog better than TL-Verilog, we do as much as possible with the Verilog to prepare it for conversion to TL-Verilog. An initial flow has been put in place for this. A Python program iterates through a recipe of prompts, each performing an incremental refactoring step. After each step, formal equivalence verification (FEV) is used to ensure functional correctness. Human intervention is possible and is currently needed at almost every step.
+
+Your project will be to use and enhance this flow to refactor an open-source Verilog project like SERV. In the process, you'll contribute to the automation, and your work will become training data to improve future LLMs for this task.
+
+*Skill level:* Intermediate/Advanced
 
 *Duration:* 350 hours
 
 *Language/Tools:* Verilog, Python, TL-Verilog
 
-*Repos:* https://github.com/stevehoover/conversion-to-TLV, https://github.com/stevehoover/LLM_TLV/tree/main/desktop_agent_verilog_conversion
+*Repo:* https://github.com/stevehoover/conversion-to-TLV
 
 *Mentor:* [Steve Hoover](mailto:steve.hoover@redwoodeda.com)
 
@@ -162,7 +166,7 @@ SMP.
 
 The [CIRCT](https://github.com/llvm/circt) project uses the [Slang](https://github.com/MikePopoloski/slang) frontend to parse the SystemVerilog hardware description language. The [sv-tests](https://chipsalliance.github.io/sv-tests-results/) project runs many SystemVerilog frontends on a benchmark suite of input files to test their quality. We would love you to use the sv-tests results as a starting point to find key missing features that you can add to `circt-verilog` and fix failing tests. Tests often fail for similar reasons, and fixing small things can cause large numbers of tests to start passing.
 
-SystemVerilog is a complicated language and CIRCT builds a deep stack of intermediate representations using MLIR to process it. The Slang frontend produces an Abstract Syntax Tree which the ImportVerilog pass converts into the Moore dialect, the first IR level in circt-verilog. Various optimizations are already performed at this level. Then the MooreToCore conversion pass lowers the Moore dialect to the HW, Comb, Seq, and LLHD dialects for further processing. Finally, several optimization passed implemented on the LLHD dialect analyze the hardware design and detect common structures. If you want to sink your teeth into compiler and IR design, this is the perfect project for you!
+SystemVerilog is a complicated language and CIRCT builds a deep stack of intermediate representations using MLIR to process it. The Slang frontend produces an Abstract Syntax Tree which the ImportVerilog pass converts into the Moore dialect, the first IR level in circt-verilog. Various optimizations are already performed at this level. Then the MooreToCore conversion pass lowers the Moore dialect to the HW, Comb, Seq, and LLHD dialects for further processing. Finally, several optimization passes implemented on the LLHD dialect analyze the hardware design and detect common structures. If you want to sink your teeth into compiler and IR design, this is the perfect project for you!
 
 Slang and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'll definitely want to have some experience writing C++ code, since LLVM-based projects often follow a fairly peculiar and performance-conscious style of C++.
 
@@ -172,40 +176,7 @@ Slang and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'l
 
 *Language/Tools:* C++, CIRCT, MLIR, LLVM
 
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](maerhart@outlook.com), and others in the CIRCT community
-
-### Open Educational Content Development
-A Microelectronics Petagogy Community of Practice (MPCoP) has been established by educators and employers (primarily in the northeastern United States) to develop open digital electronics curricula leveraging Makerchip.com and open-source electronic design automation (EDA) software. The MPCoP aims to overcome the following hurdles that impede digital electronics education:
-
-- access to proprietary tools: licensing, platform compatibility, substantial disk space requirements
-- FPGA lab access or physical hardware distribution and costs
-- the complexity of tools and languages and the abstract nature of concepts
-- ensuring original student work
-
-To address these issues, MCPoC universities (UConn, Northeastern, Tufts, UWisc, UNT) recognize the importance of:
-
-- [Makerchip](https://makerchip.com) as a free, online circuit design environment
-- [TL-Verilog](https://tl-x.org) as an easier/modern hardware description language
-- [Visual Debug](https://redwoodeda.com/viz) as a means of illustrating complex concepts
-- [Virtual FPGA Lab](https://github.com/os-fpga/Virtual-FPGA-Lab) (a former FOSSi GSoC project) for FPGA experience outside the lab
-- open-source EDA software for easy access and understanding.
-
-MPCoP employers recognize the value of a workforce educated in these technologies.
-
-This project is an opportunity to contribute to the advancement and democratization of ECE education while learning from modern tools and ECE curricula yourself as you work to improve educational content. With AI assistance, you will:
-
-- convert existing Verilog and VHDL assignments and projects to use Makerchip and TL-Verilog
-- bundle course content and open shared modules
-- incorporate visualizations to enhance the educational experience
-- test assignments and provide reference solutions
-
-*Skill level:* Any (task will vary accordingly)
-
-*Duration:* 175 or 350 hours
-
-*Language/Tools:* TL-Verilog, Verilog, VHDL, Makerchip, various open-source EDA tools
-
-*Mentors:* [Steve Hoover](mailto:steve.hoover@redwoodeda.com) and other members of the MPCoP
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](mailto:maerhart@outlook.com), and others in the CIRCT community
 
 ### Architectural Improvements to OpenPiton+Ariane for RISC-V Profile Compliance
 [OpenPiton+Ariane](https://openpiton-blog.princeton.edu/2018/11/announcing-openpiton-with-ariane/) is a permissively-licensed RISC-V manycore processor, built as a collaboration between the [PULP Platform](https://www.pulp-platform.org/) from ETH Zürich and the [OpenPiton Platform](http://www.openpiton.org/) from Princeton University. We would like to co-optimise OpenPiton and Ariane/CVA6 in their combined platform, to improve performance of the processor both in FPGA emulation systems and for eventual silicon chips. We are particularly interested in moving the platform toward RISC-V RVA23 profile compliance and so developing any new extension support needed for this purpose would be a great GSoC opportunity!
