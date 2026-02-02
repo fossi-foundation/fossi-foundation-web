@@ -18,7 +18,7 @@ through the private GSoC-specific mailing list [gsoc@fossi-foundation.org](mailt
 Looking forward to meet you all!
 
 
-### ZynqParrot RISC-V Tracer
+## ZynqParrot RISC-V Tracer
 
 ZynqParrot (https://github.com/black-parrot-hdk/zynq-parrot) is a framework for doing self-contained, FPGA-based "hostless" ASIC accelerator development. It is designed to be extremely general and has been used to prototype IP from individual ASIC/FPGA cores to full multicore processors. In addition, ZynqParrot has been used to bringup N=1 ASIC silicon in the lab.
 
@@ -45,9 +45,27 @@ or around the cursor would be extra useful.
 
 *Project Length:* medium (175 hours)
 
-*Mentors:* [Frans Skarman](mailto:frans.skarman@liu.se) [Oscar Gustafsson](mailto:oscar.gustafsson@liu.se)
+*Mentors:* [Frans Skarman](mailto:frans.skarman@liu.se), [Oscar Gustafsson](mailto:oscar.gustafsson@liu.se)
 
 *Languages/Tools:* Rust. Familiarity with hardware design is helpful to have some context of what the tool is used for is helpful, but the project itself is pure software. Some familiarity with egui is also helpful though certainly not required.
+
+
+### TL-Verilog Editor Modes
+
+*Details:* TL-Verilog has support in various editors, including VSCode, GitHub, and CodeMirror (used by Makerchip). But all three could use a refresh and improvements. Grammar improvements are needed in TextMate (currently used by VSCode and GitHub), and Tree-sitter support is desired for future use in GitHub and CodeMirror.
+
+175-hr or 350-hr projects are possible. A 175-hr project could focus on improving the existing GitHub TL-Verilog mode (which is rather broken). A 350-hr project might focus on a new grammar. A long project might also add support for the macro-preprocessor used by TL-Verilog (M5) or for JavaScript embedded in TL-Verilog.
+
+*Skill level:* Medium
+
+*Language/Tools:* JavaScript
+
+*Duration:* 175 or 350 hrs
+
+*Repo:* https://github.com/github-linguist/linguist/pull/5331/files
+
+*Mentor:* [Steve Hoover](mailto:steve.hoover@redwoodeda.com)
+
 
 ### cocotb v2 Code Migration Helper
 
@@ -83,7 +101,7 @@ CIRCT is based on MLIR and LLVM, and are implemented in C++. So you'll definitel
 
 *Language/Tools:* C++, CIRCT, MLIR, LLVM
 
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](maerhart@outlook.com), and others in the CIRCT community
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](mailto:maerhart@outlook.com), and others in the CIRCT community
 
 ### OpenRISC Linux Feature Development
 
@@ -107,7 +125,7 @@ the Linux kernel.  This includes:
 
 ### [Generic MinimumLinuxBoot for RTL Simulations]
 
-This project consists of booting Linux in Qemu, save the memory state, thencontinue the simulation in an RTL Simulation of OpenPiton. The first part of the project consists of understanding what states need to be saved, probably a combination of the TLB and MMU states as an starting point could be enough. Then, this state needs to be saved in a file format that the checkpoint mechanism of Verilator understand or create a synthetic benchmark that makes the proper MMU configuration. The second part of the project is adding the necessary support in OpenPiton Simulation infrastructure to continue the simulation and being able to launch some applications.
+This project consists of booting Linux in Qemu, save the memory state, then continue the simulation in an RTL Simulation of OpenPiton. The first part of the project consists of understanding what states need to be saved, probably a combination of the TLB and MMU states as an starting point could be enough. Then, this state needs to be saved in a file format that the checkpoint mechanism of Verilator understand or create a synthetic benchmark that makes the proper MMU configuration. The second part of the project is adding the necessary support in OpenPiton Simulation infrastructure to continue the simulation and being able to launch some applications.
 
 OpenPiton uses different languages like Verilog, Python, Perl, and C. Verilator C++. Additionally, some background in hardware design is useful.
 
@@ -188,7 +206,7 @@ Slang and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'l
 ### [Cohort++]
 [Cohort](https://jbalkind.github.io/docs/asplosc23main-p494-p-b2f0eacb1a-63706-final.pdf)  is a framework designed to integrate hardware accelerators into software systems while maximizing efficiency seamlessly. It introduces Software-Oriented Acceleration (SOA), a paradigm that simplifies and optimizes interactions between software and hardware accelerators. By leveraging existing software abstractions—such as shared-memory queues—Cohort enables a streamlined, high-performance communication channel between software components and accelerators.
 
-This project consists of improving the performance of OpenPiton memory hierarchy to better suit Cohort. For example, there is prior work on supporting wider NoCs, and cachelines in OpenPiton; we changing the Cohort engine's interaction with the coherence protocol; multiple MMU outstanding requests for higher performance.
+This project consists of improving the performance of OpenPiton memory hierarchy to better suit Cohort. For example, there is prior work on supporting wider NoCs, and cachelines in OpenPiton; we are changing the Cohort engine's interaction with the coherence protocol; multiple MMU outstanding requests for higher performance.
 
 We have other ideas to work more on Cohort software support and we are also open to new proposals. Some examples:
 - Support for other data structures instead of only queues
@@ -201,7 +219,7 @@ _Duration:_  350 hours
 
 _Language/Tools:_  C++, SystemVerilog
 
-_Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es) , [Davy Million](mailto:davy.million@cea.fr) and  [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
+_Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es), [Davy Million](mailto:davy.million@cea.fr), [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
 
 
 ### OpenRISC Benchmarking and Performance improvements
