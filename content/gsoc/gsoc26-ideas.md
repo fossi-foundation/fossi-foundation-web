@@ -194,7 +194,7 @@ Slang and CIRCT are based on MLIR and LLVM, and are implemented in C++. So you'l
 
 *Language/Tools:* C++, CIRCT, MLIR, LLVM
 
-*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](maerhart@outlook.com), and others in the CIRCT community
+*Mentor:* [Fabian Schuiki](mailto:fabian@schuiki.ch), [Martin Erhart](mailto:maerhart@outlook.com), and others in the CIRCT community
 
 ### Architectural Improvements to OpenPiton+Ariane for RISC-V Profile Compliance
 [OpenPiton+Ariane](https://openpiton-blog.princeton.edu/2018/11/announcing-openpiton-with-ariane/) is a permissively-licensed RISC-V manycore processor, built as a collaboration between the [PULP Platform](https://www.pulp-platform.org/) from ETH Zürich and the [OpenPiton Platform](http://www.openpiton.org/) from Princeton University. We would like to co-optimise OpenPiton and Ariane/CVA6 in their combined platform, to improve performance of the processor both in FPGA emulation systems and for eventual silicon chips. We are particularly interested in moving the platform toward RISC-V RVA23 profile compliance and so developing any new extension support needed for this purpose would be a great GSoC opportunity!
