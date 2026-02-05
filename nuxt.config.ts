@@ -72,6 +72,9 @@ export default defineNuxtConfig({
           }],
         },
       },
+      // Host URL for generating absolute URLs in og:image and other meta tags
+      // See: https://github.com/nuxt/content/issues/2373
+      host: 'https://www.fossi-foundation.org',
     },
     highlight: {
       // See https://github.com/shikijs/shiki/blob/main/docs/themes.md
@@ -105,6 +108,17 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', type: 'image/png', sizes: "180x180", href: '/apple-touch-icon.png' },
         { rel: 'icon', type: 'image/png', sizes: "32x32", href: "/favicon-32x32.png" },
         { rel: 'icon', type: 'image/png', sizes: "16x16", href: "/favicon-16x16.png" },
+      ],
+      meta: [
+        // Default SEO meta tags
+        { name: 'description', content: 'The Free and Open Source Silicon Foundation promotes and protects the open source silicon chip movement.' },
+        // OpenGraph meta tags
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: 'FOSSi Foundation' },
+        { property: 'og:locale', content: 'en_US' },
+        // Twitter Card meta tags
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:site', content: '@FossiFoundation' },
       ],
     }
   },
