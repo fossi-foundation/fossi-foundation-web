@@ -24,6 +24,12 @@ ZynqParrot (https://github.com/black-parrot-hdk/zynq-parrot) is a framework for 
 
 RISC-V provides a trace format specification (https://github.com/riscv-non-isa/riscv-trace-spec) which can be used for diagnostic performance and debugging. This project will design and integrate a RISC-V Trace implementation into the ZynqParrot environment, requiring SystemVerilog implementation + testing, Block Diagram (Vivado IPI) design and well as writing C++ driver to work in both Co-Simulation and Co-Emulation.
 
+Strong proposals will:
+- Have a general understanding of the ZynqParrot infrastructure and
+- Be able to articulate changes needed as well as
+- Produce before / after block diagrams for the planned integration and
+- Be available to work full-time on this project.
+
 *Skill level:* intermediate
 
 *Project length:* medium (175 hours)
@@ -31,6 +37,24 @@ RISC-V provides a trace format specification (https://github.com/riscv-non-isa/r
 *Mentors:* [Dan Ruelas-Petrisko](mailto:dan@fossi-foundation.org)
 
 *Language/Tools:* SystemVerilog, C++, some knowledge of computer architecture. RISC-V knowledge preferred but not required. FPGA tools such as Vivado strongly encouraged but not required.
+
+## BlackParrot UVM Testbenches
+
+BlackParrot (https://github.com/black-parrot/black-parrot) is an open-source Linux-capable RISC-V multicore with a long history of begin used to stress-test open-source EDA tooling. Verilator (https://github.com/verilator/verilator) has newly added UVM support. We're very interested in seeing what can be done with the current implementation, and compiling a wishlist of new UVM features to support in Verilator.
+
+Strong proposals will:
+- Have a general understanding of the current BlackParrot testing infrastructure and
+- Identify a few candidate modules to develop UVM testbenches for and
+- Produce block diagrams to describe verification strategy and
+- Be available to work full-time on this project.
+
+*Skill level:* beginner
+
+*Project length:* medium (175 hours)
+
+*Mentors:* [Dan Ruelas-Petrisko](mailto:dan@fossi-foundation.org)
+
+*Languages/Tools:* SystemVerilog, Verilator, prior UVM knowledge helpful but not required.
 
 ### Surfer memory and wide array support
 
