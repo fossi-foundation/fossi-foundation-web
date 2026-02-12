@@ -49,24 +49,6 @@ or around the cursor would be extra useful.
 
 *Languages/Tools:* Rust. Familiarity with hardware design is helpful to have some context of what the tool is used for is helpful, but the project itself is pure software. Some familiarity with egui is also helpful though certainly not required.
 
-
-### TL-Verilog Editor Modes
-
-*Details:* TL-Verilog has support in various editors, including VSCode, GitHub, and CodeMirror (used by Makerchip). But all three could use a refresh and improvements. Grammar improvements are needed in TextMate (currently used by VSCode and GitHub), and Tree-sitter support is desired for future use in GitHub and CodeMirror.
-
-175-hr or 350-hr projects are possible. A 175-hr project could focus on improving the existing GitHub TL-Verilog mode (which is rather broken). A 350-hr project might focus on a new grammar. A long project might also add support for the macro-preprocessor used by TL-Verilog (M5) or for JavaScript embedded in TL-Verilog.
-
-*Skill level:* Medium
-
-*Language/Tools:* JavaScript
-
-*Duration:* 175 or 350 hrs
-
-*Repo:* https://github.com/github-linguist/linguist/pull/5331/files
-
-*Mentor:* [Steve Hoover](mailto:steve.hoover@redwoodeda.com)
-
-
 ### cocotb v2 Code Migration Helper
 
 The upcoming cocotb v2.x release will have quite some breaking changes (see https://docs.cocotb.org/en/latest/release_notes.html), so users and extension developers will have to actively migrate existing code.
