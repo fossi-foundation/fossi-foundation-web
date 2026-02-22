@@ -1,7 +1,7 @@
 Day,Time,Type,Title,Presenter,Abstract,Youtube,Slides
 Sat,9:00,Break,"Doors open, register and mingle with a coffee",,,,
 Sat,9:45,Normal,Opening,FOSSi Foundation team,Welcome to Down Underflow! Conference opening presentation.,,
-Sat,10:00,Normal,Lowering barriers to entry to the semiconductor space,Julius Baxter,An exploration of open source tooling IP and flows which greatly reduce the barrier to entry for semiconductor startups informed by Morse Micro's experience circa 2016 to today.,,
+Sat,10:00,Normal,Lowering barriers of entry to the semiconductor space,Julius Baxter,An exploration of open source tooling IP and flows which greatly reduce the barrier to entry for semiconductor startups informed by Morse Micro's experience circa 2016 to today.,,
 Sat,10:25,Normal,wafer.space: 1000 parts for $7k,Tim Ansell,An update on [wafer.space](https://wafer.space/).,,,
 Sat,10:50,Normal,Racquet: A multicore RISC-V using SERV cores,Greg Davill,"Using open source tools, I designed a multicore RISC-V system-on-chip (SoC) in System Verilog, based on the low-area [SERV bit-serial RISC-V CPU](https://github.com/olofk/serv). It was taped out using GF180MCU open source PDK on the first [wafer.space](https://wafer.space) shuttle.",,
 Sat,11:15,Break,"Coffee break",,,,
