@@ -19,6 +19,7 @@ Sat,14:55,Normal,A Language Abstraction for Custom CMOS Circuit Optimization,Zac
 Sat,15:20,Break,"Coffee break",,,,
 Sat,15:50,Normal,hdlworkflow: Seamless FPGA workflows,Scott Huynh,"All HDL simulators follow the same process (analyse, elaborate and simulate) though each uses its own variation of these commands. Similarly, all HDL synthesis tools follow the same flow (synthesise, place and route, and generate bitstream). [hdlworkflow](https://github.com/scottshuynh/hdlworkflow) abstracts away these tool-specific commands, making project setup and usage fast and effortless.",,
 Sat,16:15,Normal,MockingBoard: A Remote ASIC Prototyping Farm,Daniel Ruelas-Petrisko,"ASIC prototyping flows struggle with complicated toolchain management, ad-hoc debug infrastructure and tight coupling to vendor IP. This talk will describe a flexible approach to engineering emulation clusters, scaling from budget FPGAs to large emulation platforms.",,
+Sat,16:40,Normal,Cocotb Update,Iain Waugh,"This talk will introduce Cocotb, discuss some recent API changes across versions and migration tips, and discuss some extensions and Cocotb-adjacent tooling.",,
 Sat,17:00,Normal,Closing,FOSSi Foundation team,,,
 Sat,17:15,Break,"Rooftop drinks",,,,
 Sat,18:30,Break,"Social event",,,,
