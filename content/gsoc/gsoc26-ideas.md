@@ -281,32 +281,6 @@ _Language/Tools:_  C++, SystemVerilog
 
 _Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es), [Davy Million](mailto:davy.million@cea.fr), [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
 
-### Enabling OpenROAD-based Power Estimation for OpenPiton Manycore Systems
-[OpenPiton Power Modeling with OpenROAD]
-
-OpenPiton is a scalable, open-source manycore platform widely used for research on RISC-V systems, coherence, and accelerator integration. However, obtaining activity-driven power estimates for OpenPiton currently relies on proprietary physical design flows, limiting reproducibility and open hardware research.
-
-This project aims to create a fully open-source methodology to estimate power for OpenPiton using the OpenROAD toolchain. The student will port a representative OpenPiton tile (core, cache slice, and NoC router subset) to the OpenROAD-flow-scripts infrastructure, generating a synthesized and placed-and-routed design for an open PDK. Gate-level simulations will be used to produce SAIF activity files from representative workloads, which will be annotated in OpenSTA to obtain switching, internal, and leakage power breakdowns.
-
-The resulting flow will enable architecture-level power studies of manycore configurations, cache/NoC parameters, and accelerator interfaces under realistic physical constraints, all within a reproducible open-source environment.
-
-We are also open to extending the project in several directions, for example:
-
-- Scaling the flow from a single tile to a small mesh or chiplet quadrant
-
-Automating SAIF generation from simulation workloads (e.g., Verilator-based flow)
-
-Comparing pre- and post-P&R power estimates for architectural design-space exploration
-
-Integrating power reporting into the OpenPiton evaluation framework
-
-Skill Level: Medium/Advanced
-
-Duration: 350 hours
-
-Language/Tools: SystemVerilog, TCL, Python, OpenROAD, OpenSTA
-
-Mentors: Guillem López Paradís, Davy Million, Jonathan Balkind
 ### OpenRISC Benchmarking and Performance improvements
 
 The [OpenRISC](https://openrisc.io) CPU architecture has multiple CPU implementations
