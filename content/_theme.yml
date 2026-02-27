@@ -1,3 +1,16 @@
 # Default layout for pages within this directory.
 # Override the default layout in the Markdown frontmatter if necessary.
 layout: article
+
+# Default SEO meta tags for the site.
+# These can be overridden in individual page frontmatter.
+# See: https://content.nuxt.com/composables/use-content-head
+description: "The Free and Open Source Silicon Foundation promotes and protects the open source silicon chip movement."
+
+# Default OpenGraph image for social sharing.
+# Use absolute path from public directory.
+# Individual pages can override this by specifying an `image` in frontmatter.
+# Note: For best results, use images at least 1200x630 pixels.
+image:
+  src: /images/ecl-logo-small.jpg
+  alt: FOSSi Foundation Logo
