@@ -73,6 +73,15 @@ people:
       email: dan@fossi-foundation.org
       linkedInUrl: https://www.linkedin.com/in/danpetrisko/
 
+  - name: Leo Moser
+    subheading:
+    img: /about-us/people/LeoMoser.jpg
+    about: "Leo Moser is an open source silicon advocate and aspiring chip designer. He is a LibreLane developer and has contributed to several of the open source PDKs. He has also designed several open-source chips himself, including Greyhound: a RISC-V SoC with embedded FPGA."
+    socialLinks:
+      email: leo@fossi-foundation.org
+      linkedInUrl: https://www.linkedin.com/in/leo-moser
+      githubUrl: https://github.com/mole99/
+
   - name: Matt Venn
     subheading: Director
     img: /about-us/people/MattVenn.jpg
