@@ -118,8 +118,8 @@ platform.
 This project will have the student developing, testing and sending patches up to
 the Linux kernel.  This includes:
 
-* Use the cacheinfo API for reporting CPU details in OpenRISC Linux.
-* Add [tracing facilities](https://docs.kernel.org/trace/index.html) to OpenRISC Linux including: jump_label, ftrace, kprobes, eBPF etc.
+* Add [tracing facilities](https://docs.kernel.org/trace/index.html) to OpenRISC Linux including: ftrace, kprobes, eBPF etc.
+* Add [virtual stacks](https://docs.kernel.org/mm/vmalloced-kernel-stacks.html) support to OpenRISC Linux.
 
 *Skill level:* Advanced
 
