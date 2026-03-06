@@ -135,14 +135,35 @@ This project consists of booting Linux in Qemu, save the memory state, then cont
 
 OpenPiton uses different languages like Verilog, Python, Perl, and C. Verilator C++. Additionally, some background in hardware design is useful.
 
-_Skill Level:_  Medium/Advanced
+*Skill Level:*  Medium/Advanced
 
-_Duration:_  350 hours
+*Duration:*  350 hours
 
-_Language/Tools:_  Verilog, C++, SystemVerilog
+*Language/Tools:*  Verilog, C++, SystemVerilog
 
-_Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es)  and  [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
+*Mentors:*  [Guillem López Paradís](mailto:guillem.lopez@bsc.es)  and  [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
 
+### Enabling OpenROAD-based Power Estimation for OpenPiton Manycore Systems
+
+This project will develop a fully open-source, activity-driven power estimation flow for OpenPiton using OpenROAD and Verilator. The student will port a representative OpenPiton tile (core, cache slice, and NoC router subset) to the OpenROAD-flow-scripts infrastructure to obtain a synthesized and placed-and-routed design targeting an open PDK. Verilator will be used to generate SAIF activity files from representative workloads, which will be annotated in OpenSTA to report switching, internal, and leakage power.
+
+The resulting flow will enable reproducible, architecture-level power studies of OpenPiton tiles under realistic physical constraints, supporting the evaluation of cache/NoC parameters and accelerator interfaces within a fully open toolchain.
+
+This project can be extended in several directions, for example:
+- Automating SAIF generation from simulation workloads (e.g., a Verilator-based regression flow)
+- Integrating power reporting into the OpenPiton evaluation framework
+- Scaling the flow from a single tile to a small mesh or chiplet quadrant
+- Comparing pre- and post-P&R power estimates for architectural design-space exploration
+
+Links: [Openpiton](https://github.com/PrincetonUniversity/openpiton), [SAIF-power-Verilator](https://antmicro.com/blog/2025/07/power-estimation-in-openroad-using-saif-in-verilator)
+
+*Skill Level:* Medium/Advanced
+
+*Duration:* 350 hours
+
+*Language/Tools:* SystemVerilog, TCL, Python, OpenROAD, OpenSTA
+
+*Mentors:* [Guillem López Paradís](mailto:guillem.lopez@bsc.es), [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
 
 ### Using AI to Improve Open-Source IP
 
@@ -259,7 +280,6 @@ _Duration:_  350 hours
 _Language/Tools:_  C++, SystemVerilog
 
 _Mentors:_  [Guillem López Paradís](mailto:guillem.lopez@bsc.es), [Davy Million](mailto:davy.million@cea.fr), [Jonathan Balkind](mailto:jbalkind@ucsb.edu)
-
 
 ### OpenRISC Benchmarking and Performance improvements
 
