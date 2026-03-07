@@ -4,7 +4,7 @@ title: Announcing the Release of LibreLane
 description: ""
 category:
 tags: []
-author: Mohamed Donn Gaber
+author: Mohamed Gaber
 date: 2025-07-17
 ---
 
