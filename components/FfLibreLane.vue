@@ -19,10 +19,8 @@ LibreLane
         </FfH3>
         <FfPara>
           LibreLane enables educators, researchers, hobbyists, and industry professionals alike to create manufacturable chips.
-          
-          Be a part of ... join today!
         </FfPara>
-        <FfBtnCta linkTo="https://librelane.readthedocs.io/en/stable/installation/index.html">Install LibreLane Now</FfBtnCta>
+        <FfBtnCta linkTo="https://librelane.readthedocs.io/en/stable/installation/index.html">Install LibreLane now for Windows, macOS, or Linux.</FfBtnCta>
       </div>
     </div>
 

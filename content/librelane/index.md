@@ -1,8 +1,8 @@
 ---
-title: "LibreLane - ASIC flow library"
+title: "LibreLane - ASIC flow infrastructure library"
 layout: default
 header: |
-  Free and open source silicon lives from its contributors.
+  Free and open source silicon lives by its contributors.
   And you can be one, too!
   Read on for ways to get involved.
 ---
@@ -11,15 +11,19 @@ header: |
 ::
 
 ::ff-content-long
-LibreLane is a powerful and versatile infrastructure library that enables the construction of digital ASIC implementation flows based on open-source and commercial EDA tools. It includes a reference flow (Classic) that is built entirely using open-source EDA tools, and allowing designers to abstract the underlying tools and configure their behavior with a single configuration file.
+LibreLane is a powerful and versatile infrastructure library that enables the construction of digital implementation flows for application specific integrated circuits (ASICs) based on open-source and commercial electronic design automation (EDA) tools. It includes two reference flows (`Classic` and `Chip`) that are built entirely using open-source EDA tools.
 
-The key benefits of using LibreLane are:
+The successor to the massively popular OpenLane, LibreLane is:
 
-- Flexibility and extensibility: LibreLane is designed to be flexible and extensible, allowing designers to customize flows to meet their specific needs. This can be done by writing Python scripts and utilities, or by modifying the existing configuration file.
+- Simple to use: Configure your entire ASIC implementation flow using one file.
 
-- Open source: LibreLane is an open-source project, which means that it is freely available to use and modify. This makes it a good choice for designers who are looking for a cost-effective and transparent solution.
+- Free and open source: With a complementary set of open-source process design kits (PDKs), design and implement your chip without signing a single document. Freely modify both the infrastructure, underlying tools, and PDK to fit your needs – you're in control. Not a vendor.
 
-- Community support: LibreLane capitalizes on LibreLane’s existing community of users and contributors. This means that there is a wealth of resources available to help designers get started and troubleshoot any problems they encounter.
+- Flexible and extensible: Create custom flows, both by simple modifications to the default flows in the configuration file, or by writing Python scripts or plugins to implement advanced functionality.
+
+- Hermetic: Rewind and explore alternative configurations without losing data – LibreLane captures explicit snapshots of the configuration and state of your design at every step.
+
+- Reproducible and traceable: LibreLane comes packaged with a verified environment of free EDA utilities with a simple goal in mind: same tools, same flow, same configuration; same result. Capture your modifications and engineering change orders (ECOs) as automated steps, and your flow is your documentation.
 
 You can try LibreLane right in your browser:
 
@@ -29,13 +33,13 @@ You can try LibreLane right in your browser:
   Try LibreLane in your Browser
   ::
   
-  </br>
+  <br />
   
   ::ff-btn-cta{linkTo="https://github.com/librelane" class="my-20"}
   LibreLane Repository
   ::
   
-  </br>
+  <br />
   
   ::ff-btn-cta{linkTo="https://librelane.readthedocs.io/en/latest/" class="my-20"}
   LibreLane Documentation
@@ -46,7 +50,7 @@ You can try LibreLane right in your browser:
 ::ff-libre-lane-news
 ::
 
-</br>
+<br />
 
 ::center
 <FfH1 class="text-ultraviolet">
@@ -54,14 +58,14 @@ Our Principles
 </FfH1>
 ::
 
-</br>
+<br />
 
 ::ff-section-top
   :::ff-section-top-item
   ---
   icon: community
   title: Community
-  description: LibreLane is developed by the community, for the community. Join the talk under FOSSi Chat!
+  description: LibreLane is developed by the community, for the community. Join us over at FOSSi Chat!
   linkTo: https://fossi-chat.org/
   linkTitle: FOSSi Chat
   color: ultraviolet
@@ -72,7 +76,7 @@ Our Principles
   ---
   icon: innovation
   title: Innovation
-  description: LibreLane enables you to...
+  description: LibreLane allows you to configure and implement chips using just one configuration file – and once it works, it keeps working.
   linkTo: /our-work/projects
   linkTitle: FOSSi Foundation projects
   color: nasu-purple
@@ -83,7 +87,7 @@ Our Principles
   ---
   icon: guardianship
   title: Guardianship
-  description: LibreLane is under the umbrella of the FOSSi Foundation, a not-for profit organisation.
+  description: LibreLane is under the umbrella of the FOSSi Foundation, a not-for-profit organisation.
   linkTo: /about-us/manifesto
   linkTitle: The FOSSi Foundation manifesto
   color: fuchsia-flourish
@@ -94,8 +98,8 @@ Our Principles
   ---
   icon: resources
   title: Contribution
-  description: If you would like to contribute to LibreLane, ...
-  linkTo: https://github.com/librelane/
+  description: If you would like to contribute to LibreLane, find the repository here.
+  linkTo: https://github.com/librelane/librelane
   linkTitle: Repository
   color: pink-piano
   ---
@@ -103,7 +107,7 @@ Our Principles
 
 ::
 
-</br></br>
+<br /><br />
 
 ::center
 <FfH1 class="max-w-[800px] text-ultraviolet">
@@ -182,7 +186,7 @@ You would like your plugin to be featured? Please write to <librelane@fossi-foun
 ::
 
 
-</br>
+<br />
 
 ::center
 <FfH1 class="max-w-[800px] text-ultraviolet">
@@ -200,7 +204,7 @@ Testimonials
   linkTo: https://tinytapeout.com/
   ---
 
-  "We couldn't run Tiny Tapeout without LibreLane - it’s our default Verilog to GDS flow.
+  "We couldn't run Tiny Tapeout without LibreLane — it’s our default Verilog to GDS flow.
 Its simplicity enables our customers to create their first designs. Its flexibility enables us to use it for the Tiny Tapeout chip design itself; the multiplexers, the controller, the ROM." **—&nbsp;Matt&nbsp;Venn, Tiny&nbsp;Tapeout&nbsp;Founder**
   ::
 
