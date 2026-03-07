@@ -73,6 +73,24 @@ people:
       email: dan@fossi-foundation.org
       linkedInUrl: https://www.linkedin.com/in/danpetrisko/
 
+  - name: Leo Moser
+    subheading:
+    img: /about-us/people/LeoMoser.jpg
+    about: "Leo Moser is an open source silicon advocate and aspiring chip designer. He is a LibreLane developer and has contributed to several of the open source PDKs. He has also designed several open-source chips himself, including Greyhound: a RISC-V SoC with embedded FPGA."
+    socialLinks:
+      email: leo@fossi-foundation.org
+      linkedInUrl: https://www.linkedin.com/in/leo-moser
+      githubUrl: https://github.com/mole99/
+
+  - name: Mohamed Gaber
+    subheading:
+    img: /about-us/people/MohamedGaber.jpg
+    about: Mohamed "Donn" Gaber is a career developer of free and open source electronic design automation utilities. An Efabless alumus, Donn has been the lead maintainer of OpenLane since 2021 and the primary author of its rewrite which would go on to become LibreLane.
+    socialLinks:
+      email: donn@fossi-foundation.org
+      linkedInUrl: https://www.linkedin.com/in/nnod
+      githubUrl: https://github.com/donn
+
   - name: Matt Venn
     subheading: Director
     img: /about-us/people/MattVenn.jpg
