@@ -72,11 +72,11 @@ Homepage
   -->
   <FfSignpostBanner
     class="bg-[url('/images/banner-orconf.jpg')]"
-    title="Down Underflow 2026 in Sydney Australia is open for registrations"
-    ctaLabel="Visit the Down Underflow 2026 conference page for details"
-    ctaTo="/downunderflow/2026"
+    title="Latch-up 2026 in Waterloo, Canada is open for registrations"
+    ctaLabel="Visit the Latch-up 2026 conference page for details"
+    ctaTo="/latch-up/2026"
   >
-    <p>Join us for the FOSSi Foundation's inaugural Down Underflow conference. Registration and talk submissions are open now.</p>
+    <p>Join us for the FOSSi Foundation's Latch-up conference. Registration and talk submissions are open now.</p>
   </FfSignpostBanner>
 
   <!--
