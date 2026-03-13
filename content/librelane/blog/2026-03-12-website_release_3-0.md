@@ -71,7 +71,7 @@ new shuttles:
 IHP support for LibreLane was implemented in part by the Tiny Tapeout team, who
 we thank dearly.
 
-### Custom Flow and plugin updates
+### Custom Flow and Plugin Updates
 
 LibreLane 3.0 also includes some small tweaks to enable easier creation of
 custom flows. The two biggest ones are to **Design Formats** and
@@ -145,10 +145,10 @@ This enabled us to introduce our two most complex plugins yet, namely:
   but still work-in-progress design-for-test flow that is implemented as a
   LibreLane plugin, leveraging all-open-source utilities, both already available
   and developed ad-hoc.
-- [**librelane_plugin_fabulous**](https://github.com/mole99/librelane_plugin_fabulous):
-  A plugin that adds two flows to harden FPGA tiles and fabrics respectively,
-  using LibreLane and the [FABulous](https://github.com/FPGA-Research/FABulous)
-  FPGA.
+- [**FABulous LibreLane Plugin**](https://github.com/mole99/librelane_plugin_fabulous):
+  A plugin that adds two new flows in order to implement and stitch tiles into an FPGA
+  fabric, using LibreLane and the [FABulous](https://github.com/FPGA-Research/FABulous)
+  embedded FPGA framework.
 
 We would love it if you too would try your hand at implementing custom LibreLane
 flows and plugins. Guides on writing custom flows, custom steps, and plugins are
