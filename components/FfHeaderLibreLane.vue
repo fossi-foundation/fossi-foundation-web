@@ -9,8 +9,8 @@ Style guide reference: Web components/Page headers/Hero
   <div  class="bg-white bg-cover text-white">
     <FfContainer>
     
-      <img class="max-w-[1000px]" alt="LibreLane" src="/librelane/images/librelane-logo-full.svg" />
-      <FfH1 class="max-w-[800px] text-ultraviolet">
+      <img class="max-w-[1000px] mx-auto" alt="LibreLane" src="/librelane/images/librelane-logo-full.svg" />
+      <FfH1 class="max-w-[800px] mx-auto text-ultraviolet">
         A powerful and versatile ASIC infrastructure library
       </FfH1>
 
