@@ -10,41 +10,43 @@ header: |
 ::ff-header-libre-lane
 ::
 
-::ff-content-long
-LibreLane is a powerful and versatile infrastructure library that enables the construction of digital implementation flows for application specific integrated circuits (ASICs) based on open-source and commercial electronic design automation (EDA) tools. It includes two reference flows (`Classic` and `Chip`) that are built entirely using open-source EDA tools.
+::ff-container
+  ::ff-content-long
+  LibreLane is a powerful and versatile infrastructure library that enables the construction of digital implementation flows for application specific integrated circuits (ASICs) based on open-source and commercial electronic design automation (EDA) tools. It includes two reference flows (`Classic` and `Chip`) that are built entirely using open-source EDA tools.
 
-The successor to the massively popular OpenLane, LibreLane is:
+  The successor to the massively popular OpenLane, LibreLane is:
 
-- Simple to use: Configure your entire ASIC implementation flow using one file.
+  - Simple to use: Configure your entire ASIC implementation flow using one file.
 
-- Free and open source: With a complementary set of open-source process design kits (PDKs), design and implement your chip without signing a single document. Freely modify both the infrastructure, underlying tools, and PDK to fit your needs – you're in control. Not a vendor.
+  - Free and open source: With a complementary set of open-source process design kits (PDKs), design and implement your chip without signing a single document. Freely modify both the infrastructure, underlying tools, and PDK to fit your needs – you're in control. Not a vendor.
 
-- Flexible and extensible: Create custom flows, both by simple modifications to the default flows in the configuration file, or by writing Python scripts or plugins to implement advanced functionality.
+  - Flexible and extensible: Create custom flows, both by simple modifications to the default flows in the configuration file, or by writing Python scripts or plugins to implement advanced functionality.
 
-- Hermetic: Rewind and explore alternative configurations without losing data – LibreLane captures explicit snapshots of the configuration and state of your design at every step.
+  - Hermetic: Rewind and explore alternative configurations without losing data – LibreLane captures explicit snapshots of the configuration and state of your design at every step.
 
-- Reproducible and traceable: LibreLane comes packaged with a verified environment of free EDA utilities with a simple goal in mind: same tools, same flow, same configuration; same result. Capture your modifications and engineering change orders (ECOs) as automated steps, and your flow is your documentation.
+  - Reproducible and traceable: LibreLane comes packaged with a verified environment of free EDA utilities with a simple goal in mind: same tools, same flow, same configuration; same result. Capture your modifications and engineering change orders (ECOs) as automated steps, and your flow is your documentation.
 
-You can try LibreLane right in your browser:
+  You can try LibreLane right in your browser:
 
-::center
+  ::center
 
-  ::ff-btn-cta{linkTo="https://colab.research.google.com/github/librelane/librelane/blob/main/notebook.ipynb" class="my-20"}
-  Try LibreLane in your Browser
+    ::ff-btn-cta{linkTo="https://colab.research.google.com/github/librelane/librelane/blob/main/notebook.ipynb" class="my-20"}
+    Try LibreLane in your Browser
+    ::
+  
+    <br />
+  
+    ::ff-btn-cta{linkTo="https://github.com/librelane" class="my-20"}
+    LibreLane Repository
+    ::
+  
+    <br />
+  
+    ::ff-btn-cta{linkTo="https://librelane.readthedocs.io/en/latest/" class="my-20"}
+    LibreLane Documentation
+    ::
   ::
-  
-  <br />
-  
-  ::ff-btn-cta{linkTo="https://github.com/librelane" class="my-20"}
-  LibreLane Repository
   ::
-  
-  <br />
-  
-  ::ff-btn-cta{linkTo="https://librelane.readthedocs.io/en/latest/" class="my-20"}
-  LibreLane Documentation
-  ::
-::
 ::
 
 ::ff-libre-lane-news
