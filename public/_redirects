@@ -50,3 +50,10 @@ https://downunderflow.io/* https://fossi-foundation.org/downunderflow/:splat 302
 
 http://www.downunderflow.io/* https://fossi-foundation.org/downunderflow/:splat 302!
 https://www.downunderflow.io/* https://fossi-foundation.org/downunderflow/:splat 302!
+
+# Redirect http[s]://[www.]librelane.org/* to https://fossi-foundation.org/librelane/*
+http://librelane.org/* https://fossi-foundation.org/librelane/:splat 302!
+https://librelane.org/* https://fossi-foundation.org/librelane/:splat 302!
+
+http://www.librelane.org/* https://fossi-foundation.org/librelane/:splat 302!
+https://www.librelane.org/* https://fossi-foundation.org/librelane/:splat 302!
