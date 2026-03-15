@@ -57,3 +57,7 @@ https://librelane.org/* https://fossi-foundation.org/librelane/:splat 302!
 
 http://www.librelane.org/* https://fossi-foundation.org/librelane/:splat 302!
 https://www.librelane.org/* https://fossi-foundation.org/librelane/:splat 302!
+
+# Redirect http[s]://docs.librelane.org/* to https://librelane.readthedocs.io/*
+http://docs.librelane.org/*  https://librelane.readthedocs.io/:splat 302!
+https://docs.librelane.org/*  https://librelane.readthedocs.io/:splat 302!
