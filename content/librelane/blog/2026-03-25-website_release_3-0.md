@@ -177,26 +177,26 @@ more improvements and bug fixes.
 ---
 
 Above all else, we would like to thank our community for your continued support
-of LibreLane. We'd like to extend special thanks to:
+of LibreLane. We'd like to extend special thanks to (in alphabetical order):
 
+- **[our Contributors](https://github.com/librelane/librelane/graphs/contributors)**
+  for submitting fixes, feature ideas, and many other things that make LibreLane
+  even better.
+- **[the FOSSi Foundation](https://fossi-foundation.org)** for giving the
+  project a home after Efabless was wound up.
 - **[Kareem Farid](https://github.com/kareefardi)** - for his work what were
   OpenLane 2.0 and the 3.0 alpha back at Efabless.
-- **[Tim Edwards](https://opencircuitdesign.com)** – for his help updating and
-  bringing up the various PDKs while maintaining LibreLane compatibility.
-- **[Mohamed Shalan](https://github.com/shalan)** – for starting OpenLane and
-  supervising the initial development of LibreLane.
 - **[Mohamed Kassem, Jeffrey DiCorpo](https://chipfoundry.io/)** and other
   Efabless alumni – who were the first adopters of OpenLane 2 and who later
   supported us moving to LibreLane under the FOSSi Foundation, and let us set up
   soft redirects for our various projects.
-- **[The Tiny Tapeout team](https://tinytapeout.com/credits/#team)** – for their
+- **[Mohamed Shalan](https://github.com/shalan)** – for starting OpenLane and
+  supervising the initial development of LibreLane.
+- **[Tim Edwards](https://opencircuitdesign.com)** – for his help updating and
+  bringing up the various PDKs while maintaining LibreLane compatibility.
+- **[the Tiny Tapeout team](https://tinytapeout.com/credits/#team)** – for their
   continued use of LibreLane as the primary flow for user projects, and for help
   bringing up the first IHP Open PDK.
-- **[Our contributors](https://github.com/librelane/librelane/graphs/contributors)**
-  for submitting fixes, feature ideas, and many other things that make LibreLane
-  even better.
-- And last but definitely not least – **the FOSSi Foundation** for giving the
-  project a home after Efabless was wound up.
 
 See the full release notes here:
 https://github.com/librelane/librelane/blob/3.0.0/Changelog.md
