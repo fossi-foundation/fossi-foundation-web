@@ -30,10 +30,10 @@ And we have been busy…
 We are proud to finally release **LibreLane 3.0**.
 
 This is the second major version release for LibreLane and our first outside of
-Efabless. It has been in development for a fairly long time, parts,
-and is packed with new features, enhancements, support for new technologies, and
-more, and our first API cleanup (which is what actually caused the major version
-bump, but the features are worth talking about too, promise.)
+Efabless. It has been in development for a fairly long time, and is packed with
+new features, enhancements, support for new technologies, and more, and our
+first API cleanup (which is what actually caused the major version bump,
+but the features are worth talking about too, promise.)
 
 Some highlights are as follows:
 
@@ -166,13 +166,17 @@ chip experience.
 
 Additionally, we've updated the Nix recipes to support loading user-defined
 Yosys plugins and add user-defined Python packages to Yosys/OpenROAD Python
-interpreters. This is useful for some custom flows - for example,
-in Difetto, we required OpenROAD and Yosys scripts to use the 
+interpreters. This is useful for some custom flows - for example, in Difetto, we
+required OpenROAD and Yosys scripts to use a number of Python libraries that
+weren't included with LibreLane.
 
 And of course there many other many small improvements, such as improved
-rendering of the chip layout, support for non-default rules, reduced file size
-for both Magic and KLayout GDS files, better subprocess formatting, and many
-more improvements and bug fixes.
+rendering of the chip layout, reduced file size for both Magic and KLayout GDS
+files, better subprocess formatting, and many more improvements and bug fixes,
+including new features and improvements from updating OpenROAD such as
+support for
+[non-default rules](https://librelane.readthedocs.io/en/stable/reference/step_config_vars.html#var-openroad-detailedrouting-non-default-rules)
+and much-improved antenna violation fixing.
 
 ---
 
@@ -184,8 +188,8 @@ of LibreLane. We'd like to extend special thanks to (in alphabetical order):
   even better.
 - **[the FOSSi Foundation](https://fossi-foundation.org)** for giving the
   project a home after Efabless was wound up.
-- **[Kareem Farid](https://github.com/kareefardi)** - for his work what were
-  OpenLane 2.0 and the 3.0 alpha back at Efabless.
+- **[Kareem Farid](https://github.com/kareefardi)** - for his work on what were
+  OpenLane 2.0 and the OpenLane 3.0 alpha back at Efabless.
 - **[Mohamed Kassem, Jeffrey DiCorpo](https://chipfoundry.io/)** and other
   Efabless alumni – who were the first adopters of OpenLane 2 and who later
   supported us moving to LibreLane under the FOSSi Foundation, and let us set up
