@@ -5,7 +5,7 @@ description: ""
 category:
 tags: []
 author: Leo Moser & Mohamed Gaber
-date: 2026-03-12
+date: 2026-03-25
 ---
 
 ## librelane.org
@@ -25,7 +25,7 @@ And we have been busy…
 
 ## LibreLane 3.0
 
-<img src="/librelane/blog/2026-03-12-website_release_3-0/chips.png" style="max-width:100%" />
+<img src="/librelane/blog/2026-03-25-website_release_3-0/chips.png" style="max-width:100%" />
 
 We are proud to finally release **LibreLane 3.0**.
 
