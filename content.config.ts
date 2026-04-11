@@ -16,6 +16,7 @@ export default defineContentConfig({
       schema: z.object({
         layout: z.string().optional(),
         header: z.string().optional(),
+        date: z.string().optional(),
       })
     }),
 
@@ -25,6 +26,14 @@ export default defineContentConfig({
       schema: z.object({
         date: z.string(),
         author: z.string()
+      })
+    }),
+
+    talks: defineCollection({
+      type: 'data',
+      source: '**/*.csv',
+      schema: z.object({
+        body: z.array(z.record(z.string(), z.string().optional()))
       })
     }),
 

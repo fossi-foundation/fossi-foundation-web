@@ -15,16 +15,16 @@ TODO:
         <div class="flex flex-col tablet:flex-row my-auto py-24 tablet:py-64">
           <div class="flex-auto">
           <FfH3>Latest news</FfH3>
-            <NuxtLink :to="featuredBlogPost._path">
-              <FfH2 :href="featuredBlogPost._path">{{ featuredBlogPost.title }}</FfH2>
-              <ContentRendererMarkdown :value="featuredBlogPost" :excerpt="true" />
+            <NuxtLink :to="featuredBlogPost.path">
+              <FfH2 :href="featuredBlogPost.path">{{ featuredBlogPost.title }}</FfH2>
+              <ContentRenderer :value="featuredBlogPost" :excerpt="true" />
             </NuxtLink>
             <p>
-              <FfLinkUnderline v-if="featuredBlogPost._path" :to="featuredBlogPost._path">Read more ...</FfLinkUnderline>
+              <FfLinkUnderline v-if="featuredBlogPost.path" :to="featuredBlogPost.path">Read more ...</FfLinkUnderline>
             </p>
           </div>
           <div class="flex-none max-w-[344px] order-first tablet:order-none">
-            <NuxtLink :to="featuredBlogPost._path">
+            <NuxtLink :to="featuredBlogPost.path">
               <NuxtImg class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
               <NuxtImg class="w-max" v-else src="/images/pattern-guardianship.png"/>
             </NuxtLink>
@@ -44,15 +44,15 @@ TODO:
 
 <script setup lang="ts">
 // Get all blog posts.
-const blogPosts = await queryContent('librelane/blog')
-  .sort({ date: -1 }) // show latest articles first
-  .where({ _partial: false })
-  .where({ _id: { $ne: 'content:librelane:blog:index.md' } }) // Filter out this page.
-  .only(["title", "excerpt", "coverImage", "_path"])
-  .find()
+const {data: blogPosts} = await useAsyncData('librelaneNewsOverview', () => {
+  return queryCollection('pages')
+    .path('/librelane/blog')
+    .order('date', 'DESC')
+    .all()
+})
 
 // Designate the most recent blog post as "featured", remove it from the list
 // of posts.
-const featuredBlogPost = blogPosts.shift()
+const featuredBlogPost = blogPosts.value?.shift()
 
 </script>
