@@ -3,7 +3,7 @@ Signpost Card summarizing a single post
 -->
 <template>
   <FfCardSignpost :key="post.path" :headline="post.title" :linkTo="post.path" :img="post.coverImage">
-    <ContentRenderer :value="post" :excerpt="true" />
+    {{ post.description }}
   </FfCardSignpost>
 </template>
 
@@ -11,6 +11,7 @@ Signpost Card summarizing a single post
 export interface Post {
   title: string
   path: string
+  description?: string
   coverImage?: string
 }
 

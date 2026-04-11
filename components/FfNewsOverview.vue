@@ -10,28 +10,25 @@ TODO:
   <!-- Latest (featured) blog post, shown large, if available -->
   <div v-if="featuredBlogPost" class="bg-pastel-grey">
     <FfContainer>
-      <ContentRenderer :value="featuredBlogPost" :excerpt="true">
-        <!-- Using the Content blocks/Image & text component. -->
-        <div class="flex flex-col tablet:flex-row my-auto py-24 tablet:py-64">
-          <div class="flex-auto">
-            <FfH3>Latest news</FfH3>
-            <NuxtLink :to="featuredBlogPost.path">
-              <FfH2 :href="featuredBlogPost.path">{{ featuredBlogPost.title }}</FfH2>
-              <ContentRenderer :value="featuredBlogPost" :excerpt="true" />
-            </NuxtLink>
-            <p>
-              <FfLinkUnderline v-if="featuredBlogPost.path" :to="featuredBlogPost.path">Read more ...
-              </FfLinkUnderline>
-            </p>
-          </div>
-          <div class="flex-none max-w-[344px] order-first tablet:order-none">
-            <NuxtLink :to="featuredBlogPost._path">
-              <NuxtImg class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage" />
-              <NuxtImg class="w-max" v-else src="/images/pattern-guardianship.png" />
-            </NuxtLink>
-          </div>
+      <div class="flex flex-col tablet:flex-row my-auto py-24 tablet:py-64">
+        <div class="flex-auto">
+          <FfH3>Latest news</FfH3>
+          <NuxtLink :to="featuredBlogPost.path">
+            <FfH2>{{ featuredBlogPost.title }}</FfH2>
+            <p>{{ featuredBlogPost.description }}</p>
+          </NuxtLink>
+          <p>
+            <FfLinkUnderline v-if="featuredBlogPost.path" :to="featuredBlogPost.path">Read more ...
+            </FfLinkUnderline>
+          </p>
         </div>
-      </ContentRenderer>
+        <div class="flex-none max-w-[344px] order-first tablet:order-none">
+          <NuxtLink :to="featuredBlogPost.path">
+            <NuxtImg class="w-max" v-if="(featuredBlogPost as any).coverImage" :src="(featuredBlogPost as any).coverImage" />
+            <NuxtImg class="w-max" v-else src="/images/pattern-guardianship.png" />
+          </NuxtLink>
+        </div>
+      </div>
     </FfContainer>
   </div>
 

@@ -25,7 +25,8 @@ export default defineContentConfig({
       source: 'blog/**/*.md',
       schema: z.object({
         date: z.string(),
-        author: z.string()
+        author: z.string(),
+        coverImage: z.string().optional(),
       })
     }),
 

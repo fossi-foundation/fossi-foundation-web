@@ -3,12 +3,17 @@ import { defineNuxtModule } from '@nuxt/kit'
 
 export default defineNuxtModule({
   setup (_options, nuxt) {
-    nuxt.options.nitro.externals = nuxt.options.nitro.externals || {}
-    nuxt.options.nitro.externals.inline = nuxt.options.nitro.externals.inline || []
-    nuxt.options.nitro.externals.inline.push(resolve('./excerpt-transformer-module'))
-    // @ts-ignore
-    nuxt.hook('content:context', (contentContext) => {
-      contentContext.transformers.push(resolve('./excerpt-transformer-module/excerpt-transformer.ts'))
+    // Register the transformer via the v3 content.build.transformers option.
+    nuxt.hook('modules:done', () => {
+      const transformerPath = resolve('./excerpt-transformer-module/excerpt-transformer.ts')
+      // @ts-ignore
+      nuxt.options.content = nuxt.options.content || {}
+      // @ts-ignore
+      nuxt.options.content.build = nuxt.options.content.build || {}
+      // @ts-ignore
+      nuxt.options.content.build.transformers = nuxt.options.content.build.transformers || []
+      // @ts-ignore
+      nuxt.options.content.build.transformers.push(transformerPath)
     })
   }
 })
