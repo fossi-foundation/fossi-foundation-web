@@ -106,10 +106,10 @@ import IconPhUsersThree from '~icons/ph/users-three-bold'
 import IconPhCpu from '~icons/ph/cpu-bold'
 
 // Get the three most recent blog posts
-const blogPosts = await queryContent('/blog')
-.sort({date: -1 }) // show latest articles first
-.where({_partial: false })
-.where({ _id: { $ne: 'content:blog:index.md' } }) // Filter out the blog overview page.
-.limit(3)
-.find()
+const {data: blogPosts} = await useAsyncData('blogPostsHomepage', () => {
+  return queryCollection('blog')
+    .order('date', 'DESC')
+    .limit(3)
+    .all()
+})
 </script>

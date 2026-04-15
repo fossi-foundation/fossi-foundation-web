@@ -1,4 +1,3 @@
-import { serverQueryContent } from '#content/server';
 import { useRuntimeConfig, defineEventHandler } from '#imports'
 import RSS from 'rss';
 
@@ -28,11 +27,9 @@ export default defineEventHandler(async (event) => {
     generator: "FOSSi Foundation website",
   });
 
-  const blogPosts = await serverQueryContent(event, '/blog')
-    .sort({ date: -1 }) // show latest articles first
-    .where({ _partial: false })
-    .where({ _id: { $ne: 'content:blog:index.md' } }) // Filter out this page.
-    .find()
+  const blogPosts = await queryCollection(event, 'blog')
+    .order('date', 'DESC') // show latest articles first
+    .all()
 
   for (const blogPost of blogPosts) {
     // TODO: Add full-text of the blog post to the feed.
@@ -41,13 +38,13 @@ export default defineEventHandler(async (event) => {
     // could be harvested for a solution.
     feed.item({
       title: blogPost.title ?? '-',
-      url: `${endpointUrl}${blogPost._path}`,
+      url: `${endpointUrl}${blogPost.path}`,
       date: blogPost.date,
       description: blogPost.description,
     });
   }
 
   const feedString = feed.xml({ indent: true });
-  event.res.setHeader('content-type', 'text/xml');
-  event.res.end(feedString);
+  setResponseHeader(event, 'content-type', 'text/xml');
+  return feedString;
 });

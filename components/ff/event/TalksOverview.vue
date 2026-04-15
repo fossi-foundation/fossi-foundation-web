@@ -10,8 +10,12 @@ if (!allowedViews.includes(view)) {
   view = 'overview';
 }
 
-const { data } = await useAsyncData('talks', () => queryContent(props.csvfile).find())
-const talks = data.value[0].body
+const { data } = await useAsyncData('talks-' + props.csvfile, () => {
+  return queryCollection('talks')
+    .where('stem', '=', props.csvfile.replace(/^\//, ''))
+    .first()
+})
+const talks = data.value?.body ?? []
 const talks_schedule = talks.filter((talk) => { return talk.Day == props.scheduleday })
 
 import IconFabYoutube from '~icons/fa6-brands/youtube'

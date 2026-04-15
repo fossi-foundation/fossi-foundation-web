@@ -22,10 +22,11 @@ Homepage
 
 <script setup>
 // Get the three most recent blog posts
-const blogPosts = await queryContent('/librelane/blog')
-.sort({date: -1 }) // show latest articles first
-.where({_partial: false })
-.where({ _id: { $ne: 'content:librelane:blog:index.md' } }) // Filter out the blog overview page.
-.limit(3)
-.find()
+const {data: blogPosts} = await useAsyncData('librelaneNews', () => {
+  return queryCollection('pages')
+    .path('/librelane/blog')
+    .order('date', 'DESC')
+    .limit(3)
+    .all()
+})
 </script>
