@@ -12,7 +12,7 @@ if (!allowedViews.includes(view)) {
 
 const { data } = await useAsyncData('talks', () => queryContent(props.csvfile).find())
 const talks = data.value[0].body
-const talks_schedule = talks.filter((talk) => { return talk.Day == props.scheduleday })
+const talksOnScheduleDay = talks.filter((talk) => { return talk.Day == props.scheduleday && (talk.Type == 'Normal' || talk.Type == 'Break') })
 
 import IconFabYoutube from '~icons/fa6-brands/youtube'
 import IconPhPresentation from '~icons/ph/presentation-bold'
@@ -27,11 +27,11 @@ import IconPhPresentation from '~icons/ph/presentation-bold'
   <div v-else-if="view == 'schedule'">
     <table class="table-auto p-16 align-middle border-16 border-ultraviolet">
       <tbody>
-        <tr v-for="(talk) in talks_schedule" :key="index" class="align-top">
+        <tr v-for="(talk) in talksOnScheduleDay" :key="index" class="align-top">
           <td class="p-[4px] text-ultraviolet font-black text-right">{{ talk.Time }}</td>
           <td class="p-[4px]">
             <NuxtLink :to="'#' + slugs.slug(talk.Title)">
-              <span class="font-black">{{ talk.Title }}</span><span v-if="talk.Presenter"> by {{ talk.Presenter }}</span>
+              <span :class="{ 'font-black': talk.Type != 'Break' }">{{ talk.Title }}</span><span v-if="talk.Presenter"> by {{ talk.Presenter }}</span>
             </NuxtLink>
             <span class="inline-flex space-x-10 px-10 align-middle">
               <ProseA v-if="talk.Youtube" title="Watch the recording on YouTube" :to="talk.Youtube"><IconFabYoutube/></ProseA>
