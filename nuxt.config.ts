@@ -118,7 +118,7 @@ export default defineNuxtConfig({
     '/latchup': { redirect: '/latch-up' },
 
     // Redirect the ORConf landing page to the most current one.
-    '/orconf': { redirect: '/orconf/2025' },
+    '/orconf': { redirect: '/orconf/2026' },
 
     // Redirect the Downunderflow landing page to the most current one.
     '/downunderflow': { redirect: '/downunderflow/2026' },
