@@ -109,6 +109,14 @@ export default defineNuxtConfig({
     }
   },
 
+  vite: {
+    optimizeDeps: {
+      include: [
+        'github-slugger',
+      ]
+    }
+  },
+
   routeRules: {
     // Redirect the Latch-Up landing page to the most current one.
     '/latch-up': { redirect: '/latch-up/2026' },

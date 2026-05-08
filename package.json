@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "packageManager": "yarn@1.22.21",
   "scripts": {
     "build": "nuxt build",
@@ -13,7 +14,7 @@
     "@iconify-json/ph": "^1.1.5",
     "@nuxt/content": "^2.10.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "nuxt": "^3.13.2",
+    "nuxt": "^4.4.4",
     "rss": "^1.2.2",
     "unplugin-icons": "^0.15.3"
   },
@@ -22,8 +23,5 @@
     "@fontsource/ibm-plex-mono": "^5.0.0",
     "@nuxt/devtools": "^1.0.0",
     "@nuxt/image": "^1.2.0"
-  },
-  "resolutions": {
-    "jackspeak": "2.1.1"
   }
 }
