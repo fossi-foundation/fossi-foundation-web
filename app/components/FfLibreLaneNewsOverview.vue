@@ -10,27 +10,25 @@ TODO:
   <!-- Latest (featured) blog post, shown large, if available -->
   <div v-if="featuredBlogPost" class="bg-pastel-grey">
     <FfContainer>
-      <ContentRenderer :value="featuredBlogPost" :excerpt="true">
-        <!-- Using the Content blocks/Image & text component. -->
-        <div class="flex flex-col tablet:flex-row my-auto py-24 tablet:py-64">
-          <div class="flex-auto">
+      <!-- Using the Content blocks/Image & text component. -->
+      <div class="flex flex-col tablet:flex-row my-auto py-24 tablet:py-64">
+        <div class="flex-auto">
           <FfH3>Latest news</FfH3>
-            <NuxtLink :to="featuredBlogPost._path">
-              <FfH2 :href="featuredBlogPost._path">{{ featuredBlogPost.title }}</FfH2>
-              <ContentRendererMarkdown :value="featuredBlogPost" :excerpt="true" />
-            </NuxtLink>
-            <p>
-              <FfLinkUnderline v-if="featuredBlogPost._path" :to="featuredBlogPost._path">Read more ...</FfLinkUnderline>
-            </p>
-          </div>
-          <div class="flex-none max-w-[344px] order-first tablet:order-none">
-            <NuxtLink :to="featuredBlogPost._path">
-              <NuxtImg class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
-              <NuxtImg class="w-max" v-else src="/images/pattern-guardianship.png"/>
-            </NuxtLink>
-          </div>
+          <NuxtLink :to="featuredBlogPost.path">
+            <FfH2 :href="featuredBlogPost.path">{{ featuredBlogPost.title }}</FfH2>
+            <p v-if="featuredBlogPost.excerpt">{{ featuredBlogPost.excerpt }}</p>
+          </NuxtLink>
+          <p>
+            <FfLinkUnderline v-if="featuredBlogPost.path" :to="featuredBlogPost.path">Read more ...</FfLinkUnderline>
+          </p>
         </div>
-      </ContentRenderer>
+        <div class="flex-none max-w-[344px] order-first tablet:order-none">
+          <NuxtLink :to="featuredBlogPost.path">
+            <NuxtImg class="w-max" v-if="featuredBlogPost.coverImage" :src="featuredBlogPost.coverImage"/>
+            <NuxtImg class="w-max" v-else src="/images/pattern-guardianship.png"/>
+          </NuxtLink>
+        </div>
+      </div>
     </FfContainer>
   </div>
 
@@ -43,16 +41,14 @@ TODO:
 </template>
 
 <script setup lang="ts">
-// Get all blog posts.
-const blogPosts = await queryContent('librelane/blog')
-  .sort({ date: -1 }) // show latest articles first
-  .where({ _partial: false })
-  .where({ _id: { $ne: 'content:librelane:blog:index.md' } }) // Filter out this page.
-  .only(["title", "excerpt", "coverImage", "_path"])
-  .find()
+const allPosts = await queryCollection('content')
+  .where('path', 'LIKE', '/librelane/blog/%')
+  .where('path', '<>', '/librelane/blog')
+  .order('date', 'DESC')
+  .select('title', 'excerpt', 'coverImage', 'path')
+  .all()
 
 // Designate the most recent blog post as "featured", remove it from the list
-// of posts.
-const featuredBlogPost = blogPosts.shift()
-
+const featuredBlogPost = allPosts[0]
+const blogPosts = allPosts.slice(1)
 </script>

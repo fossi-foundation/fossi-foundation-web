@@ -1,12 +1,8 @@
-import ExcerptTransformerModule from './excerpt-transformer-module/excerpt-transformer-module'
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-07-28',
 
   modules: [
-    // @ts-ignore
-    ExcerptTransformerModule,
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     'unplugin-icons/nuxt',
@@ -59,30 +55,21 @@ export default defineNuxtConfig({
 
   // Nuxt Content configuration
   content: {
-    // https://content.nuxtjs.org/api/configuration
-    documentDriven: {
-      // The configuration below is supposed to be default according to
-      // https://content.nuxtjs.org/api/configuration#documentdriven, but that's
-      // somehow not the case.
-      // TODO: Double-check after a while and simplify to 'documentDriven: true'
-      globals: {
-        theme: {
-          where: [{
-            _id: 'content:_theme.yml'
-          }],
-        },
-      },
-    },
-    highlight: {
-      // See https://github.com/shikijs/shiki/blob/main/docs/themes.md
-      theme: "github-light",
-      preload: [
-        // Add all languages here for which code highlighting is desired.
-        // https://github.com/shikijs/shiki/blob/main/docs/languages.md
-        'bash',
-        'python',
-      ]
-    },
+    build: {
+      transformers: ['@@/excerpt-transformer-module/excerpt-transformer.ts'],
+      markdown: {
+        highlight: {
+          // See https://github.com/shikijs/shiki/blob/main/docs/themes.md
+          theme: "github-light",
+          langs: [
+            // Add all languages here for which code highlighting is desired.
+            // https://github.com/shikijs/shiki/blob/main/docs/languages.md
+            'bash',
+            'python',
+          ]
+        }
+      }
+    }
   },
 
   // Nuxt Image configuration

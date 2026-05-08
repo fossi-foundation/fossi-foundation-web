@@ -10,12 +10,12 @@ date: 2025-02-11
 
 ## Latch-Up 2025 Opens for Registration, Talks
 
-  
+
 We know you’ve been waiting for this: Registration for this year’s Latch-Up conference in Santa Barbara, CA is now open!
 
 Head over to the [Latch-Up event site](https://fossi-foundation.org/latch-up/2025) to register and learn more about the planned schedule. Now is also a great time to book your travel, if you haven’t done so already.
 
-As part of the registration, you are able to submit a full talk or a lightning talk. We’re sure everyone has something cool to talk about and we look forward to what you have to share!  
+As part of the registration, you are able to submit a full talk or a lightning talk. We’re sure everyone has something cool to talk about and we look forward to what you have to share!
 
 ### [Supporting Latch-up](https://fossi-foundation.org/blog/2025-01-30-latchup-2025-registration-is-open#supporting-latch-up)
 
@@ -23,21 +23,21 @@ Latch-Up is free of charge to attend, but not free to run. Events like Latch-Up 
 
 A variety of sponsorship packages are available for this year’s Latch-Up. You’ll find all of the details in our [sponsorship prospectus](https://fossi-foundation.org/latch-up/2025/latch-up_2025_sponsorship_prospectus.pdf).
 
-We also need folks on the ground to lend a hand - so if you have any expertise in helping to run or staff such events, your help would be greatly appreciated, so please do [get in touch](mailto:latch-up@fossi-foundation.org) to let us know you’d like to help out.  
+We also need folks on the ground to lend a hand - so if you have any expertise in helping to run or staff such events, your help would be greatly appreciated, so please do [get in touch](mailto:latch-up@fossi-foundation.org) to let us know you’d like to help out.
 
 ### [When and where](https://fossi-foundation.org/blog/2025-01-30-latchup-2025-registration-is-open#when-and-where)
 
 The conference will be held during the weekend May 2-4 2025 at Henley Hall, University of California, Santa Barbara, USA.
 
-All event information is available at [latchup.io](https://fossi-foundation.org/latch-up/2025).  
-  
+All event information is available at [latchup.io](https://fossi-foundation.org/latch-up/2025).
+
 _-Philipp Wagner, Director, FOSSi Foundation_
 
 <img src="/blog/2025-02-11-ecl83/tt6bringup.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout 6 Analogue a Hit, TT10 Demoscene Contest Opens
 
-  
+
 Matt Venn’s Tiny Tapeout, an initiative to dramatically drop the barrier to entry for small-scale custom silicon creation through the use of tile-based multi-project chips, has celebrated a milestone: the successful bring-up of Tiny Tapeout 6, proving the platform suitable for analogue and mixed-signal designs in addition to pure digital projects.
 
 Earlier this month Matt and other Tiny Tapeout members held a bringup party, hosted on [YouTube](https://www.youtube.com/watch?v=UnpSEdZgYKs), in which the chips from the Tiny Tapeout 6 production run were brought to life live on camera. Among the designs included in this run were Carsten Wulff’s [successive approximation analogue to digital converter (SAR ADC)](https://github.com/wulffern/tt06-sar), one of the first analogue designs submitted to a Tiny Tapeout run.
@@ -54,7 +54,7 @@ In addition to the bringup of Tiny Tapeout 6, Matt is bringing back [the Demosce
 
 ## Andy Sloane’s ASIC Delivers Digitised Doughnuts
 
-  
+
 Andy Sloane has written up a project to develop what may well be the first chip dedicated to ray-tracing a toroid solid — a doughnuts, in other words, building atop a 2006 project to create an obfuscated C program whose doughnut-shaped source code would render an animated treat in ASCII art.
 
 “For many years after coming up with donut.c, I wondered in the back of my mind if it could be simplified somehow, like maybe there was a way to raytrace a donut with a small chunk of code,” Andy explains. "In October 2023, I tweeted a dumb random epiphany where I figured out another way to do it which requires no memory, no sines or cosines, no square roots, no divisions, and technically, not even any multiplications. The whole thing can be rendered with just shifts and adds.
@@ -65,13 +65,13 @@ Andy Sloane has written up a project to develop what may well be the first chip 
 
 The project was developed and submitted as part of the Tiny Tapeout 8 Demoscene Contest, and takes up around 7,000 standard cells. “With more die area, and/or a faster clock (which would need something more modern than the 130nm SkyWater process),” Andy notes, “this could be pipelined so that every pixel was perfectly rendered, but the point was to make it as small as I could.”
 
-Andy’s full write-up is available [on his website](http://[https://www.a1k0n.net/2025/01/10/tiny-tapeout-donut.html), while the project source is available [on GitHub](https://github.com/a1k0n/tt08-vga-donut/) under the permissive Apache 2.0 licence. Testing of the physical chip itself is waiting manufacturing and delivery of the silicon from SkyWater, scheduled for later this year.
+Andy’s full write-up is available [on his website](https://www.a1k0n.net/2025/01/10/tiny-tapeout-donut.html), while the project source is available [on GitHub](https://github.com/a1k0n/tt08-vga-donut/) under the permissive Apache 2.0 licence. Testing of the physical chip itself is waiting manufacturing and delivery of the silicon from SkyWater, scheduled for later this year.
 
 <img src="/blog/2025-02-11-ecl83/ferris.jpg" style="max-width:100%" />
 
 ## lowRISC Chief Gavin Ferris Talks Challenges and Milestones
 
-  
+
 Gavin Ferris, chief executive officer of open silicon specialist lowRISC, has been interviewed by Amit Chowdhry of Pulse 2.0 - and talks of topics ranging from the company’s milestones including in the OpenTitan hardware root-of-trust project and the challenges it has faced along the way.
 
 “Silicon development has much higher barriers to entry than software. There’s a physical supply chain to reckon with, far fewer skilled engineers, the high cost of EDA tools and mask sets, and the need for eye-watering levels of up-front testing - or design verification (DV) - because ‘release early, release often’ doesn’t work for silicon,” Gavin tells Amit in the interview. “So projects have to be able to attract multi-year, significant funding and have the heavyweight governance to go along with that if they are to deliver commercially relevant outputs.”
@@ -86,24 +86,24 @@ The full interview is available [on Pulse 2.0](https://pulse2.com/lowrisc-profil
 
 ## April Workshop Targets RISC-V in Space
 
-  
-The European Space Agency (ESA), working with Frontgrade Gaisler and RISC-V International, is to open the doors for an event which looks both forwards and upwards in terms of what is achievable with free and open-source silicon: the RISC-V in Space Workshop, taking place in Gothenburg, Sweden this April.  
-  
-“[The] RISC-V in Space Workshop 2025 will be hosted by Frontgrade Gaisler in their city of Gothenburg, Sweden,” the event’s organisers write. "Located on Sweden’s southwestern coast, and Kattegatt, an arm of the North Sea, Gothenburg, Sweden’s 2nd largest city, has a population of approximately 545,000 and is easily accessible by planes, trains and automobiles.  
-  
-“Topics of interest [include]: application of RISC-V in satellite systems, launchers, lunar and planetary exploration, and beyond; design considerations for space-based RISC-V processors; RISC-V processor resilience in space environments, fault tolerance approaches taken both in hardware and software implementations; RISC-V compilers, simulators, and debugging tools; AI/ML applications and tools for space using RISC-V; implementing secure communications and data integrity in space systems using RISC-V; collaborative efforts between the space industry, research organizations, and open-source RISC-V communities.”  
-  
-Confirmed keynote speakers for the event include European High Performance Computing Joint Undertaking (EuroHPC JU) programme manager Alexandra Jourfali, RISC-V International vice president for technology Andrea Gallo, ESA microelectronics engineer Boris Glass, ETH Zürich Microelectronics Design Centre director Frank Kagan Gürkaynak, AMD fellow Göran Bilski, Thales research engineer Jimmy Le Rhun, Semidynamics chief executive Roger Espasa, and Microchip technical fellow Ted Speers.  
-  
-Those interested in presenting during the event have a short window in which to submit an abstract, with submissions closing on the 19th of February; successful applicants will be notified on the 3rd of March. Tickets are available for attendees at €100 for students and €250 for regular attendees, plus Swedish VAT where applicable; the ESA has announced sponsorship for up to three tertiary education students.  
-  
+
+The European Space Agency (ESA), working with Frontgrade Gaisler and RISC-V International, is to open the doors for an event which looks both forwards and upwards in terms of what is achievable with free and open-source silicon: the RISC-V in Space Workshop, taking place in Gothenburg, Sweden this April.
+
+“[The] RISC-V in Space Workshop 2025 will be hosted by Frontgrade Gaisler in their city of Gothenburg, Sweden,” the event’s organisers write. "Located on Sweden’s southwestern coast, and Kattegatt, an arm of the North Sea, Gothenburg, Sweden’s 2nd largest city, has a population of approximately 545,000 and is easily accessible by planes, trains and automobiles.
+
+“Topics of interest [include]: application of RISC-V in satellite systems, launchers, lunar and planetary exploration, and beyond; design considerations for space-based RISC-V processors; RISC-V processor resilience in space environments, fault tolerance approaches taken both in hardware and software implementations; RISC-V compilers, simulators, and debugging tools; AI/ML applications and tools for space using RISC-V; implementing secure communications and data integrity in space systems using RISC-V; collaborative efforts between the space industry, research organizations, and open-source RISC-V communities.”
+
+Confirmed keynote speakers for the event include European High Performance Computing Joint Undertaking (EuroHPC JU) programme manager Alexandra Jourfali, RISC-V International vice president for technology Andrea Gallo, ESA microelectronics engineer Boris Glass, ETH Zürich Microelectronics Design Centre director Frank Kagan Gürkaynak, AMD fellow Göran Bilski, Thales research engineer Jimmy Le Rhun, Semidynamics chief executive Roger Espasa, and Microchip technical fellow Ted Speers.
+
+Those interested in presenting during the event have a short window in which to submit an abstract, with submissions closing on the 19th of February; successful applicants will be notified on the 3rd of March. Tickets are available for attendees at €100 for students and €250 for regular attendees, plus Swedish VAT where applicable; the ESA has announced sponsorship for up to three tertiary education students.
+
 More information is available [on the event website](https://www.risc-v.space/wp/).
 
 <img src="/blog/2025-02-11-ecl83/siliceasic.jpg" style="max-width:100%" />
 
 ## Sylvain Lefebvre Celebrates the First Silice ASIC
 
-  
+
 Sylvain Lefebvre, creator of the Silice hardware description language (HDL), is celebrating a major milestone for his project: the creation, through Tiny Tapeout, of the first hardware silicon defined in Silice, designed to render a voxel-based terrain.
 
 “To me, this is crazy,” Sylvain writes. "When I started on FPGA and Silice back in 2018 I never _dreamed_ of one day having my own design on silicon. Thanks Tiny Tapeout, Matt Venn, and everyone involved who makes this possible!
@@ -120,7 +120,7 @@ Sylvain’s full write-up is available [in his Mastodon thread](https://mastodon
 
 ## PlaceIT Delivers an Open-Source Chiplet Placement Solution
 
-  
+
 Researchers from ETH Zürich and the University of Bologna have unveiled a project which offers an open-source approach to 2.5D chiplet integration, delivering reduced latency over existing approaches.
 
 “2.5D integration technology is gaining traction as it copes with the exponentially growing design cost of modern integrated circuits. A crucial part of a 2.5D stacked chip is a low-latency and high-throughput inter-chiplet interconnect (ICI),” Patrick Iff and colleagues explain in the abstract to their paper. "Two major factors affecting the latency and throughput are the topology of links between chiplets and the chiplet placement.
@@ -135,7 +135,7 @@ The researchers’ paper is available in preprint [on Cornell’s arXiv server](
 
 ## RISC-V SIG-Vector Works Towards an Integrated Matrix Extension
 
-  
+
 Matheus Ferst and Guido Araújo, members of the RISC-V Vector Special Interest Group (SIG-Vector), have penned an article highlighting ongoing work towards an integrated matrix extension for the instruction set architecture - focusing on a workload analysis of convolutional neural network (CNN) inference.
 
 “Following the gap analysis done in the second half of 2023, the Vector Special Interest Group (SIG-Vector) has been working on specifying instructions to accelerate matrix operations. Two Task Groups were proposed to explore approaches that may be applicable to different markets,” Matheus and Guido explain. " The Attached Matrix Extension Task Group (AME-TG) has deep learning and other Artificial Intelligence-related workloads as the primary focus. The Integrated Matrix Extension Task Group (IME-TG) primarily focuses on the HPC market and proposes developing an instruction set that reuses the Vector Registers introduced by the Vector extension to perform matrix operations.
@@ -150,7 +150,7 @@ The full write-up is available [on the RISC-V International blog](https://riscv.
 
 ## RISC-V International’s CEO Search is Underway
 
-  
+
 RISC-V International’s Andy Moore has announced that the organisation is broadening its search for a new chief executive officer, following the departure of Calista Redmond to lead artificial intelligence initiatives at Nvidia late last year.
 
 “2024 was a year of accelerating momentum for RISC-V. Adoption grew across a diverse range of markets, the foundational new RVA23 Profile was ratified, and many new members joined this impressive ecosystem of innovators,” Andy claims of the year just closed. "As we enter 2025, the search is underway for a new CEO to lead RISC-V and further accelerate our momentum.
@@ -165,11 +165,11 @@ No timescale for the appointment of a replacement CEO has yet been announced.
 
 ## Linux Patches Introduce Xen RISC-V Guest Support
 
-  
+
 Developer Slavisa Petrovic, of Serbian consultancy firm RT-RK, has submitted a patch set designed to bring support for running RISC-V guests under the Xen hypervisor - though the project is still a work-in-progress.
 
-“This patch introduces initial support for running RISC-V as a Xen guest,” Slavisa explains in a post to the Linux kernel mailing list. “It provides the necessary infrastructure and stubs for Xen-specific operations.  
-  
+“This patch introduces initial support for running RISC-V as a Xen guest,” Slavisa explains in a post to the Linux kernel mailing list. “It provides the necessary infrastructure and stubs for Xen-specific operations.
+
 "Key changes include: modifications to the RISC-V kernel to integrate Xen-specific hypercalls and interfaces, with function implementations stubbed for future work; introduction of Xen-specific headers for RISC-V, including event handling, hypervisor interaction, and page management; stub implementations for memory management, grant tables, and context switching in the Xen environment, allowing further development and integration.”
 
 Slavisa admits that the patches are a work-in-progress, stating that in addition to the stub implementations functions relating to event handling, hypervisor interaction, and page management “are defined but not yet implemented.” Fellow developer Milan Đokić has also confirmed plans to break the large patch down “into smaller logical parts” in order to release a “patch series in the next revision.”

@@ -6,5 +6,8 @@ Populate FfHeaderText with information from a page's frontmatter.
 </template>
 
 <script setup lang="ts">
-const { page } = useContent();
+const route = useRoute()
+const { data: page } = await useAsyncData(`header-${route.path}`, () =>
+  queryCollection('content').path(route.path).first()
+)
 </script>
