@@ -30,7 +30,7 @@ installation.
 
 Make sure that you have installed the following tools on your local machine.
 
-* Node.js 20 (LTS). Other versions of Node.js might work, but also break
+* Node.js 24 (LTS). Other versions of Node.js might work, but also break
   occasionally. Using a LTS version is strongly recommended.
 * Yarn
 
