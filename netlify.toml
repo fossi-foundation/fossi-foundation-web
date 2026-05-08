@@ -3,5 +3,5 @@
 command = "yarn build"
 
 [build.environment]
-NUXT_IMAGE_PROVIDER = "netlifyImageCdn"
+NUXT_IMAGE_PROVIDER = "netlify"
 NODE_OPTIONS = "--max-old-space-size=4096"
