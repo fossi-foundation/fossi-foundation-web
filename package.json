@@ -16,7 +16,7 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "nuxt": "^4.4.4",
     "rss": "^1.2.2",
-    "unplugin-icons": "^0.15.3"
+    "unplugin-icons": "^23.0.1"
   },
   "dependencies": {
     "@fontsource-variable/public-sans": "^5.0.0",
