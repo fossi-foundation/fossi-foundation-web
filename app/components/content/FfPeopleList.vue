@@ -17,14 +17,9 @@
 
 
 <script setup lang="ts">
-const data = await queryContent('/about-us/people/_people')
-  .findOne()
+const { data } = await useAsyncData('people', () =>
+  queryCollection('people').first()
+)
 
-// Sort people by name.
-// TODO: Sorting breaks the association of images to other content (e.g., the
-// name). This looks at first sight like a problem in Nuxt Content Assets, but
-// that's to be confirmed.
-//const people = data.people.sort((a, b) => a.name > b.name);
-
-const people = data.people
+const people = computed(() => data.value?.people ?? [])
 </script>

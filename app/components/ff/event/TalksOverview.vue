@@ -10,9 +10,13 @@ if (!allowedViews.includes(view)) {
   view = 'overview';
 }
 
-const { data } = await useAsyncData('talks', () => queryContent(props.csvfile).find())
-const talks = data.value[0].body
-const talksOnScheduleDay = talks.filter((talk) => { return talk.Day == props.scheduleday && (talk.Type == 'Normal' || talk.Type == 'Break') })
+const { data: talkData } = await useAsyncData('talks-' + props.csvfile, () =>
+  queryCollection('talks').path(props.csvfile).first()
+)
+const talks = computed(() => talkData.value?.body ?? [])
+const talksOnScheduleDay = computed(() =>
+  talks.value.filter((talk) => { return talk.Day == props.scheduleday && (talk.Type == 'Normal' || talk.Type == 'Break') })
+)
 
 import IconFabYoutube from '~icons/fa6-brands/youtube'
 import IconPhPresentation from '~icons/ph/presentation-bold'

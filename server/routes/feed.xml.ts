@@ -1,4 +1,4 @@
-import { serverQueryContent } from '#content/server';
+import { queryCollection } from '@nuxt/content/server'
 import { useRuntimeConfig, defineEventHandler } from '#imports'
 import RSS from 'rss';
 
@@ -28,20 +28,16 @@ export default defineEventHandler(async (event) => {
     generator: "FOSSi Foundation website",
   });
 
-  const blogPosts = await serverQueryContent(event, '/blog')
-    .sort({ date: -1 }) // show latest articles first
-    .where({ _partial: false })
-    .where({ _id: { $ne: 'content:blog:index.md' } }) // Filter out this page.
-    .find()
+  const blogPosts = await queryCollection(event, 'content')
+    .where('path', 'LIKE', '/blog/%')
+    .where('path', '<>', '/blog')
+    .order('date', 'DESC')
+    .all()
 
   for (const blogPost of blogPosts) {
-    // TODO: Add full-text of the blog post to the feed.
-    // See https://github.com/nuxt/content/discussions/2144
-    // https://github.com/nuxt/content/blob/main/src/runtime/components/ContentRenderer.vue
-    // could be harvested for a solution.
     feed.item({
       title: blogPost.title ?? '-',
-      url: `${endpointUrl}${blogPost._path}`,
+      url: `${endpointUrl}${blogPost.path}`,
       date: blogPost.date,
       description: blogPost.description,
     });
