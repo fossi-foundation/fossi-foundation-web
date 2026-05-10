@@ -18,7 +18,7 @@ export default defineEventHandler(async (event) => {
   //
   // TODO: Figure out a way to get the development preview URL in here.
   // See https://github.com/nuxt/nuxt/issues/21970
-  const endpointUrl = process.env.DEPLOY_PRIME_URL != '' ? process.env.DEPLOY_PRIME_URL : 'http://localhost:3000'
+  const endpointUrl = process.env.DEPLOY_PRIME_URL || 'http://localhost:3000'
   const base = endpointUrl + config.app.baseURL
 
   const feed = new RSS({
@@ -44,6 +44,6 @@ export default defineEventHandler(async (event) => {
   }
 
   const feedString = feed.xml({ indent: true });
-  event.res.setHeader('content-type', 'text/xml');
-  event.res.end(feedString);
+  setResponseHeader(event, 'content-type', 'text/xml');
+  return feedString;
 });

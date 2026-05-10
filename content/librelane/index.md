@@ -120,26 +120,26 @@ PDK Support
 ::ff-container
 
 ::ff-cards{class="mt-16"}
-  ::ff-card-pdk
+  :::ff-card-pdk
   ---
   img: /librelane/images/pdks/SkyWater Logo Color Landscape.png
   headline: sky130
   ---
-  ::
+  :::
 
-  ::ff-card-pdk
+  :::ff-card-pdk
   ---
   img: /librelane/images/pdks/GF_logo_horz_rgb_R.svg
   headline: gf180mcu
   ---
-  ::
+  :::
 
-  ::ff-card-pdk
+  :::ff-card-pdk
   ---
   img: /librelane/images/pdks/ihp_logo_without_claim_CMYK.png
   headline: ihp-sg13
   ---
-  ::
+  :::
 ::
 
 
@@ -158,27 +158,27 @@ LibreLane Plugins
 ::ff-container
 
 ::ff-cards{class="mt-16"}
-  ::ff-card-plugin
+  :::ff-card-plugin
   ---
   headline: Difetto DFT Plugin
   linkTo: https://github.com/donn/difetto
   ---
   A design for test plugin.
-  ::ff-btn-cta{linkTo="https://github.com/donn/difetto" class="my-10"}
+  ::::ff-btn-cta{linkTo="https://github.com/donn/difetto" class="my-10"}
   Repository
-  ::
-  ::
+  ::::
+  :::
 
-  ::ff-card-plugin
+  :::ff-card-plugin
   ---
   headline: FABulous eFPGA Plugin
   linkTo: https://github.com/mole99/librelane_plugin_fabulous
   ---
   Physical implementation of FABulous eFPGAs.
-  ::ff-btn-cta{linkTo="https://github.com/mole99/librelane_plugin_fabulous" class="my-10"}
+  ::::ff-btn-cta{linkTo="https://github.com/mole99/librelane_plugin_fabulous" class="my-10"}
   Repository
-  ::
-  ::
+  ::::
+  :::
 ::
 
 ::ff-content-long
@@ -199,7 +199,7 @@ Testimonials
 ::ff-container
 
 ::ff-cards{class="mt-16"}
-  ::ff-card-testimonial
+  :::ff-card-testimonial
   ---
   img: /librelane/images/testimonials/ttlogo_400.png
   headline: Tiny Tapeout
@@ -208,9 +208,9 @@ Testimonials
 
   "We couldn't run Tiny Tapeout without LibreLane — it’s our default Verilog to GDS flow.
 Its simplicity enables our customers to create their first designs. Its flexibility enables us to use it for the Tiny Tapeout chip design itself; the multiplexers, the controller, the ROM." **—&nbsp;Matt&nbsp;Venn, Tiny&nbsp;Tapeout&nbsp;Founder**
-  ::
+  :::
 
-  ::ff-card-testimonial
+  :::ff-card-testimonial
   ---
   img: /librelane/images/testimonials/chipfoundry.png
   headline: ChipFoundry
@@ -218,9 +218,9 @@ Its simplicity enables our customers to create their first designs. Its flexibil
   ---
 
   "LibreLane brings software-defined agility to the hardware world. By providing a stable, extensible framework for specialized design flows, they help ChipFoundry customers accelerate the path to silicon. It’s a powerful addition to the designer’s toolkit that streamlines the transition from concept to verified design." **—&nbsp;Jeff&nbsp;DiCorpo, CEO&nbsp;ChipFoundry**
-  ::
+  :::
 
-  ::ff-card-testimonial
+  :::ff-card-testimonial
   ---
   img: /librelane/images/testimonials/nativechips-logo-dark.png
   headline: NativeChips
@@ -228,9 +228,9 @@ Its simplicity enables our customers to create their first designs. Its flexibil
   ---
 
   "OpenLane proved that open-source EDA could produce real silicon — more than 800 tapeouts delivered.  LibreLane takes that foundation and makes it programmable, modular, and extensible enough to build commercial design flows on top of." **—&nbsp;Mohamed&nbsp;Kassem, CEO&nbsp;NativeChips**
-  ::
+  :::
 
-  ::ff-card-testimonial
+  :::ff-card-testimonial
   ---
   img: /librelane/images/testimonials/Wafer.Space.black.svg
   headline: wafer.space
@@ -238,9 +238,9 @@ Its simplicity enables our customers to create their first designs. Its flexibil
   ---
 
   "With LibreLane, our customers can create complete chip designs, ready for tape-out with wafer.space. To ensure that each and every design is manufacturable, we use LibreLane to implement our custom precheck flow." **—&nbsp;Tim&nbsp;“mithro”&nbsp;Ansell", CEO&nbsp;wafer.space**
-  ::
+  :::
 
-  ::ff-card-testimonial
+  :::ff-card-testimonial
   ---
   img: /librelane/images/testimonials/LOGO SPHERICAL-01_cropped.png
   headline: SPHERICAL
@@ -248,7 +248,7 @@ Its simplicity enables our customers to create their first designs. Its flexibil
   ---
 
   "LibreLane enables us to integrate place and route into our software-driven flow with flexibility - and then use it to build high-performance chips for space." **—&nbsp;Thomas&nbsp;Parry, CEO&nbsp;SPHERICAL**
-  ::
+  :::
 ::
 ::ff-content-long
 You would like to be featured in our testimonials? Please write to <librelane@fossi-foundation.org>.

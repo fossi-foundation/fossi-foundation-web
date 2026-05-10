@@ -13,6 +13,7 @@
     "@iconify-json/fa6-solid": "^1.1.5",
     "@iconify-json/ph": "^1.1.5",
     "@nuxt/content": "^3.0.0",
+    "@nuxt/image": "^2.0.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "nuxt": "^4.4.4",
     "rss": "^1.2.2",
@@ -21,7 +22,6 @@
   "dependencies": {
     "@fontsource-variable/public-sans": "^5.0.0",
     "@fontsource/ibm-plex-mono": "^5.0.0",
-    "@nuxt/image": "^2.0.0",
     "better-sqlite3": "^12.9.0"
   }
 }

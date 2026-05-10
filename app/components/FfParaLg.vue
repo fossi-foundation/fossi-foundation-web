@@ -9,6 +9,6 @@ Style guide references:
 -->
 <template>
   <p class="text-phone-20 tablet:text-24 font-bold leading-tighter mb-[30px] tablet:mb-[36px] max-w-prose">
-    <slot mdc-unwrap="p" />
+    <slot />
   </p>
 </template>
