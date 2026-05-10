@@ -10,8 +10,10 @@ if (!allowedViews.includes(view)) {
   view = 'overview';
 }
 
+// Data collections use `stem` (no leading slash) instead of `path`
+const stem = props.csvfile.replace(/^\//, '')
 const { data: talkData } = await useAsyncData('talks-' + props.csvfile, () =>
-  queryCollection('talks').path(props.csvfile).first()
+  queryCollection('talks').where('stem', '=', stem).first()
 )
 const talks = computed(() => talkData.value?.body ?? [])
 const talksOnScheduleDay = computed(() =>
