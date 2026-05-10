@@ -36,7 +36,7 @@ const dateFormatted = computed(() => {
   if (!props.date) {
     return undefined
   } else {
-    return new Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).format(new Date(props.date))
+    return new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(props.date))
   }
 })
 
