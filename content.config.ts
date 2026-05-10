@@ -15,6 +15,7 @@ export default defineContentConfig({
         tags: z.array(z.string()).optional(),
         excerpt: z.string().optional(),
         coverImage: z.string().optional(),
+        eventbriteEventId: z.number().optional(),
       }),
     }),
     people: defineCollection({
