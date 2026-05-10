@@ -11,6 +11,6 @@ TODO:
 -->
 <template>
   <code class="font-mono">
-    <slot mdc-unwrap="p" />
+    <slot />
   </code>
 </template>

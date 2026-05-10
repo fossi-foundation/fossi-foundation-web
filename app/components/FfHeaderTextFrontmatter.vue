@@ -7,7 +7,6 @@ Populate FfHeaderText with information from a page's frontmatter.
 
 <script setup lang="ts">
 const route = useRoute()
-const { data: page } = await useAsyncData(`header-${route.path}`, () =>
-  queryCollection('content').path(route.path).first()
-)
+// Read the page payload already fetched by [...slug].vue (key: route.path).
+const { data: page } = useNuxtData(route.path)
 </script>

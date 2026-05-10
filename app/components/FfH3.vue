@@ -7,7 +7,7 @@ Style guide references:
 -->
 <template>
   <h3 class="font-black text-phone-20 tablet:text-24 tracking-tight leading-tighter text-ultraviolet pt-[22px] pb-10 tablet:pt-24 tablet:pb-12 max-w-prose text-balance" :id="id">
-    <slot mdc-unwrap="p" />
+    <slot />
   </h3>
 </template>
 

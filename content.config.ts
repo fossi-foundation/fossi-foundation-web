@@ -40,7 +40,17 @@ export default defineContentConfig({
       type: 'data',
       source: '**/*.csv',
       schema: z.object({
-        body: z.array(z.record(z.string(), z.string().optional())),
+        body: z.array(z.object({
+          Day: z.string(),
+          Time: z.string(),
+          Type: z.enum(['Normal', 'Break', 'Lightning Talk', '']),
+          Title: z.string(),
+          Presenter: z.string().optional(),
+          Notes: z.string().optional(),
+          Abstract: z.string().optional(),
+          Youtube: z.string().optional(),
+          Slides: z.string().optional(),
+        })),
       }),
     }),
   },

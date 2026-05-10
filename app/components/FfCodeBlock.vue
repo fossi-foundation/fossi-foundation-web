@@ -14,6 +14,6 @@ TODO:
 <template>
   <!-- Also update ProseCode.vue when making changes to the class here. -->
   <FfCode class="p-20 leading-normal bg-pastel-grey overflow-x-scroll">
-    <slot mdc-unwrap="p" />
+    <slot />
   </FfCode>
 </template>
