@@ -21,8 +21,21 @@ Style guide reference: Web components/Page headers/Hero
 <script setup lang="ts">
 // Serve the hero background image through Nuxt Image.
 const img = useImage()
+const imgUrl = img('/images/hero-bg.jpg', {format: 'webp'})
 const backgroundStyles = computed(() => {
-  const imgUrl = img('/images/hero-bg.jpg', {'format': 'webp'})
   return { backgroundImage: `url('${imgUrl}')` }
+})
+
+// Preload the hero background image for better performance to avoid a flash of
+// unstyled content (FOUC) when the page loads.
+useHead({
+  link: [
+    {
+      rel: 'preload',
+      fetchpriority: 'high',
+      as: 'image',
+      href: imgUrl,
+    },
+  ],
 })
 </script>
