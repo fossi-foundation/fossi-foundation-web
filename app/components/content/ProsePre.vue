@@ -23,7 +23,11 @@ defineProps({
   meta: {
     type: String,
     default: null
-  }
+  },
+  class: {
+    type: String,
+    default: null,
+  },
 })
 </script>
 
