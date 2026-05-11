@@ -72,11 +72,11 @@ Homepage
   -->
   <FfSignpostBanner
     backgroundImg="/images/banner-orconf.jpg"
-    title="Latch-up 2026 in Waterloo, Canada is open for registrations"
-    ctaLabel="Visit the Latch-up 2026 conference page for details"
-    ctaTo="/latch-up/2026"
+    title="ORConf 2026 in Ghent, Belgium is open for registrations"
+    ctaLabel="Visit the ORConf 2026 conference page for details"
+    ctaTo="/orconf/2026"
   >
-    <p>Join us for the FOSSi Foundation's Latch-up conference. Registration and talk submissions are open now.</p>
+    <p>Join us for the FOSSi Foundation's ORConf conference. Registration and talk submissions are open now.</p>
   </FfSignpostBanner>
 
   <!--
