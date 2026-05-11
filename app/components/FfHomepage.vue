@@ -71,7 +71,7 @@ Homepage
   Event announcement
   -->
   <FfSignpostBanner
-    class="bg-[url('/images/banner-orconf.jpg')]"
+    backgroundImg="/images/banner-orconf.jpg"
     title="Latch-up 2026 in Waterloo, Canada is open for registrations"
     ctaLabel="Visit the Latch-up 2026 conference page for details"
     ctaTo="/latch-up/2026"

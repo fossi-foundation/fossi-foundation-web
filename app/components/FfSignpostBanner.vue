@@ -10,7 +10,7 @@ Style guide references:
 - Web components/Signposts/Banner
 -->
 <template>
-  <div class="text-white bg-cover bg-center">
+  <div :style="backgroundStyles" class="text-white bg-cover bg-center">
     <FfContainer class="py-24 tablet:py-48 desktop:py-96">
       <FfH2 class="text-white !mb-16">{{  title }}</FfH2>
       <!-- Apply the styling of FfH3, but to the <p> nodes below it. -->
@@ -23,11 +23,20 @@ Style guide references:
 </template>
 
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   title: string
+
+  backgroundImg: string
 
   // Call-to-action button
   ctaLabel?: string
   ctaTo?: string
 }>()
+
+// Serve the background image through Nuxt Image.
+const img = useImage()
+const backgroundStyles = computed(() => {
+  const imgUrl = img(props.backgroundImg, {format: 'webp'})
+  return { backgroundImage: `url('${imgUrl}')` }
+})
 </script>
