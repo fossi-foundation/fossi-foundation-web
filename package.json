@@ -15,7 +15,7 @@
     "@nuxt/content": "^3.0.0",
     "@nuxt/image": "^2.0.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "nuxt": "^4.4.4",
+    "nuxt": "^4.4.6",
     "rss": "^1.2.2",
     "unplugin-icons": "^23.0.1"
   },
