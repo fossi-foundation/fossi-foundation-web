@@ -90,7 +90,7 @@ The researchers’ work is available as a preprint [on arXiv](https://arxiv.org/
 ## Goran Devic’s Calculator is Built From Scratch
 
   
-Maker Goran Devic has a ocket calculator with a difference: it’s been designed from the ground-up, inspired by classic Hewlett-Packard binary-coded decimal (BCD) calculators - and running atop an Altera Cyclone II FGPA.
+Maker Goran Devic has a pocket calculator with a difference: it’s been designed from the ground-up, inspired by classic Hewlett-Packard binary-coded decimal (BCD) calculators - and running atop an Altera Cyclone II FGPA.
 
 “This is a scientific BCD calculator that uses binary-coded decimals, the same internal number format HP used in its scientific calculators going back to the 1970s,” Goran explains of the project. "It represents every decimal digit as a 4-bit nibble, which means perfect decimal accuracy, no floating-point conversion errors, and an architecture that is genuinely shaped by the problem it solves.
 
