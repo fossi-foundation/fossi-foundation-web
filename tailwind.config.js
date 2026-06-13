@@ -7,6 +7,14 @@
 
 /** @type {import('tailwindcss').Config} */
 export default {
+  // @nuxtjs/tailwindcss only scans the Nuxt 4 `app/` directory by default.
+  // Add the Nuxt Content `content/` directory so that Tailwind classes used
+  // in Markdown (e.g. via MDC component syntax like
+  // `:::ff-card{class="col-span-2"}`) are not purged.
+  content: [
+    './content/**/*.md',
+  ],
+
   theme: {
     extend: {
       maxWidth: {
