@@ -30,21 +30,21 @@ header: |
 
   ::center
 
-    ::ff-btn-cta{linkTo="https://colab.research.google.com/github/librelane/librelane/blob/main/notebook.ipynb" class="my-20"}
+    :::ff-btn-cta{linkTo="https://colab.research.google.com/github/librelane/librelane/blob/main/notebook.ipynb" class="my-20"}
     Try LibreLane in your Browser
-    ::
+    :::
   
     <br />
   
-    ::ff-btn-cta{linkTo="https://github.com/librelane" class="my-20"}
+    :::ff-btn-cta{linkTo="https://github.com/librelane" class="my-20"}
     LibreLane Repository
-    ::
+    :::
   
     <br />
   
-    ::ff-btn-cta{linkTo="https://librelane.readthedocs.io/en/latest/" class="my-20"}
+    :::ff-btn-cta{linkTo="https://librelane.readthedocs.io/en/latest/" class="my-20"}
     LibreLane Documentation
-    ::
+    :::
   ::
   ::
 ::
