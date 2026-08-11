@@ -8,15 +8,15 @@ date: 2026-08-11
 
 <img src="/blog/2026-08-11-ecl99/ghent.jpg" style="max-width:100%" />
 
-## ORConf 2026 Registrations Now Open
+## ORConf 2026 Call for Participation Closes Soon
 
-Registration for [ORConf 2026](https://fossi-foundation.org/orconf/2026), FOSSi Foundation’s annual weekend of presentations and networking for the free and open source silicon community, opened last month - and if you don’t have your ticket yet, there’s still time.
+The call for participation in [ORConf 2026](https://fossi-foundation.org/orconf/2026), FOSSi Foundation’s annual weekend of presentations and networking for the free and open source silicon community, closes in days - but if you haven't submitted your proposal yet, there’s still time.
 
 Taking place, in its 12th year, in Belgium’s Ghent, a walkable canal-crossed city with a medieval core, ORConf 2026 is scheduled for Friday the 11th of September through to Sunday the 13th of September 2026. It’s co-located with the 36th International Conference on Field-Programmable Logic and Applications (FPL 2026), which starts on the Monday - so if you’re already planning to attend that, it’s a great opportunity to extend your stay and come to ORConf too!
 
 The schedule sees a single track of talks taking place on the Friday and Saturday - and if you haven’t submitted a proposal for a ten-minute-plus full talk or three-minute lightning talk you’ve got until the 16th of August to do so as part of [the general registration process](https://fossi-foundation.org/orconf/2026) - with a social event on the Saturday evening followed bv an “unconference” on the Sunday. The event is open to all, with talks considered on everything from electronic design automation tooling to formal verification, hardware description languages, and application-specific integrated circuits - as long as the work is open-source or in support of free and open source silicon!
 
-You can register for a free attendee ticket [on the event website](https://fossi-foundation.org/orconf/2026) now, or sign up for a pay-what-you-want ticket if you want to support the event; those attending on behalf of a company are encouraged to pay for a professional ticket - or, even better, consider [a formal sponsorship opportunity](https://fossi-foundation.org/orconf/2026/orconf_2026_sponsorship_prospectus.pdf).
+If you'd rather watch than present yourself, you can register for a free attendee ticket [on the event website](https://fossi-foundation.org/orconf/2026) now or sign up for a pay-what-you-want ticket if you want to support the event; those attending on behalf of a company are encouraged to pay for a professional ticket - or, even better, consider [a formal sponsorship opportunity](https://fossi-foundation.org/orconf/2026/orconf_2026_sponsorship_prospectus.pdf).
 
 ORConf is always a highlight of the yearly event calendar for anyone interested in free and open source silicon, and we hope to see you in Ghent this September!
 
@@ -95,20 +95,6 @@ The free and open Vortex graphics processing unit (GPU) project, built atop the 
 “TCU tfr arithmetic backend [is a] a new in-house, fully-synthesizable fused dot-product running integer and floating-point through one shared 4-cycle pipeline; gated by VX_CFG_TCU_TYPE_TFR. [It] adds FP8 (e4m3), BF8 (e5m2), and TF32 on top of the v2.x set (fp32/fp16/bf16/i32/i8/u8/i4/u4). Each is gated by its own VX_CFG_TCU_{FP8,BF16,TF32}_ENABLE; format dispatch is unified across all four FEDP backends.”
 
 The new release is published [on GitHub](https://github.com/vortexgpgpu/vortex/releases/tag/v3.0), where the source code - which is written, in part at least, by a large language model - is available under a claimed Apache 2.0 licence.
-
-<img src="/blog/2026-08-11-ecl99/xezim.jpg" style="max-width:100%" />
-
-## Xezim Promises an “AI-Native” SystemVerilog Simulator
-
-Project founder and lead developer Bondan Rufen has written to alert us to Xezim, an “AI-native” SystemVerilog simulator written in Rust and released under a potentially-unenforceable permissive licence.
-
-“xezim is an extensible, AI-native SystemVerilog simulator written in Rust,” Bondan explains, "built so new language features and analyses can be added one verified step at a time, with AI agents as first-class contributors to the codebase. This project explores whether modern tools and AI can dramatically reduce the complexity of building core EDA infrastructure such as simulators.
-
-“Traditional EDA tools require very large engineering teams and many years of development. This project explores a key question: can a small team - or even a single engineer with AI assistance - build core EDA tools such as a SystemVerilog simulator? The simulator is being developed incrementally, starting from simple combinational logic and gradually adding more SystemVerilog features.”
-
-Formerly known as sisSIM, xezim is being written with heavy use of Anthropic’s Claude large language model - trading off ethical, environmental, and output quality concerns against a desire to see if usable EDA tools can be produced by a small low-budget team. As a result, it may be difficult to enforce its permissive licence: US case law states that the output of generative AI systems is not copyrightable, and LLMs have been known to spit out copies of training data verbatim - including substantial fragments of existing source code published under incompatible or even all-rights-reserved licences.
-
-For those who want to check the project out regardless, the source code is available [on GitHub](https://github.com/aionhw/xezim) under, as far as possible, the Apache 2.0 licence.
 
 <img src="/blog/2026-08-11-ecl99/ocx.jpg" style="max-width:100%" />
 
