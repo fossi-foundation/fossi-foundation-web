@@ -6,7 +6,7 @@ author: Gareth Halfacree
 date: 2026-08-11
 ---
 
-<img src="/blog/2026-08-11-ecl98/ghent.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/ghent.jpg" style="max-width:100%" />
 
 ## ORConf 2026 Registrations Now Open
 
@@ -20,7 +20,7 @@ You can register for a free attendee ticket [on the event website](https://fossi
 
 ORConf is always a highlight of the yearly event calendar for anyone interested in free and open source silicon, and we hope to see you in Ghent this September!
 
-<img src="/blog/2026-08-11-ecl98/kianv.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/kianv.jpg" style="max-width:100%" />
 
 ## KianV RISC-V Chip Boots Linux - In Silicon
 
@@ -34,7 +34,7 @@ The design validation board turns that ASIC into a compact single-board computer
 
 More information is available [in Hirosh’s Bluesky thread](https://bsky.app/profile/logicdestroyer.bsky.social/post/3mqp555ytik2p), along with [an earlier wafer.space blog post](https://wafer.space/news/kianv-riscv-soc) about the bring-up; KianV itself is available [on GitHub](https://github.com/splinedrive/kianRiscV) under the permissive ISC licence, with the PCB design available in [a separate repository](https://github.com/splinedrive/gf180mcu-kianv-pcb) under an unspecified licence.
 
-<img src="/blog/2026-08-11-ecl98/f14.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/f14.jpg" style="max-width:100%" />
 
 ## Adam Taylor Recreates One of the First Ever Microprocessors
 
@@ -50,7 +50,7 @@ Adam’s recreation, written in VHDL, implements the PMU multiplier, PDU divider
 
 The source code and documentation are available [on GitHub](https://github.com/ATaylorCEngFIET/f14_CADC/tree/main), but are source-available rather than free and open: “this recreation is provided for educational and historical preservation purposes,” Adam notes.
 
-<img src="/blog/2026-08-11-ecl98/serv.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/serv.jpg" style="max-width:100%" />
 
 ## Olof Kindgren Announces SERV 1.4.0
 
@@ -66,7 +66,7 @@ Other improvements in the new release include a shift to the Zephyr 4.0 real-tim
 
 More information is available [in Olof’s blog post](https://blog.award-winning.me/2026/06/serv-140.html); SERV’s source code is available [on GitHub](https://github.com/olofk/serv) under the permissive ISC licence.
 
-<img src="/blog/2026-08-11-ecl98/azure.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/azure.jpg" style="max-width:100%" />
 
 ## Michael Jaggers’ Azurite Offers an Open Power ISA Core
 
@@ -82,7 +82,7 @@ Built atop the PowerPC architecture, the Power ISA is maintained by the OpenPOWE
 
 Azurite’s source code is available [on GitHub](https://github.com/mgjaggers/Azurite) under the permissive Apache 2.0 licence.
 
-<img src="/blog/2026-08-11-ecl98/vortex.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/vortex.jpg" style="max-width:100%" />
 
 ## The Open Vortex GPU Hits a 3.0 Release Milestone
 
@@ -96,7 +96,7 @@ The free and open Vortex graphics processing unit (GPU) project, built atop the 
 
 The new release is published [on GitHub](https://github.com/vortexgpgpu/vortex/releases/tag/v3.0), where the source code - which is written, in part at least, by a large language model - is available under a claimed Apache 2.0 licence.
 
-<img src="/blog/2026-08-11-ecl98/xezim.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/xezim.jpg" style="max-width:100%" />
 
 ## Xezim Promises an “AI-Native” SystemVerilog Simulator
 
@@ -110,7 +110,7 @@ Formerly known as sisSIM, xezim is being written with heavy use of Anthropic’s
 
 For those who want to check the project out regardless, the source code is available [on GitHub](https://github.com/aionhw/xezim) under, as far as possible, the Apache 2.0 licence.
 
-<img src="/blog/2026-08-11-ecl98/ocx.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/ocx.jpg" style="max-width:100%" />
 
 ## OpenLabX Launches OpenCircuitX, a Free VHDL/Verilog EDA Tool
 
@@ -126,7 +126,7 @@ Ahmad’s creation builds on existing open-source projects including the GHDL VH
 
 The project’s source code is available [on GitHub](https://github.com/openlab-x/OpenCircuitX) under the permissive MIT licence.
 
-<img src="/blog/2026-08-11-ecl98/rawast.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/rawast.jpg" style="max-width:100%" />
 
 ## Rawast Promises a Structure-First Approach to Parsing
 
@@ -140,7 +140,7 @@ Serge Rabyking is working on a new bidirectional parser for structured text and 
 
 Source code is available under the permissive MIT license [on GitHub](https://github.com/edacommons/rawast).
 
-<img src="/blog/2026-08-11-ecl98/ttdemo.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/ttdemo.jpg" style="max-width:100%" />
 
 ## Tiny Tapeout Demoscene Competition 2 Closes with 41 Entries
 
@@ -154,7 +154,7 @@ Larger projects include a prototype version of the classic mainframe game Spacew
 
 All projects can be viewed - with links to their permissively-licensed source code and an in-browser simulation - [on the Tiny Tapeout website](https://tinytapeout.com/competitions/demoscene-ttsky26a-entries/). Judging will take place when silicon has been produced, on the Sky26A process, most likely some time this November.
 
-<img src="/blog/2026-08-11-ecl98/newsinbrief.jpg" style="max-width:100%" />
+<img src="/blog/2026-08-11-ecl99/newsinbrief.jpg" style="max-width:100%" />
 
 ## News in Brief
 
