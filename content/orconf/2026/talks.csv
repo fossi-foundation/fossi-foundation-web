@@ -1,5 +1,6 @@
 Day,Time,Type,Title,Presenter,Abstract,Youtube,Slides
 ,,,Session 1.1 Verification,,,,
+Fri,09:00,Break,Registration. Start the day with a coffee!,,,,
 Fri,09:30,Normal,Welcome to ORConf,FOSSi Foundation,Opening of the conference,,
 Fri,09:42,Normal,Doppio: Open-Source Verification with Java and Scala,Martin Schoeberl,"The initial cost for producing a chip is very high. Therefore, getting the design right on the first run is essential. To identify potential errors in the design before production, considerable effort is invested in testing and verifying the design.
 
@@ -14,7 +15,18 @@ Fri,10:18,Normal,"Closing in on full SystemVerilog support in Verilator: Four-st
 - SVA is close to feature complete, and the remaining work is bringing it into full IEEE compliance.
 - Update on coverage and the tooling around it.",,
 Fri,10:30,Break,Coffee break (together with FPL attendees),,,,
-Fri,11:00,Normal,Panel: Community building around open source hardware,,,,
+Fri,11:00,Normal,Panel: Community building around open source hardware (together with FPL attendees),,"How can we create vibrant open source hardware communities -- places where open source code isn't merely published and quietly used, but actively taken to the next level by a wide range of participants who empower each other?
+
+
+We're happy to discuss this topic with the audience and the following panel:
+
+* Alireza Kaviani (AMD/Xilinx, RapidWright)
+* Dirk Koch (University of Heidelberg, FABulous)
+* Frank Gürkaynak (ETH Zurich, PULP)
+* Matt Venn (TinyTapeout)
+* Michael Gude (Cologne Chip)
+
+Moderation: Julius Baxter (FOSSi Foundation)",,
 Fri,12:30,Break,Lunch break,,,,
 ,,,Session 1.2 Verification & Frontend,,,,
 Fri,13:30,Normal,Open source radiation hardening and fault injection in VeeR and Verilator,Maciej Dudek,"Safety- and radiation-critical systems need fault-tolerant CPUs, but the available options are predominantly proprietary solutions.
@@ -31,9 +43,7 @@ The tool exists because of a blind spot. Tarski, an analogue neuromorphic accele
 This talk covers what that means in practice: partitioning a board so linear islands get fast matrix-exponential solves and nonlinear islands get MNA and Newton; co-simulating firmware against the analog board in lockstep so a GPIO the code drives moves the simulated copper; and validating it against ground truth. This included re-deriving the Raspberry Pi 4’s shipped USB-C fault cold, from spec thresholds alone, matched to the real physics to within 0.01%.
 
 I’ll also cover what happened when the tool was pointed at unreviewed, open-source boards: three previously unreported hardware defects, and one firmware-triggered ignition fault only a copper-to-silicon-to-firmware co-sim could have caught.",,
-Fri,14:30,Normal,WAL-based Analysis of CVA6 Branch Prediction,"Venkata Mahith Kanchi, Daniel Große","The effectiveness of a branch predictor varies significantly across software workloads, making it difficult to select and tune an appropriate predictor configuration without detailed insight into prediction accuracy and misprediction behavior. Existing approaches often require RTL instrumentation, dedicated performance counters, or processor-specific modifications.
-
-We address this problem with a framework based on the Waveform Analysis Language (WAL), using the CVA6 open-source RISC-V processor as a case study. By analyzing branch-prediction behavior directly from simulation waveforms across benchmarks such as Dhrystone and CoreMark, the framework enables non-intrusive, workload-specific evaluation and supports informed configuration and microarchitectural exploration.",,
+Fri,14:30,Normal,Things to Make and Do With the Spade HDL,Frans Skarman,"Spade is a Hardware Description Language inspired by modern software languages. I've presented the language itself several times at FOSSi conferences, so this time the focus will be on what you can build with it. I will present a few projects from obvious things like Risc-V cores, serious things like an ethernet and camera stack, and fun things like a pure RTL UI library.",,
 Fri,14:42,Normal,Scaling Up Event-based Many-Core System Simulation with GVSoC,Rafael Medina Morillas,"GVSoC is a configurable, event-driven simulator designed for simulating IoT processors and complex system-on-chips (SoCs). Combining the efficiency of C++ models and Python configuration scripts, it allows fast prototyping and design exploration bypassing the limitations of slow RTL simulation. This presentation gives a quick introduction to the platform, the recent updates enabling the simulation of full-platform many-core systems, and integrations with other simulators to extend its functionality.",,
 Fri,14:54,Break,Coffee break,,,,
 ,,,Session 1.3 Verification & Frontend,,,,
@@ -60,8 +70,7 @@ The presentation will introduce the IP Readiness Level (IPRL) framework, describ
 Fri,16:54,Break,Short Break,,,,
 Fri,17:30,Normal,Resource Set Manager Circuit in Chisel,Maarten Boersma,"At Expected IT, a team of talented digital design and verification engineers works on chip development for AI and scale-up servers in the data center. We chose to use open-source EDA tools for chip development as much as possible and so far, we are pretty successful. One of our modules is a high-performance cache directory, orchestrating cache coherency in a multi-CPU system. While designing the directory, building blocks are developed that are not available already as Chisel components. These are sometimes generic enough to be useful for others. As such, we contribute the digital design IP of a component that performs resource allocation management. The circuitry manages a set of shared resources in a scalable, area-efficient way. The component is suited for high-frequency designs.",,
 Fri,17:42,Normal,Dyno-SV Open Synthesis Tool: One Year Later,Mathis Salmen,"Dyno-SV is an open synthesis tool based on Dyno-IR (dynamic object IR), first presented at last year's ORConf. Much has happened since then, so time for an updated talk! Among the many things we worked on is memory inference, an integrated simulator for transformation verification, and various synthesis improvements. We'll go over these and more in the talk!",,
-Fri,17:54,Normal,Things to Make and Do With the Spade HDL,Frans Skarman,"Spade is a Hardware Description Language inspired by modern software languages. I've presented the language itself several times at FOSSi conferences, so this time the focus will be on what you can build with it. I will present a few projects from obvious things like Risc-V cores, serious things like an ethernet and camera stack, and fun things like a pure RTL UI library.",,
-Fri,18:06,Normal,Custom instruction development and deployment on a RISC-V softcore,Philippos Papaphilippou,"This talk demonstrates the programmability of the Simodense RISC-V
+Fri,17:54,Normal,Custom instruction development and deployment on a RISC-V softcore,Philippos Papaphilippou,"This talk demonstrates the programmability of the Simodense RISC-V
 softcore running on an FPGA [1]. The latest experimentation based on Simodense
 features runtime reconfigurability. Custom instructions can automatically be
 loaded during runtime on demand, using a recently proposed approach called
@@ -76,7 +85,9 @@ repository) https://github.com/pphilippos/simodense
 [2] Philippos Papaphilippou ""LUTstructions: Fast-Reconfigurable FPGA-Based
 Instructions"" (in-press) IEEE/SBC SBAC-PAD 2026
 ",,
-,,Normal,,,,,
+Fri,18:30,Break,Reception,,Reception with tapas and drinks in the XZYLounge at Zebrastraat,,
+Fri,20:30,Break,End of the first conference day,,,,
+,,,,,,,
 ,,,Session 2.1 Frontend & ASIC Design,,,,
 Sat,09:00,Normal,kepler‑formal - An open‑source equivalence‑checking tool.,Noam Cohen,"For a long time, one of the crucial items missing in the open silicon ecosystem has been a formal equivalence‑checking tool capable of verifying modern‑scale architectures.
 Kepler‑formal provides exactly that, with an advanced multi‑threaded C++ core that can handle even large designs in a timely fashion.
@@ -98,11 +109,9 @@ Sat,10:00,Normal,RVVTS: Open-Source RTL Bug Hunting for Complex RISC-V ISA Exten
 This talk presents RVVTS, an open-source framework for automated testing of complex RISC-V ISA extensions at RTL. RVVTS combines grammar-based test generation, differential execution against architectural reference models, failure isolation and test case minimization, and automated failure analysis to categorize and characterize detected mismatches.
 
 Using the RISC-V Vector and Floating-Point implementations in the open-source PULP Ara processor as case studies, we show how RVVTS turns large numbers of test failures into compact, reproducible, and actionable failure reports, significantly reducing the manual effort required for RTL verification and debugging.",,
-Sat,10:12,Normal,ShapeIC: LUT-Based Hierarchical Exploration for Analog IC Design,Daniel Arevalos,"ShapeIC is an open-source project for fast design-space exploration of analog integrated circuits. Instead of running a full circuit simulation for every candidate, ShapeIC characterizes devices and circuit primitives using lookup tables and reuses this data during hierarchical exploration.
+Sat,10:12,Normal,WAL-based Analysis of CVA6 Branch Prediction,"Venkata Mahith Kanchi, Daniel Große","The effectiveness of a branch predictor varies significantly across software workloads, making it difficult to select and tune an appropriate predictor configuration without detailed insight into prediction accuracy and misprediction behavior. Existing approaches often require RTL instrumentation, dedicated performance counters, or processor-specific modifications.
 
-This talk will introduce the basic ShapeIC flow and some of the challenges that appear when LUT-based exploration is applied to real transistor sizing. It will also show how the same approach can be extended to include layout-dependent parasitics without running full layout extraction for every candidate.
-
-Finally, I will present the current state of the project, its limitations, and the direction we want to take ShapeIC next.",,
+We address this problem with a framework based on the Waveform Analysis Language (WAL), using the CVA6 open-source RISC-V processor as a case study. By analyzing branch-prediction behavior directly from simulation waveforms across benchmarks such as Dhrystone and CoreMark, the framework enables non-intrusive, workload-specific evaluation and supports informed configuration and microarchitectural exploration.",,
 Sat,10:24,Break,Coffee break,,,,
 ,,,"Session 2.2 Programs, Projects, Initiatives",,,,
 Sat,11:00,Normal,The quest for open PDKs,Frank Gurkaynak,"The key for end-to-end open source HW are OpenPDKs released by the manufacturers. At the moment, there are a handful of OpenPDKs, and we need more. In this talk I will summarize the case for Open PDKs and why they are more important than you think, the issues that are raised by manufacturers and finally what we have been doing recently to advocate for more Open PDKs.",,
@@ -147,12 +156,12 @@ AutoMBIST is an open-source generator that takes a memory macro from RTL through
 
 The talk covers the MBIST collar insertion & BIRA algorithm, a walkthrough of the autonomous on-chip self-repair flow, and the physical closure results.",,
 Sat,14:42,Normal,FABulous News - a brief update on our eFPGA framework,Dirk Koch,"This talk gives a brief update on improvements and new features in the FABulous eFPGA framework as well as a survey on newly designed chips that include a FABulous eFPGA (using SKY130, IHP CMOS5l, XFAB 180 and TSMC 28nm PDKs) as well as an outlook on our DI-OWAS chip that will feature a NEORV32 SoC, peripherals like a camera interface, and an eFPGA with attached AI accelerator to be fabricated in a 28 mm2 IHP 130 CMOS5L tapeout.",,
-,14:54,Break,,,,,
+Sat,14:54,Break,Short break,,,,
 ,,,Session 2.4 Edu & ASIC & AI,,"Updates across the SG13G2 ecosystem include digital libraries, device models for ngspice and Xyce, schematic capture with xschem and Qucs-S, KLayout-based parameterized cells and verification, Magic support and digital implementation using OpenROAD-flow-scripts and LibreLane. The talk will assess the preview release’s current maturity, limitations and development priorities.",,
 Sat,15:30,Normal,From DigitalJS to Coreblocks: Building Open Hardware Tools for Education,Marek Materzok,"Over the last seven years I've been teaching digital hardware design and FPGA development at the University of Wrocław. Along the way, the limitations of existing educational tools led to the development of DigitalJS: a visual hardware simulator which connects HDL code to the circuits described by it. Later, the Transactron library was developed in order to provide reliable hardware abstractions upon which the Coreblocks out-of-order CPU could be built.
 
 This talk tells that story. I'll show how each project came about and how they made a difference in the teaching process. I'll also share what surprised me about teaching hardware, which concepts students consistently struggle with, and how open-source tools can lower the barrier to learning advanced computer architecture. As my background is in computer software (and programming languages in particular), I'll put some emphasis on how software and hardware worlds differ and what can they learn from each other.",,
-Sat,15:42,Normal,VULKOS: The platform for students and early engineers first steps into chips.,Matthew Groves,"[Vulkos](https://vulkos.co.uk] is a free, browser-based platform for young students and entry-level engineers to learn and practice chip design, verification and analysis using agentic AI. In this presentation, we'll demo some of the key features, student creations and future developments - and within 5 minutes we plan to do a live demo going from the sign up page to a verified, tapeout-ready GDS. 
+Sat,15:42,Normal,VULKOS: The platform for students and early engineers first steps into chips.,Matthew Groves,"[Vulkos](https://vulkos.co.uk) is a free, browser-based platform for young students and entry-level engineers to learn and practice chip design, verification and analysis using agentic AI. In this presentation, we'll demo some of the key features, student creations and future developments - and within 5 minutes we plan to do a live demo going from the sign up page to a verified, tapeout-ready GDS. 
 
 ",,
 Sat,15:54,Normal,"gdscheck: A Fast, PDK-Independent DRC Engine in Rust",Daniel Schultz,"Design rule checking is one of the last steps between a layout and a tape-out — and, in a fully open flow, often one of the slowest. Running IHP's SG13G2 rule deck through KLayout takes long enough to break the edit-check-fix loop, and because the deck is written for one engine and shipped inside the PDK, it is neither easy to reuse nor easy to run in isolation.
@@ -169,7 +178,7 @@ From capturing the algorithm as a signal-flow graph, through simulation and mapp
 In contrast to typical high-level synthesis flows, where the designer has limited influence over the resulting architecture, B-ASIC provides designers with granular control over operator and memory selection, scheduling, resource assignment, pipelining of control signals, and I/O.",,
 Sat,16:18,Normal,SpiceBind: Bringing SPICE into RTL Verification,Tomasz Hemperek,"Open-source digital ASIC design flows have matured considerably, and the ecosystem for analog and mixed-signal design is also expanding. Open PDKs, circuit simulators, design tools, libraries, and new community projects are making open-source AMS design increasingly accessible.
 
-This talk will give a brief overview of the current state of open-source AMS verification and present SpiceBind, a project that connects ngspice to a VPI-capable HDL simulator. SpiceBind allows an RTL block to be replaced by its SPICE implementation while keeping the existing HDL or cocotb testbench and the familiar waveform and debug flow. This provides a simple way to include transistor-level circuits in an RTL verification environment.",,
+This talk will give a brief overview of the current state of open-source AMS verification and present [SpiceBind](https://github.com/themperek/spicebind), a project that connects ngspice to a VPI-capable HDL simulator. SpiceBind allows an RTL block to be replaced by its SPICE implementation while keeping the existing HDL or cocotb testbench and the familiar waveform and debug flow. This provides a simple way to include transistor-level circuits in an RTL verification environment.",,
 Sat,16:30,Normal,RIVET: An Open-Source Chisel-Generated Multi-Rate Ethernet Subsystem for RISC-V SoCs,Vladimir Milovanović,"A parameterizable multi-speed Ethernet Media Access Control (MAC) design generator covering data rates from 10 Mb/s up to 10 Gb/s has been developed in Chisel. Besides implementing various PHY-side interfaces, such as MII, GMII, RGMII, SGMII, XGMII, as well as MDIO for PHY management, and system-side interfaces, such as AXI4-Stream and TileLink, it also includes Direct Memory Access (DMA) and hardware support for ARP, IPv4, and UDP protocols, thereby forming a versatile hardware networking stack.
 
 Within the scope of the RIVET project, the implemented components are further integrated into Chipyard, the open-source framework for agile development of RISC-V Systems-on-Chip (SoCs). As a result, designers and engineers can now equip custom ASIC- and FPGA-based compute systems with flexible, reusable, and ""plug-and-play"" networking functionality rather than developing and integrating Ethernet infrastructure from scratch.
@@ -177,28 +186,31 @@ Within the scope of the RIVET project, the implemented components are further in
 ""Ethernet MAC Hardware Design Generator"" (GitHub repository) https://github.com/ucb-bar/ethernet-mac
 
 ""Cointegration of RISC-V Systems with Ethernet"" (RIVET project) https://nlnet.nl/project/RIVET",,
-Sat,16:42,Normal,Borg: An open source GPU,Andreas Wendleder,"The Borg (Bring yer Own GRaphics) project—supported by NLnet—is establishing a fully transparent, end-to-end silicon implementation flow for open-source GPU hardware using a 100% libre EDA toolchain. Recognizing that full GPU development is highly complex, the initiative capitalizes on recent advances in low-cost chip manufacturing to make individual tape-outs feasible for small teams.",,
-,16:54,Break,Short break,,,,
-Sat,17:30,Normal,Spire: An HDL with Optimization Built In,Felix Arnold,"Hardware description languages traditionally describe a circuit and leave optimization largely to the synthesis flow. Spire explores a different approach: a Python-embedded HDL in which optimization is part of the language and compilation flow. Spire lets designers express optimization intent directly in the source and applies transformations such as arithmetic architecture selection and fusion, FSM minimization, and logic optimization using ABC.
+Sat,16:42,Normal,ShapeIC: LUT-Based Hierarchical Exploration for Analog IC Design,Daniel Arevalos,"ShapeIC is an open-source project for fast design-space exploration of analog integrated circuits. Instead of running a full circuit simulation for every candidate, ShapeIC characterizes devices and circuit primitives using lookup tables and reuses this data during hierarchical exploration.
+
+This talk will introduce the basic ShapeIC flow and some of the challenges that appear when LUT-based exploration is applied to real transistor sizing. It will also show how the same approach can be extended to include layout-dependent parasitics without running full layout extraction for every candidate.
+
+Finally, I will present the current state of the project, its limitations, and the direction we want to take ShapeIC next.",,
+Sat,16:54,Break,Short break,,,,
+Sat,17:30,Normal,"Borg: An Open-Source GPU, Taped Out End-to-End on Libre Silicon Tools",Andreas Wendleder,"Borg is a small RISC-V SoC driving a tile-based FP16 GPU, built end-to-end on a 100% libre EDA toolchain (Chisel, Yosys, LibreLane/OpenROAD, Verilator, Nix) — to our knowledge the first open-source GPU with a submitted ASIC tapeout. This talk isn't about the GPU itself (already presented at HPG 2026); it's a stress test of the toolchain: real upstream bugs hit and fixed in Yosys, LibreLane, OpenROAD, and KLayout along the way to signed-off silicon, plus a detour into Bluespec SystemVerilog to resolve a race condition that stumped both manual debugging and an LLM. Supported by NLnet/NGI0 and Swiss SERI.",,
+Sat,17:42,Normal,Spire: An HDL with Optimization Built In,Felix Arnold,"Hardware description languages traditionally describe a circuit and leave optimization largely to the synthesis flow. Spire explores a different approach: a Python-embedded HDL in which optimization is part of the language and compilation flow. Spire lets designers express optimization intent directly in the source and applies transformations such as arithmetic architecture selection and fusion, FSM minimization, and logic optimization using ABC.
 
 This talk presents the concepts behind Spire and shows, through examples and quantitative results, how it can produce smaller and faster circuits than conventional Verilog/Yosys flows. We also show how Spire is used by RTLScout, where LLM agents can explore optimization choices beyond rewriting RTL code.
 
 Finally, we discuss lessons learned and which ideas and reusable optimization components, such as Spire's arithmetic library, could benefit Yosys and the broader open-source EDA ecosystem.
 
 https://github.com/huawei-csl/spire-hdl",,
-Sat,17:42,Normal,Standing On the Shoulders of Tiny Giants: How Open Silicon Fuels the NotSoTiny RTL Benchmark,Razine Moundir Ghorab,"Large Language Models (LLMs) are rapidly transforming hardware design, yet evaluating their true ability to generate correct Register-Transfer Level (RTL) code remains a moving target. Existing static benchmarks suffer heavily from data contamination, as newer models are continuously trained on open-source repositories containing the test questions themselves.
+Sat,17:54,Normal,Standing On the Shoulders of Tiny Giants: How Open Silicon Fuels the NotSoTiny RTL Benchmark,Razine Moundir Ghorab,"Large Language Models (LLMs) are rapidly transforming hardware design, yet evaluating their true ability to generate correct Register-Transfer Level (RTL) code remains a moving target. Existing static benchmarks suffer heavily from data contamination, as newer models are continuously trained on open-source repositories containing the test questions themselves.
 
 To break this cycle, we introduce NotSoTiny, an automated, living evaluation benchmark that turns the vibrant Tiny Tapeout open-source ecosystem into a continuous source of fresh evaluation data. Following its appearance at DAC 2026, this talk brings NotSoTiny home to the FOSSi community to explore how crowdsourced physical silicon designs and tools can drive the future of AI for chip desing.
 
 NotSoTiny automatically ingests new designs from consecutive Tiny Tapeout shuttles. By leveraging an open-source evaluation pipeline built on formal verification and automated linting, it cleans duplicates and generates complex, structurally rich module-completion tasks. Because the dataset updates dynamically, it provides a contamination-resistant sandbox that reflects actual, human-designed hardware challenges.
 
 In this presentation, we will detail the architecture of the NotSoTiny pipeline, share insights from evaluating state-of-the-art LLMs, and discuss how the open-source community can contribute to accelerate trustworthy AI-driven chip design.",,
-Sat,17:54,Normal,"RTLForge, Chipchamp and Alwavelets, open agentic tools for chip design and verification",Riadh Ben Abdelhamid,"AI agents can nowadays write and check RTL, and more recently even push designs toward tapeout. This talk presents three open-source agentic tools to assist with these goals from different angles. RTLForge is a LLM-orchestrated verification-grounded pipeline that automates RTL design process and doubles as a harness for LLM finetuning and training. Chipchamp is an agentic coding-harness for chip design : it plans, edits RTL, and drives open-source flows from the terminal. Alwavelets is a Python-based lightweight VCD/FST waveform viewer that runs entirely in the terminal, so you can debug over SSH or expose using MCP where the agents can take control. I'll show each briefly, say plainly what they do and don't do yet, and where contributions would help.",,
-Sat,18:06,Normal,OpenADA: An Open Semantic Interface Between AI Agents and EDA Tools,Amir Mabhout,"AI agents can already execute EDA commands, but reliable chip-design automation requires more than shell access. Every tool has different invocation rules, environment assumptions, artifacts, logs, and definitions of success. This makes agent workflows difficult to reproduce, audit, and move between tools.
-
-OpenADA is an open-source semantic interface between AI agents and open EDA tools. An agent expresses an engineering intent—such as netlisting a schematic, running a circuit simulation, checking DRC, comparing LVS, or structurally checking RTL—and OpenADA translates it into a deterministic native-tool operation. It returns structured evidence, including separate execution and engineering status, diagnostics, artifact hashes, provenance, and the assumptions affecting interpretation.
-
-This talk presents OpenADA’s architecture and its current integrations with Xschem, ngspice, Xyce, KLayout, Netgen, and Yosys. A demonstration will show the same circuit-simulation intent executed through ngspice and Xyce while retaining each simulator’s native artifacts. The talk will explain how an open semantic contract can let EDA maintainers integrate once, allow researchers to swap backends, and keep agent-generated engineering results reviewable instead of reducing them to unbounded log summaries.",,
+Sat,18:06,Normal,"RTLForge, Chipchamp and Alwavelets, open agentic tools for chip design and verification",Riadh Ben Abdelhamid,"AI agents can nowadays write and check RTL, and more recently even push designs toward tapeout. This talk presents three open-source agentic tools to assist with these goals from different angles. RTLForge is a LLM-orchestrated verification-grounded pipeline that automates RTL design process and doubles as a harness for LLM finetuning and training. Chipchamp is an agentic coding-harness for chip design : it plans, edits RTL, and drives open-source flows from the terminal. Alwavelets is a Python-based lightweight VCD/FST waveform viewer that runs entirely in the terminal, so you can debug over SSH or expose using MCP where the agents can take control. I'll show each briefly, say plainly what they do and don't do yet, and where contributions would help.",,
+Sat,19:00,Break,Social event with lightning talks at SGOL,,,,
+Sat,23:00,Break,End of the second conference day,,,,
+,,,,,,,
 ,,,Lightning Talks,,,,
 Sat,,Lightning Talk,No SystemVerilog Required: Connecting CIRCT with Yosys and Verilator,Tobias Wölfel,"CIRCT is a powerful and flexible framework for hardware development. Within the OSVISE project we introduce an exchange at IR level between CIRCT and Yosys and Verilator.
 This enables a design exchange without SystemVerilog involvement and new capabilities.",,
@@ -221,3 +233,29 @@ Regenerating testbenches for thirty blocks five times each, with sampling disabl
 Sat,,Lightning Talk,EDABench: Machine Learning for Open-Source EDA tools,Han Wu,"Machine learning can enable early-stage prediction of important design characteristics, such as routing congestion, allowing potential design issues to be identified before computationally expensive physical design stages. In this talk, we introduce EDABench, a framework that integrates machine learning workflows into LibreLane, an open-source EDA toolchain, with automated dataset curation, feature extraction, ML model training, and evaluation. We further study the generalisability of ML models across EDA tools, PDKs, and designs, including whether models trained using commercial EDA tools such as Cadence can generalise to open-source EDA toolchains.",,
 Sat,,Lightning Talk,Triple voting: A radiation-tolerant solution without a problem,Ananya Anish and Tim Edwards (presented by Tim Edwards),"Radiation tolerance of digital circuits requires that single event upsets (SEUs) be mitigated by automatic detection and correction. The most common method is triple voting: Replacing each flip flop with three plus a majority voting cell. This effectively guards against the vanishingly improbable case of suffering thousands of SEUs simultaneously across a chip. I present a method in which synthesis can automatically detect flip flop arrays and replace them with an efficient ECC (error correction code) scheme automatically, reducing a ~2N area hit for N flip flops to ~2log(N).",,
 Sat,,Lightning Talk,Bringing up an AI Framework on an open source microcontroller,Jeremy Bennett,"In this lightning talk I will give an overview of a recently completed project to bring up the open source ExecuTorch AI framework on a low power microcontroller, the CORE-V CV32E40Pv2. I will show briefly how we used the unique features of this open source hardware design to accelerate AI inference., This project, carried out in partnership with Mosaic SoC, yielded an implementation capable of running real world edge AI applications.",,
+Sat,,Lightning Talk,Improving Equality Saturation for EDA via Semantic E-Graphs,Gus Smith,"We made equality saturation/egraphs scale to huge netlists by building a cleaner netlist representation, natively supported by the egraph engine. (There's also a [paper](https://dl.acm.org/doi/10.1145/3808299) if you'd like to learn more.)",,
+Sat,,Lightning Talk,OpenADA: An Open Semantic Interface Between AI Agents and EDA Tools,Amir Mabhout,"AI agents can already execute EDA commands, but reliable chip-design automation requires more than shell access. Every tool has different invocation rules, environment assumptions, artifacts, logs, and definitions of success. This makes agent workflows difficult to reproduce, audit, and move between tools.
+
+OpenADA is an open-source semantic interface between AI agents and open EDA tools. An agent expresses an engineering intent—such as netlisting a schematic, running a circuit simulation, checking DRC, comparing LVS, or structurally checking RTL—and OpenADA translates it into a deterministic native-tool operation. It returns structured evidence, including separate execution and engineering status, diagnostics, artifact hashes, provenance, and the assumptions affecting interpretation.
+
+This talk presents OpenADA’s architecture and its current integrations with Xschem, ngspice, Xyce, KLayout, Netgen, and Yosys. A demonstration will show the same circuit-simulation intent executed through ngspice and Xyce while retaining each simulator’s native artifacts. The talk will explain how an open semantic contract can let EDA maintainers integrate once, allow researchers to swap backends, and keep agent-generated engineering results reviewable instead of reducing them to unbounded log summaries.",,
+Sat,,Lightning Talk,CVWSoC: a playground for open source Linux capable RISC-V SoCs,Juan Carlos Schroeder,"Dealing with very complex systems needs tools that give an easy working starting point which allow to by doing small and simple changes get something new.
+Linux capable SoCs and Linux based systems are complex hardware+software systems.
+
+The aim of this project is to give a 'simple' starting point where you can play and potentially extend hardware and software with the focus in:
+- integrating existing fully open source IPs (not in creating new ones)
+- RTL preferably in Verilog/SystemVerilog (no generated RTL) because it allows the broadest/simplest IP reuse
+- custom/configurable Linux capable SoCs, including CPUs and peripherals
+- custom Linux builds for those SoCs (Yocto)
+- as much simulation and co-simulation as possible (Verilator, Renode, QEMU)
+- as much free and open source tools as possible 
+
+The project is still in early stages of development but it already includes:
+- CPUs: Wally, CVA6, Vexriscv (coming: CVA6S+, PULP T-Head C910, etc)
+- IPs: UART, GPIO, SPI, SDHC, DMA, I2S, Ethernet, VGA, USB, DDR2/DDR3 controllers, etc
+- Bus infrastructure: AXI, AXI Lite, AHB, APB, Wishbone, AXI Stream, etc.
+- Support for a few Xilinx FPGA boards (more to come)
+- A single Yocto based setup for building custom Linux images for the targets
+
+It started from Core-V Wally setup because (after the book) it will be (arguably) the best documented/explained open source SoC.
+https://github.com/juanschroeder/cvwsoc",,
