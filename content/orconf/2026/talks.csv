@@ -1,19 +1,12 @@
 Day,Time,Type,Title,Presenter,Abstract,Youtube,Slides
 ,,,Session 1.1 Verification,,,,
 Fri,08:30,Break,Registration. Start the day with a coffee!,,,,
-Fri,09:30,Normal,Welcome to ORConf,FOSSi Foundation,Opening of the conference,,
+Fri,09:30,Normal,Welcome to ORConf,FOSSi Foundation,Opening of the conference,https://youtu.be/fWVDwg7z9FA,
 Fri,09:42,Normal,Doppio: Open-Source Verification with Java and Scala,Martin Schoeberl,"The initial cost for producing a chip is very high. Therefore, getting the design right on the first run is essential. To identify potential errors in the design before production, considerable effort is invested in testing and verifying the design.
 
-However, the current practice of chip design verification uses languages with roots in the 80s. The Doppio project aims to modernize verification tooling by leveraging insights from software testing. This paper introduces a software-based verification framework. We propose a framework using modern programming languages, such as Java and Scala, to verify digital circuits.",,
-Fri,09:54,Normal,More Bang for Your Bucket,Stuart Alldred,"Bucket is an open-source Python project for collecting and viewing functional coverage, first presented at ORConf 2024. Since then Vypercore shut down, Noodle-Bytes took the project on, and Bucket has been picked up by two more silicon companies, one of which uses it to cover software rather than hardware. This talk covers the many changes from the last two years, including the improved viewer, comparing coverage between runs, and a new archive format, along with plans for the future.",,
-Fri,10:06,Normal,coconext: It's What's Next,Kaleb Barrett,"One of the major complaints often leveled against cocotb is performance. coconext is an experimental cocotb fork which involves a major redesign to solve this problem by providing a first-class cocotb-like C++ API, while retaining the existing Python cocotb API, and providing communication between the two via a friction-less binding layer. This allows users to write tests, models, monitors and drivers, and all the other pieces of a testbench entirely in C++, Python, or whatever mix they deem appropriate. This talk will go over the rationale, features, a demonstration of performance gained by moving functional modeling to coconext, and the future of this project and related projects.",,
-Fri,10:18,Normal,"Closing in on full SystemVerilog support in Verilator: Four-state, UVM, SVA, and Coverage",Krzysztof Bieganski,"In this talk, we'll share the latest on the ongoing effort to expand Verilator's verification capabilities. We'll provide insight into the following developments:
-
-- Four-state logic support is becoming usable on an experimental branch.
-- The constrained randomization work continues, with significant improvements to the quality of generated stimuli.
-- On the UVM side, what remains is bugfixing and scheduling improvements.
-- SVA is close to feature complete, and the remaining work is bringing it into full IEEE compliance.
-- Update on coverage and the tooling around it.",,
+However, the current practice of chip design verification uses languages with roots in the 80s. The Doppio project aims to modernize verification tooling by leveraging insights from software testing. This paper introduces a software-based verification framework. We propose a framework using modern programming languages, such as Java and Scala, to verify digital circuits.",https://youtu.be/tUl_Th5di_k,
+Fri,09:54,Normal,More Bang for Your Bucket,Stuart Alldred,"Bucket is an open-source Python project for collecting and viewing functional coverage, first presented at ORConf 2024. Since then Vypercore shut down, Noodle-Bytes took the project on, and Bucket has been picked up by two more silicon companies, one of which uses it to cover software rather than hardware. This talk covers the many changes from the last two years, including the improved viewer, comparing coverage between runs, and a new archive format, along with plans for the future.",https://youtu.be/U6RvIJr8vJg,
+Fri,10:06,Normal,coconext: It's What's Next,Kaleb Barrett,"One of the major complaints often leveled against cocotb is performance. coconext is an experimental cocotb fork which involves a major redesign to solve this problem by providing a first-class cocotb-like C++ API, while retaining the existing Python cocotb API, and providing communication between the two via a friction-less binding layer. This allows users to write tests, models, monitors and drivers, and all the other pieces of a testbench entirely in C++, Python, or whatever mix they deem appropriate. This talk will go over the rationale, features, a demonstration of performance gained by moving functional modeling to coconext, and the future of this project and related projects.",https://youtu.be/iOHab5YW76I,
 Fri,10:30,Break,Coffee break (together with FPL attendees),,,,
 Fri,11:00,Normal,Panel: Community building around open source hardware (together with FPL attendees),,"How can we create vibrant open source hardware communities -- places where open source code isn't merely published and quietly used, but actively taken to the next level by a wide range of participants who empower each other?
 
@@ -38,7 +31,14 @@ As always, there are still things to do, and this presentation looks at the road
 Fri,14:06,Normal,APyTypes: Configurable data types in Python for finite word-length simulations,Theodor Lindberg,"APyTypes is a cross-platform Python library for simulating finite word-length effects in complex digital systems, intended for design exploration and bit-accurate co-verification. It provides configurable fixed-point and floating-point data types, including scalar, multidimensional array, and complex-valued classes. With a NumPy-like interface, APyTypes makes algorithm design simple while staying true to hardware. This talk introduces APyTypes, how it can be used, and potential future directions.",,
 Fri,14:18,Normal,Things to Make and Do With the Spade HDL,Frans Skarman,"Spade is a Hardware Description Language inspired by modern software languages. I've presented the language itself several times at FOSSi conferences, so this time the focus will be on what you can build with it. I will present a few projects from obvious things like Risc-V cores, serious things like an ethernet and camera stack, and fun things like a pure RTL UI library.",,
 Fri,14:30,Normal,Scaling Up Event-based Many-Core System Simulation with GVSoC,Rafael Medina Morillas,"GVSoC is a configurable, event-driven simulator designed for simulating IoT processors and complex system-on-chips (SoCs). Combining the efficiency of C++ models and Python configuration scripts, it allows fast prototyping and design exploration bypassing the limitations of slow RTL simulation. This presentation gives a quick introduction to the platform, the recent updates enabling the simulation of full-platform many-core systems, and integrations with other simulators to extend its functionality.",,
-Fri,14:42,Break,Coffee break,,,,
+Fri,14:42,Normal,"Closing in on full SystemVerilog support in Verilator: Four-state, UVM, SVA, and Coverage",Krzysztof Bieganski,"In this talk, we'll share the latest on the ongoing effort to expand Verilator's verification capabilities. We'll provide insight into the following developments:
+
+- Four-state logic support is becoming usable on an experimental branch.
+- The constrained randomization work continues, with significant improvements to the quality of generated stimuli.
+- On the UVM side, what remains is bugfixing and scheduling improvements.
+- SVA is close to feature complete, and the remaining work is bringing it into full IEEE compliance.
+- Update on coverage and the tooling around it.",,
+Fri,14:54,Break,Coffee break,,,,
 ,,,Session 1.3 Verification & Frontend,,,,
 Fri,15:30,Normal,Automating Python-driven verification tasks for churning RTL using Slang,Julio Castillejo Motta,"Hardware verification can be tedious but exciting. So why not automate the tedious parts?
 
@@ -256,3 +256,8 @@ Firehawk combines repeated Configurable Analog Blocks (CABs) with a compact isla
 The talk closes with measured limitations and the remaining path to a four-block prototype: global routing, pad integration, composed PVT closure, and top-level verification.
 ",,
 Sat,,Lightning Talk,Top 3 funding hacks for your open source project,Carmen Alfonso Rico,,,
+Sat,,Lightning Talk,"Write NumPy, Get Verilog",Serge Rabyking,"[np2hw](https://github.com/lanserge/np2hw) is a compiler that traces plain, unmodified NumPy into synthesisable streaming Verilog — line buffers, shift registers, edge handling and config registers generated for you. The same function is the specification, the hardware, and the reference the hardware is checked against, bit-exact.
+
+[revela](https://revelaisp.com) is an open image signal processor built entirely on it: a Raspberry Pi camera's raw Bayer travels over HDMI into a PYNQ-Z2, where black level, white balance, an adaptive Hamilton–Adams demosaic, colour matrix and gamma all run in fabric at 1920×1080, 10-bit, on one 148.5 MHz clock. There is no hand-written Verilog anywhere in it.
+
+np2hw is MIT on PyPI; revela is Solderpad",,
