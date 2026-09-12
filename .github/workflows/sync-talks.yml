@@ -11,7 +11,7 @@ name: Sync conference talks from Google Sheets
 
 on:
   schedule:
-    - cron: '0 * * * *' # hourly
+    - cron: '19 * * * *' # hourly add a "unusual" time to avoid high-load minutes.
   workflow_dispatch: {}
 
 jobs:
