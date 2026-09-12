@@ -6,7 +6,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "sync-talks": "node scripts/sync-talks.mjs"
   },
   "devDependencies": {
     "@iconify-json/fa6-brands": "^1.1.4",

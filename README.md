@@ -95,6 +95,22 @@ You can use https://icones.js.org/collection/ph and
 https://icones.js.org/collection/fa6-brands to efficiently search for suitable
 icons.
 
+### Conference talk schedules
+
+Each conference's talk schedule (e.g. `content/orconf/2026/talks.csv`) is kept
+in sync with a Google Sheet that organizers edit. A scheduled GitHub Action
+(`.github/workflows/sync-talks.yml`) fetches each sheet and opens a pull
+request when it changes; you can also run the sync locally with
+`yarn sync-talks`.
+
+To set this up for a new conference:
+
+1. In the Google Sheet, publish the relevant tab to the web as CSV
+   (File > Share > Publish to web).
+2. Add an entry to [`scripts/talks-sources.json`](scripts/talks-sources.json)
+   with the published CSV URL, the sheet's normal edit URL (used in the PR
+   description), the target `talks.csv` path, and a branch name.
+
 ## License
 
 Text content is licensed under CC BY 4.0, "software" (JavaScript, HTML, CSS,

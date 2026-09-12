@@ -1,0 +1,72 @@
+name: Sync conference talks from Google Sheets
+
+# Pulls the talks schedule for one or more conferences from a Google Sheet
+# published to the web (File -> Share -> Publish to web, as CSV) via
+# scripts/sync-talks.mjs, and opens/updates a pull request with the resulting
+# talks.csv whenever it differs from what's on main.
+#
+# To sync an additional (or different) conference, add an entry to
+# scripts/talks-sources.json - see that file for the field descriptions.
+# The same script can be run locally with `node scripts/sync-talks.mjs`.
+
+on:
+  schedule:
+    - cron: '0 * * * *' # hourly
+  workflow_dispatch: {}
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    outputs:
+      talks: ${{ steps.read.outputs.talks }}
+    steps:
+      - uses: actions/checkout@v6
+      - id: read
+        run: echo "talks=$(node --print "JSON.stringify(require('./scripts/talks-sources.json'))")" >> "$GITHUB_OUTPUT"
+
+  sync:
+    needs: discover
+    strategy:
+      fail-fast: false
+      matrix:
+        talks: ${{ fromJson(needs.discover.outputs.talks) }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Fetch talks CSV
+        run: node scripts/sync-talks.mjs "${{ matrix.talks.name }}"
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git add "${{ matrix.talks.path }}"
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open pull request
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B "${{ matrix.talks.branch }}"
+          git commit -m "Update ${{ matrix.talks.name }} talks from Google Sheet"
+          git push --force origin "${{ matrix.talks.branch }}"
+
+          if ! gh pr view "${{ matrix.talks.branch }}" >/dev/null 2>&1; then
+            gh pr create \
+              --title "Update ${{ matrix.talks.name }} talks from Google Sheet" \
+              --body "Automated sync from the [talks spreadsheet](${{ matrix.talks.sheetUrl }})." \
+              --head "${{ matrix.talks.branch }}" --base main
+          fi
