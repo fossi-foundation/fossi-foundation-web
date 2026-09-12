@@ -1,0 +1,9 @@
+[
+  {
+    "name": "ORConf 2026",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRvawHMHwYRnXHLYB-Y13WzpnhsNhstd5qKA9pQ4CvbALWPr-eP0Hij3fp49mhHLSWzl1IjPn8l6-qJ/pub?gid=1697851936&single=true&output=csv",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1DRCoJc12DElo4RlaQGMf792MDaVO8h2WdcwQfdkW5FU/edit?gid=1697851936#gid=1697851936",
+    "path": "content/orconf/2026/talks.csv",
+    "branch": "sync/orconf-2026-talks"
+  }
+]
