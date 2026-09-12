@@ -64,7 +64,11 @@ jobs:
           git commit -m "Update ${{ matrix.talks.name }} talks from Google Sheet"
           git push --force origin "${{ matrix.talks.branch }}"
 
-          if ! gh pr view "${{ matrix.talks.branch }}" >/dev/null 2>&1; then
+          # gh pr view matches closed/merged PRs too, not just open ones, so
+          # check the state explicitly - otherwise once the first sync PR for
+          # a branch is merged, later runs never open a new one.
+          state=$(gh pr view "${{ matrix.talks.branch }}" --json state --jq .state 2>/dev/null || echo "NONE")
+          if [ "$state" != "OPEN" ]; then
             gh pr create \
               --title "Update ${{ matrix.talks.name }} talks from Google Sheet" \
               --body "Automated sync from the [talks spreadsheet](${{ matrix.talks.sheetUrl }})." \
