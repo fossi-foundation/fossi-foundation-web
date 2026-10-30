@@ -34,24 +34,43 @@ Make sure that you have installed the following tools on your local machine.
   occasionally. Using a LTS version is strongly recommended.
 * Yarn
 
-```bash
-yarn install
+Install the dependencies:
 
+```sh
+yarn install
+```
+
+#### Live preview (recommended for development)
+
+```sh
 # Start the development server on http://localhost:3000
 # (Setting HOST is not strictly required, but helps if the HOST environment
 # variable has a strange value.)
 HOST=localhost yarn dev
+```
 
-# That's all you need for local development.
-# Alternatively, if you'd like to get closer to what the production
-# deployment would do:
+This command keeps running, which is expected. Wait until it prints
+`Local: http://localhost:3000/`, then open that URL in your browser. The page
+reloads automatically when you change files. Press Ctrl+C to stop the server.
 
+That's all you need for local development.
+
+#### Production build preview (optional)
+
+To get closer to what the production deployment would do, first stop the
+development server with Ctrl+C (otherwise port 3000 may already be in use).
+Then build and preview the site:
+
+```sh
 # Build the application for production:
 yarn run build
 
 # Locally preview production build:
 yarn run preview
 ```
+
+This is slower than the live preview and does not reload automatically when
+files change.
 
 ### Option 2: VS Code Dev Container
 
