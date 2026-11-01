@@ -118,7 +118,7 @@ export default defineNuxtConfig({
     '/orconf': { redirect: '/orconf/2026' },
 
     // Redirect the Downunderflow landing page to the most current one.
-    '/downunderflow': { redirect: '/downunderflow/2026' },
+    '/downunderflow': { redirect: '/downunderflow/2027' },
 
     // Matrix server hosting
     // Disable prerendering to ensure that the redirects are done using HTTP
