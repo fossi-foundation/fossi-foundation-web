@@ -32,17 +32,17 @@ Xuhai fixed this by building a massive shortcut. The Generic MinimumLinuxBoot pr
 
 AI is already great at writing software, but what if we could use it to clear out legacy hardware technical debt?
 
-This summer, Rayyan Khan and his teammates figured out how to train AI models to convert traditional open-source Verilog into sleek Transaction-Level Verilog (TL-Verilog). Because TL-Verilog naturally hides a lot of the pipeline and timing boilerplate, this conversion could wipe out nearly half the open-source Verilog code currently out there. It’s a huge step toward making IP cores cleaner, much easier to read, and simpler to maintain.
+This summer, Rayyan Khan figured out how to train AI models to convert traditional open-source Verilog into sleek Transaction-Level Verilog (TL-Verilog). Because TL-Verilog naturally hides a lot of the pipeline and timing boilerplate, this conversion could modernize a large swathe of the open-source legacy Verilog code. It’s a huge step toward making IP cores cleaner, much easier to read, and simpler to maintain.
 
 ### 🧠 Leveling Up the CVA6 Core with Virtual-Memory Extensions
 
 **Contributor:** Seongwon Jo
 
-**Project Link:** [View Seongwon’s Work Product](https://github.com/sjo99-kr/cva6-svadu/tree/gsoc2026-work-product) | **Pull Request:** [openhwgroup/cva6#3384](https://www.google.com/search?q=https://github.com/openhwgroup/cva6/pull/3384)
+**Project Link:** [View Seongwon’s Work Product](https://github.com/sjo99-kr/cva6-svadu/tree/gsoc2026-work-product) | **Pull Request:** [openhwgroup/cva6#3384](https://github.com/openhwgroup/cva6/pull/3384)
 
-Keeping an open-source processor up-to-date with the latest RISC-V specs is no small feat. Seongwon Jo took on the OpenHW Group's CVA6 core and gave its memory management a massive upgrade by adding three privileged virtual-memory extensions: **Svadu**, **Svpbmt**, and **Svinval**.
+Keeping an open-source processor up-to-date with the latest RISC-V specs is no small feat. Seongwon Jo took on the OpenHW Group's CVA6 core and gave its memory management an upgrade by adding three privileged virtual-memory extensions: **Svadu**, **Svpbmt**, and **Svinval**.
 
-The coolest part of Seongwon's work is a brand-new Page-Table Entry Update Engine tucked into the store unit, which handles hardware A/D-bit updates seamlessly. After rigorous differential testing against the Spike simulator, the new extensions are passing all RV32 and RV64 regressions. It’s a massive leap forward for CVA6!
+The coolest part of Seongwon's work is a brand-new Page-Table Entry Update Engine tucked into the store unit, which handles hardware A/D-bit updates seamlessly. After rigorous differential testing against the Spike simulator, the new extensions are passing all RV32 and RV64 regressions, allowing CVA6 to take advantage of the newest RISC-V virtual memory features!
 
 ### 📊 A Much-Needed Memory Viewer for Surfer
 
