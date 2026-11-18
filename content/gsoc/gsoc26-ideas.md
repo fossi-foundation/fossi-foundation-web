@@ -73,24 +73,6 @@ or around the cursor would be extra useful.
 
 *Languages/Tools:* Rust. Familiarity with hardware design is helpful to have some context of what the tool is used for is helpful, but the project itself is pure software. Some familiarity with egui is also helpful though certainly not required.
 
-### cocotb v2 Code Migration Helper
-
-The upcoming cocotb v2.x release will have quite some breaking changes (see https://docs.cocotb.org/en/latest/release_notes.html), so users and extension developers will have to actively migrate existing code.
-
-A code migration helper tool would be helpful, even if it is not perfect.
-
-Some links:
-* https://libcst.readthedocs.io/
-* https://lukeplant.me.uk/blog/posts/tools-for-rewriting-python-code/
-
-*Skill level:* Intermediate/Advanced
-
-*Duration:* medium (175 hours)
-
-*Language/Tools:* Python, cocotb
-
-*Mentor:* [Kaleb Barrett](mailto:dev.ktbarrett@gmail.com)
-
 ### Generate Counter Examples for Bounded Model Checks in CIRCT
 
 The [CIRCT](https://github.com/llvm/circt) project has its own bounded model checking tool, circt-bmc. It takes a hardware design described in CIRCT's MLIR dialects and translates it into a program that uses the Z3 SMT solver to formally prove assertions. If it finds a way how assertions can be violated, it simply terminates with an error message. This is not very useful for a user that is trying to debug a hardware design that they have written. Instead, we would like circt-bmc to produce a counter-example, essentially a signal trace that shows and example of how the assertions can be violated. The Z3 SMT solver actually provides a counter-example as part of its checking, circt-bmc just does not use that yet.
